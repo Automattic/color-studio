@@ -1,0 +1,709 @@
+// v1.0.0
+
+.color-white {
+  color: $muriel-white;
+}
+
+.color-gray-0 {
+  color: $muriel-gray-0;
+}
+
+.color-gray-50 {
+  color: $muriel-gray-50;
+}
+
+.color-gray-100 {
+  color: $muriel-gray-100;
+}
+
+.color-gray-200 {
+  color: $muriel-gray-200;
+}
+
+.color-gray-300 {
+  color: $muriel-gray-300;
+}
+
+.color-gray-400 {
+  color: $muriel-gray-400;
+}
+
+.color-gray-500 {
+  color: $muriel-gray-500;
+}
+
+.color-gray-600 {
+  color: $muriel-gray-600;
+}
+
+.color-gray-700 {
+  color: $muriel-gray-700;
+}
+
+.color-gray-800 {
+  color: $muriel-gray-800;
+}
+
+.color-gray-900 {
+  color: $muriel-gray-900;
+}
+
+.color-blue-0 {
+  color: $muriel-blue-0;
+}
+
+.color-blue-50 {
+  color: $muriel-blue-50;
+}
+
+.color-blue-100 {
+  color: $muriel-blue-100;
+}
+
+.color-blue-200 {
+  color: $muriel-blue-200;
+}
+
+.color-blue-300 {
+  color: $muriel-blue-300;
+}
+
+.color-blue-400 {
+  color: $muriel-blue-400;
+}
+
+.color-blue-500 {
+  color: $muriel-blue-500;
+}
+
+.color-blue-600 {
+  color: $muriel-blue-600;
+}
+
+.color-blue-700 {
+  color: $muriel-blue-700;
+}
+
+.color-blue-800 {
+  color: $muriel-blue-800;
+}
+
+.color-blue-900 {
+  color: $muriel-blue-900;
+}
+
+.color-purple-0 {
+  color: $muriel-purple-0;
+}
+
+.color-purple-50 {
+  color: $muriel-purple-50;
+}
+
+.color-purple-100 {
+  color: $muriel-purple-100;
+}
+
+.color-purple-200 {
+  color: $muriel-purple-200;
+}
+
+.color-purple-300 {
+  color: $muriel-purple-300;
+}
+
+.color-purple-400 {
+  color: $muriel-purple-400;
+}
+
+.color-purple-500 {
+  color: $muriel-purple-500;
+}
+
+.color-purple-600 {
+  color: $muriel-purple-600;
+}
+
+.color-purple-700 {
+  color: $muriel-purple-700;
+}
+
+.color-purple-800 {
+  color: $muriel-purple-800;
+}
+
+.color-purple-900 {
+  color: $muriel-purple-900;
+}
+
+.color-pink-0 {
+  color: $muriel-pink-0;
+}
+
+.color-pink-50 {
+  color: $muriel-pink-50;
+}
+
+.color-pink-100 {
+  color: $muriel-pink-100;
+}
+
+.color-pink-200 {
+  color: $muriel-pink-200;
+}
+
+.color-pink-300 {
+  color: $muriel-pink-300;
+}
+
+.color-pink-400 {
+  color: $muriel-pink-400;
+}
+
+.color-pink-500 {
+  color: $muriel-pink-500;
+}
+
+.color-pink-600 {
+  color: $muriel-pink-600;
+}
+
+.color-pink-700 {
+  color: $muriel-pink-700;
+}
+
+.color-pink-800 {
+  color: $muriel-pink-800;
+}
+
+.color-pink-900 {
+  color: $muriel-pink-900;
+}
+
+.color-red-0 {
+  color: $muriel-red-0;
+}
+
+.color-red-50 {
+  color: $muriel-red-50;
+}
+
+.color-red-100 {
+  color: $muriel-red-100;
+}
+
+.color-red-200 {
+  color: $muriel-red-200;
+}
+
+.color-red-300 {
+  color: $muriel-red-300;
+}
+
+.color-red-400 {
+  color: $muriel-red-400;
+}
+
+.color-red-500 {
+  color: $muriel-red-500;
+}
+
+.color-red-600 {
+  color: $muriel-red-600;
+}
+
+.color-red-700 {
+  color: $muriel-red-700;
+}
+
+.color-red-800 {
+  color: $muriel-red-800;
+}
+
+.color-red-900 {
+  color: $muriel-red-900;
+}
+
+.color-orange-0 {
+  color: $muriel-orange-0;
+}
+
+.color-orange-50 {
+  color: $muriel-orange-50;
+}
+
+.color-orange-100 {
+  color: $muriel-orange-100;
+}
+
+.color-orange-200 {
+  color: $muriel-orange-200;
+}
+
+.color-orange-300 {
+  color: $muriel-orange-300;
+}
+
+.color-orange-400 {
+  color: $muriel-orange-400;
+}
+
+.color-orange-500 {
+  color: $muriel-orange-500;
+}
+
+.color-orange-600 {
+  color: $muriel-orange-600;
+}
+
+.color-orange-700 {
+  color: $muriel-orange-700;
+}
+
+.color-orange-800 {
+  color: $muriel-orange-800;
+}
+
+.color-orange-900 {
+  color: $muriel-orange-900;
+}
+
+.color-yellow-0 {
+  color: $muriel-yellow-0;
+}
+
+.color-yellow-50 {
+  color: $muriel-yellow-50;
+}
+
+.color-yellow-100 {
+  color: $muriel-yellow-100;
+}
+
+.color-yellow-200 {
+  color: $muriel-yellow-200;
+}
+
+.color-yellow-300 {
+  color: $muriel-yellow-300;
+}
+
+.color-yellow-400 {
+  color: $muriel-yellow-400;
+}
+
+.color-yellow-500 {
+  color: $muriel-yellow-500;
+}
+
+.color-yellow-600 {
+  color: $muriel-yellow-600;
+}
+
+.color-yellow-700 {
+  color: $muriel-yellow-700;
+}
+
+.color-yellow-800 {
+  color: $muriel-yellow-800;
+}
+
+.color-yellow-900 {
+  color: $muriel-yellow-900;
+}
+
+.color-green-0 {
+  color: $muriel-green-0;
+}
+
+.color-green-50 {
+  color: $muriel-green-50;
+}
+
+.color-green-100 {
+  color: $muriel-green-100;
+}
+
+.color-green-200 {
+  color: $muriel-green-200;
+}
+
+.color-green-300 {
+  color: $muriel-green-300;
+}
+
+.color-green-400 {
+  color: $muriel-green-400;
+}
+
+.color-green-500 {
+  color: $muriel-green-500;
+}
+
+.color-green-600 {
+  color: $muriel-green-600;
+}
+
+.color-green-700 {
+  color: $muriel-green-700;
+}
+
+.color-green-800 {
+  color: $muriel-green-800;
+}
+
+.color-green-900 {
+  color: $muriel-green-900;
+}
+
+.color-celadon-0 {
+  color: $muriel-celadon-0;
+}
+
+.color-celadon-50 {
+  color: $muriel-celadon-50;
+}
+
+.color-celadon-100 {
+  color: $muriel-celadon-100;
+}
+
+.color-celadon-200 {
+  color: $muriel-celadon-200;
+}
+
+.color-celadon-300 {
+  color: $muriel-celadon-300;
+}
+
+.color-celadon-400 {
+  color: $muriel-celadon-400;
+}
+
+.color-celadon-500 {
+  color: $muriel-celadon-500;
+}
+
+.color-celadon-600 {
+  color: $muriel-celadon-600;
+}
+
+.color-celadon-700 {
+  color: $muriel-celadon-700;
+}
+
+.color-celadon-800 {
+  color: $muriel-celadon-800;
+}
+
+.color-celadon-900 {
+  color: $muriel-celadon-900;
+}
+
+.color-hot-blue-0 {
+  color: $muriel-hot-blue-0;
+}
+
+.color-hot-blue-50 {
+  color: $muriel-hot-blue-50;
+}
+
+.color-hot-blue-100 {
+  color: $muriel-hot-blue-100;
+}
+
+.color-hot-blue-200 {
+  color: $muriel-hot-blue-200;
+}
+
+.color-hot-blue-300 {
+  color: $muriel-hot-blue-300;
+}
+
+.color-hot-blue-400 {
+  color: $muriel-hot-blue-400;
+}
+
+.color-hot-blue-500 {
+  color: $muriel-hot-blue-500;
+}
+
+.color-hot-blue-600 {
+  color: $muriel-hot-blue-600;
+}
+
+.color-hot-blue-700 {
+  color: $muriel-hot-blue-700;
+}
+
+.color-hot-blue-800 {
+  color: $muriel-hot-blue-800;
+}
+
+.color-hot-blue-900 {
+  color: $muriel-hot-blue-900;
+}
+
+.color-hot-purple-0 {
+  color: $muriel-hot-purple-0;
+}
+
+.color-hot-purple-50 {
+  color: $muriel-hot-purple-50;
+}
+
+.color-hot-purple-100 {
+  color: $muriel-hot-purple-100;
+}
+
+.color-hot-purple-200 {
+  color: $muriel-hot-purple-200;
+}
+
+.color-hot-purple-300 {
+  color: $muriel-hot-purple-300;
+}
+
+.color-hot-purple-400 {
+  color: $muriel-hot-purple-400;
+}
+
+.color-hot-purple-500 {
+  color: $muriel-hot-purple-500;
+}
+
+.color-hot-purple-600 {
+  color: $muriel-hot-purple-600;
+}
+
+.color-hot-purple-700 {
+  color: $muriel-hot-purple-700;
+}
+
+.color-hot-purple-800 {
+  color: $muriel-hot-purple-800;
+}
+
+.color-hot-purple-900 {
+  color: $muriel-hot-purple-900;
+}
+
+.color-hot-pink-0 {
+  color: $muriel-hot-pink-0;
+}
+
+.color-hot-pink-50 {
+  color: $muriel-hot-pink-50;
+}
+
+.color-hot-pink-100 {
+  color: $muriel-hot-pink-100;
+}
+
+.color-hot-pink-200 {
+  color: $muriel-hot-pink-200;
+}
+
+.color-hot-pink-300 {
+  color: $muriel-hot-pink-300;
+}
+
+.color-hot-pink-400 {
+  color: $muriel-hot-pink-400;
+}
+
+.color-hot-pink-500 {
+  color: $muriel-hot-pink-500;
+}
+
+.color-hot-pink-600 {
+  color: $muriel-hot-pink-600;
+}
+
+.color-hot-pink-700 {
+  color: $muriel-hot-pink-700;
+}
+
+.color-hot-pink-800 {
+  color: $muriel-hot-pink-800;
+}
+
+.color-hot-pink-900 {
+  color: $muriel-hot-pink-900;
+}
+
+.color-hot-red-0 {
+  color: $muriel-hot-red-0;
+}
+
+.color-hot-red-50 {
+  color: $muriel-hot-red-50;
+}
+
+.color-hot-red-100 {
+  color: $muriel-hot-red-100;
+}
+
+.color-hot-red-200 {
+  color: $muriel-hot-red-200;
+}
+
+.color-hot-red-300 {
+  color: $muriel-hot-red-300;
+}
+
+.color-hot-red-400 {
+  color: $muriel-hot-red-400;
+}
+
+.color-hot-red-500 {
+  color: $muriel-hot-red-500;
+}
+
+.color-hot-red-600 {
+  color: $muriel-hot-red-600;
+}
+
+.color-hot-red-700 {
+  color: $muriel-hot-red-700;
+}
+
+.color-hot-red-800 {
+  color: $muriel-hot-red-800;
+}
+
+.color-hot-red-900 {
+  color: $muriel-hot-red-900;
+}
+
+.color-hot-orange-0 {
+  color: $muriel-hot-orange-0;
+}
+
+.color-hot-orange-50 {
+  color: $muriel-hot-orange-50;
+}
+
+.color-hot-orange-100 {
+  color: $muriel-hot-orange-100;
+}
+
+.color-hot-orange-200 {
+  color: $muriel-hot-orange-200;
+}
+
+.color-hot-orange-300 {
+  color: $muriel-hot-orange-300;
+}
+
+.color-hot-orange-400 {
+  color: $muriel-hot-orange-400;
+}
+
+.color-hot-orange-500 {
+  color: $muriel-hot-orange-500;
+}
+
+.color-hot-orange-600 {
+  color: $muriel-hot-orange-600;
+}
+
+.color-hot-orange-700 {
+  color: $muriel-hot-orange-700;
+}
+
+.color-hot-orange-800 {
+  color: $muriel-hot-orange-800;
+}
+
+.color-hot-orange-900 {
+  color: $muriel-hot-orange-900;
+}
+
+.color-hot-yellow-0 {
+  color: $muriel-hot-yellow-0;
+}
+
+.color-hot-yellow-50 {
+  color: $muriel-hot-yellow-50;
+}
+
+.color-hot-yellow-100 {
+  color: $muriel-hot-yellow-100;
+}
+
+.color-hot-yellow-200 {
+  color: $muriel-hot-yellow-200;
+}
+
+.color-hot-yellow-300 {
+  color: $muriel-hot-yellow-300;
+}
+
+.color-hot-yellow-400 {
+  color: $muriel-hot-yellow-400;
+}
+
+.color-hot-yellow-500 {
+  color: $muriel-hot-yellow-500;
+}
+
+.color-hot-yellow-600 {
+  color: $muriel-hot-yellow-600;
+}
+
+.color-hot-yellow-700 {
+  color: $muriel-hot-yellow-700;
+}
+
+.color-hot-yellow-800 {
+  color: $muriel-hot-yellow-800;
+}
+
+.color-hot-yellow-900 {
+  color: $muriel-hot-yellow-900;
+}
+
+.color-hot-green-0 {
+  color: $muriel-hot-green-0;
+}
+
+.color-hot-green-50 {
+  color: $muriel-hot-green-50;
+}
+
+.color-hot-green-100 {
+  color: $muriel-hot-green-100;
+}
+
+.color-hot-green-200 {
+  color: $muriel-hot-green-200;
+}
+
+.color-hot-green-300 {
+  color: $muriel-hot-green-300;
+}
+
+.color-hot-green-400 {
+  color: $muriel-hot-green-400;
+}
+
+.color-hot-green-500 {
+  color: $muriel-hot-green-500;
+}
+
+.color-hot-green-600 {
+  color: $muriel-hot-green-600;
+}
+
+.color-hot-green-700 {
+  color: $muriel-hot-green-700;
+}
+
+.color-hot-green-800 {
+  color: $muriel-hot-green-800;
+}
+
+.color-hot-green-900 {
+  color: $muriel-hot-green-900;
+}

@@ -40,7 +40,7 @@ This package is dependency-free.
 ### SCSS
 
 ```scss
-@import "color-studio";
+@import "~color-studio/dist/color-variables";
 
 button {
   background: $muriel-hot-pink-500;
