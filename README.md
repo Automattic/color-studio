@@ -9,7 +9,7 @@
 
 # Color Studio
 
-> The computational color palette for Muriel, our design language system.
+> The computational color palette for a design language system focused on accessibility and inclusion.
 
 ## What’s Inside
 
