@@ -1,5 +1,9 @@
 # Releases
 
+## 1.0.2
+
+* Included the stylesheet with the colors defined as custom properties.
+
 ## 1.0.1
 
 * Bumped the package version to 1.0.1 because `yarn` doesn’t support non-semver values.
