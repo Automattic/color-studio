@@ -1,7 +1,9 @@
 [dist-extensions]: dist/extensions/
 [dist-json]: dist/colors.json
 [dist-preview]: dist/meta/preview.png
-[dist-scss]: dist/colors.scss
+[dist-css-classes]: dist/color-classes.css
+[dist-css-properties]: dist/color-properties.css
+[dist-scss-variables]: dist/color-variables.scss
 [dist-sketchpalette]: dist/colors.sketchpalette
 
 [docs-custom]: https://automattic.github.io/color-studio/custom.html
@@ -16,7 +18,10 @@
 Color Studio generates the following:
 
 * [Online documentation][docs-index] with contrast ratios and click-to-copy hex values.
-* [Stylesheet partial][dist-scss] with all colors defined as SCSS variables that can be [imported](#scss) inside any project.
+* Several stylesheets that can be [imported](#scss) or linked to within any project:
+    * [CSS partial][dist-css-properties] with all colors defined as custom properties.
+    * [SCSS partial][dist-scss-variables] with all colors defined as variables.
+    * [CSS file][dist-css-classes] with all colors defined in separate classes.
 * [Sketch palette file][dist-sketchpalette] that can be imported using the [Sketch Palettes](https://github.com/andrewfiorillo/sketch-palettes) plugin.
 * [Custom color tester][docs-custom] that runs Color Studio’s formula against any specified value.
 
@@ -59,7 +64,7 @@ The above imports the contents of the [JSON file][dist-json].
 ## Development
 
 ```sh
-# Generate the JSON file, the stylesheet partial, and the Sketch palette file.
+# Generate the JSON file, the stylesheets, and the Sketch palette file
 yarn palette
 
 # Build the documentation assets from `docs-source`
