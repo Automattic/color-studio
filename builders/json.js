@@ -3,6 +3,7 @@ const PACKAGE = require('../package.json')
 
 const createPrimaryShades = require('../utilities/create-primary-shades')
 const createSecondaryShades = require('../utilities/create-secondary-shades')
+const createBrandShades = require('../utilities/create-brand-shades')
 
 const paletteColors = BASE_COLORS.map(colorObject => {
   let shades = []
@@ -11,6 +12,8 @@ const paletteColors = BASE_COLORS.map(colorObject => {
     shades = createPrimaryShades(colorObject.value)
   } else if (colorObject.formula === 'secondary') {
     shades = createSecondaryShades(colorObject.value)
+  } else if (colorObject.formula === 'brand') {
+    shades = createBrandShades(colorObject.value)
   } else {
     throw new Error('Unknown formula')
   }
@@ -33,7 +36,7 @@ function formatShades(baseColorObject, shades) {
       name: `${baseColorObject.name} ${colorObject.index}`,
       value: colorObject.value,
       _meta: {
-        baseColor: colorObject.value === baseColorObject.value,
+        baseColor: colorObject.index === 500,
         baseName: baseColorObject.name,
         colorFormula: baseColorObject.formula,
         shadeIndex: colorObject.index

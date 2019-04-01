@@ -6,7 +6,9 @@ const values = {
   hotPink: '#d52c82',
   hotRed: '#eb0001',
   hotYellow: '#f6c200',
-  hotGreen: '#008a00'
+  hotGreen: '#008a00',
+  jetpackGreen: '#00be27',
+  wooPurple: '#96588a'
 }
 
 values.hotBlue = hotten(values.blue)
@@ -102,5 +104,15 @@ module.exports = [
     name: 'Hot Green',
     value: values.hotGreen,
     formula: 'secondary'
+  },
+  {
+    name: 'Jetpack Green',
+    value: values.jetpackGreen,
+    formula: 'brand'
+  },
+  {
+    name: 'Woo Purple',
+    value: values.wooPurple,
+    formula: 'brand'
   }
 ]

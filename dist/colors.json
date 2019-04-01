@@ -1792,6 +1792,230 @@
           "shadeIndex": 900
         }
       }
+    ],
+    [
+      {
+        "name": "Jetpack Green 0",
+        "value": "#f4fbf2",
+        "_meta": {
+          "baseColor": false,
+          "baseName": "Jetpack Green",
+          "colorFormula": "brand",
+          "shadeIndex": 0
+        }
+      },
+      {
+        "name": "Jetpack Green 50",
+        "value": "#d3f0cc",
+        "_meta": {
+          "baseColor": false,
+          "baseName": "Jetpack Green",
+          "colorFormula": "brand",
+          "shadeIndex": 50
+        }
+      },
+      {
+        "name": "Jetpack Green 100",
+        "value": "#b0e5a6",
+        "_meta": {
+          "baseColor": false,
+          "baseName": "Jetpack Green",
+          "colorFormula": "brand",
+          "shadeIndex": 100
+        }
+      },
+      {
+        "name": "Jetpack Green 200",
+        "value": "#76d36d",
+        "_meta": {
+          "baseColor": false,
+          "baseName": "Jetpack Green",
+          "colorFormula": "brand",
+          "shadeIndex": 200
+        }
+      },
+      {
+        "name": "Jetpack Green 300",
+        "value": "#19c02d",
+        "_meta": {
+          "baseColor": false,
+          "baseName": "Jetpack Green",
+          "colorFormula": "brand",
+          "shadeIndex": 300
+        }
+      },
+      {
+        "name": "Jetpack Green 400",
+        "value": "#00a525",
+        "_meta": {
+          "baseColor": false,
+          "baseName": "Jetpack Green",
+          "colorFormula": "brand",
+          "shadeIndex": 400
+        }
+      },
+      {
+        "name": "Jetpack Green 500",
+        "value": "#008a21",
+        "_meta": {
+          "baseColor": true,
+          "baseName": "Jetpack Green",
+          "colorFormula": "brand",
+          "shadeIndex": 500
+        }
+      },
+      {
+        "name": "Jetpack Green 600",
+        "value": "#0c721d",
+        "_meta": {
+          "baseColor": false,
+          "baseName": "Jetpack Green",
+          "colorFormula": "brand",
+          "shadeIndex": 600
+        }
+      },
+      {
+        "name": "Jetpack Green 700",
+        "value": "#115a18",
+        "_meta": {
+          "baseColor": false,
+          "baseName": "Jetpack Green",
+          "colorFormula": "brand",
+          "shadeIndex": 700
+        }
+      },
+      {
+        "name": "Jetpack Green 800",
+        "value": "#114413",
+        "_meta": {
+          "baseColor": false,
+          "baseName": "Jetpack Green",
+          "colorFormula": "brand",
+          "shadeIndex": 800
+        }
+      },
+      {
+        "name": "Jetpack Green 900",
+        "value": "#0f2f0e",
+        "_meta": {
+          "baseColor": false,
+          "baseName": "Jetpack Green",
+          "colorFormula": "brand",
+          "shadeIndex": 900
+        }
+      }
+    ],
+    [
+      {
+        "name": "Woo Purple 0",
+        "value": "#f9f5f8",
+        "_meta": {
+          "baseColor": false,
+          "baseName": "Woo Purple",
+          "colorFormula": "brand",
+          "shadeIndex": 0
+        }
+      },
+      {
+        "name": "Woo Purple 50",
+        "value": "#ebdee8",
+        "_meta": {
+          "baseColor": false,
+          "baseName": "Woo Purple",
+          "colorFormula": "brand",
+          "shadeIndex": 50
+        }
+      },
+      {
+        "name": "Woo Purple 100",
+        "value": "#dec8d8",
+        "_meta": {
+          "baseColor": false,
+          "baseName": "Woo Purple",
+          "colorFormula": "brand",
+          "shadeIndex": 100
+        }
+      },
+      {
+        "name": "Woo Purple 200",
+        "value": "#ccabc4",
+        "_meta": {
+          "baseColor": false,
+          "baseName": "Woo Purple",
+          "colorFormula": "brand",
+          "shadeIndex": 200
+        }
+      },
+      {
+        "name": "Woo Purple 300",
+        "value": "#ba8fb0",
+        "_meta": {
+          "baseColor": false,
+          "baseName": "Woo Purple",
+          "colorFormula": "brand",
+          "shadeIndex": 300
+        }
+      },
+      {
+        "name": "Woo Purple 400",
+        "value": "#a8739d",
+        "_meta": {
+          "baseColor": false,
+          "baseName": "Woo Purple",
+          "colorFormula": "brand",
+          "shadeIndex": 400
+        }
+      },
+      {
+        "name": "Woo Purple 500",
+        "value": "#96588a",
+        "_meta": {
+          "baseColor": true,
+          "baseName": "Woo Purple",
+          "colorFormula": "brand",
+          "shadeIndex": 500
+        }
+      },
+      {
+        "name": "Woo Purple 600",
+        "value": "#7c4471",
+        "_meta": {
+          "baseColor": false,
+          "baseName": "Woo Purple",
+          "colorFormula": "brand",
+          "shadeIndex": 600
+        }
+      },
+      {
+        "name": "Woo Purple 700",
+        "value": "#63305a",
+        "_meta": {
+          "baseColor": false,
+          "baseName": "Woo Purple",
+          "colorFormula": "brand",
+          "shadeIndex": 700
+        }
+      },
+      {
+        "name": "Woo Purple 800",
+        "value": "#4a1d43",
+        "_meta": {
+          "baseColor": false,
+          "baseName": "Woo Purple",
+          "colorFormula": "brand",
+          "shadeIndex": 800
+        }
+      },
+      {
+        "name": "Woo Purple 900",
+        "value": "#330b2d",
+        "_meta": {
+          "baseColor": false,
+          "baseName": "Woo Purple",
+          "colorFormula": "brand",
+          "shadeIndex": 900
+        }
+      }
     ]
   ]
 }
