@@ -1,3 +1,4 @@
+[dist-android]: dist/colors.xml
 [dist-extensions]: dist/extensions/
 [dist-json]: dist/colors.json
 [dist-preview]: dist/meta/preview.png
@@ -28,6 +29,7 @@ Color Studio generates the following:
 Also:
 
 * [JSON file][dist-json] with all the color values for [further use](#javascript).
+* [XML file][dist-android] with all the color values for Android apps.
 * The preview image below and [extensions][dist-extensions].
 
 ## The Palette
