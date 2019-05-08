@@ -92,620 +92,180 @@
   color: #111215;
 }
 
-.color-purple-0 {
-  color: #f7f5f8;
-}
-
-.color-purple-50 {
-  color: #e5deea;
-}
-
-.color-purple-100 {
-  color: #d4c8de;
-}
-
-.color-purple-200 {
-  color: #beabce;
-}
-
-.color-purple-300 {
-  color: #a88ebe;
-}
-
-.color-purple-400 {
-  color: #9273af;
-}
-
-.color-purple-500 {
-  color: #7c589f;
-}
-
-.color-purple-600 {
-  color: #634581;
-}
-
-.color-purple-700 {
-  color: #4b3264;
-}
-
-.color-purple-800 {
-  color: #342148;
-}
-
-.color-purple-900 {
-  color: #1f112e;
-}
-
 .color-pink-0 {
-  color: #fbf4f7;
+  color: #fdf4f7;
 }
 
 .color-pink-50 {
-  color: #f2dee6;
+  color: #f9dce6;
 }
 
 .color-pink-100 {
-  color: #ebc6d5;
+  color: #f6c3d5;
 }
 
 .color-pink-200 {
-  color: #e1a7bf;
+  color: #f0a2c0;
 }
 
 .color-pink-300 {
-  color: #d688aa;
+  color: #e980ab;
 }
 
 .color-pink-400 {
-  color: #c96895;
+  color: #e05c96;
 }
 
 .color-pink-500 {
-  color: #bc4681;
-}
-
-.color-pink-600 {
-  color: #9b3c69;
-}
-
-.color-pink-700 {
-  color: #7b3252;
-}
-
-.color-pink-800 {
-  color: #5d283d;
-}
-
-.color-pink-900 {
-  color: #3f1f2a;
-}
-
-.color-red-0 {
-  color: #fdf3f1;
-}
-
-.color-red-50 {
-  color: #fadad3;
-}
-
-.color-red-100 {
-  color: #f8bfb4;
-}
-
-.color-red-200 {
-  color: #f19d8d;
-}
-
-.color-red-300 {
-  color: #e77a68;
-}
-
-.color-red-400 {
-  color: #da5544;
-}
-
-.color-red-500 {
-  color: #ca2622;
-}
-
-.color-red-600 {
-  color: #a82620;
-}
-
-.color-red-700 {
-  color: #87241d;
-}
-
-.color-red-800 {
-  color: #68211a;
-}
-
-.color-red-900 {
-  color: #491d17;
-}
-
-.color-orange-0 {
-  color: #fef7f2;
-}
-
-.color-orange-50 {
-  color: #fce4d5;
-}
-
-.color-orange-100 {
-  color: #fad2b6;
-}
-
-.color-orange-200 {
-  color: #f5ba8f;
-}
-
-.color-orange-300 {
-  color: #eda268;
-}
-
-.color-orange-400 {
-  color: #e38a40;
-}
-
-.color-orange-500 {
-  color: #d7730f;
-}
-
-.color-orange-600 {
-  color: #b95e1b;
-}
-
-.color-orange-700 {
-  color: #994b1f;
-}
-
-.color-orange-800 {
-  color: #79391f;
-}
-
-.color-orange-900 {
-  color: #592a1b;
-}
-
-.color-yellow-0 {
-  color: #fdfaf4;
-}
-
-.color-yellow-50 {
-  color: #faf0db;
-}
-
-.color-yellow-100 {
-  color: #f7e5c0;
-}
-
-.color-yellow-200 {
-  color: #f1d79d;
-}
-
-.color-yellow-300 {
-  color: #e9ca7a;
-}
-
-.color-yellow-400 {
-  color: #e0bd56;
-}
-
-.color-yellow-500 {
-  color: #d6b02c;
-}
-
-.color-yellow-600 {
-  color: #ba9830;
-}
-
-.color-yellow-700 {
-  color: #9e8132;
-}
-
-.color-yellow-800 {
-  color: #826b32;
-}
-
-.color-yellow-900 {
-  color: #675631;
-}
-
-.color-green-0 {
-  color: #f3f6f1;
-}
-
-.color-green-50 {
-  color: #d8e4d4;
-}
-
-.color-green-100 {
-  color: #bcd3b5;
-}
-
-.color-green-200 {
-  color: #97bc8d;
-}
-
-.color-green-300 {
-  color: #73a567;
-}
-
-.color-green-400 {
-  color: #4d8e41;
-}
-
-.color-green-500 {
-  color: #1d7819;
-}
-
-.color-green-600 {
-  color: #1e611e;
-}
-
-.color-green-700 {
-  color: #1e4a1e;
-}
-
-.color-green-800 {
-  color: #1d341d;
-}
-
-.color-green-900 {
-  color: #192019;
-}
-
-.color-celadon-0 {
-  color: #f3f6f5;
-}
-
-.color-celadon-50 {
-  color: #d8e3e0;
-}
-
-.color-celadon-100 {
-  color: #bad1cb;
-}
-
-.color-celadon-200 {
-  color: #93bab0;
-}
-
-.color-celadon-300 {
-  color: #6da296;
-}
-
-.color-celadon-400 {
-  color: #438c7d;
-}
-
-.color-celadon-500 {
-  color: #007565;
-}
-
-.color-celadon-600 {
-  color: #195d52;
-}
-
-.color-celadon-700 {
-  color: #20473f;
-}
-
-.color-celadon-800 {
-  color: #20312d;
-}
-
-.color-celadon-900 {
-  color: #1d1d1d;
-}
-
-.color-hot-blue-0 {
-  color: #f5f9ff;
-}
-
-.color-hot-blue-50 {
-  color: #dbe8ff;
-}
-
-.color-hot-blue-100 {
-  color: #c1d7ff;
-}
-
-.color-hot-blue-200 {
-  color: #93b6ff;
-}
-
-.color-hot-blue-300 {
-  color: #6795fe;
-}
-
-.color-hot-blue-400 {
-  color: #3574f8;
-}
-
-.color-hot-blue-500 {
-  color: #005fb7;
-}
-
-.color-hot-blue-600 {
-  color: #144b9b;
-}
-
-.color-hot-blue-700 {
-  color: #183780;
-}
-
-.color-hot-blue-800 {
-  color: #162566;
-}
-
-.color-hot-blue-900 {
-  color: #10144d;
-}
-
-.color-hot-purple-0 {
-  color: #fff6ff;
-}
-
-.color-hot-purple-50 {
-  color: #f8e1fb;
-}
-
-.color-hot-purple-100 {
-  color: #f0ccf6;
-}
-
-.color-hot-purple-200 {
-  color: #dea7ef;
-}
-
-.color-hot-purple-300 {
-  color: #c683ea;
-}
-
-.color-hot-purple-400 {
-  color: #aa5fe6;
-}
-
-.color-hot-purple-500 {
-  color: #8051b4;
-}
-
-.color-hot-purple-600 {
-  color: #673d99;
-}
-
-.color-hot-purple-700 {
-  color: #4f2a7e;
-}
-
-.color-hot-purple-800 {
-  color: #381865;
-}
-
-.color-hot-purple-900 {
-  color: #21064c;
-}
-
-.color-hot-pink-0 {
-  color: #fff4fc;
-}
-
-.color-hot-pink-50 {
-  color: #ffdff3;
-}
-
-.color-hot-pink-100 {
-  color: #ffcaea;
-}
-
-.color-hot-pink-200 {
-  color: #ffa2d4;
-}
-
-.color-hot-pink-300 {
-  color: #ff76b8;
-}
-
-.color-hot-pink-400 {
-  color: #ff3997;
-}
-
-.color-hot-pink-500 {
   color: #d52c82;
 }
 
-.color-hot-pink-600 {
-  color: #b7266a;
+.color-pink-600 {
+  color: #b32d69;
 }
 
-.color-hot-pink-700 {
-  color: #992053;
+.color-pink-700 {
+  color: #922b53;
 }
 
-.color-hot-pink-800 {
-  color: #7c1b40;
+.color-pink-800 {
+  color: #712940;
 }
 
-.color-hot-pink-900 {
-  color: #60162e;
+.color-pink-900 {
+  color: #51242f;
 }
 
-.color-hot-red-0 {
-  color: #fff5ed;
+.color-red-0 {
+  color: #fef3f0;
 }
 
-.color-hot-red-50 {
-  color: #ffe2cd;
+.color-red-50 {
+  color: #fcdbd0;
 }
 
-.color-hot-red-100 {
-  color: #ffcfac;
+.color-red-100 {
+  color: #ffc1ac;
 }
 
-.color-hot-red-200 {
-  color: #ffab78;
+.color-red-200 {
+  color: #ff9e81;
 }
 
-.color-hot-red-300 {
-  color: #ff8248;
+.color-red-300 {
+  color: #fd7a58;
 }
 
-.color-hot-red-400 {
-  color: #ff4b1c;
+.color-red-400 {
+  color: #f55130;
 }
 
-.color-hot-red-500 {
+.color-red-500 {
   color: #eb0001;
 }
 
-.color-hot-red-600 {
-  color: #cb0c07;
+.color-red-600 {
+  color: #c8180c;
 }
 
-.color-hot-red-700 {
-  color: #ac120b;
+.color-red-700 {
+  color: #a62013;
 }
 
-.color-hot-red-800 {
-  color: #8e140c;
+.color-red-800 {
+  color: #852316;
 }
 
-.color-hot-red-900 {
-  color: #70150c;
+.color-red-900 {
+  color: #652318;
 }
 
-.color-hot-orange-0 {
-  color: #fff9eb;
+.color-yellow-0 {
+  color: #fefbf4;
 }
 
-.color-hot-orange-50 {
-  color: #feedcf;
+.color-yellow-50 {
+  color: #fef3da;
 }
 
-.color-hot-orange-100 {
-  color: #fce1b5;
+.color-yellow-100 {
+  color: #feebbd;
 }
 
-.color-hot-orange-200 {
-  color: #fbca8a;
+.color-yellow-200 {
+  color: #fee199;
 }
 
-.color-hot-orange-300 {
-  color: #fcb161;
+.color-yellow-300 {
+  color: #fcd773;
 }
 
-.color-hot-orange-400 {
-  color: #fd953b;
+.color-yellow-400 {
+  color: #f9cd49;
 }
 
-.color-hot-orange-500 {
-  color: #f67c00;
-}
-
-.color-hot-orange-600 {
-  color: #d9650c;
-}
-
-.color-hot-orange-700 {
-  color: #bb4f10;
-}
-
-.color-hot-orange-800 {
-  color: #9d3a10;
-}
-
-.color-hot-orange-900 {
-  color: #7e280e;
-}
-
-.color-hot-yellow-0 {
-  color: #fffdeb;
-}
-
-.color-hot-yellow-50 {
-  color: #fef7d2;
-}
-
-.color-hot-yellow-100 {
-  color: #fcf1bd;
-}
-
-.color-hot-yellow-200 {
-  color: #fbe697;
-}
-
-.color-hot-yellow-300 {
-  color: #fbda70;
-}
-
-.color-hot-yellow-400 {
-  color: #fbcd45;
-}
-
-.color-hot-yellow-500 {
+.color-yellow-500 {
   color: #f6c200;
 }
 
-.color-hot-yellow-600 {
-  color: #daaa12;
+.color-yellow-600 {
+  color: #d9aa20;
 }
 
-.color-hot-yellow-700 {
-  color: #bd9219;
+.color-yellow-700 {
+  color: #bb932c;
 }
 
-.color-hot-yellow-800 {
-  color: #a17b1c;
+.color-yellow-800 {
+  color: #9e7c33;
 }
 
-.color-hot-yellow-900 {
-  color: #86661e;
+.color-yellow-900 {
+  color: #816737;
 }
 
-.color-hot-green-0 {
-  color: #f2fdee;
+.color-green-0 {
+  color: #f3f8f1;
 }
 
-.color-hot-green-50 {
-  color: #daf2d1;
+.color-green-50 {
+  color: #d8e8d3;
 }
 
-.color-hot-green-100 {
-  color: #c5e6b9;
+.color-green-100 {
+  color: #bdd9b3;
 }
 
-.color-hot-green-200 {
-  color: #9dcf8d;
+.color-green-200 {
+  color: #99c68a;
 }
 
-.color-hot-green-300 {
-  color: #73b961;
+.color-green-300 {
+  color: #73b263;
 }
 
-.color-hot-green-400 {
-  color: #44a234;
+.color-green-400 {
+  color: #4a9e3a;
 }
 
-.color-hot-green-500 {
+.color-green-500 {
   color: #008a00;
 }
 
-.color-hot-green-600 {
-  color: #08720b;
+.color-green-600 {
+  color: #167113;
 }
 
-.color-hot-green-700 {
-  color: #0d5a10;
+.color-green-700 {
+  color: #1d591a;
 }
 
-.color-hot-green-800 {
-  color: #0f4410;
+.color-green-800 {
+  color: #1f421c;
 }
 
-.color-hot-green-900 {
-  color: #0f2e0e;
+.color-green-900 {
+  color: #1d2c1b;
 }
 
 .color-jetpack-green-0 {

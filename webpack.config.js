@@ -9,7 +9,6 @@ module.exports = {
   entry: {
     /* eslint-disable quote-props */
     'page': './stylesheets/page.scss',
-    'page-custom': './javascripts/page-custom.js',
     'page-index': './javascripts/page-index.js'
     /* eslint-enable quote-props */
   },
