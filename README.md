@@ -1,4 +1,4 @@
-[dist-android]: dist/colors.xml
+[dist-android]: dist/android/colors.xml
 [dist-extensions]: dist/extensions/
 [dist-json]: dist/colors.json
 [dist-preview]: dist/meta/preview.png
