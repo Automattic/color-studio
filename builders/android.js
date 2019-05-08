@@ -21,24 +21,24 @@ const paletteColors = BASE_COLORS.map(colorObject => {
   return formatShades(colorObject, shades)
 })
 
-console.log("<?xml version=\"1.0\" encoding=\"utf-8\"?>")
-console.log("\n<resources")
-console.log("    xmlns:tools=\"http://schemas.android.com/tools\"")
-console.log("    tools:ignore=\"UnusedResources\">")
-console.log("\n    <!-- STUDIO v" + PACKAGE.version + "-->")
+console.log('<?xml version="1.0" encoding="utf-8"?>')
+console.log('\n<resources')
+console.log('    xmlns:tools="http://schemas.android.com/tools"')
+console.log('    tools:ignore="UnusedResources">')
+console.log('\n    <!-- STUDIO v' + PACKAGE.version + '-->')
 print(paletteColors)
-console.log("\n</resources>")
+console.log('\n</resources>')
 
 function formatShades(baseColorObject, shades) {
   const result = []
 
   shades.forEach(colorObject => {
     result.push(
-      "    <color name=\"" +
+      '    <color name="' +
       `${baseColorObject.name} ${colorObject.index}`.toLowerCase().split(' ').join('_') +
-      "\">" +
-      colorObject.value + 
-      "</color>"
+      '">' +
+      colorObject.value +
+      '</color>'
     )
   })
 
