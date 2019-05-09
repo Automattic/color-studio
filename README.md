@@ -1,5 +1,6 @@
 [dist-android]: dist/android/colors.xml
 [dist-extensions]: dist/extensions/
+[dist-ios]: dist/ios/
 [dist-json]: dist/colors.json
 [dist-preview]: dist/meta/preview.png
 [dist-css-classes]: dist/color-classes.css
@@ -30,6 +31,7 @@ Also:
 
 * [JSON file][dist-json] with all the color values for [further use](#javascript).
 * [XML file][dist-android] with all the color values for Android apps.
+* [iOS asset container][dist-ios] with all the color values defined in the `.colorset` format.
 * The preview image below and [extensions][dist-extensions].
 
 ## The Palette
