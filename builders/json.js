@@ -2,17 +2,9 @@ const BASE_COLORS = require('../data/base-colors')
 const PACKAGE = require('../package.json')
 
 const createPrimaryShades = require('../utilities/create-primary-shades')
-const createBrandShades = require('../utilities/create-brand-shades')
 
 const paletteColors = BASE_COLORS.map(colorObject => {
-  let shades = []
-
-  if (colorObject.formula === 'brand') {
-    shades = createBrandShades(colorObject.value)
-  } else {
-    shades = createPrimaryShades(colorObject.value)
-  }
-
+  const shades = createPrimaryShades(colorObject.value)
   return formatShades(colorObject, shades)
 })
 

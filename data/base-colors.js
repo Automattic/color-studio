@@ -3,12 +3,11 @@ const { mix } = require('../utilities/base-color-helpers')
 const values = {
   gray: '#707070',
   blue: '#016087',
+  purple: '#96588a',
   pink: '#d52c82',
   red: '#eb0001',
   yellow: '#f6c200',
-  green: '#008a00',
-  jetpackGreen: '#00be27',
-  wooPurple: '#96588a'
+  green: '#00be27'
 }
 
 values.gray = mix(values.gray, values.blue, 0.2)
@@ -21,6 +20,10 @@ module.exports = [
   {
     name: 'Blue',
     value: values.blue
+  },
+  {
+    name: 'Purple',
+    value: values.purple
   },
   {
     name: 'Pink',
@@ -37,15 +40,5 @@ module.exports = [
   {
     name: 'Green',
     value: values.green
-  },
-  {
-    name: 'Jetpack Green',
-    value: values.jetpackGreen,
-    formula: 'brand'
-  },
-  {
-    name: 'Woo Purple',
-    value: values.wooPurple,
-    formula: 'brand'
   }
 ]
