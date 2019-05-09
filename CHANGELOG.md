@@ -1,5 +1,9 @@
 # Releases
 
+## 1.0.3
+
+* Included the exports for iOS and Android.
+
 ## 1.0.2
 
 * Included the stylesheet with the colors defined as custom properties.
