@@ -30,7 +30,6 @@ PALETTE.colors.forEach(colorArray => {
       'colors': [
         {
           'idiom': 'universal',
-          'display-gamut': 'sRGB',
           'color': {
             'components': {
               'red':   chromaObject.get('rgb.r') / 255,

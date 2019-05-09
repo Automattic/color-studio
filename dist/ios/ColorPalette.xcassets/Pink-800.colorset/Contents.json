@@ -6,7 +6,6 @@
   "colors": [
     {
       "idiom": "universal",
-      "display-gamut": "sRGB",
       "color": {
         "components": {
           "red": 0.36470588235294116,
