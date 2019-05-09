@@ -14,15 +14,10 @@ const INFO_TEMPLATE = {
 }
 
 const OUTPUT_PATH = path.join(__dirname, '../dist/ios')
-const ASSETS_PATH = path.join(OUTPUT_PATH, 'ColorPalette.xassets')
+const ASSETS_PATH = path.join(OUTPUT_PATH, 'ColorPalette.xcassets')
 
 const directoriesToCreate = [OUTPUT_PATH, ASSETS_PATH]
-const filesToCreate = [
-  {
-    path: path.join(ASSETS_PATH, 'Contents.json'),
-    contents: createContentsFile()
-  }
-]
+const filesToCreate = [defineContentsFile(ASSETS_PATH)]
 
 PALETTE.colors.forEach(colorArray => {
   colorArray.forEach(colorObject => {
@@ -30,32 +25,35 @@ PALETTE.colors.forEach(colorArray => {
     const chromaObject = chroma(colorObject.value)
 
     directoriesToCreate.push(colorPath)
-    filesToCreate.push({
-      path: path.join(colorPath, 'Contents.json'),
-      contents: createContentsFile({
-        /* eslint-disable quote-props */
-        'colors': {
+    filesToCreate.push(defineContentsFile(colorPath, {
+      /* eslint-disable quote-props */
+      'colors': [
+        {
           'idiom': 'universal',
           'display-gamut': 'sRGB',
           'color': {
             'components': {
-              'red':   chromaObject.get('rgb.r'),
-              'green': chromaObject.get('rgb.g'),
-              'blue':  chromaObject.get('rgb.b'),
+              'red':   chromaObject.get('rgb.r') / 255,
+              'green': chromaObject.get('rgb.g') / 255,
+              'blue':  chromaObject.get('rgb.b') / 255,
               'alpha': chromaObject.alpha()
             },
             'color-space': 'srgb'
           }
         }
-        /* eslint-enable quote-props */
-      })
-    })
+      ]
+      /* eslint-enable quote-props */
+    }))
   })
 })
 
-function createContentsFile(contents) {
+function defineContentsFile(dirname, contents) {
   const json = Object.assign({}, INFO_TEMPLATE, contents || {})
-  return JSON.stringify(json, null, 2)
+
+  return {
+    path: path.join(dirname, 'Contents.json'),
+    contents: JSON.stringify(json, null, 2)
+  }
 }
 
 function createDirectory(name) {
