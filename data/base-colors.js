@@ -1,44 +1,34 @@
-const { mix } = require('../utilities/base-color-helpers')
-
-const values = {
-  gray: '#707070',
-  blue: '#016087',
-  purple: '#96588a',
-  pink: '#d52c82',
-  red: '#eb0001',
-  yellow: '#f6c200',
-  green: '#00be27'
-}
-
-values.gray = mix(values.gray, values.blue, 0.2)
-
 module.exports = [
   {
     name: 'Gray',
-    value: values.gray
+    value: '#636d75'
   },
   {
-    name: 'Blue',
-    value: values.blue
+    name: 'Brand Blue',
+    value: '#016087'
+  },
+  {
+    name: 'Product Blue',
+    value: '#005fb7'
   },
   {
     name: 'Purple',
-    value: values.purple
+    value: '#96588a'
   },
   {
     name: 'Pink',
-    value: values.pink
+    value: '#d52c82'
   },
   {
     name: 'Red',
-    value: values.red
+    value: '#eb0001'
   },
   {
     name: 'Yellow',
-    value: values.yellow
+    value: '#f6c200'
   },
   {
     name: 'Green',
-    value: values.green
+    value: '#00be27'
   }
 ]

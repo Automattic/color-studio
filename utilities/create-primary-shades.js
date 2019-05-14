@@ -9,7 +9,7 @@ module.exports = baseColor => {
   const palette = mergePaletteShades(brightShades, darkShades).map((value, arrayIndex) => {
     return {
       value,
-      index: arrayIndex <= 1 ? (50 * arrayIndex) : (100 * (arrayIndex - 1))
+      index: arrayIndex <= 1 ? (5 * arrayIndex) : (10 * (arrayIndex - 1))
     }
   })
 
