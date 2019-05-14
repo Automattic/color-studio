@@ -21,6 +21,7 @@
     "css-loader": "^0.28.11",
     "file-saver": "^2.0.0-rc.4",
     "husky": "^0.14.3",
+    "jest": "^24.8.0",
     "lodash": "^4.17.5",
     "mini-css-extract-plugin": "^0.4.0",
     "node-sass": "^4.8.3",
@@ -44,7 +45,7 @@
     "meta:build": "yarn meta:build:preview",
     "meta:build:preview": "node builders/preview-from-docs",
     "palette": "yarn palette:build",
-    "palette:build": "yarn palette:build:json && yarn palette:build:android && yarn palette:build:css && yarn palette:build:ios && yarn palette:build:sketch",
+    "palette:build": "yarn palette:build:json && yarn palette:test && yarn palette:build:android && yarn palette:build:css && yarn palette:build:ios && yarn palette:build:sketch",
     "palette:build:android": "node builders/android-xml-from-json > dist/android/colors.xml",
     "palette:build:css": "yarn palette:build:css:classes && yarn palette:build:css:properties && yarn palette:build:css:variables",
     "palette:build:css:classes": "node builders/css-classes-from-json > dist/color-classes.css",
@@ -53,10 +54,12 @@
     "palette:build:ios": "node builders/ios-assets-from-json",
     "palette:build:json": "node builders/json > dist/colors.json",
     "palette:build:sketch": "node builders/sketchpalette-from-json > dist/colors.sketchpalette",
+    "palette:test": "yarn test test/palette.test.js",
     "precommit": "yarn lint && yarn build && git add --update",
     "sketch": "yarn sketch:build && skpm-link",
     "sketch:build": "skpm-build --quiet",
-    "sketch:watch": "skpm-build --watch"
+    "sketch:watch": "skpm-build --watch",
+    "test": "jest"
   },
   "skpm": {
     "manifest": "extensions/sketch/manifest.json",
@@ -109,6 +112,23 @@
         "error",
         "never"
       ]
-    }
+    },
+    "overrides": [
+      {
+        "files": [
+          "**/*.test.js"
+        ],
+        "globals": [
+          "expect",
+          "describe",
+          "test"
+        ],
+        "rules": {
+          "dot-notation": [
+            "off"
+          ]
+        }
+      }
+    ]
   }
 }
