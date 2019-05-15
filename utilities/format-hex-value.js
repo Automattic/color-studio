@@ -1,5 +1,7 @@
+const chroma = require('chroma-js')
+
 module.exports = value => {
-  const hex = value.toLowerCase()
+  const hex = String(chroma(value).hex()).toLowerCase()
   const h = hex.split('')
 
   if (h.length === 7 && h[1] === h[2] && h[3] === h[4] && h[5] === h[6]) {

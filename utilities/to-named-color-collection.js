@@ -1,4 +1,3 @@
-const chroma = require('chroma-js')
 const formatHexValue = require('./format-hex-value')
 
 module.exports = colorArrays => {
@@ -6,8 +5,7 @@ module.exports = colorArrays => {
 
   colorArrays.forEach(colorArray => {
     colorArray.forEach(colorObject => {
-      const value = chroma(colorObject.value).hex()
-      collection[colorObject.name] = formatHexValue(value)
+      collection[colorObject.name] = formatHexValue(colorObject.value)
     })
   })
 
