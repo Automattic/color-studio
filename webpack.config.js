@@ -2,14 +2,19 @@ const path = require('path')
 
 const ExtraneousFileCleanupPlugin = require('webpack-extraneous-file-cleanup-plugin')
 const MiniExtractPlugin = require('mini-css-extract-plugin')
+const RenameFilePlugin = require('rename-webpack-plugin')
 
 module.exports = {
   mode: 'production',
   context: path.join(__dirname, '/docs-source'),
   entry: {
     /* eslint-disable quote-props */
-    'page': './stylesheets/page.scss',
-    'page-index': './javascripts/page-index.js'
+
+    'docs-css': './stylesheets/docs/docs.scss',
+    'docs-js': './javascripts/docs/docs.js',
+
+    'docs-example-calypso-css': './stylesheets/docs-example-calypso/calypso.scss'
+
     /* eslint-enable quote-props */
   },
   module: {
@@ -76,6 +81,14 @@ module.exports = {
       extensions: [
         '.js'
       ]
+    }),
+    new RenameFilePlugin({
+      originNameReg: /(.*)-css.css/,
+      targetName: '$1.css'
+    }),
+    new RenameFilePlugin({
+      originNameReg: /(.*)-js.js/,
+      targetName: '$1.js'
     })
   ]
 }

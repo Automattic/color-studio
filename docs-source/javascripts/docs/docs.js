@@ -1,9 +1,9 @@
 /* eslint-env browser */
 
-const PALETTE = require('../../dist/colors.json')
+const PALETTE = require('../../../dist/colors.json')
 
-const { activateTiles } = require('./shared/shared')
-const renderTile = require('./shared/render-tile')
+const { activateTiles } = require('./docs/shared')
+const renderTile = require('./docs/render-tile')
 
 const output = document.getElementById('color-tiles')
 
