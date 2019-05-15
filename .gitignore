@@ -1,5 +1,5 @@
+.cache
 node_modules
 yarn-error.log
 
-.cache
-docs/assets/docs-example*
+docs/assets/docs-example-calypso.css

@@ -13,6 +13,7 @@ module.exports = {
     'docs-css': './stylesheets/docs/docs.scss',
     'docs-js': './javascripts/docs/docs.js',
 
+    'docs-example-android-css': './stylesheets/docs-example-android/example.scss',
     'docs-example-calypso-css': './stylesheets/docs-example-calypso/calypso.scss'
 
     /* eslint-enable quote-props */
@@ -59,6 +60,14 @@ module.exports = {
             options: {
               outputStyle: 'compressed'
             }
+          }
+        ]
+      },
+      {
+        test: /\.(jpg|png|svg)$/i,
+        use: [
+          {
+            loader: 'url-loader'
           }
         ]
       },

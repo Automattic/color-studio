@@ -31,6 +31,8 @@
     "rename-webpack-plugin": "^2.0.0",
     "rimraf": "^2.6.3",
     "sass-loader": "^6.0.7",
+    "svgo": "^1.2.2",
+    "url-loader": "^1.1.2",
     "webpack": "4.19.1",
     "webpack-cli": "2.1.4",
     "webpack-extraneous-file-cleanup-plugin": "^2.0.0",
@@ -56,8 +58,9 @@
     "palette": "yarn palette:build",
     "palette:build": "yarn palette:build:json && yarn palette:build:android && yarn palette:build:css && yarn palette:build:ios && yarn palette:build:sketch",
     "palette:build:android": "node builders/android-xml-from-json > dist/android/colors.xml",
-    "palette:build:css": "yarn palette:build:css:classes && yarn palette:build:css:properties && yarn palette:build:css:variables",
+    "palette:build:css": "yarn palette:build:css:classes && yarn palette:build:css:fills && yarn palette:build:css:properties && yarn palette:build:css:variables",
     "palette:build:css:classes": "node builders/css-classes-from-json > dist/color-classes.css",
+    "palette:build:css:fills": "node builders/css-fills-from-json > dist/color-fills.css",
     "palette:build:css:properties": "node builders/css-properties-from-json > dist/color-properties.css",
     "palette:build:css:variables": "node builders/scss-variables-from-json > dist/color-variables.scss",
     "palette:build:ios": "node builders/ios-assets-from-json",
@@ -69,6 +72,8 @@
     "sketch": "yarn sketch:build && skpm-link",
     "sketch:build": "skpm-build --quiet",
     "sketch:watch": "skpm-build --watch",
+    "svgo": "svgo --config=svgo.config.json",
+    "svgo:docs": "yarn svgo --folder docs-source --recursive",
     "test": "jest --all"
   },
   "skpm": {
