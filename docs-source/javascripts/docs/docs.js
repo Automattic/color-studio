@@ -22,7 +22,7 @@ function handleFoundationTiles() {
 
 function createColorTile(colorObject, last) {
   const base = colorObject._meta.baseColor
-  const name = base ? colorObject.name : colorObject._meta.shadeIndex
+  const name = base ? colorObject.name : colorObject._meta.index
 
   return renderTile(base, name, colorObject.value, last)
 }

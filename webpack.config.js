@@ -50,6 +50,7 @@ module.exports = {
             options: {
               plugins: () => {
                 return [
+                  require('postcss-css-variables'),
                   require('autoprefixer')
                 ]
               }

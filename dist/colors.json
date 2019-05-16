@@ -1,5 +1,5 @@
 {
-  "version": "1.0.3",
+  "version": "2.0.0.rc-0",
   "colors": [
     [
       {
@@ -7,7 +7,7 @@
         "value": "#f5f6f6",
         "_meta": {
           "baseName": "Gray",
-          "shadeIndex": 0
+          "index": 0
         }
       },
       {
@@ -15,7 +15,7 @@
         "value": "#dfe2e3",
         "_meta": {
           "baseName": "Gray",
-          "shadeIndex": 5
+          "index": 5
         }
       },
       {
@@ -23,7 +23,7 @@
         "value": "#caced1",
         "_meta": {
           "baseName": "Gray",
-          "shadeIndex": 10
+          "index": 10
         }
       },
       {
@@ -31,7 +31,7 @@
         "value": "#b0b5b9",
         "_meta": {
           "baseName": "Gray",
-          "shadeIndex": 20
+          "index": 20
         }
       },
       {
@@ -39,7 +39,7 @@
         "value": "#959ca2",
         "_meta": {
           "baseName": "Gray",
-          "shadeIndex": 30
+          "index": 30
         }
       },
       {
@@ -47,7 +47,7 @@
         "value": "#7c848b",
         "_meta": {
           "baseName": "Gray",
-          "shadeIndex": 40
+          "index": 40
         }
       },
       {
@@ -55,7 +55,7 @@
         "value": "#636d75",
         "_meta": {
           "baseName": "Gray",
-          "shadeIndex": 50
+          "index": 50
         }
       },
       {
@@ -63,7 +63,7 @@
         "value": "#535b61",
         "_meta": {
           "baseName": "Gray",
-          "shadeIndex": 60
+          "index": 60
         }
       },
       {
@@ -71,7 +71,7 @@
         "value": "#444a4e",
         "_meta": {
           "baseName": "Gray",
-          "shadeIndex": 70
+          "index": 70
         }
       },
       {
@@ -79,7 +79,7 @@
         "value": "#36393c",
         "_meta": {
           "baseName": "Gray",
-          "shadeIndex": 80
+          "index": 80
         }
       },
       {
@@ -87,7 +87,7 @@
         "value": "#28292b",
         "_meta": {
           "baseName": "Gray",
-          "shadeIndex": 90
+          "index": 90
         }
       },
       {
@@ -95,7 +95,7 @@
         "value": "#1a1a1a",
         "_meta": {
           "baseName": "Gray",
-          "shadeIndex": 100
+          "index": 100
         }
       }
     ],
@@ -105,7 +105,7 @@
         "value": "#f2f5f8",
         "_meta": {
           "baseName": "Brand Blue",
-          "shadeIndex": 0
+          "index": 0
         }
       },
       {
@@ -113,7 +113,7 @@
         "value": "#d5dfe7",
         "_meta": {
           "baseName": "Brand Blue",
-          "shadeIndex": 5
+          "index": 5
         }
       },
       {
@@ -121,7 +121,7 @@
         "value": "#b8c9d7",
         "_meta": {
           "baseName": "Brand Blue",
-          "shadeIndex": 10
+          "index": 10
         }
       },
       {
@@ -129,7 +129,7 @@
         "value": "#93aec3",
         "_meta": {
           "baseName": "Brand Blue",
-          "shadeIndex": 20
+          "index": 20
         }
       },
       {
@@ -137,7 +137,7 @@
         "value": "#6d93af",
         "_meta": {
           "baseName": "Brand Blue",
-          "shadeIndex": 30
+          "index": 30
         }
       },
       {
@@ -145,7 +145,7 @@
         "value": "#45799b",
         "_meta": {
           "baseName": "Brand Blue",
-          "shadeIndex": 40
+          "index": 40
         }
       },
       {
@@ -153,7 +153,7 @@
         "value": "#016087",
         "_meta": {
           "baseName": "Brand Blue",
-          "shadeIndex": 50
+          "index": 50
         }
       },
       {
@@ -161,7 +161,7 @@
         "value": "#114f73",
         "_meta": {
           "baseName": "Brand Blue",
-          "shadeIndex": 60
+          "index": 60
         }
       },
       {
@@ -169,7 +169,7 @@
         "value": "#153e5f",
         "_meta": {
           "baseName": "Brand Blue",
-          "shadeIndex": 70
+          "index": 70
         }
       },
       {
@@ -177,7 +177,7 @@
         "value": "#152e4b",
         "_meta": {
           "baseName": "Brand Blue",
-          "shadeIndex": 80
+          "index": 80
         }
       },
       {
@@ -185,7 +185,7 @@
         "value": "#111f37",
         "_meta": {
           "baseName": "Brand Blue",
-          "shadeIndex": 90
+          "index": 90
         }
       },
       {
@@ -193,7 +193,7 @@
         "value": "#0b1125",
         "_meta": {
           "baseName": "Brand Blue",
-          "shadeIndex": 100
+          "index": 100
         }
       }
     ],
@@ -203,7 +203,7 @@
         "value": "#f3f5fb",
         "_meta": {
           "baseName": "Product Blue",
-          "shadeIndex": 0
+          "index": 0
         }
       },
       {
@@ -211,7 +211,7 @@
         "value": "#dadef2",
         "_meta": {
           "baseName": "Product Blue",
-          "shadeIndex": 5
+          "index": 5
         }
       },
       {
@@ -219,7 +219,7 @@
         "value": "#c0c8e9",
         "_meta": {
           "baseName": "Product Blue",
-          "shadeIndex": 10
+          "index": 10
         }
       },
       {
@@ -227,7 +227,7 @@
         "value": "#9dacdc",
         "_meta": {
           "baseName": "Product Blue",
-          "shadeIndex": 20
+          "index": 20
         }
       },
       {
@@ -235,7 +235,7 @@
         "value": "#7991d0",
         "_meta": {
           "baseName": "Product Blue",
-          "shadeIndex": 30
+          "index": 30
         }
       },
       {
@@ -243,7 +243,7 @@
         "value": "#5078c4",
         "_meta": {
           "baseName": "Product Blue",
-          "shadeIndex": 40
+          "index": 40
         }
       },
       {
@@ -251,7 +251,7 @@
         "value": "#005fb7",
         "_meta": {
           "baseName": "Product Blue",
-          "shadeIndex": 50
+          "index": 50
         }
       },
       {
@@ -259,7 +259,7 @@
         "value": "#124fa1",
         "_meta": {
           "baseName": "Product Blue",
-          "shadeIndex": 60
+          "index": 60
         }
       },
       {
@@ -267,7 +267,7 @@
         "value": "#173f8b",
         "_meta": {
           "baseName": "Product Blue",
-          "shadeIndex": 70
+          "index": 70
         }
       },
       {
@@ -275,7 +275,7 @@
         "value": "#173076",
         "_meta": {
           "baseName": "Product Blue",
-          "shadeIndex": 80
+          "index": 80
         }
       },
       {
@@ -283,7 +283,7 @@
         "value": "#152261",
         "_meta": {
           "baseName": "Product Blue",
-          "shadeIndex": 90
+          "index": 90
         }
       },
       {
@@ -291,7 +291,7 @@
         "value": "#10144d",
         "_meta": {
           "baseName": "Product Blue",
-          "shadeIndex": 100
+          "index": 100
         }
       }
     ],
@@ -301,7 +301,7 @@
         "value": "#f9f5f8",
         "_meta": {
           "baseName": "Purple",
-          "shadeIndex": 0
+          "index": 0
         }
       },
       {
@@ -309,7 +309,7 @@
         "value": "#ebdee8",
         "_meta": {
           "baseName": "Purple",
-          "shadeIndex": 5
+          "index": 5
         }
       },
       {
@@ -317,7 +317,7 @@
         "value": "#dec8d8",
         "_meta": {
           "baseName": "Purple",
-          "shadeIndex": 10
+          "index": 10
         }
       },
       {
@@ -325,7 +325,7 @@
         "value": "#ccabc4",
         "_meta": {
           "baseName": "Purple",
-          "shadeIndex": 20
+          "index": 20
         }
       },
       {
@@ -333,7 +333,7 @@
         "value": "#ba8fb0",
         "_meta": {
           "baseName": "Purple",
-          "shadeIndex": 30
+          "index": 30
         }
       },
       {
@@ -341,7 +341,7 @@
         "value": "#a8739d",
         "_meta": {
           "baseName": "Purple",
-          "shadeIndex": 40
+          "index": 40
         }
       },
       {
@@ -349,7 +349,7 @@
         "value": "#96588a",
         "_meta": {
           "baseName": "Purple",
-          "shadeIndex": 50
+          "index": 50
         }
       },
       {
@@ -357,7 +357,7 @@
         "value": "#814876",
         "_meta": {
           "baseName": "Purple",
-          "shadeIndex": 60
+          "index": 60
         }
       },
       {
@@ -365,7 +365,7 @@
         "value": "#6d3863",
         "_meta": {
           "baseName": "Purple",
-          "shadeIndex": 70
+          "index": 70
         }
       },
       {
@@ -373,7 +373,7 @@
         "value": "#592850",
         "_meta": {
           "baseName": "Purple",
-          "shadeIndex": 80
+          "index": 80
         }
       },
       {
@@ -381,7 +381,7 @@
         "value": "#461a3e",
         "_meta": {
           "baseName": "Purple",
-          "shadeIndex": 90
+          "index": 90
         }
       },
       {
@@ -389,7 +389,7 @@
         "value": "#330b2d",
         "_meta": {
           "baseName": "Purple",
-          "shadeIndex": 100
+          "index": 100
         }
       }
     ],
@@ -399,7 +399,7 @@
         "value": "#fef4f7",
         "_meta": {
           "baseName": "Pink",
-          "shadeIndex": 0
+          "index": 0
         }
       },
       {
@@ -407,7 +407,7 @@
         "value": "#fcdbe6",
         "_meta": {
           "baseName": "Pink",
-          "shadeIndex": 5
+          "index": 5
         }
       },
       {
@@ -415,7 +415,7 @@
         "value": "#f8c2d5",
         "_meta": {
           "baseName": "Pink",
-          "shadeIndex": 10
+          "index": 10
         }
       },
       {
@@ -423,7 +423,7 @@
         "value": "#f2a1c0",
         "_meta": {
           "baseName": "Pink",
-          "shadeIndex": 20
+          "index": 20
         }
       },
       {
@@ -431,7 +431,7 @@
         "value": "#ea80ab",
         "_meta": {
           "baseName": "Pink",
-          "shadeIndex": 30
+          "index": 30
         }
       },
       {
@@ -439,7 +439,7 @@
         "value": "#e05b96",
         "_meta": {
           "baseName": "Pink",
-          "shadeIndex": 40
+          "index": 40
         }
       },
       {
@@ -447,7 +447,7 @@
         "value": "#d52c82",
         "_meta": {
           "baseName": "Pink",
-          "shadeIndex": 50
+          "index": 50
         }
       },
       {
@@ -455,7 +455,7 @@
         "value": "#bd276e",
         "_meta": {
           "baseName": "Pink",
-          "shadeIndex": 60
+          "index": 60
         }
       },
       {
@@ -463,7 +463,7 @@
         "value": "#a5225c",
         "_meta": {
           "baseName": "Pink",
-          "shadeIndex": 70
+          "index": 70
         }
       },
       {
@@ -471,7 +471,7 @@
         "value": "#8e1e4b",
         "_meta": {
           "baseName": "Pink",
-          "shadeIndex": 80
+          "index": 80
         }
       },
       {
@@ -479,7 +479,7 @@
         "value": "#771a3c",
         "_meta": {
           "baseName": "Pink",
-          "shadeIndex": 90
+          "index": 90
         }
       },
       {
@@ -487,7 +487,7 @@
         "value": "#60162e",
         "_meta": {
           "baseName": "Pink",
-          "shadeIndex": 100
+          "index": 100
         }
       }
     ],
@@ -497,7 +497,7 @@
         "value": "#fff3ef",
         "_meta": {
           "baseName": "Red",
-          "shadeIndex": 0
+          "index": 0
         }
       },
       {
@@ -505,7 +505,7 @@
         "value": "#ffdacf",
         "_meta": {
           "baseName": "Red",
-          "shadeIndex": 5
+          "index": 5
         }
       },
       {
@@ -513,7 +513,7 @@
         "value": "#ffc1ad",
         "_meta": {
           "baseName": "Red",
-          "shadeIndex": 10
+          "index": 10
         }
       },
       {
@@ -521,7 +521,7 @@
         "value": "#ff9f82",
         "_meta": {
           "baseName": "Red",
-          "shadeIndex": 20
+          "index": 20
         }
       },
       {
@@ -529,7 +529,7 @@
         "value": "#fd7a57",
         "_meta": {
           "baseName": "Red",
-          "shadeIndex": 30
+          "index": 30
         }
       },
       {
@@ -537,7 +537,7 @@
         "value": "#f55130",
         "_meta": {
           "baseName": "Red",
-          "shadeIndex": 40
+          "index": 40
         }
       },
       {
@@ -545,7 +545,7 @@
         "value": "#eb0001",
         "_meta": {
           "baseName": "Red",
-          "shadeIndex": 50
+          "index": 50
         }
       },
       {
@@ -553,7 +553,7 @@
         "value": "#d10a06",
         "_meta": {
           "baseName": "Red",
-          "shadeIndex": 60
+          "index": 60
         }
       },
       {
@@ -561,7 +561,7 @@
         "value": "#b81009",
         "_meta": {
           "baseName": "Red",
-          "shadeIndex": 70
+          "index": 70
         }
       },
       {
@@ -569,7 +569,7 @@
         "value": "#a0130b",
         "_meta": {
           "baseName": "Red",
-          "shadeIndex": 80
+          "index": 80
         }
       },
       {
@@ -577,7 +577,7 @@
         "value": "#88150c",
         "_meta": {
           "baseName": "Red",
-          "shadeIndex": 90
+          "index": 90
         }
       },
       {
@@ -585,7 +585,7 @@
         "value": "#70150c",
         "_meta": {
           "baseName": "Red",
-          "shadeIndex": 100
+          "index": 100
         }
       }
     ],
@@ -595,7 +595,7 @@
         "value": "#fffbf2",
         "_meta": {
           "baseName": "Yellow",
-          "shadeIndex": 0
+          "index": 0
         }
       },
       {
@@ -603,7 +603,7 @@
         "value": "#feeab5",
         "_meta": {
           "baseName": "Yellow",
-          "shadeIndex": 5
+          "index": 5
         }
       },
       {
@@ -611,7 +611,7 @@
         "value": "#fcd773",
         "_meta": {
           "baseName": "Yellow",
-          "shadeIndex": 10
+          "index": 10
         }
       },
       {
@@ -619,7 +619,7 @@
         "value": "#ebbb00",
         "_meta": {
           "baseName": "Yellow",
-          "shadeIndex": 20
+          "index": 20
         }
       },
       {
@@ -627,7 +627,7 @@
         "value": "#c9a300",
         "_meta": {
           "baseName": "Yellow",
-          "shadeIndex": 30
+          "index": 30
         }
       },
       {
@@ -635,7 +635,7 @@
         "value": "#a88c00",
         "_meta": {
           "baseName": "Yellow",
-          "shadeIndex": 40
+          "index": 40
         }
       },
       {
@@ -643,7 +643,7 @@
         "value": "#897500",
         "_meta": {
           "baseName": "Yellow",
-          "shadeIndex": 50
+          "index": 50
         }
       },
       {
@@ -651,7 +651,7 @@
         "value": "#78620b",
         "_meta": {
           "baseName": "Yellow",
-          "shadeIndex": 60
+          "index": 60
         }
       },
       {
@@ -659,7 +659,7 @@
         "value": "#675110",
         "_meta": {
           "baseName": "Yellow",
-          "shadeIndex": 70
+          "index": 70
         }
       },
       {
@@ -667,7 +667,7 @@
         "value": "#554013",
         "_meta": {
           "baseName": "Yellow",
-          "shadeIndex": 80
+          "index": 80
         }
       },
       {
@@ -675,7 +675,7 @@
         "value": "#423114",
         "_meta": {
           "baseName": "Yellow",
-          "shadeIndex": 90
+          "index": 90
         }
       },
       {
@@ -683,7 +683,7 @@
         "value": "#2e2313",
         "_meta": {
           "baseName": "Yellow",
-          "shadeIndex": 100
+          "index": 100
         }
       }
     ],
@@ -693,7 +693,7 @@
         "value": "#f4fbf2",
         "_meta": {
           "baseName": "Green",
-          "shadeIndex": 0
+          "index": 0
         }
       },
       {
@@ -701,7 +701,7 @@
         "value": "#d3f0cc",
         "_meta": {
           "baseName": "Green",
-          "shadeIndex": 5
+          "index": 5
         }
       },
       {
@@ -709,7 +709,7 @@
         "value": "#b0e5a6",
         "_meta": {
           "baseName": "Green",
-          "shadeIndex": 10
+          "index": 10
         }
       },
       {
@@ -717,7 +717,7 @@
         "value": "#76d36d",
         "_meta": {
           "baseName": "Green",
-          "shadeIndex": 20
+          "index": 20
         }
       },
       {
@@ -725,7 +725,7 @@
         "value": "#19c02d",
         "_meta": {
           "baseName": "Green",
-          "shadeIndex": 30
+          "index": 30
         }
       },
       {
@@ -733,7 +733,7 @@
         "value": "#00a525",
         "_meta": {
           "baseName": "Green",
-          "shadeIndex": 40
+          "index": 40
         }
       },
       {
@@ -741,7 +741,7 @@
         "value": "#008a21",
         "_meta": {
           "baseName": "Green",
-          "shadeIndex": 50
+          "index": 50
         }
       },
       {
@@ -749,7 +749,7 @@
         "value": "#0a761d",
         "_meta": {
           "baseName": "Green",
-          "shadeIndex": 60
+          "index": 60
         }
       },
       {
@@ -757,7 +757,7 @@
         "value": "#0f631a",
         "_meta": {
           "baseName": "Green",
-          "shadeIndex": 70
+          "index": 70
         }
       },
       {
@@ -765,7 +765,7 @@
         "value": "#115116",
         "_meta": {
           "baseName": "Green",
-          "shadeIndex": 80
+          "index": 80
         }
       },
       {
@@ -773,7 +773,7 @@
         "value": "#113f12",
         "_meta": {
           "baseName": "Green",
-          "shadeIndex": 90
+          "index": 90
         }
       },
       {
@@ -781,7 +781,7 @@
         "value": "#0f2f0e",
         "_meta": {
           "baseName": "Green",
-          "shadeIndex": 100
+          "index": 100
         }
       }
     ]

@@ -20,7 +20,7 @@ expect.extend({
 })
 
 describe('light mode accessibility', () => {
-  test('shades 50 pass AA against pure white', () => {
+  test('shades no. 50 pass AA against pure white', () => {
     expect(4.5).toBeContrastRatioBetween(PALETTE['Gray 50'], 'white')
     expect(4.5).toBeContrastRatioBetween(PALETTE['Gray 50'], 'white')
     expect(4.5).toBeContrastRatioBetween(PALETTE['Brand Blue 50'], 'white')
@@ -34,7 +34,7 @@ describe('light mode accessibility', () => {
 })
 
 describe.skip('dark mode accessibility', () => {
-  test('shades 40 pass AA against Gray 100', () => {
+  test('shades no. 40 pass AA against Gray 100', () => {
     expect(4.5).toBeContrastRatioBetween(PALETTE['Gray 40'], PALETTE['Gray 100'])
     expect(4.5).toBeContrastRatioBetween(PALETTE['Brand Blue 40'], PALETTE['Gray 100'])
     expect(4.5).toBeContrastRatioBetween(PALETTE['Product Blue 40'], PALETTE['Gray 100'])

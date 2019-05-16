@@ -24,7 +24,7 @@ function formatShades(baseColorObject, shades) {
       value: colorObject.value,
       _meta: {
         baseName: baseColorObject.name,
-        shadeIndex: colorObject.index
+        index: colorObject.index
       }
     })
   })

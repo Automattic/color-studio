@@ -75,7 +75,7 @@ function normalizeColorName(colorObject) {
   }
 
   const base = colorObject._meta.baseName
-  const index = padStart(colorObject._meta.shadeIndex, 3, 0)
+  const index = padStart(colorObject._meta.index, 3, 0)
   return `${base}/${base} ${index}`
 }
 
