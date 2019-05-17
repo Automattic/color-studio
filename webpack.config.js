@@ -22,7 +22,7 @@ module.exports = {
     rules: [
       {
         test: /\.js$/,
-        exclude: path.join(__dirname, '/node_modules'),
+        exclude: path.join(__dirname, 'node_modules'),
         use: {
           loader: 'babel-loader',
           options: {
@@ -37,7 +37,7 @@ module.exports = {
       },
       {
         test: /\.scss$/,
-        exclude: path.join(__dirname, '/node_modules'),
+        exclude: path.join(__dirname, 'node_modules'),
         use: [
           {
             loader: MiniExtractPlugin.loader
@@ -79,7 +79,7 @@ module.exports = {
     ]
   },
   output: {
-    path: path.join(__dirname, '/docs/assets'),
+    path: path.join(__dirname, 'docs/assets'),
     filename: '[name].js'
   },
   plugins: [
@@ -100,5 +100,12 @@ module.exports = {
       originNameReg: /(.*)-js.js/,
       targetName: '$1.js'
     })
-  ]
+  ],
+  stats: {
+    warnings: false
+  },
+  devServer: {
+    contentBase: path.join(__dirname, 'docs'),
+    writeToDisk: true
+  }
 }
