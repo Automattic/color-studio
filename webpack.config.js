@@ -14,7 +14,11 @@ module.exports = {
     'docs-js': './javascripts/docs/docs.js',
 
     'docs-example-android-css': './stylesheets/docs-example-android/example.scss',
-    'docs-example-calypso-css': './stylesheets/docs-example-calypso/calypso.scss'
+
+    'docs-example-calypso-css': './stylesheets/docs-example-calypso/calypso.scss',
+
+    'docs-example-marketing-css': './stylesheets/docs-example-marketing/example.scss',
+    'docs-example-marketing-js': './stylesheets/docs-example-marketing/example.js'
 
     /* eslint-enable quote-props */
   },

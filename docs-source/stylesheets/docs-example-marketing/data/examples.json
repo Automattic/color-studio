@@ -1,0 +1,109 @@
+{
+  "defaults": {
+    "hero-background": [
+      "Brand Blue 50"
+    ],
+    "hero-text": [
+      "White"
+    ],
+    "button-background": [
+      "Pink 50"
+    ]
+  },
+  "examples": [
+    {
+      "hero-background": [
+        "Brand Blue 50",
+        "Brand Blue 60",
+        "Brand Blue 70"
+      ],
+      "hero-text": [
+        "White"
+      ]
+    },
+    {
+      "hero-background": [
+        "Brand Blue 80",
+        "Brand Blue 90",
+        "Brand Blue 100"
+      ],
+      "hero-text": [
+        "White",
+        "Yellow 10"
+      ]
+    },
+    {
+      "hero-background": [
+        "Pink 50",
+        "Pink 60",
+        "Pink 70"
+      ],
+      "hero-text": [
+        "White"
+      ],
+      "button-background": [
+        "Brand Blue 80"
+      ]
+    },
+    {
+      "hero-background": [
+        "Pink 80",
+        "Pink 90",
+        "Pink 100"
+      ],
+      "hero-text": [
+        "Product Blue 10",
+        "Yellow 10"
+      ]
+    },
+    {
+      "hero-background": [
+        "Purple 90",
+        "Purple 100"
+      ],
+      "hero-text": [
+        "Product Blue 10",
+        "Pink 10",
+        "Yellow 10"
+      ]
+    },
+    {
+      "hero-background": [
+        "Product Blue 90",
+        "Product Blue 100"
+      ],
+      "hero-text": [
+        "Brand Blue 10",
+        "Purple 10",
+        "Yellow 10"
+      ]
+    },
+    {
+      "hero-background": [
+        "Gray 80",
+        "Gray 90",
+        "Gray 100"
+      ],
+      "hero-text": [
+        "Brand Blue 10",
+        "Yellow 10"
+      ],
+      "button-background": [
+        "Brand Blue 50"
+      ]
+    },
+    {
+      "hero-background": [
+        "Green 80",
+        "Green 90",
+        "Green 100"
+      ],
+      "hero-text": [
+        "Yellow 10"
+      ],
+      "button-background": [
+        "Brand Blue 50"
+      ]
+    }
+  ]
+}

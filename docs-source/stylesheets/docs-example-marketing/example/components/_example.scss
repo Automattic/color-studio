@@ -1,0 +1,12 @@
+.examples {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.example {
+  overflow: hidden;
+}
+
+.example__content {
+  width: 999px;
+}

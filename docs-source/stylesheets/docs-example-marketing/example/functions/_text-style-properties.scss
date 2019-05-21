@@ -1,0 +1,4 @@
+@mixin text-style-properties($font-size) {
+  font-size: $font-size * 1px;
+  line-height: ($font-size + 8) * 1px;
+}

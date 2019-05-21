@@ -141,6 +141,14 @@
     "overrides": [
       {
         "files": [
+          "docs-source/**/*.js"
+        ],
+        "env": [
+          "browser"
+        ]
+      },
+      {
+        "files": [
           "**/*.test.js"
         ],
         "globals": [

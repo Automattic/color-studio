@@ -1,0 +1,33 @@
+*, ::before, ::after {
+  box-sizing: border-box;
+}
+
+html {
+  background: $muriel-white;
+  font-family: $font-stack-default;
+  @include text-style-properties(16);
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  padding: 0;
+}
+
+body, p, ul, ol, h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  font: inherit;
+}
+
+ul, ol {
+  padding: 0;
+  list-style: none;
+}
+
+img {
+  display: block;
+  border: 0;
+}

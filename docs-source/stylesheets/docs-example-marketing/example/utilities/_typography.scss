@@ -1,0 +1,37 @@
+.text-brand {
+  font-family: $font-stack-brand;
+}
+
+@each $value in 400 500 600 700 {
+  .text-weight-#{$value} {
+    font-weight: $value;
+  }
+}
+
+@mixin text-style($font-size, $suffix) {
+  .text-#{$font-size}#{$suffix} {
+    @include text-style-properties($font-size);
+  }
+
+  .text-left#{$suffix} {
+    text-align: left;
+  }
+
+  .text-center#{$suffix} {
+    text-align: center;
+  }
+
+  .text-right#{$suffix} {
+    text-align: right;
+  }
+}
+
+@mixin text-styles($suffix: "") {
+  $suffix: if($suffix == "", "", unquote("\\@#{$suffix}"));
+
+  @each $value in 12 13 14 16 20 24 32 40 48 56 64 72 80 88 96 {
+    @include text-style($value, $suffix);
+  }
+}
+
+@include text-styles();
