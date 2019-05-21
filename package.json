@@ -21,7 +21,7 @@
     "copy-text-to-clipboard": "^1.0.4",
     "css-loader": "^0.28.11",
     "file-saver": "^2.0.0-rc.4",
-    "husky": "^0.14.3",
+    "husky": "^2.3.0",
     "jest": "^24.8.0",
     "lodash": "^4.17.5",
     "mini-css-extract-plugin": "^0.4.0",
