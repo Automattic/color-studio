@@ -18,7 +18,8 @@ module.exports = {
     'docs-example-calypso-css': './stylesheets/docs-example-calypso/calypso.scss',
 
     'docs-example-marketing-css': './stylesheets/docs-example-marketing/example.scss',
-    'docs-example-marketing-js': './stylesheets/docs-example-marketing/example.js'
+    'docs-example-marketing-colors-bright-js': './stylesheets/docs-example-marketing/example-colors-bright.js',
+    'docs-example-marketing-colors-dark-js': './stylesheets/docs-example-marketing/example-colors-dark.js'
 
     /* eslint-enable quote-props */
   },
@@ -106,6 +107,8 @@ module.exports = {
     })
   ],
   stats: {
+    entrypoints: false,
+    modules: false,
     warnings: false
   },
   devServer: {

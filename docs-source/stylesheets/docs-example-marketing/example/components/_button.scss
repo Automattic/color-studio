@@ -4,7 +4,7 @@
   display: inline-block;
   padding: 6px 12px 8px;
   border: none;
-  border-radius: 4px;
+  border-radius: 0.315em;
   background: currentcolor;
   font-family: inherit;
   font-weight: 700;
@@ -17,8 +17,12 @@
   color: $muriel-white;
 }
 
+.button--16 {
+  padding: 9px 18px 12px;
+  @include text-style-properties(16);
+}
+
 .button--20 {
   padding: 11px 24px 14px;
-  border-radius: 6px;
   @include text-style-properties(20);
 }

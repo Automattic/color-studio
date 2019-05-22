@@ -1,5 +1,12 @@
 .examples {
   display: grid;
+}
+
+.examples--columns-2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.examples--columns-3 {
   grid-template-columns: repeat(3, 1fr);
 }
 
@@ -7,6 +14,11 @@
   overflow: hidden;
 }
 
-.example__content {
-  width: 999px;
+.examples--gap {
+  grid-gap: 12px;
+  padding: 12px;
+
+  & > .example {
+    border-radius: 2px;
+  }
 }

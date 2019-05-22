@@ -1,0 +1,126 @@
+{
+  "defaults": {
+    "hero-background": [
+      "White"
+    ],
+    "hero-heading": [
+      "Gray 80"
+    ],
+    "hero-text": [
+      "Gray 50"
+    ],
+    "button-background": [
+      "Pink 50"
+    ]
+  },
+  "examples": [
+    {},
+    {
+      "hero-background": [
+        "Gray 0",
+        "Gray 5"
+      ],
+      "hero-text": [
+        "Gray 60"
+      ]
+    },
+    {
+      "hero-background": [
+        "Brand Blue 0",
+        "Brand Blue 5",
+        "Brand Blue 10"
+      ],
+      "hero-heading": [
+        "Brand Blue 80"
+      ],
+      "hero-text": [
+        "Brand Blue 70"
+      ]
+    },
+    {
+      "hero-background": [
+        "Product Blue 0",
+        "Product Blue 5"
+      ],
+      "hero-heading": [
+        "Product Blue 80"
+      ],
+      "hero-text": [
+        "Brand Blue 70"
+      ]
+    },
+    {
+      "hero-background": [
+        "Purple 0",
+        "Purple 5",
+        "Purple 10"
+      ],
+      "hero-heading": [
+        "Purple 80"
+      ],
+      "hero-text": [
+        "Purple 70"
+      ],
+      "button-background": [
+        "Brand Blue 70"
+      ]
+    },
+    {
+      "hero-background": [
+        "Pink 0",
+        "Pink 5",
+        "Pink 10"
+      ],
+      "hero-heading": [
+        "Pink 80"
+      ],
+      "hero-text": [
+        "Pink 70"
+      ]
+    },
+    {
+      "hero-background": [
+        "Red 0",
+        "Red 5",
+        "Red 10"
+      ],
+      "hero-heading": [
+        "Red 80"
+      ],
+      "hero-text": [
+        "Red 70"
+      ]
+    },
+    {
+      "hero-background": [
+        "Yellow 5",
+        "Yellow 10"
+      ],
+      "hero-heading": [
+        "Yellow 80"
+      ],
+      "hero-text": [
+        "Yellow 70"
+      ],
+      "button-background": [
+        "Brand Blue 70"
+      ]
+    },
+    {
+      "hero-background": [
+        "Green 0",
+        "Green 5",
+        "Green 10"
+      ],
+      "hero-heading": [
+        "Green 80"
+      ],
+      "hero-text": [
+        "Green 70"
+      ],
+      "button-background": [
+        "Green 70"
+      ]
+    }
+  ]
+}

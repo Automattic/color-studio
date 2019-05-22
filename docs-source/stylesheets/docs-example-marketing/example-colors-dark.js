@@ -6,7 +6,7 @@ const PALETTE_JSON = require('../../../dist/colors.json')
 
 const toNamedColorCollection = require('../../../utilities/to-named-color-collection')
 
-const COLOR_COMBINATIONS = require('./data/examples.json')
+const COLOR_COMBINATIONS = require('./data/example-colors-dark.json')
 
 const PALETTE = toNamedColorCollection(PALETTE_JSON.colors)
 
@@ -15,7 +15,7 @@ document.getElementById('example-output').innerHTML = getOutputString()
 function getOutputString() {
   const examples = getExamples()
   const outputString = examples.map(getExampleMarkup).join('')
-  return `<div class="examples">${outputString}</div>`
+  return `<div class="examples examples--columns-3">${outputString}</div>`
 }
 
 function getExamples() {
@@ -58,14 +58,20 @@ function formatExampleData(data) {
 function formatExampleMetaString(data) {
   const heroBackgroundColor = PALETTE[data.heroBackgroundColor] || data.heroBackgroundColor
   const heroTextColor = PALETTE[data.heroTextColor] || data.heroTextColor
-  const heroContrast = round(contrast(heroBackgroundColor, heroTextColor), 2)
 
   const meta = [
-    `Hero: ${data.heroTextColor} on ${data.heroBackgroundColor} (${heroContrast})`,
+    `Copy: ${data.heroTextColor} on ${data.heroBackgroundColor} — ${formatContrastRatio(heroTextColor, heroBackgroundColor)}`,
     `Button: ${data.buttonBackgroundColor}`
   ]
 
   return `title="${meta.join('\n')}"`
+}
+
+function formatContrastRatio(foreground, background) {
+  const colorContrast = contrast(foreground, background)
+  const printSuffix = colorContrast >= 4.5 ? '✅' : '🔴'
+
+  return `${round(colorContrast, 2)} ${printSuffix}`.trim()
 }
 
 function getExampleMarkup(data) {
@@ -76,7 +82,7 @@ function getExampleMarkup(data) {
 
   return `
     <div class="example"${_('title')}>
-      <div class="example__content">
+      <div class="example__content" style="width: 999px">
         <div class="container p-96${_('heroBackgroundClassName')}">
           <div class="container__wrapper${_('heroTextClassName')}">
             <p class="text-48 text-brand text-weight-500">

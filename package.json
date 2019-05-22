@@ -53,7 +53,7 @@
     "calypso:pull": "git -C .cache/calypso pull origin master",
     "calypso:reset": "git -C .cache/calypso reset --hard origin/master",
     "docs": "yarn docs:build",
-    "docs:build": "webpack --display=errors-only",
+    "docs:build": "webpack",
     "docs:watch": "concurrently webpack-dev-server \"yarn palette:watch\"",
     "lint": "xo",
     "meta": "yarn meta:build",
