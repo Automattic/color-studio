@@ -3,4 +3,3 @@ node_modules
 yarn-error.log
 
 docs/assets/*-css.js
-docs/assets/docs-example-calypso.css

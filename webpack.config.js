@@ -14,9 +14,7 @@ module.exports = {
     'docs-js': './javascripts/docs/docs.js',
 
     'docs-example-android-css': './stylesheets/docs-example-android/example.scss',
-
-    'docs-example-calypso-css': './stylesheets/docs-example-calypso/calypso.scss',
-
+    'docs-example-calypso-css': './stylesheets/docs-example-calypso/example.scss',
     'docs-example-marketing-css': './stylesheets/docs-example-marketing/example.scss',
     'docs-example-marketing-colors-bright-js': './stylesheets/docs-example-marketing/example-colors-bright.js',
     'docs-example-marketing-colors-dark-js': './stylesheets/docs-example-marketing/example-colors-dark.js'
@@ -64,6 +62,9 @@ module.exports = {
           {
             loader: 'sass-loader',
             options: {
+              includePaths: [
+                path.join(__dirname, '.cache/calypso/client')
+              ],
               outputStyle: 'compressed'
             }
           }
