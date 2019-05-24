@@ -29,7 +29,8 @@
       ],
       "hero-text": [
         "White",
-        "Yellow 10"
+        "Yellow 10",
+        "Orange 10"
       ]
     },
     {
@@ -53,29 +54,34 @@
       ],
       "hero-text": [
         "Product Blue 10",
-        "Yellow 10"
+        "Yellow 10",
+        "Orange 10"
       ]
     },
     {
       "hero-background": [
+        "Purple 80",
         "Purple 90",
         "Purple 100"
       ],
       "hero-text": [
         "Product Blue 10",
         "Pink 10",
-        "Yellow 10"
+        "Yellow 10",
+        "Orange 10"
       ]
     },
     {
       "hero-background": [
+        "Product Blue 80",
         "Product Blue 90",
         "Product Blue 100"
       ],
       "hero-text": [
         "Brand Blue 10",
         "Purple 10",
-        "Yellow 10"
+        "Yellow 10",
+        "Orange 10"
       ]
     },
     {
@@ -100,6 +106,20 @@
       ],
       "hero-text": [
         "Yellow 10"
+      ],
+      "button-background": [
+        "Brand Blue 50"
+      ]
+    },
+    {
+      "hero-background": [
+        "Celadon 80",
+        "Celadon 90",
+        "Celadon 100"
+      ],
+      "hero-text": [
+        "Yellow 10",
+        "Product Blue 10"
       ],
       "button-background": [
         "Brand Blue 50"

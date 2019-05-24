@@ -108,6 +108,21 @@
     },
     {
       "hero-background": [
+        "Orange 5",
+        "Orange 10"
+      ],
+      "hero-heading": [
+        "Orange 80"
+      ],
+      "hero-text": [
+        "Orange 70"
+      ],
+      "button-background": [
+        "Brand Blue 70"
+      ]
+    },
+    {
+      "hero-background": [
         "Green 0",
         "Green 5",
         "Green 10"
@@ -119,7 +134,23 @@
         "Green 70"
       ],
       "button-background": [
-        "Green 70"
+        "Brand Blue 70"
+      ]
+    },
+    {
+      "hero-background": [
+        "Celadon 0",
+        "Celadon 5",
+        "Celadon 10"
+      ],
+      "hero-heading": [
+        "Celadon 80"
+      ],
+      "hero-text": [
+        "Celadon 70"
+      ],
+      "button-background": [
+        "Brand Blue 70"
       ]
     }
   ]

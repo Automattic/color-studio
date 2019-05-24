@@ -24,11 +24,19 @@ module.exports = [
     value: '#eb0001'
   },
   {
+    name: 'Orange',
+    value: '#f67c00'
+  },
+  {
     name: 'Yellow',
     value: '#f6c200'
   },
   {
     name: 'Green',
     value: '#00be27'
+  },
+  {
+    name: 'Celadon',
+    value: '#007565'
   }
 ]
