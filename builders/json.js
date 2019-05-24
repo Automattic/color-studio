@@ -1,4 +1,4 @@
-const BASE_COLORS = require('../data/base-colors')
+const BASE_COLORS = require('../data/base-colors.json')
 const PACKAGE = require('../package.json')
 
 const createPrimaryShades = require('../utilities/create-primary-shades')

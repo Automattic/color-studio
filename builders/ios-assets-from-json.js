@@ -14,7 +14,7 @@ const INFO_TEMPLATE = {
 }
 
 const OUTPUT_PATH = path.join(__dirname, '../dist/ios')
-const ASSETS_PATH = path.join(OUTPUT_PATH, 'ColorPalette.xcassets')
+const ASSETS_PATH = path.join(OUTPUT_PATH, 'MurielColorPalette.xcassets')
 
 const directoriesToCreate = [OUTPUT_PATH, ASSETS_PATH]
 const filesToCreate = [defineContentsFile(ASSETS_PATH)]

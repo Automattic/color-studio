@@ -13,11 +13,13 @@ module.exports = {
     'docs-css': './stylesheets/docs/docs.scss',
     'docs-js': './javascripts/docs/docs.js',
 
-    'docs-example-android-css': './stylesheets/docs-example-android/example.scss',
-    'docs-example-calypso-css': './stylesheets/docs-example-calypso/example.scss',
-    'docs-example-marketing-css': './stylesheets/docs-example-marketing/example.scss',
-    'docs-example-marketing-colors-bright-js': './stylesheets/docs-example-marketing/example-colors-bright.js',
-    'docs-example-marketing-colors-dark-js': './stylesheets/docs-example-marketing/example-colors-dark.js'
+    'example-android-css': './stylesheets/example-android/example.scss',
+
+    'example-calypso-css': './stylesheets/example-calypso/example.scss',
+
+    'example-marketing-css': './stylesheets/example-marketing/example.scss',
+    'example-marketing-colors-bright-js': './javascripts/example-marketing/example-colors-bright.js',
+    'example-marketing-colors-dark-js': './javascripts/example-marketing/example-colors-dark.js'
 
     /* eslint-enable quote-props */
   },
