@@ -32,9 +32,9 @@ PALETTE.colors.forEach(colorArray => {
           'idiom': 'universal',
           'color': {
             'components': {
-              'red':   chromaObject.get('rgb.r') / 255,
-              'green': chromaObject.get('rgb.g') / 255,
-              'blue':  chromaObject.get('rgb.b') / 255,
+              'red':   String(chromaObject.get('rgb.r')),
+              'green': String(chromaObject.get('rgb.g')),
+              'blue':  String(chromaObject.get('rgb.b')),
               'alpha': chromaObject.alpha()
             },
             'color-space': 'srgb'
