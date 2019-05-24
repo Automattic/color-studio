@@ -1,5 +1,9 @@
 # Releases
 
+## 1.0.4
+
+* Fix the iOS format bug where some color names would be generated with spaces instead of dashes.
+
 ## 1.0.3
 
 * Included the exports for iOS and Android.

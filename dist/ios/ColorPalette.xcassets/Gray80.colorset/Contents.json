@@ -8,9 +8,9 @@
       "idiom": "universal",
       "color": {
         "components": {
-          "red": 0.21176470588235294,
-          "green": 0.2235294117647059,
-          "blue": 0.23529411764705882,
+          "red": "54",
+          "green": "57",
+          "blue": "60",
           "alpha": 1
         },
         "color-space": "srgb"
