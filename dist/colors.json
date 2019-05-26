@@ -12,7 +12,7 @@
       },
       {
         "name": "Gray 5",
-        "value": "#dfe2e3",
+        "value": "#e0e2e4",
         "_meta": {
           "baseName": "Gray",
           "index": 5
@@ -200,7 +200,7 @@
     [
       {
         "name": "Product Blue 0",
-        "value": "#f3f5fb",
+        "value": "#f4f5fb",
         "_meta": {
           "baseName": "Product Blue",
           "index": 0
@@ -494,7 +494,7 @@
     [
       {
         "name": "Red 0",
-        "value": "#fff3ef",
+        "value": "#fff4f0",
         "_meta": {
           "baseName": "Red",
           "index": 0
@@ -502,7 +502,7 @@
       },
       {
         "name": "Red 5",
-        "value": "#ffdacf",
+        "value": "#ffdbcf",
         "_meta": {
           "baseName": "Red",
           "index": 5
@@ -690,7 +690,7 @@
     [
       {
         "name": "Yellow 0",
-        "value": "#fffbf2",
+        "value": "#fffbf3",
         "_meta": {
           "baseName": "Yellow",
           "index": 0
@@ -788,7 +788,7 @@
     [
       {
         "name": "Green 0",
-        "value": "#f4fbf2",
+        "value": "#f4fcf3",
         "_meta": {
           "baseName": "Green",
           "index": 0
@@ -796,7 +796,7 @@
       },
       {
         "name": "Green 5",
-        "value": "#d3f0cc",
+        "value": "#d3f1cc",
         "_meta": {
           "baseName": "Green",
           "index": 5
@@ -886,7 +886,7 @@
     [
       {
         "name": "Celadon 0",
-        "value": "#f1f6f5",
+        "value": "#f2f7f5",
         "_meta": {
           "baseName": "Celadon",
           "index": 0

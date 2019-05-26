@@ -32,5 +32,5 @@ function printStylesheet(colorArrays) {
   const blocks = flatten(colorArrays)
 
   blocks.unshift(`/* v${PALETTE.version} */`)
-  console.log(blocks.join(`\n\n`))
+  console.log(blocks.join('\n\n'))
 }

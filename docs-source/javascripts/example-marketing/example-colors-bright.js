@@ -10,7 +10,7 @@ const COLOR_COMBINATIONS = require('./data/example-colors-bright.json')
 
 const PALETTE = toNamedColorCollection(PALETTE_JSON.colors)
 
-document.getElementById('example-output').innerHTML = getOutputString()
+document.querySelector('#example-output').innerHTML = getOutputString()
 
 function getOutputString() {
   const examples = getExamples()

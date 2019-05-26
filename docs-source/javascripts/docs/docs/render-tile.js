@@ -13,13 +13,13 @@ module.exports = (base, name, value) => {
   /* eslint-disable indent */
   return [
     `<div class="${className}" style="background: ${value}; color: ${textColor}" data-color="${value}">`,
-      `<div class="tile__title font-weight-bold">`,
+      '<div class="tile__title font-weight-bold">',
         name,
       '</div>',
-      `<div class="tile__meta text-uppercase">`,
+      '<div class="tile__meta text-uppercase">',
         value,
       '</div>',
-      `<div class="tile__meta tile__meta--tiny text-uppercase pt-1">`,
+      '<div class="tile__meta tile__meta--tiny text-uppercase pt-1">',
         getColorProperties(value),
       '</div>',
     '</div>'

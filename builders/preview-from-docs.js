@@ -21,11 +21,11 @@ async function generatePreview() {
     /* eslint-env browser */
 
     // Keep the colors only
-    const element = document.getElementById('download')
+    const element = document.querySelector('#download')
     element.parentNode.removeChild(element)
 
     // Find every single tile and turn on their preview styling
-    const elements = document.getElementsByClassName('tile')
+    const elements = document.querySelectorAll('.tile')
     Array.from(elements).forEach(element => {
       element.classList.add('tile--preview')
     })

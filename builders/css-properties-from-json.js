@@ -24,16 +24,16 @@ function includeWhiteColor(colorArrays) {
 
 function printStylesheet(colorArrays) {
   const blocks = colorArrays.map(colorArray => {
-    return colorArray.map(entry => `  ${entry}`).join(`\n`)
+    return colorArray.map(entry => `  ${entry}`).join('\n')
   })
 
   const contents = [
     `/* v${PALETTE.version} */`,
-    `\n\n`,
+    '\n\n',
     ':root {',
-    `\n`,
-    blocks.join(`\n\n`),
-    `\n`,
+    '\n',
+    blocks.join('\n\n'),
+    '\n',
     '}'
   ]
 

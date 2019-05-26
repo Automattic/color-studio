@@ -8,8 +8,6 @@ module.exports = {
   mode: 'production',
   context: path.join(__dirname, '/docs-source'),
   entry: {
-    /* eslint-disable quote-props */
-
     'docs-css': './stylesheets/docs/docs.scss',
     'docs-js': './javascripts/docs/docs.js',
 
@@ -20,8 +18,6 @@ module.exports = {
     'example-marketing-css': './stylesheets/example-marketing/example.scss',
     'example-marketing-colors-bright-js': './javascripts/example-marketing/example-colors-bright.js',
     'example-marketing-colors-dark-js': './javascripts/example-marketing/example-colors-dark.js'
-
-    /* eslint-enable quote-props */
   },
   module: {
     rules: [
@@ -32,10 +28,10 @@ module.exports = {
           loader: 'babel-loader',
           options: {
             presets: [
-              'env'
+              '@babel/preset-env'
             ],
             plugins: [
-              'transform-runtime'
+              '@babel/plugin-transform-runtime'
             ]
           }
         }

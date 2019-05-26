@@ -5,7 +5,7 @@ const { saveAs } = require('file-saver')
 const toArray = require('lodash/toArray')
 
 function activateTiles(scope = document) {
-  toArray(scope.getElementsByClassName('tile')).forEach(element => {
+  toArray(scope.querySelectorAll('.tile')).forEach(element => {
     const color = String(element.dataset.color).trim()
     element.addEventListener('click', () => copyToClipboard(color))
   })
