@@ -10,10 +10,9 @@ const output = document.querySelector('#color-tiles')
 handleFoundationTiles()
 
 function handleFoundationTiles() {
-  const lastColorIndex = PALETTE.colors.length - 1
-  const colors = PALETTE.colors.map((colorArray, index) => {
-    const html = colorArray.map(createColorTile).join('')
-    return `<div class="d-flex${index < lastColorIndex ? ' pb-1' : ''}">${html}</div>`
+  const colors = PALETTE.colors.map(colorArray => {
+    const html = colorArray.filter(excludeSpecialColor).map(createColorTile).join('')
+    return html ? `<div class="d-flex pb-1">${html}</div>` : ''
   })
 
   output.innerHTML = colors.join('')
@@ -25,4 +24,8 @@ function createColorTile(colorObject, last) {
   const name = base ? colorObject.name : colorObject._meta.index
 
   return renderTile(base, name, colorObject.value, last)
+}
+
+function excludeSpecialColor(colorObject) {
+  return !colorObject._meta.special
 }

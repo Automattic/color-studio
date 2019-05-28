@@ -1,3 +1,5 @@
+const chroma = require('chroma-js')
+
 const BASE_COLORS = require('../data/base-colors.json')
 const PACKAGE = require('../package.json')
 
@@ -8,9 +10,19 @@ const paletteColors = BASE_COLORS.map(colorObject => {
   return formatShades(colorObject, shades)
 })
 
+const specialColors = ['White', 'Black'].map(color => {
+  return {
+    name: color,
+    value: chroma(color).hex(),
+    _meta: {
+      special: true
+    }
+  }
+})
+
 const paletteData = {
   version: PACKAGE.version,
-  colors: paletteColors
+  colors: [specialColors].concat(paletteColors)
 }
 
 print(paletteData)

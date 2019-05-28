@@ -2,7 +2,7 @@ const chroma = require('chroma-js')
 const flatten = require('lodash/flatten')
 
 const SKETCH_PALETTE_ROW_COUNT = 8
-const SKETCH_PALETTE_ROW_FILLER = 'white'
+const SKETCH_PALETTE_ROW_FILLER = '#ffffff00'
 
 module.exports = (colorArray, customProperties = {}) => {
   const sketchPalette = Object.assign(customProperties, {

@@ -3,6 +3,22 @@
   "colors": [
     [
       {
+        "name": "White",
+        "value": "#ffffff",
+        "_meta": {
+          "special": true
+        }
+      },
+      {
+        "name": "Black",
+        "value": "#000000",
+        "_meta": {
+          "special": true
+        }
+      }
+    ],
+    [
+      {
         "name": "Gray 0",
         "value": "#f5f6f6",
         "_meta": {
