@@ -4,6 +4,10 @@
   fill: #fff;
 }
 
+.fill-black {
+  fill: #000;
+}
+
 .fill-gray-0 {
   fill: #f5f6f6;
 }

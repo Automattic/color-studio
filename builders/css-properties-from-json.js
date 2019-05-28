@@ -5,7 +5,7 @@ const PALETTE = require('../dist/colors.json')
 
 const formatHex = require('../utilities/format-hex-value')
 
-const colors = includeWhiteColor(PALETTE.colors).map(colorArray => {
+const colors = includeSpecialColors(PALETTE.colors).map(colorArray => {
   return colorArray.map(formatVariableEntry)
 })
 
@@ -16,9 +16,13 @@ function formatVariableEntry(colorObject) {
   return `--muriel-${toKebabCase(name)}: ${formatHex(value)};`
 }
 
-function includeWhiteColor(colorArrays) {
+function includeSpecialColors(colorArrays) {
   const arrays = clone(colorArrays)
-  arrays.unshift([{ name: 'White', value: '#ffffff' }])
+  arrays.unshift([
+    { name: 'White', value: '#ffffff' },
+    { name: 'Black', value: '#000000' }
+  ])
+
   return arrays
 }
 

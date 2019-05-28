@@ -1,4 +1,4 @@
-const { contrast, mix } = require('chroma-js')
+const { contrast } = require('chroma-js')
 const round = require('lodash/round')
 
 const PALETTE_JSON = require('../dist/colors.json')
@@ -20,31 +20,32 @@ expect.extend({
 })
 
 describe('light mode accessibility', () => {
-  test('shades no. 50 pass AA against pure white', () => {
-    expect(4.5).toBeContrastRatioBetween(PALETTE['Gray 50'], 'white')
-    expect(4.5).toBeContrastRatioBetween(PALETTE['Gray 50'], 'white')
-    expect(4.5).toBeContrastRatioBetween(PALETTE['Brand Blue 50'], 'white')
-    expect(4.5).toBeContrastRatioBetween(PALETTE['Product Blue 50'], 'white')
-    expect(4.5).toBeContrastRatioBetween(PALETTE['Purple 50'], 'white')
-    expect(4.5).toBeContrastRatioBetween(PALETTE['Pink 50'], 'white')
-    expect(4.5).toBeContrastRatioBetween(PALETTE['Red 50'], 'white')
-    expect(4.5).toBeContrastRatioBetween(PALETTE['Orange 50'], 'white')
-    expect(4.5).toBeContrastRatioBetween(PALETTE['Yellow 50'], 'white')
-    expect(4.5).toBeContrastRatioBetween(PALETTE['Green 50'], 'white')
-    expect(4.5).toBeContrastRatioBetween(PALETTE['Celadon 50'], 'white')
+  test('shades #50 pass AA against pure white', () => {
+    const SURFACE_COLOR = 'white'
+
+    expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Gray 50'])
+    expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Brand Blue 50'])
+    expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Product Blue 50'])
+    expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Purple 50'])
+    expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Pink 50'])
+    expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Red 50'])
+    expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Orange 50'])
+    expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Yellow 50'])
+    expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Green 50'])
+    expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Celadon 50'])
   })
 })
 
 describe('dark mode accessibility', () => {
   // Properties › Accessibility and Contrast
   // https://material.io/design/color/dark-theme.html#properties-figure-caption-6
-  test('Gray 100 is dark enough to be used as the surface color', () => {
+  test('Gray 100 is dark enough to be used as the dark surface color', () => {
     expect(15.8).toBeContrastRatioBetween(PALETTE['Gray 100'], 'white')
   })
 
   // UI Application › Theme Colors
   // https://material.io/design/color/dark-theme.html#ui-application
-  test('shades no. 20 and 30 pass AA against the surface color', () => {
+  test('shades #20 pass AA against Gray 100', () => {
     const SURFACE_COLOR = PALETTE['Gray 100']
 
     expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Gray 20'])
@@ -57,6 +58,10 @@ describe('dark mode accessibility', () => {
     expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Yellow 20'])
     expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Green 20'])
     expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Celadon 20'])
+  })
+
+  test('shades #30 pass AA against Gray 100', () => {
+    const SURFACE_COLOR = PALETTE['Gray 100']
 
     expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Gray 30'])
     expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Brand Blue 30'])
@@ -72,8 +77,12 @@ describe('dark mode accessibility', () => {
 
   // Properties › Elevation
   // https://material.io/design/color/dark-theme.html#properties-figure-caption-3
-  test.skip('shades no. 20 and 30 pass AA against the surface color at 24dp elevation', () => {
-    const SURFACE_COLOR = mix(PALETTE['Gray 100'], 'white', 0.16)
+  //
+  // Using the second darkest Gray shade. Run `yarn info:material-elevation`
+  // to see how the predefined palette colors correspond to Material Design’s
+  // elevation changes in a dark theme.
+  test('shades #20 pass AA against Gray 90', () => {
+    const SURFACE_COLOR = PALETTE['Gray 90']
 
     expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Gray 20'])
     expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Brand Blue 20'])
@@ -85,8 +94,11 @@ describe('dark mode accessibility', () => {
     expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Yellow 20'])
     expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Green 20'])
     expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Celadon 20'])
+  })
 
-    expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, 'white')
+  test.skip('shades #30 pass AA against Gray 90', () => {
+    const SURFACE_COLOR = PALETTE['Gray 90']
+
     expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Gray 30'])
     expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Brand Blue 30'])
     expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Product Blue 30'])
