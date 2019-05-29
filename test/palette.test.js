@@ -1,5 +1,6 @@
 const { contrast } = require('chroma-js')
 const round = require('lodash/round')
+const unique = require('lodash/uniq')
 
 const PALETTE_JSON = require('../dist/colors.json')
 
@@ -17,6 +18,19 @@ expect.extend({
       pass: computed >= expected
     })
   }
+})
+
+describe('palette colors', () => {
+  const COLOR_NAMES = Object.keys(PALETTE)
+  const COLOR_VALUES = Object.values(PALETTE)
+
+  test('all names are unique', () => {
+    expect(COLOR_NAMES).toEqual(unique(COLOR_NAMES))
+  })
+
+  test('all values are unique', () => {
+    expect(COLOR_VALUES).toEqual(unique(COLOR_VALUES))
+  })
 })
 
 describe('light mode accessibility', () => {
@@ -109,5 +123,20 @@ describe('dark mode accessibility', () => {
     expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Yellow 30'])
     expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Green 30'])
     expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Celadon 30'])
+  })
+
+  test('shades #20 pass AA against Gray 80', () => {
+    const SURFACE_COLOR = PALETTE['Gray 80']
+
+    expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Gray 20'])
+    expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Brand Blue 20'])
+    expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Product Blue 20'])
+    expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Purple 20'])
+    expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Pink 20'])
+    expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Red 20'])
+    expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Orange 20'])
+    expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Yellow 20'])
+    expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Green 20'])
+    expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Celadon 20'])
   })
 })
