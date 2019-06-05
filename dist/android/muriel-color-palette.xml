@@ -33,18 +33,18 @@
     <color name="brand_blue_90">#111f37</color>
     <color name="brand_blue_100">#0b1125</color>
 
-    <color name="product_blue_0">#f4f5fb</color>
-    <color name="product_blue_5">#dadef2</color>
-    <color name="product_blue_10">#c0c8e9</color>
-    <color name="product_blue_20">#9dacdc</color>
-    <color name="product_blue_30">#7991d0</color>
-    <color name="product_blue_40">#5078c4</color>
-    <color name="product_blue_50">#005fb7</color>
-    <color name="product_blue_60">#124fa1</color>
-    <color name="product_blue_70">#173f8b</color>
-    <color name="product_blue_80">#173076</color>
-    <color name="product_blue_90">#152261</color>
-    <color name="product_blue_100">#10144d</color>
+    <color name="product_blue_0">#e6eef2</color>
+    <color name="product_blue_5">#bddef0</color>
+    <color name="product_blue_10">#94cdeb</color>
+    <color name="product_blue_20">#6fbae5</color>
+    <color name="product_blue_30">#50a5dc</color>
+    <color name="product_blue_40">#368fd1</color>
+    <color name="product_blue_50">#2378c1</color>
+    <color name="product_blue_60">#1460ae</color>
+    <color name="product_blue_70">#0b4797</color>
+    <color name="product_blue_80">#05317c</color>
+    <color name="product_blue_90">#011e5e</color>
+    <color name="product_blue_100">#001040</color>
 
     <color name="purple_0">#f9f5f8</color>
     <color name="purple_5">#ebdee8</color>

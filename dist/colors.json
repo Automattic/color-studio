@@ -216,7 +216,7 @@
     [
       {
         "name": "Product Blue 0",
-        "value": "#f4f5fb",
+        "value": "#e6eef2",
         "_meta": {
           "baseName": "Product Blue",
           "index": 0
@@ -224,7 +224,7 @@
       },
       {
         "name": "Product Blue 5",
-        "value": "#dadef2",
+        "value": "#bddef0",
         "_meta": {
           "baseName": "Product Blue",
           "index": 5
@@ -232,7 +232,7 @@
       },
       {
         "name": "Product Blue 10",
-        "value": "#c0c8e9",
+        "value": "#94cdeb",
         "_meta": {
           "baseName": "Product Blue",
           "index": 10
@@ -240,7 +240,7 @@
       },
       {
         "name": "Product Blue 20",
-        "value": "#9dacdc",
+        "value": "#6fbae5",
         "_meta": {
           "baseName": "Product Blue",
           "index": 20
@@ -248,7 +248,7 @@
       },
       {
         "name": "Product Blue 30",
-        "value": "#7991d0",
+        "value": "#50a5dc",
         "_meta": {
           "baseName": "Product Blue",
           "index": 30
@@ -256,7 +256,7 @@
       },
       {
         "name": "Product Blue 40",
-        "value": "#5078c4",
+        "value": "#368fd1",
         "_meta": {
           "baseName": "Product Blue",
           "index": 40
@@ -264,7 +264,7 @@
       },
       {
         "name": "Product Blue 50",
-        "value": "#005fb7",
+        "value": "#2378c1",
         "_meta": {
           "baseName": "Product Blue",
           "index": 50
@@ -272,7 +272,7 @@
       },
       {
         "name": "Product Blue 60",
-        "value": "#124fa1",
+        "value": "#1460ae",
         "_meta": {
           "baseName": "Product Blue",
           "index": 60
@@ -280,7 +280,7 @@
       },
       {
         "name": "Product Blue 70",
-        "value": "#173f8b",
+        "value": "#0b4797",
         "_meta": {
           "baseName": "Product Blue",
           "index": 70
@@ -288,7 +288,7 @@
       },
       {
         "name": "Product Blue 80",
-        "value": "#173076",
+        "value": "#05317c",
         "_meta": {
           "baseName": "Product Blue",
           "index": 80
@@ -296,7 +296,7 @@
       },
       {
         "name": "Product Blue 90",
-        "value": "#152261",
+        "value": "#011e5e",
         "_meta": {
           "baseName": "Product Blue",
           "index": 90
@@ -304,7 +304,7 @@
       },
       {
         "name": "Product Blue 100",
-        "value": "#10144d",
+        "value": "#001040",
         "_meta": {
           "baseName": "Product Blue",
           "index": 100

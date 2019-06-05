@@ -9,7 +9,20 @@
   },
   {
     "name": "Product Blue",
-    "value": "#005fb7"
+    "specs": {
+      "steps": 12,
+      "hue_start": 200,
+      "hue_end": 225,
+      "hue_curve": "easeInQuad",
+      "sat_start": 5,
+      "sat_end": 100,
+      "sat_curve": "easeOutQuad",
+      "sat_rate": 100,
+      "lum_start": 95,
+      "lum_end": 25,
+      "lum_curve": "easeOutQuad",
+      "modifier": 1
+    }
   },
   {
     "name": "Purple",
