@@ -1,0 +1,299 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Color Studio Example</title>
+
+    <link rel="stylesheet" href="../assets/example-calypso.css">
+  </head>
+  <body class="color-scheme is-group-sites is-section-stats is-default">
+    <div id="wpcom" class="wpcom-site">
+      <div class="layout is-group-sites is-section-stats focus-content">
+        <header id="header" class="masterbar">
+          <a href="#" title="View a list of your sites and access their dashboards" class="masterbar__item is-active">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="gridicon gridicons-my-sites" height="24" width="24"><use xlink:href="../assets/sprite-gridicons.svg#gridicons-my-sites"></use></svg>
+            <span class="masterbar__item-content">
+              My Sites
+            </span>
+          </a>
+          <a href="#" title="Read the blogs and topics you follow" class="masterbar__item masterbar__reader">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="gridicon gridicons-reader" height="24" width="24"><use xlink:href="../assets/sprite-gridicons.svg#gridicons-reader"></use></svg>
+            <span class="masterbar__item-content">
+              Reader
+            </span>
+          </a>
+          <div class="masterbar__publish">
+            <a href="#" title="Create a New Post" class="masterbar__item masterbar__item-new">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="gridicon gridicons-create" height="24" width="24"><use xlink:href="../assets/sprite-gridicons.svg#gridicons-create"></use></svg>
+              <span class="masterbar__item-content">
+                Write
+              </span>
+            </a>
+            <div class="masterbar__drafts">
+            </div>
+          </div>
+          <a href="#" title="Update your profile, personal settings, and more" class="masterbar__item masterbar__item-me">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="gridicon gridicons-user-circle" height="24" width="24"><use xlink:href="../assets/sprite-gridicons.svg#gridicons-user-circle"></use></svg>
+            <span class="masterbar__item-content">
+              <span class="masterbar__item-me-label">
+                Me
+              </span>
+            </span>
+          </a>
+          <div class="masterbar__notifications">
+            <a href="#" title="Manage your notifications" class="masterbar__item masterbar__item-notifications">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="gridicon gridicons-bell" height="24" width="24"><use xlink:href="../assets/sprite-gridicons.svg#gridicons-bell"></use></svg>
+              <span class="masterbar__item-content">
+                <span class="masterbar__item-notifications-label">
+                  Notifications
+                </span>
+                <span class="masterbar__notifications-bubble"></span>
+              </span>
+            </a>
+          </div>
+        </header>
+        <div id="content" class="layout__content">
+          <div id="secondary" class="layout__secondary" role="navigation">
+            <div class="sites-navigation">
+              <div class="sidebar__streamlined-nav-drawer has-regions sidebar">
+                <div class="sidebar__region">
+                  <button class="button sidebar__skip-navigation" type="button">Skip navigation</button>
+                  <div class="card current-site">
+                    <span class="current-site__switch-sites">
+                      <button type="button" class="button is-borderless">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="gridicon gridicons-chevron-left" height="24" width="24"><use xlink:href="../assets/sprite-gridicons.svg#gridicons-chevron-left"></use></svg>
+                        <span class="current-site__switch-sites-label">
+                          Switch Site
+                        </span>
+                      </button>
+                    </span>
+                    <div class="site">
+                      <a class="site__content" href="#" title="View designomattic.wordpress.com" aria-label="View designomattic.wordpress.com">
+                        <div class="site-icon" style="width: 32px; height: 32px; font-size: 32px; line-height: 32px">
+                          <div class="site-icon__img color-orange-20" style="width: 32px; height: 32px; border-radius: 99px; background: currentcolor"></div>
+                        </div>
+                        <div class="site__info">
+                          <div class="site__title">
+                            Automattic Design
+                          </div>
+                          <div class="site__domain">
+                            View automattic.design
+                          </div>
+                        </div>
+                        <span class="site__home">
+                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="gridicon gridicons-house needs-offset-y" height="18" width="18"><use xlink:href="../assets/sprite-gridicons.svg#gridicons-house"></use></svg>
+                        </span>
+                      </a>
+                      <div class="site-indicator__wrapper"></div>
+                    </div>
+                    <div class="site__notices">
+                      <div class="sidebar-banner">
+                        <a class="sidebar-banner__link" href="#">
+                          <span class="sidebar-banner__icon-wrapper">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="gridicon gridicons-info-outline sidebar-banner__icon needs-offset" height="18" width="18"><use xlink:href="../assets/sprite-gridicons.svg#gridicons-info-outline"></use></svg>
+                          </span>
+                          <span class="sidebar-banner__content">
+                            <span class="sidebar-banner__text">Free domain with a plan</span>
+                          </span>
+                          <span class="sidebar-banner__cta">Upgrade</span>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="sidebar__menu-wrapper">
+                    <li class="sidebar__menu">
+                      <ul>
+                        <li class="stats selected">
+                          <a href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="material-icon material-icon-bar_chart" height="24" width="24"><use xlink:href="../assets/sprite-material-icons.svg#icon-outline-bar_chart-24px"></use></svg>
+                            <span class="sidebar__menu-link-text menu-link-text color-product-blue-50">
+                              Stats
+                            </span>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#">
+                            <svg class="jetpack-logo" height="24" width="24" viewBox="0 0 24 24"><path d="M12,2C6.5,2,2,6.5,2,12s4.5,10,10,10s10-4.5,10-10S17.5,2,12,2z M11,14H6l5-10V14z M13,20V10h5L13,20z"></path></svg>
+                            <span class="menu-link-text">
+                              Plan
+                            </span>
+                            <span class="sidebar__menu-link-secondary-text">
+                              Free
+                            </span>
+                          </a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="sidebar__menu is-togglable">
+                      <h2 tabindex="0" class="sidebar__heading" aria-controls="menu6" aria-expanded="false">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="material-icon material-icon-edit" height="24" width="24"><use xlink:href="../assets/sprite-material-icons.svg#icon-outline-edit-24px"></use></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="gridicon gridicons-chevron-down" height="24" width="24"><use xlink:href="../assets/sprite-gridicons.svg#gridicons-chevron-down"></use></svg>
+                        <span>
+                          Site
+                        </span>
+                      </h2>
+                    </li>
+                    <li class="sidebar__menu is-toggle-open is-togglable">
+                      <h2 tabindex="0" class="sidebar__heading" aria-controls="menu7" aria-expanded="true">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="material-icon material-icon-gesture" height="24" width="24"><use xlink:href="../assets/sprite-material-icons.svg#icon-outline-gesture-24px"></use></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="gridicon gridicons-chevron-down" height="24" width="24"><use xlink:href="../assets/sprite-gridicons.svg#gridicons-chevron-down"></use></svg>
+                        <span>
+                          Design
+                        </span>
+                      </h2>
+                      <ul role="region" id="menu7" class="sidebar__menu-list">
+                        <li>
+                          <a href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="gridicon gridicons-customize" height="24" width="24"><use xlink:href="../assets/sprite-gridicons.svg#gridicons-customize"></use></svg>
+                            <span class="sidebar__menu-link-text menu-link-text">
+                              Customize
+                            </span>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="gridicon gridicons-customize" height="24" width="24"><use xlink:href="../assets/sprite-gridicons.svg#gridicons-customize"></use></svg>
+                            <span class="sidebar__menu-link-text menu-link-text">Themes</span>
+                          </a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="sidebar__menu is-togglable">
+                      <h2 tabindex="0" class="sidebar__heading" aria-controls="menu8" aria-expanded="false">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="material-icon material-icon-build" height="24" width="24"><use xlink:href="../assets/sprite-material-icons.svg#icon-outline-build-24px"></use></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="gridicon gridicons-chevron-down" height="24" width="24"><use xlink:href="../assets/sprite-gridicons.svg#gridicons-chevron-down"></use></svg>
+                        <span>
+                          Tools
+                        </span>
+                      </h2>
+                    </li>
+                    <li class="sidebar__menu is-togglable">
+                      <h2 tabindex="0" class="sidebar__heading" aria-controls="menu9" aria-expanded="false">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="material-icon material-icon-settings" height="24" width="24"><use xlink:href="../assets/sprite-material-icons.svg#icon-outline-settings-24px"></use></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="gridicon gridicons-chevron-down" height="24" width="24"><use xlink:href="../assets/sprite-gridicons.svg#gridicons-chevron-down"></use></svg>
+                        <span>
+                          Manage
+                        </span>
+                      </h2>
+                    </li>
+                    <li class="sidebar__menu sidebar__wp-admin">
+                      <ul>
+                        <li class="wp-admin">
+                          <a href="#" class="external-link has-icon" rel="external">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="gridicon gridicons-my-sites" height="24" width="24"><use xlink:href="../assets/sprite-gridicons.svg#gridicons-my-sites"></use></svg>
+                            <span class="menu-link-text">
+                              WP Admin
+                            </span>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="gridicon gridicons-external needs-offset" height="18" width="18"><use xlink:href="../assets/sprite-gridicons.svg#gridicons-external"></use></svg>
+                          </a>
+                        </li>
+                      </ul>
+                    </li>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="primary" class="layout__primary">
+            <main class="main is-wide-layout" role="main">
+              <header class="current-section">
+                <a href="">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="gridicon gridicons-chevron-left" height="24" width="24"><use xlink:href="../assets/sprite-gridicons.svg#gridicons-chevron-left"></use></svg>
+                  <div class="site-icon" style="width: 32px; height: 32px; font-size: 32px; line-height: 32px">
+                    <div class="site-icon__img color-orange-20" style="width: 32px; height: 32px; border-radius: 99px; background: currentcolor"></div>
+                  </div>
+                  <div>
+                    <p class="current-section__site-title">Automattic Design</p>
+                    <h1 class="current-section__section-title">Stats</h1>
+                  </div>
+                </a>
+              </header>
+              <div class="stats-navigation">
+                <div class="section-nav">
+                  <div class="section-nav__mobile-header">
+                    <span class="section-nav__mobile-header-text">
+                      Traffic
+                    </span>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="gridicon gridicons-chevron-down" height="18" width="18"><use xlink:href="../assets/sprite-gridicons.svg#gridicons-chevron-down"></use></svg>
+                  </div>
+                  <div class="section-nav__panel">
+                    <div class="section-nav-group">
+                      <div class="section-nav-tabs has-siblings">
+                        <h6 class="section-nav-group__label">
+                          Stats
+                        </h6>
+                        <ul class="section-nav-tabs__list" role="menu">
+                          <li class="stats-navigation__traffic is-selected section-nav-tab">
+                            <a href="#" class="section-nav-tab__link" tabindex="0" aria-selected="true" role="menuitem">
+                              <span class="section-nav-tab__text">
+                                Traffic
+                              </span>
+                            </a>
+                          </li>
+                          <li class="stats-navigation__insights section-nav-tab">
+                            <a href="#" class="section-nav-tab__link" tabindex="0" aria-selected="false" role="menuitem">
+                              <span class="section-nav-tab__text">
+                                Insights
+                              </span>
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <ul class="segmented-control is-compact is-primary stats-navigation__intervals" role="radiogroup">
+                      <li class="segmented-control__item is-selected">
+                        <a href="#" class="segmented-control__link" role="radio" tabindex="0" aria-checked="true">
+                          <span class="segmented-control__text">
+                            Days
+                          </span>
+                        </a>
+                      </li>
+                      <li class="segmented-control__item">
+                        <a href="#" class="segmented-control__link" role="radio" tabindex="0" aria-checked="false">
+                          <span class="segmented-control__text">
+                            Weeks
+                          </span>
+                        </a>
+                      </li>
+                      <li class="segmented-control__item">
+                        <a href="#" class="segmented-control__link" role="radio" tabindex="0" aria-checked="false">
+                          <span class="segmented-control__text">
+                            Months
+                          </span>
+                        </a>
+                      </li>
+                      <li class="segmented-control__item">
+                        <a href="#" class="segmented-control__link" role="radio" tabindex="0" aria-checked="false">
+                          <span class="segmented-control__text">
+                            Years
+                          </span>
+                        </a>
+                      </li>
+                    </ul>
+                    <div class="followers-count">
+                      <a href="#" title="Total of WordPress and Email Followers" class="button is-borderless">
+                        Followers <span class="count" locale="en">256</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div id="my-stats-content">
+                <p class="color-gray-40" style="text-align: center">
+                  To be continued…
+                </p>
+              </div>
+            </main>
+          </div>
+        <div>
+      </div>
+    </div>
+
+    <!--
+      The *-css.js scripts are only used locally for hot reloading.
+      They’re not published and will return 404 in production.
+    -->
+    <script src="../assets/example-calypso-css.js"></script>
+  </body>
+</html>
