@@ -1,7 +1,12 @@
 const colorbox = require('colorbox')
 
 module.exports = specs => {
-  const palette = colorbox({ specs }).map(colorObject => {
+  const properties = Object.assign({}, specs, {
+    steps: 12,
+    modifier: 1
+  })
+
+  const palette = colorbox({ specs: properties }).map(colorObject => {
     const arrayIndex = colorObject.label
 
     return {
