@@ -68,6 +68,9 @@ The above imports the contents of the [JSON file][dist-json].
 ## Development
 
 ```sh
+# Spin up Color Studio
+yarn install
+
 # Generate the JSON file, the stylesheets, and the Sketch palette file
 yarn palette
 
