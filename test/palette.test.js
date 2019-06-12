@@ -110,33 +110,48 @@ describe('dark mode accessibility', () => {
     expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Celadon 20'])
   })
 
-  test.skip('shades #30 pass AA against Gray 90', () => {
+  test('shades #30 pass AA Large against Gray 90', () => {
     const SURFACE_COLOR = PALETTE['Gray 90']
 
-    expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Gray 30'])
-    expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Brand Blue 30'])
-    expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Product Blue 30'])
-    expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Purple 30'])
-    expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Pink 30'])
-    expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Red 30'])
-    expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Orange 30'])
-    expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Yellow 30'])
-    expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Green 30'])
-    expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Celadon 30'])
+    expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Gray 30'])
+    expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Brand Blue 30'])
+    expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Product Blue 30'])
+    expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Purple 30'])
+    expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Pink 30'])
+    expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Red 30'])
+    expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Orange 30'])
+    expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Yellow 30'])
+    expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Green 30'])
+    expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Celadon 30'])
   })
 
-  test('shades #20 pass AA against Gray 80', () => {
+  test('shades #20 pass AA Large against Gray 80', () => {
     const SURFACE_COLOR = PALETTE['Gray 80']
 
-    expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Gray 20'])
-    expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Brand Blue 20'])
-    expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Product Blue 20'])
-    expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Purple 20'])
-    expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Pink 20'])
-    expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Red 20'])
-    expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Orange 20'])
-    expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Yellow 20'])
-    expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Green 20'])
-    expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Celadon 20'])
+    expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Gray 20'])
+    expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Brand Blue 20'])
+    expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Product Blue 20'])
+    expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Purple 20'])
+    expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Pink 20'])
+    expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Red 20'])
+    expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Orange 20'])
+    expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Yellow 20'])
+    expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Green 20'])
+    expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Celadon 20'])
+  })
+
+  test('shades #30 pass AA Large against Gray 80', () => {
+    const SURFACE_COLOR = PALETTE['Gray 80']
+
+    expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Gray 30'])
+    expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Brand Blue 30'])
+    expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Product Blue 30'])
+    expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Purple 30'])
+    expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Pink 30'])
+    expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Red 30'])
+    expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Orange 30'])
+    expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Yellow 30'])
+    expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Green 30'])
+    expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Celadon 30'])
   })
 })
