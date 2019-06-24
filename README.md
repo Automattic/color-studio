@@ -52,7 +52,7 @@ This package is dependency-free.
 @import "~color-studio/dist/color-variables";
 
 button {
-  background: $muriel-hot-pink-500;
+  background: $muriel-pink-50;
   color: $muriel-white;
 }
 ```
@@ -61,6 +61,8 @@ button {
 
 ```js
 const PALETTE = require('color-studio')
+
+console.log(PALETTE.colors['Pink 50'])
 ```
 
 The above imports the contents of the [JSON file][dist-json].

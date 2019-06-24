@@ -1,4 +1,4 @@
-const PALETTE = require('../dist/colors.json')
+const PALETTE = require('../dist/colors.meta.json')
 
 const toSketchPalette = require('../utilities/to-sketch-palette')
 

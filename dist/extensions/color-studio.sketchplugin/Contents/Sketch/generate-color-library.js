@@ -91,10 +91,10 @@ var exports =
 /************************************************************************/
 /******/ ({
 
-/***/ "./dist/colors.json":
-/*!**************************!*\
-  !*** ./dist/colors.json ***!
-  \**************************/
+/***/ "./dist/colors.meta.json":
+/*!*******************************!*\
+  !*** ./dist/colors.meta.json ***!
+  \*******************************/
 /*! exports provided: version, colors, default */
 /***/ (function(module) {
 
@@ -127,7 +127,7 @@ var _require2 = __webpack_require__(/*! sketch/dom */ "sketch/dom"),
 
 var padStart = __webpack_require__(/*! lodash/padStart */ "./node_modules/lodash/padStart.js");
 
-var PALETTE = __webpack_require__(/*! ../../dist/colors.json */ "./dist/colors.json");
+var PALETTE = __webpack_require__(/*! ../../dist/colors.meta.json */ "./dist/colors.meta.json");
 
 var SWATCH_WIDTH = 48;
 var SWATCH_HEIGHT = 48;

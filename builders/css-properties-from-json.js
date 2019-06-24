@@ -1,6 +1,6 @@
 const toKebabCase = require('lodash/kebabCase')
 
-const PALETTE = require('../dist/colors.json')
+const PALETTE = require('../dist/colors.meta.json')
 
 const formatHex = require('../utilities/format-hex-value')
 

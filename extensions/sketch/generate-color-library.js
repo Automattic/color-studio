@@ -5,7 +5,7 @@ const { Artboard, Rectangle, Shape, SharedStyle, Style, SymbolMaster } = require
 
 const padStart = require('lodash/padStart')
 
-const PALETTE = require('../../dist/colors.json')
+const PALETTE = require('../../dist/colors.meta.json')
 
 const SWATCH_WIDTH = 48
 const SWATCH_HEIGHT = 48

@@ -2,7 +2,7 @@ const { contrast } = require('chroma-js')
 const round = require('lodash/round')
 const unique = require('lodash/uniq')
 
-const PALETTE_JSON = require('../dist/colors.json')
+const PALETTE_JSON = require('../builders/json')
 
 const toNamedColorCollection = require('../utilities/to-named-color-collection')
 

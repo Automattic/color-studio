@@ -20,12 +20,10 @@ const specialColors = ['White', 'Black'].map(color => {
   }
 })
 
-const paletteData = {
+module.exports = {
   version: PACKAGE.version,
   colors: [specialColors].concat(paletteColors)
 }
-
-print(paletteData)
 
 function formatShades(baseColorObject, shades) {
   const result = []
@@ -42,8 +40,4 @@ function formatShades(baseColorObject, shades) {
   })
 
   return result
-}
-
-function print(data) {
-  console.log(JSON.stringify(data, null, 2))
 }

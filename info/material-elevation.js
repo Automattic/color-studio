@@ -3,11 +3,7 @@ const forIn = require('lodash/forIn')
 const isNumber = require('lodash/isNumber')
 const Table = require('easy-table')
 
-const PALETTE_JSON = require('../dist/colors.json')
-
-const toNamedColorCollection = require('../utilities/to-named-color-collection')
-
-const PALETTE = toNamedColorCollection(PALETTE_JSON.colors)
+const PALETTE = require('../dist/colors.json').colors
 
 // Properties › Elevation
 // https://material.io/design/color/dark-theme.html#properties-figure-caption-1

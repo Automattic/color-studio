@@ -2,7 +2,7 @@ const { contrast } = require('chroma-js')
 const floor = require('lodash/floor')
 const toKebabCase = require('lodash/kebabCase')
 
-const PALETTE_JSON = require('../../../dist/colors.json')
+const PALETTE_JSON = require('../../../builders/json')
 
 const toNamedColorCollection = require('../../../utilities/to-named-color-collection')
 

@@ -4,7 +4,7 @@ const path = require('path')
 const chroma = require('chroma-js')
 const removeDirectory = require('rimraf').sync
 
-const PALETTE = require('../dist/colors.json')
+const PALETTE = require('../dist/colors.meta.json')
 
 const INFO_TEMPLATE = {
   info: {
