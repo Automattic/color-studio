@@ -1,5 +1,5 @@
 const { contrast } = require('chroma-js')
-const round = require('lodash/round')
+const floor = require('lodash/floor')
 const toKebabCase = require('lodash/kebabCase')
 
 const PALETTE_JSON = require('../../../dist/colors.json')
@@ -58,10 +58,11 @@ function formatExampleData(data) {
 function formatExampleMetaString(data) {
   const heroBackgroundColor = PALETTE[data.heroBackgroundColor] || data.heroBackgroundColor
   const heroTextColor = PALETTE[data.heroTextColor] || data.heroTextColor
+  const buttonBackgroundColor = PALETTE[data.buttonBackgroundColor] || data.buttonBackgroundColor
 
   const meta = [
-    `Copy: ${data.heroTextColor} on ${data.heroBackgroundColor} — ${formatContrastRatio(heroTextColor, heroBackgroundColor)}`,
-    `Button: ${data.buttonBackgroundColor}`
+    `${formatContrastRatio(heroTextColor, heroBackgroundColor)} | Copy: ${data.heroTextColor} on ${data.heroBackgroundColor}`,
+    `${formatContrastRatio('white', buttonBackgroundColor)} | Button: White on ${data.buttonBackgroundColor}`
   ]
 
   return `title="${meta.join('\n')}"`
@@ -69,9 +70,9 @@ function formatExampleMetaString(data) {
 
 function formatContrastRatio(foreground, background) {
   const colorContrast = contrast(foreground, background)
-  const printSuffix = colorContrast >= 4.5 ? '✅' : '🔴'
+  const contrastIcon = colorContrast >= 4.5 ? '✅' : '🔴'
 
-  return `${round(colorContrast, 2)} ${printSuffix}`.trim()
+  return `${contrastIcon} ${floor(colorContrast, 2)}`.trim()
 }
 
 function getExampleMarkup(data) {

@@ -1,12 +1,12 @@
 const chroma = require('chroma-js')
 
-const BASE_COLORS = require('../data/base-colors.json')
+const BASE_COLORS = require('../data/color-definitions.json')
 const PACKAGE = require('../package.json')
 
-const createPrimaryShades = require('../utilities/create-primary-shades')
+const generateShades = require('../utilities/generate-shades')
 
 const paletteColors = BASE_COLORS.map(colorObject => {
-  const shades = createPrimaryShades(colorObject.value)
+  const shades = generateShades(colorObject.specs)
   return formatShades(colorObject, shades)
 })
 
