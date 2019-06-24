@@ -75,7 +75,7 @@
     "palette:build:sketch": "node builders/sketchpalette-from-json > dist/colors.sketchpalette",
     "palette:build:web": "yarn palette:build:json && yarn palette:build:css",
     "palette:test": "jest test/palette.test.js",
-    "palette:watch": "yarn palette:build:web && onchange builders/json.js data/base-colors.json -- yarn palette:build:web",
+    "palette:watch": "yarn palette:build:web && onchange builders/json.js data/color-definitions.json -- yarn palette:build:web",
     "postinstall": "yarn calypso",
     "precommit": "yarn lint && yarn build && git add --update",
     "sketch": "yarn sketch:build && skpm-link",

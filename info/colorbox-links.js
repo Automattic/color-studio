@@ -1,7 +1,7 @@
 const forIn = require('lodash/forIn')
 const Table = require('easy-table')
 
-const COLOR_SPECS = require('../data/base-colors.json')
+const COLOR_SPECS = require('../data/color-definitions.json')
 
 const COLOR_SPEC_DEFAULTS = {
   /* eslint-disable camelcase */
