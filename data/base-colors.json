@@ -6,7 +6,7 @@
       "hue_end": 200,
       "hue_curve": "easeInSine",
       "sat_start": 1,
-      "sat_end": 100,
+      "sat_end": 90,
       "sat_curve": "easeInSine",
       "sat_rate": 30,
       "lum_start": 97,
@@ -16,7 +16,18 @@
   },
   {
     "name": "Brand Blue",
-    "value": "#016087"
+    "specs": {
+      "hue_start": 190,
+      "hue_end": 205,
+      "hue_curve": "easeOutSine",
+      "sat_start": 1,
+      "sat_end": 100,
+      "sat_curve": "easeOutSine",
+      "sat_rate": 100,
+      "lum_start": 95,
+      "lum_end": 10,
+      "lum_curve": "linear"
+    }
   },
   {
     "name": "Product Blue",
@@ -25,7 +36,7 @@
       "hue_end": 200,
       "hue_curve": "easeInQuad",
       "sat_start": 1,
-      "sat_end": 100,
+      "sat_end": 90,
       "sat_curve": "easeOutQuad",
       "sat_rate": 110,
       "lum_start": 95,
@@ -51,13 +62,13 @@
   {
     "name": "Pink",
     "specs": {
-      "hue_start": 330,
+      "hue_start": 340,
       "hue_end": 325,
       "hue_curve": "easeInQuad",
       "sat_start": 1,
-      "sat_end": 80,
+      "sat_end": 100,
       "sat_curve": "easeOutQuad",
-      "sat_rate": 110,
+      "sat_rate": 90,
       "lum_start": 95,
       "lum_end": 10,
       "lum_curve": "easeOutQuad"
@@ -66,13 +77,13 @@
   {
     "name": "Red",
     "specs": {
-      "hue_start": 5,
-      "hue_end": 0,
+      "hue_start": 10,
+      "hue_end": 5,
       "hue_curve": "easeInQuad",
       "sat_start": 1,
-      "sat_end": 100,
+      "sat_end": 90,
       "sat_curve": "easeOutSine",
-      "sat_rate": 110,
+      "sat_rate": 100,
       "lum_start": 95,
       "lum_end": 10,
       "lum_curve": "easeOutQuad"
@@ -101,8 +112,8 @@
       "hue_curve": "easeInQuad",
       "sat_start": 1,
       "sat_end": 100,
-      "sat_curve": "easeOutQuart",
-      "sat_rate": 110,
+      "sat_curve": "easeOutQuad",
+      "sat_rate": 200,
       "lum_start": 95,
       "lum_end": 10,
       "lum_curve": "linear"
@@ -126,9 +137,9 @@
   {
     "name": "Celadon",
     "specs": {
-      "hue_start": 175,
+      "hue_start": 160,
       "hue_end": 170,
-      "hue_curve": "easeInQuad",
+      "hue_curve": "easeOutQuad",
       "sat_start": 1,
       "sat_end": 100,
       "sat_curve": "easeOutQuad",

@@ -3,6 +3,13 @@ const Table = require('easy-table')
 
 const COLOR_SPECS = require('../data/base-colors.json')
 
+const COLOR_SPEC_DEFAULTS = {
+  /* eslint-disable camelcase */
+  steps: 12,
+  minor_steps_map: 'none'
+  /* eslint-enable camelcase */
+}
+
 printInTable(COLOR_SPECS)
 
 function printInTable(data) {
@@ -20,7 +27,7 @@ function printInTable(data) {
 function composeColorboxURL(specs) {
   let path = ''
 
-  forIn(Object.assign({ steps: 12 }, specs), (value, key) => {
+  forIn(Object.assign({}, specs, COLOR_SPEC_DEFAULTS), (value, key) => {
     path += `#${key}=${value}`
   })
 

@@ -21,87 +21,87 @@
 }
 
 .fill-gray-20 {
-  fill: #bbb6b7;
+  fill: #bbb6b8;
 }
 
 .fill-gray-30 {
-  fill: #a79fa2;
+  fill: #a79fa3;
 }
 
 .fill-gray-40 {
-  fill: #93888f;
+  fill: #938990;
 }
 
 .fill-gray-50 {
-  fill: #7e717e;
+  fill: #7e727e;
 }
 
 .fill-gray-60 {
-  fill: #665b6a;
+  fill: #665d6a;
 }
 
 .fill-gray-70 {
-  fill: #4c4656;
+  fill: #4d4856;
 }
 
 .fill-gray-80 {
-  fill: #333342;
+  fill: #343542;
 }
 
 .fill-gray-90 {
-  fill: #22262e;
+  fill: #23272e;
 }
 
 .fill-gray-100 {
-  fill: #12171a;
+  fill: #13171a;
 }
 
 .fill-brand-blue-0 {
-  fill: #f2f5f8;
+  fill: #f0f2f2;
 }
 
 .fill-brand-blue-5 {
-  fill: #d5dfe7;
+  fill: #bed8df;
 }
 
 .fill-brand-blue-10 {
-  fill: #b8c9d7;
+  fill: #91bdcb;
 }
 
 .fill-brand-blue-20 {
-  fill: #93aec3;
+  fill: #69a2b7;
 }
 
 .fill-brand-blue-30 {
-  fill: #6d93af;
+  fill: #4887a3;
 }
 
 .fill-brand-blue-40 {
-  fill: #45799b;
+  fill: #2e6f90;
 }
 
 .fill-brand-blue-50 {
-  fill: #016087;
+  fill: #1a597c;
 }
 
 .fill-brand-blue-60 {
-  fill: #114f73;
+  fill: #0d4568;
 }
 
 .fill-brand-blue-70 {
-  fill: #153e5f;
+  fill: #063555;
 }
 
 .fill-brand-blue-80 {
-  fill: #152e4b;
+  fill: #022741;
 }
 
 .fill-brand-blue-90 {
-  fill: #111f37;
+  fill: #001b2d;
 }
 
 .fill-brand-blue-100 {
-  fill: #0b1125;
+  fill: #000f1a;
 }
 
 .fill-product-blue-0 {
@@ -109,43 +109,43 @@
 }
 
 .fill-product-blue-5 {
-  fill: #c0d8ef;
+  fill: #c5daef;
 }
 
 .fill-product-blue-10 {
-  fill: #91beea;
+  fill: #9ac3ea;
 }
 
 .fill-product-blue-20 {
-  fill: #67a6e2;
+  fill: #73ace2;
 }
 
 .fill-product-blue-30 {
-  fill: #4491d8;
+  fill: #5298d8;
 }
 
 .fill-product-blue-40 {
-  fill: #287ec9;
+  fill: #3886c9;
 }
 
 .fill-product-blue-50 {
-  fill: #136db7;
+  fill: #2475b7;
 }
 
 .fill-product-blue-60 {
-  fill: #055ea0;
+  fill: #1564a0;
 }
 
 .fill-product-blue-70 {
-  fill: #004e84;
+  fill: #0b5384;
 }
 
 .fill-product-blue-80 {
-  fill: #003d63;
+  fill: #053f63;
 }
 
 .fill-product-blue-90 {
-  fill: #00283e;
+  fill: #01293e;
 }
 
 .fill-product-blue-100 {
@@ -205,43 +205,43 @@
 }
 
 .fill-pink-5 {
-  fill: #efc9dc;
+  fill: #efc9d6;
 }
 
 .fill-pink-10 {
-  fill: #eaa3c7;
+  fill: #eaa2ba;
 }
 
 .fill-pink-20 {
-  fill: #e27fb2;
+  fill: #e27ea1;
 }
 
 .fill-pink-30 {
-  fill: #d8619e;
+  fill: #d85f8b;
 }
 
 .fill-pink-40 {
-  fill: #c9488b;
+  fill: #c94578;
 }
 
 .fill-pink-50 {
-  fill: #b73479;
+  fill: #b73168;
 }
 
 .fill-pink-60 {
-  fill: #a02466;
+  fill: #a02259;
 }
 
 .fill-pink-70 {
-  fill: #841853;
+  fill: #84164a;
 }
 
 .fill-pink-80 {
-  fill: #630f3e;
+  fill: #630d39;
 }
 
 .fill-pink-90 {
-  fill: #3e0827;
+  fill: #3e0725;
 }
 
 .fill-pink-100 {
@@ -253,47 +253,47 @@
 }
 
 .fill-red-5 {
-  fill: #efccc9;
+  fill: #efd5d0;
 }
 
 .fill-red-10 {
-  fill: #eaa6a1;
+  fill: #eab8ae;
 }
 
 .fill-red-20 {
-  fill: #e28178;
+  fill: #e2998c;
 }
 
 .fill-red-30 {
-  fill: #d85c53;
+  fill: #d87c6b;
 }
 
 .fill-red-40 {
-  fill: #c93c32;
+  fill: #c9604d;
 }
 
 .fill-red-50 {
-  fill: #b72118;
+  fill: #b74735;
 }
 
 .fill-red-60 {
-  fill: #a00e07;
+  fill: #a03322;
 }
 
 .fill-red-70 {
-  fill: #840500;
+  fill: #842215;
 }
 
 .fill-red-80 {
-  fill: #630200;
+  fill: #63160c;
 }
 
 .fill-red-90 {
-  fill: #3e0100;
+  fill: #3e0c07;
 }
 
 .fill-red-100 {
-  fill: #1a0000;
+  fill: #1a0403;
 }
 
 .fill-orange-0 {
@@ -345,27 +345,27 @@
 }
 
 .fill-yellow-0 {
-  fill: #f2f2f0;
+  fill: #f2f2ed;
 }
 
 .fill-yellow-5 {
-  fill: #dfde85;
+  fill: #dfde8f;
 }
 
 .fill-yellow-10 {
-  fill: #cbc948;
+  fill: #cbc93f;
 }
 
 .fill-yellow-20 {
-  fill: #b7b424;
+  fill: #b7b302;
 }
 
 .fill-yellow-30 {
-  fill: #a39e0f;
+  fill: #a39e00;
 }
 
 .fill-yellow-40 {
-  fill: #908803;
+  fill: #908800;
 }
 
 .fill-yellow-50 {
@@ -441,43 +441,43 @@
 }
 
 .fill-celadon-0 {
-  fill: #f0f2f2;
+  fill: #f0f2f1;
 }
 
 .fill-celadon-5 {
-  fill: #b3dfdb;
+  fill: #b3dfd1;
 }
 
 .fill-celadon-10 {
-  fill: #7ecbc4;
+  fill: #7ecbb6;
 }
 
 .fill-celadon-20 {
-  fill: #53b7ae;
+  fill: #53b79e;
 }
 
 .fill-celadon-30 {
-  fill: #33a399;
+  fill: #33a38a;
 }
 
 .fill-celadon-40 {
-  fill: #1c9084;
+  fill: #1c9077;
 }
 
 .fill-celadon-50 {
-  fill: #0d7c70;
+  fill: #0d7c66;
 }
 
 .fill-celadon-60 {
-  fill: #04685c;
+  fill: #046855;
 }
 
 .fill-celadon-70 {
-  fill: #00554a;
+  fill: #005545;
 }
 
 .fill-celadon-80 {
-  fill: #004138;
+  fill: #004136;
 }
 
 .fill-celadon-90 {
