@@ -7,6 +7,8 @@ const renderTile = require('./docs/render-tile')
 
 const output = document.querySelector('#color-tiles')
 
+let desaturationActive = false
+
 handleFoundationTiles()
 handleDesaturation()
 
@@ -32,18 +34,27 @@ function excludeSpecialColor(colorObject) {
 }
 
 function handleDesaturation() {
-  window.addEventListener('keyup', setDesaturationOff)
   window.addEventListener('keydown', event => {
     if (event.ctrlKey && event.code === 'KeyG') {
-      setDesaturationOn()
+      toggleDesaturation()
     }
   })
 }
 
+function toggleDesaturation() {
+  if (desaturationActive) {
+    setDesaturationOff()
+  } else {
+    setDesaturationOn()
+  }
+}
+
 function setDesaturationOn() {
   output.classList.add('js-desaturated', 'js-disabled')
+  desaturationActive = true
 }
 
 function setDesaturationOff() {
   output.classList.remove('js-desaturated', 'js-disabled')
+  desaturationActive = false
 }
