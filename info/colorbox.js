@@ -1,4 +1,4 @@
-const forIn = require('lodash/forIn')
+const isString = require('lodash/isString')
 const Table = require('easy-table')
 
 const COLOR_DEFINITIONS = require('../data/color-definitions')
@@ -14,19 +14,27 @@ function printInTable(data) {
 
   data.forEach(entry => {
     table.cell('Color', entry.name)
-    table.cell('Link', composeColorboxURL(entry.specs))
+    table.cell('Link', composeColorBoxURL(entry.specs))
     table.newRow()
   })
 
   console.log(table.toString())
 }
 
-function composeColorboxURL(specs) {
-  let path = ''
+function composeColorBoxURL(specs) {
+  const properties = Object.assign({}, specs, COLOR_SPEC_DEFAULTS)
 
-  forIn(Object.assign({}, specs, COLOR_SPEC_DEFAULTS), (value, key) => {
-    path += `#${key}=${value}`
-  })
+  if (!supportsColorBox(properties)) {
+    return 'Unsupported'
+  }
+
+  const path = Object.keys(properties)
+    .map(key => `#${key}=${properties[key]}`)
+    .join('')
 
   return `http://colorbox.io/${path}\n`
+}
+
+function supportsColorBox(specs) {
+  return isString(specs.hue_curve) && isString(specs.sat_curve) && isString(specs.lum_curve)
 }

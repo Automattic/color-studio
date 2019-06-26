@@ -706,7 +706,7 @@
     [
       {
         "name": "Yellow 0",
-        "value": "#f2f2ef",
+        "value": "#f2f1ef",
         "_meta": {
           "baseName": "Yellow",
           "index": 0
@@ -714,7 +714,7 @@
       },
       {
         "name": "Yellow 5",
-        "value": "#f1e7b9",
+        "value": "#f0deb8",
         "_meta": {
           "baseName": "Yellow",
           "index": 5
@@ -722,7 +722,7 @@
       },
       {
         "name": "Yellow 10",
-        "value": "#ecd983",
+        "value": "#e7c880",
         "_meta": {
           "baseName": "Yellow",
           "index": 10
@@ -730,7 +730,7 @@
       },
       {
         "name": "Yellow 20",
-        "value": "#e3c851",
+        "value": "#d9b04d",
         "_meta": {
           "baseName": "Yellow",
           "index": 20
@@ -738,7 +738,7 @@
       },
       {
         "name": "Yellow 30",
-        "value": "#d6b429",
+        "value": "#c49725",
         "_meta": {
           "baseName": "Yellow",
           "index": 30
@@ -746,7 +746,7 @@
       },
       {
         "name": "Yellow 40",
-        "value": "#c49e0a",
+        "value": "#ab7f09",
         "_meta": {
           "baseName": "Yellow",
           "index": 40
@@ -754,7 +754,7 @@
       },
       {
         "name": "Yellow 50",
-        "value": "#ad8800",
+        "value": "#916a00",
         "_meta": {
           "baseName": "Yellow",
           "index": 50
@@ -762,7 +762,7 @@
       },
       {
         "name": "Yellow 60",
-        "value": "#927200",
+        "value": "#765700",
         "_meta": {
           "baseName": "Yellow",
           "index": 60
@@ -770,7 +770,7 @@
       },
       {
         "name": "Yellow 70",
-        "value": "#745a00",
+        "value": "#5c4500",
         "_meta": {
           "baseName": "Yellow",
           "index": 70
@@ -778,7 +778,7 @@
       },
       {
         "name": "Yellow 80",
-        "value": "#564200",
+        "value": "#443300",
         "_meta": {
           "baseName": "Yellow",
           "index": 80
@@ -786,7 +786,7 @@
       },
       {
         "name": "Yellow 90",
-        "value": "#372a00",
+        "value": "#2e2200",
         "_meta": {
           "baseName": "Yellow",
           "index": 90

@@ -98,17 +98,17 @@
     <color name="orange_90">#3e1900</color>
     <color name="orange_100">#1a0b00</color>
 
-    <color name="yellow_0">#f2f2ef</color>
-    <color name="yellow_5">#f1e7b9</color>
-    <color name="yellow_10">#ecd983</color>
-    <color name="yellow_20">#e3c851</color>
-    <color name="yellow_30">#d6b429</color>
-    <color name="yellow_40">#c49e0a</color>
-    <color name="yellow_50">#ad8800</color>
-    <color name="yellow_60">#927200</color>
-    <color name="yellow_70">#745a00</color>
-    <color name="yellow_80">#564200</color>
-    <color name="yellow_90">#372a00</color>
+    <color name="yellow_0">#f2f1ef</color>
+    <color name="yellow_5">#f0deb8</color>
+    <color name="yellow_10">#e7c880</color>
+    <color name="yellow_20">#d9b04d</color>
+    <color name="yellow_30">#c49725</color>
+    <color name="yellow_40">#ab7f09</color>
+    <color name="yellow_50">#916a00</color>
+    <color name="yellow_60">#765700</color>
+    <color name="yellow_70">#5c4500</color>
+    <color name="yellow_80">#443300</color>
+    <color name="yellow_90">#2e2200</color>
     <color name="yellow_100">#1a1300</color>
 
     <color name="green_0">#f0f2ef</color>

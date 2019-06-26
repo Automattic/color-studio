@@ -1,5 +1,7 @@
 /* eslint-disable camelcase */
 
+const bezier = require('bezier-easing')
+
 module.exports = {
   config: {
     steps: 12
@@ -113,16 +115,16 @@ module.exports = {
     {
       name: 'Yellow',
       specs: {
-        hue_start: 50,
+        hue_start: 40,
         hue_end: 45,
-        hue_curve: 'linear',
+        hue_curve: 'easeOutQuad',
         sat_start: 1,
         sat_end: 100,
         sat_curve: 'easeOutQuad',
         sat_rate: 130,
         lum_start: 95,
         lum_end: 10,
-        lum_curve: 'easeOutSine'
+        lum_curve: bezier(0.5, 0.5, 0.65, 1)
       }
     },
     {

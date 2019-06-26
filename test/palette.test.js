@@ -34,34 +34,19 @@ describe('palette colors', () => {
 })
 
 describe('light mode accessibility', () => {
-  test('shades #50 pass AA Large against pure white', () => {
+  test('shades #50 pass AA against pure white', () => {
     const SURFACE_COLOR = PALETTE['White']
 
-    expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Gray 50'])
-    expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Brand Blue 50'])
-    expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Product Blue 50'])
-    expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Purple 50'])
-    expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Pink 50'])
-    expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Red 50'])
-    expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Orange 50'])
-    expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Yellow 50'])
-    expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Green 50'])
-    expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Celadon 50'])
-  })
-
-  test('shades #60 pass AA against pure white', () => {
-    const SURFACE_COLOR = PALETTE['White']
-
-    expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Gray 60'])
-    expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Brand Blue 60'])
-    expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Product Blue 60'])
-    expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Purple 60'])
-    expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Pink 60'])
-    expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Red 60'])
-    expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Orange 60'])
-    expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Yellow 60'])
-    expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Green 60'])
-    expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Celadon 60'])
+    expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Gray 50'])
+    expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Brand Blue 50'])
+    expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Product Blue 50'])
+    expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Purple 50'])
+    expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Pink 50'])
+    expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Red 50'])
+    expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Orange 50'])
+    expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Yellow 50'])
+    expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Green 50'])
+    expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Celadon 50'])
   })
 })
 
