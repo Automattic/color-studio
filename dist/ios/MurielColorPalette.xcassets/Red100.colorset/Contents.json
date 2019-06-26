@@ -9,8 +9,8 @@
       "color": {
         "components": {
           "red": "26",
-          "green": "4",
-          "blue": "3",
+          "green": "3",
+          "blue": "5",
           "alpha": 1
         },
         "color-space": "srgb"
