@@ -1,13 +1,12 @@
 const chroma = require('chroma-js')
-
-const BASE_COLORS = require('../data/color-definitions.json')
-const PACKAGE = require('../package.json')
-
 const generateShades = require('../utilities/generate-shades')
 
-const paletteColors = BASE_COLORS.map(colorObject => {
-  const shades = generateShades(colorObject.specs)
-  return formatShades(colorObject, shades)
+const COLOR_DEFINITIONS = require('../data/color-definitions')
+const PACKAGE = require('../package.json')
+
+const paletteColors = COLOR_DEFINITIONS.colors.map(color => {
+  const shades = generateShades(COLOR_DEFINITIONS.config, color.specs)
+  return formatShades(color.name, shades)
 })
 
 const specialColors = ['White', 'Black'].map(color => {
@@ -25,15 +24,15 @@ module.exports = {
   colors: [specialColors].concat(paletteColors)
 }
 
-function formatShades(baseColorObject, shades) {
+function formatShades(colorName, shades) {
   const result = []
 
   shades.forEach(colorObject => {
     result.push({
-      name: `${baseColorObject.name} ${colorObject.index}`,
+      name: `${colorName} ${colorObject.index}`,
       value: colorObject.value,
       _meta: {
-        baseName: baseColorObject.name,
+        baseName: colorName,
         index: colorObject.index
       }
     })

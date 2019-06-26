@@ -1,16 +1,13 @@
 const forIn = require('lodash/forIn')
 const Table = require('easy-table')
 
-const COLOR_SPECS = require('../data/color-definitions.json')
+const COLOR_DEFINITIONS = require('../data/color-definitions')
 
-const COLOR_SPEC_DEFAULTS = {
-  /* eslint-disable camelcase */
-  steps: 12,
-  minor_steps_map: 'none'
-  /* eslint-enable camelcase */
-}
+const COLOR_SPEC_DEFAULTS = Object.assign({}, COLOR_DEFINITIONS.config, {
+  minor_steps_map: 'none' /* eslint-disable-line camelcase */
+})
 
-printInTable(COLOR_SPECS)
+printInTable(COLOR_DEFINITIONS.colors)
 
 function printInTable(data) {
   const table = new Table()

@@ -1,6 +1,6 @@
 /* eslint-env browser */
 
-const PALETTE = require('../../../builders/json')
+const PALETTE = require('../../../dist/colors.meta.json')
 
 const { activateTiles } = require('./docs/shared')
 const renderTile = require('./docs/render-tile')

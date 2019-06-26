@@ -2,13 +2,8 @@ const { contrast } = require('chroma-js')
 const floor = require('lodash/floor')
 const toKebabCase = require('lodash/kebabCase')
 
-const PALETTE_JSON = require('../../../builders/json')
-
-const toNamedColorCollection = require('../../../utilities/to-named-color-collection')
-
+const PALETTE = require('../../../dist/colors.json').colors
 const COLOR_COMBINATIONS = require('./data/example-colors-bright.json')
-
-const PALETTE = toNamedColorCollection(PALETTE_JSON.colors)
 
 document.querySelector('#example-output').innerHTML = getOutputString()
 
