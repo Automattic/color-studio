@@ -53,7 +53,7 @@
     "calypso": "yarn calypso:clone && yarn calypso:reset",
     "calypso:clone": "git clone -b master --single-branch https://github.com/Automattic/wp-calypso .cache/calypso || true",
     "calypso:reset": "git -C .cache/calypso reset --hard 31f0c014fcbfbf20161d2ad47d1228ee9cf27970",
-    "deploy": "yarn docs && now docs",
+    "deploy": "yarn docs:build --silent && now docs",
     "docs": "yarn docs:build",
     "docs:build": "webpack",
     "docs:watch": "concurrently \"yarn palette:watch\" \"sleep 3 && webpack-dev-server\"",

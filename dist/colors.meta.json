@@ -44,7 +44,7 @@
       },
       {
         "name": "Gray 20",
-        "value": "#b7b3b8",
+        "value": "#b6b3b8",
         "_meta": {
           "baseName": "Gray",
           "index": 20
@@ -52,7 +52,7 @@
       },
       {
         "name": "Gray 30",
-        "value": "#9d9aa2",
+        "value": "#9c9aa2",
         "_meta": {
           "baseName": "Gray",
           "index": 30
@@ -60,7 +60,7 @@
       },
       {
         "name": "Gray 40",
-        "value": "#82818c",
+        "value": "#81818c",
         "_meta": {
           "baseName": "Gray",
           "index": 40
