@@ -10,15 +10,19 @@
   grid-template-columns: repeat(3, 1fr);
 }
 
-.example {
-  overflow: hidden;
-}
-
 .examples--gap {
   grid-gap: 12px;
   padding: 12px;
+}
 
-  & > .example {
+.example {
+  overflow: hidden;
+
+  .examples--gap & {
     border-radius: 2px;
   }
+}
+
+.example--color {
+  background: currentcolor;
 }

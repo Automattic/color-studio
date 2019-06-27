@@ -55,7 +55,7 @@ module.exports = {
     {
       name: 'Purple',
       specs: {
-        hue_start: 320,
+        hue_start: 330,
         hue_end: 280,
         hue_curve: 'easeOutQuad',
         sat_start: 1,
@@ -70,7 +70,7 @@ module.exports = {
     {
       name: 'Pink',
       specs: {
-        hue_start: 335,
+        hue_start: 340,
         hue_end: 330,
         hue_curve: 'easeInQuad',
         sat_start: 1,
@@ -130,16 +130,16 @@ module.exports = {
     {
       name: 'Green',
       specs: {
-        hue_start: 100,
-        hue_end: 130,
-        hue_curve: 'easeInQuad',
+        hue_start: 80,
+        hue_end: 140,
+        hue_curve: 'easeOutSine',
         sat_start: 1,
         sat_end: 100,
         sat_curve: 'easeOutQuad',
         sat_rate: 130,
         lum_start: 95,
         lum_end: 10,
-        lum_curve: 'linear'
+        lum_curve: bezier(0.5, 0.5, 0.85, 1)
       }
     },
     {

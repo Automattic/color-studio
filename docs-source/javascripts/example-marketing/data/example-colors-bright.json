@@ -27,14 +27,13 @@
     {
       "hero-background": [
         "Brand Blue 0",
-        "Brand Blue 5",
-        "Brand Blue 10"
+        "Brand Blue 5"
       ],
       "hero-heading": [
         "Brand Blue 80"
       ],
       "hero-text": [
-        "Brand Blue 70"
+        "Brand Blue 60"
       ]
     },
     {
@@ -46,14 +45,13 @@
         "Product Blue 80"
       ],
       "hero-text": [
-        "Brand Blue 70"
+        "Brand Blue 60"
       ]
     },
     {
       "hero-background": [
         "Purple 0",
-        "Purple 5",
-        "Purple 10"
+        "Purple 5"
       ],
       "hero-heading": [
         "Purple 80"
@@ -62,39 +60,36 @@
         "Purple 70"
       ],
       "button-background": [
-        "Brand Blue 70"
+        "Brand Blue 60"
       ]
     },
     {
       "hero-background": [
         "Pink 0",
-        "Pink 5",
-        "Pink 10"
+        "Pink 5"
       ],
       "hero-heading": [
         "Pink 80"
       ],
       "hero-text": [
-        "Pink 70"
+        "Pink 60"
       ]
     },
     {
       "hero-background": [
         "Red 0",
-        "Red 5",
-        "Red 10"
+        "Red 5"
       ],
       "hero-heading": [
         "Red 80"
       ],
       "hero-text": [
-        "Red 70"
+        "Red 60"
       ]
     },
     {
       "hero-background": [
-        "Yellow 5",
-        "Yellow 10"
+        "Yellow 5"
       ],
       "hero-heading": [
         "Yellow 80"
@@ -103,13 +98,12 @@
         "Yellow 70"
       ],
       "button-background": [
-        "Brand Blue 70"
+        "Brand Blue 60"
       ]
     },
     {
       "hero-background": [
-        "Orange 5",
-        "Orange 10"
+        "Orange 5"
       ],
       "hero-heading": [
         "Orange 80"
@@ -118,14 +112,13 @@
         "Orange 70"
       ],
       "button-background": [
-        "Brand Blue 70"
+        "Brand Blue 60"
       ]
     },
     {
       "hero-background": [
         "Green 0",
-        "Green 5",
-        "Green 10"
+        "Green 5"
       ],
       "hero-heading": [
         "Green 80"
@@ -134,14 +127,13 @@
         "Green 70"
       ],
       "button-background": [
-        "Brand Blue 70"
+        "Green 60"
       ]
     },
     {
       "hero-background": [
         "Celadon 0",
-        "Celadon 5",
-        "Celadon 10"
+        "Celadon 5"
       ],
       "hero-heading": [
         "Celadon 80"
@@ -150,7 +142,7 @@
         "Celadon 70"
       ],
       "button-background": [
-        "Brand Blue 70"
+        "Brand Blue 60"
       ]
     }
   ]
