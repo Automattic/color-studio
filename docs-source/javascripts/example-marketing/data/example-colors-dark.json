@@ -88,6 +88,22 @@
     },
     {
       "hero-background": [
+        "Orange 50",
+        "Orange 60",
+        "Orange 70",
+        "Yellow 50",
+        "Yellow 60",
+        "Yellow 70"
+      ],
+      "hero-text": [
+        "White"
+      ],
+      "button-background": [
+        "Brand Blue 50"
+      ]
+    },
+    {
+      "hero-background": [
         "Gray 80",
         "Gray 90",
         "Gray 100"
@@ -95,6 +111,22 @@
       "hero-text": [
         "Brand Blue 10",
         "Yellow 10"
+      ],
+      "button-background": [
+        "Brand Blue 50"
+      ]
+    },
+    {
+      "hero-background": [
+        "Orange 80",
+        "Orange 90",
+        "Orange 100",
+        "Yellow 80",
+        "Yellow 90",
+        "Yellow 100"
+      ],
+      "hero-text": [
+        "White"
       ],
       "button-background": [
         "Brand Blue 50"
@@ -120,8 +152,7 @@
         "Celadon 100"
       ],
       "hero-text": [
-        "Yellow 10",
-        "Product Blue 10"
+        "Yellow 10"
       ],
       "button-background": [
         "Brand Blue 50"

@@ -1,4 +1,5 @@
 const { contrast } = require('chroma-js')
+const flatten = require('lodash/flatten')
 const round = require('lodash/round')
 const unique = require('lodash/uniq')
 
@@ -21,7 +22,7 @@ expect.extend({
 })
 
 describe('palette colors', () => {
-  const COLOR_NAMES = Object.keys(PALETTE)
+  const COLOR_NAMES = flatten(PALETTE_JSON.colors).map(c => c.name)
   const COLOR_VALUES = Object.values(PALETTE)
 
   test('all names are unique', () => {
@@ -34,6 +35,21 @@ describe('palette colors', () => {
 })
 
 describe('light mode accessibility', () => {
+  test('shades #40 pass AA Large against pure white', () => {
+    const SURFACE_COLOR = PALETTE['White']
+
+    expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Gray 40'])
+    expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Brand Blue 40'])
+    expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Product Blue 40'])
+    expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Purple 40'])
+    expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Pink 40'])
+    expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Red 40'])
+    expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Orange 40'])
+    expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Yellow 40'])
+    expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Green 40'])
+    expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Celadon 40'])
+  })
+
   test('shades #50 pass AA against pure white', () => {
     const SURFACE_COLOR = PALETTE['White']
 
@@ -50,13 +66,7 @@ describe('light mode accessibility', () => {
   })
 })
 
-describe.skip('dark mode accessibility', () => {
-  // Properties › Accessibility and Contrast
-  // https://material.io/design/color/dark-theme.html#properties-figure-caption-6
-  test('Gray 100 is dark enough to be used as the dark surface color', () => {
-    expect(15.8).toBeContrastRatioBetween(PALETTE['Gray 100'], PALETTE['White'])
-  })
-
+describe('dark mode accessibility', () => {
   test('shades #30 pass AA against pure black', () => {
     const SURFACE_COLOR = PALETTE['Black']
 
@@ -70,6 +80,29 @@ describe.skip('dark mode accessibility', () => {
     expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Yellow 30'])
     expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Green 30'])
     expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Celadon 30'])
+  })
+
+  test('shades #40 pass AA Large against pure black', () => {
+    const SURFACE_COLOR = PALETTE['Black']
+
+    expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Gray 40'])
+    expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Brand Blue 40'])
+    expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Product Blue 40'])
+    expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Purple 40'])
+    expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Pink 40'])
+    expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Red 40'])
+    expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Orange 40'])
+    expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Yellow 40'])
+    expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Green 40'])
+    expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Celadon 40'])
+  })
+})
+
+describe('dark mode accessibility for Material Design', () => {
+  // Properties › Accessibility and Contrast
+  // https://material.io/design/color/dark-theme.html#properties-figure-caption-6
+  test('Gray 100 is dark enough to be used as the dark surface color', () => {
+    expect(15.8).toBeContrastRatioBetween(PALETTE['Gray 100'], PALETTE['White'])
   })
 
   // UI Application › Theme Colors
