@@ -2,7 +2,7 @@ const toKebabCase = require('lodash/kebabCase')
 
 const PALETTE = require('../dist/colors.meta.json')
 
-const formatHex = require('../utilities/format-hex-value')
+const formatHex = require('../utilities/to-formatted-hex-value')
 
 const colors = PALETTE.colors.map(colorArray => {
   return colorArray.map(formatVariableEntry)
