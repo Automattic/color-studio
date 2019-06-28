@@ -95,8 +95,9 @@
   },
   "xo": {
     "ignores": [
-      ".cache/**/*.js",
-      "**/assets/*.js"
+      ".cache/**/*",
+      "docs/assets/**/*",
+      "docs/downloads/**/*"
     ],
     "esnext": true,
     "space": true,
