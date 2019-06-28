@@ -8,7 +8,7 @@ const PALETTE = require('../dist/colors.meta.json')
 
 const INFO_TEMPLATE = {
   info: {
-    author: 'io.github.automattic.color-studio',
+    author: 'blog.color-studio',
     version: PALETTE.version
   }
 }
