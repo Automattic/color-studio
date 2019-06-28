@@ -21,7 +21,7 @@ async function generatePreview() {
     /* eslint-env browser */
 
     // Keep the colors only
-    const element = document.querySelector('#download')
+    const element = document.querySelector('#studio-navbar')
     element.parentNode.removeChild(element)
 
     // Find every single tile and turn on their preview styling

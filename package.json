@@ -21,6 +21,7 @@
     "bezier-easing": "^2.1.0",
     "bootstrap": "^4.0.0",
     "chroma-js": "^2.0.4",
+    "color-studio": "1.0.5",
     "concurrently": "^4.1.1",
     "copy-text-to-clipboard": "^2.1.0",
     "css-loader": "^3.0.0",

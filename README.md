@@ -8,7 +8,6 @@
 [dist-scss-variables]: dist/color-variables.scss
 [dist-sketchpalette]: dist/colors.sketchpalette
 
-[docs-custom]: https://automattic.github.io/color-studio/custom.html
 [docs-index]: https://automattic.github.io/color-studio/
 
 # Color Studio
@@ -25,7 +24,6 @@ Color Studio generates the following:
     * [SCSS partial][dist-scss-variables] with all colors defined as variables.
     * [CSS file][dist-css-classes] with all colors defined in separate classes.
 * [Sketch palette file][dist-sketchpalette] that can be imported using the [Sketch Palettes](https://github.com/andrewfiorillo/sketch-palettes) plugin.
-* [Custom color tester][docs-custom] that runs Color Studio’s formula against any specified value.
 
 Also:
 
