@@ -1,5 +1,9 @@
 # Releases
 
+## 1.0.5
+
+* Bumped the package version to 1.0.5 and published it in the `npm` registry.
+
 ## 1.0.4
 
 * Fix the iOS format bug where some color names would be generated with spaces instead of dashes.

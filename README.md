@@ -41,7 +41,7 @@ Also:
 ## Using Color Studio as a Dependency
 
 ```sh
-yarn add automattic/color-studio
+npm install color-studio
 ```
 
 This package is dependency-free.
