@@ -1,10 +1,13 @@
 {
   "name": "color-studio",
   "version": "1.0.4",
-  "license": "GPL-2.0+",
+  "license": {
+    "type": "GPL-2.0+",
+    "url": "https://github.com/automattic/color-studio/blob/master/LICENSE.md"
+  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/automattic/color-studio.git"
+    "url": "https://github.com/Automattic/color-studio.git"
   },
   "main": "dist/colors.json",
   "style": "dist/color-variables.scss",

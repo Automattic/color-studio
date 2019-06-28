@@ -18,5 +18,5 @@
   "version": "1.0.4",
   "identifier": "color-studio",
   "disableCocoaScriptPreprocessor": true,
-  "appcast": "https://raw.githubusercontent.com/automattic/color-studio/master/.appcast.xml"
+  "appcast": "https://raw.githubusercontent.com/Automattic/color-studio/master/.appcast.xml"
 }
