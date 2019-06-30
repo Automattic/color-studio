@@ -134,14 +134,6 @@ var SWATCH_HEIGHT = 48;
 var SWATCH_MARGIN = 12;
 var SWATCH_INITIAL_X = 0;
 var SWATCH_INITIAL_Y = 240;
-var PALETTE_WHITE = {
-  name: 'White',
-  value: '#ffffff',
-  _meta: {
-    special: true
-  }
-};
-var PALETTE_COLORS = [[PALETTE_WHITE]].concat(PALETTE.colors);
 var cachedArtboards = {};
 var cachedSharedStyles = {};
 /* harmony default export */ __webpack_exports__["default"] = (function () {
@@ -149,7 +141,7 @@ var cachedSharedStyles = {};
   var page = document.selectedPage;
   cacheArtboards(page);
   cacheSharedStyles(document);
-  PALETTE_COLORS.forEach(function (colorObjects, rowIndex) {
+  PALETTE.colors.forEach(function (colorObjects, rowIndex) {
     colorObjects.forEach(function (colorObject, columnIndex) {
       var colorStyle = createColorStyle(document, colorObject);
       createColorSymbol(page, colorObject, colorStyle, rowIndex, columnIndex);

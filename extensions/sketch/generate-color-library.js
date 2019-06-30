@@ -13,16 +13,6 @@ const SWATCH_MARGIN = 12
 const SWATCH_INITIAL_X = 0
 const SWATCH_INITIAL_Y = 240
 
-const PALETTE_WHITE = {
-  name: 'White',
-  value: '#ffffff',
-  _meta: {
-    special: true
-  }
-}
-
-const PALETTE_COLORS = [[PALETTE_WHITE]].concat(PALETTE.colors)
-
 const cachedArtboards = {}
 const cachedSharedStyles = {}
 
@@ -33,7 +23,7 @@ export default () => {
   cacheArtboards(page)
   cacheSharedStyles(document)
 
-  PALETTE_COLORS.forEach((colorObjects, rowIndex) => {
+  PALETTE.colors.forEach((colorObjects, rowIndex) => {
     colorObjects.forEach((colorObject, columnIndex) => {
       const colorStyle = createColorStyle(document, colorObject)
       createColorSymbol(page, colorObject, colorStyle, rowIndex, columnIndex)
