@@ -117,196 +117,196 @@
     ],
     [
       {
-        "name": "Brand Blue 0",
+        "name": "Airo 0",
         "value": "#eff1f2",
         "_meta": {
-          "baseName": "Brand Blue",
+          "baseName": "Airo",
           "index": 0
         }
       },
       {
-        "name": "Brand Blue 5",
+        "name": "Airo 5",
         "value": "#bddde9",
         "_meta": {
-          "baseName": "Brand Blue",
+          "baseName": "Airo",
           "index": 5
         }
       },
       {
-        "name": "Brand Blue 10",
+        "name": "Airo 10",
         "value": "#8bc5dc",
         "_meta": {
-          "baseName": "Brand Blue",
+          "baseName": "Airo",
           "index": 10
         }
       },
       {
-        "name": "Brand Blue 20",
+        "name": "Airo 20",
         "value": "#5babcb",
         "_meta": {
-          "baseName": "Brand Blue",
+          "baseName": "Airo",
           "index": 20
         }
       },
       {
-        "name": "Brand Blue 30",
+        "name": "Airo 30",
         "value": "#3190b6",
         "_meta": {
-          "baseName": "Brand Blue",
+          "baseName": "Airo",
           "index": 30
         }
       },
       {
-        "name": "Brand Blue 40",
+        "name": "Airo 40",
         "value": "#12759e",
         "_meta": {
-          "baseName": "Brand Blue",
+          "baseName": "Airo",
           "index": 40
         }
       },
       {
-        "name": "Brand Blue 50",
+        "name": "Airo 50",
         "value": "#005e84",
         "_meta": {
-          "baseName": "Brand Blue",
+          "baseName": "Airo",
           "index": 50
         }
       },
       {
-        "name": "Brand Blue 60",
+        "name": "Airo 60",
         "value": "#004b6a",
         "_meta": {
-          "baseName": "Brand Blue",
+          "baseName": "Airo",
           "index": 60
         }
       },
       {
-        "name": "Brand Blue 70",
+        "name": "Airo 70",
         "value": "#003a52",
         "_meta": {
-          "baseName": "Brand Blue",
+          "baseName": "Airo",
           "index": 70
         }
       },
       {
-        "name": "Brand Blue 80",
+        "name": "Airo 80",
         "value": "#002a3d",
         "_meta": {
-          "baseName": "Brand Blue",
+          "baseName": "Airo",
           "index": 80
         }
       },
       {
-        "name": "Brand Blue 90",
+        "name": "Airo 90",
         "value": "#001b2a",
         "_meta": {
-          "baseName": "Brand Blue",
+          "baseName": "Airo",
           "index": 90
         }
       },
       {
-        "name": "Brand Blue 100",
+        "name": "Airo 100",
         "value": "#000f1a",
         "_meta": {
-          "baseName": "Brand Blue",
+          "baseName": "Airo",
           "index": 100
         }
       }
     ],
     [
       {
-        "name": "Product Blue 0",
+        "name": "Blue 0",
         "value": "#f0f1f2",
         "_meta": {
-          "baseName": "Product Blue",
+          "baseName": "Blue",
           "index": 0
         }
       },
       {
-        "name": "Product Blue 5",
+        "name": "Blue 5",
         "value": "#c6dcf1",
         "_meta": {
-          "baseName": "Product Blue",
+          "baseName": "Blue",
           "index": 5
         }
       },
       {
-        "name": "Product Blue 10",
+        "name": "Blue 10",
         "value": "#9cc4ec",
         "_meta": {
-          "baseName": "Product Blue",
+          "baseName": "Blue",
           "index": 10
         }
       },
       {
-        "name": "Product Blue 20",
+        "name": "Blue 20",
         "value": "#74ade3",
         "_meta": {
-          "baseName": "Product Blue",
+          "baseName": "Blue",
           "index": 20
         }
       },
       {
-        "name": "Product Blue 30",
+        "name": "Blue 30",
         "value": "#5297d6",
         "_meta": {
-          "baseName": "Product Blue",
+          "baseName": "Blue",
           "index": 30
         }
       },
       {
-        "name": "Product Blue 40",
+        "name": "Blue 40",
         "value": "#3682c4",
         "_meta": {
-          "baseName": "Product Blue",
+          "baseName": "Blue",
           "index": 40
         }
       },
       {
-        "name": "Product Blue 50",
+        "name": "Blue 50",
         "value": "#226ead",
         "_meta": {
-          "baseName": "Product Blue",
+          "baseName": "Blue",
           "index": 50
         }
       },
       {
-        "name": "Product Blue 60",
+        "name": "Blue 60",
         "value": "#135b92",
         "_meta": {
-          "baseName": "Product Blue",
+          "baseName": "Blue",
           "index": 60
         }
       },
       {
-        "name": "Product Blue 70",
+        "name": "Blue 70",
         "value": "#0a4974",
         "_meta": {
-          "baseName": "Product Blue",
+          "baseName": "Blue",
           "index": 70
         }
       },
       {
-        "name": "Product Blue 80",
+        "name": "Blue 80",
         "value": "#043756",
         "_meta": {
-          "baseName": "Product Blue",
+          "baseName": "Blue",
           "index": 80
         }
       },
       {
-        "name": "Product Blue 90",
+        "name": "Blue 90",
         "value": "#012437",
         "_meta": {
-          "baseName": "Product Blue",
+          "baseName": "Blue",
           "index": 90
         }
       },
       {
-        "name": "Product Blue 100",
+        "name": "Blue 100",
         "value": "#00111a",
         "_meta": {
-          "baseName": "Product Blue",
+          "baseName": "Blue",
           "index": 100
         }
       }

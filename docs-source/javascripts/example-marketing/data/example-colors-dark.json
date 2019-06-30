@@ -1,7 +1,7 @@
 {
   "defaults": {
     "hero-background": [
-      "Brand Blue 50"
+      "Airo 50"
     ],
     "hero-text": [
       "White"
@@ -13,9 +13,9 @@
   "examples": [
     {
       "hero-background": [
-        "Brand Blue 50",
-        "Brand Blue 60",
-        "Brand Blue 70"
+        "Airo 50",
+        "Airo 60",
+        "Airo 70"
       ],
       "hero-text": [
         "White"
@@ -23,9 +23,9 @@
     },
     {
       "hero-background": [
-        "Brand Blue 80",
-        "Brand Blue 90",
-        "Brand Blue 100"
+        "Airo 80",
+        "Airo 90",
+        "Airo 100"
       ],
       "hero-text": [
         "White",
@@ -43,7 +43,7 @@
         "White"
       ],
       "button-background": [
-        "Brand Blue 80"
+        "Airo 80"
       ]
     },
     {
@@ -53,7 +53,7 @@
         "Pink 100"
       ],
       "hero-text": [
-        "Product Blue 10",
+        "Blue 10",
         "Yellow 10",
         "Orange 10",
         "Red 10"
@@ -66,7 +66,7 @@
         "Purple 100"
       ],
       "hero-text": [
-        "Product Blue 10",
+        "Blue 10",
         "Pink 10",
         "Yellow 10",
         "Orange 10",
@@ -75,12 +75,12 @@
     },
     {
       "hero-background": [
-        "Product Blue 80",
-        "Product Blue 90",
-        "Product Blue 100"
+        "Blue 80",
+        "Blue 90",
+        "Blue 100"
       ],
       "hero-text": [
-        "Brand Blue 10",
+        "Airo 10",
         "Purple 10",
         "Yellow 10",
         "Orange 10"
@@ -99,7 +99,7 @@
         "White"
       ],
       "button-background": [
-        "Brand Blue 50"
+        "Airo 50"
       ]
     },
     {
@@ -109,11 +109,11 @@
         "Gray 100"
       ],
       "hero-text": [
-        "Brand Blue 10",
+        "Airo 10",
         "Yellow 10"
       ],
       "button-background": [
-        "Brand Blue 50"
+        "Airo 50"
       ]
     },
     {
@@ -129,7 +129,7 @@
         "White"
       ],
       "button-background": [
-        "Brand Blue 50"
+        "Airo 50"
       ]
     },
     {
@@ -156,7 +156,7 @@
         "Yellow 10"
       ],
       "button-background": [
-        "Brand Blue 50"
+        "Airo 50"
       ]
     }
   ]

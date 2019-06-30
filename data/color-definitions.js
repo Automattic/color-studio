@@ -23,7 +23,7 @@ module.exports = {
       }
     },
     {
-      name: 'Brand Blue',
+      name: 'Airo',
       specs: {
         hue_start: 197,
         hue_end: 205,
@@ -38,7 +38,7 @@ module.exports = {
       }
     },
     {
-      name: 'Product Blue',
+      name: 'Blue',
       specs: {
         hue_start: 210,
         hue_end: 200,

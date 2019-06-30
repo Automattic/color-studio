@@ -26,26 +26,26 @@
     },
     {
       "hero-background": [
-        "Brand Blue 0",
-        "Brand Blue 5"
+        "Airo 0",
+        "Airo 5"
       ],
       "hero-heading": [
-        "Brand Blue 80"
+        "Airo 80"
       ],
       "hero-text": [
-        "Brand Blue 60"
+        "Airo 60"
       ]
     },
     {
       "hero-background": [
-        "Product Blue 0",
-        "Product Blue 5"
+        "Blue 0",
+        "Blue 5"
       ],
       "hero-heading": [
-        "Product Blue 80"
+        "Blue 80"
       ],
       "hero-text": [
-        "Brand Blue 60"
+        "Airo 60"
       ]
     },
     {
@@ -60,7 +60,7 @@
         "Purple 70"
       ],
       "button-background": [
-        "Brand Blue 60"
+        "Airo 60"
       ]
     },
     {
@@ -98,7 +98,7 @@
         "Yellow 70"
       ],
       "button-background": [
-        "Brand Blue 60"
+        "Airo 60"
       ]
     },
     {
@@ -112,7 +112,7 @@
         "Orange 70"
       ],
       "button-background": [
-        "Brand Blue 60"
+        "Airo 60"
       ]
     },
     {
@@ -142,7 +142,7 @@
         "Celadon 70"
       ],
       "button-background": [
-        "Brand Blue 60"
+        "Airo 60"
       ]
     }
   ]

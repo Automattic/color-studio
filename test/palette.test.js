@@ -39,8 +39,8 @@ describe('light mode accessibility', () => {
     const SURFACE_COLOR = PALETTE['White']
 
     expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Gray 40'])
-    expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Brand Blue 40'])
-    expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Product Blue 40'])
+    expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Airo 40'])
+    expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Blue 40'])
     expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Purple 40'])
     expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Pink 40'])
     expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Red 40'])
@@ -54,8 +54,8 @@ describe('light mode accessibility', () => {
     const SURFACE_COLOR = PALETTE['White']
 
     expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Gray 50'])
-    expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Brand Blue 50'])
-    expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Product Blue 50'])
+    expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Airo 50'])
+    expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Blue 50'])
     expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Purple 50'])
     expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Pink 50'])
     expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Red 50'])
@@ -71,8 +71,8 @@ describe('dark mode accessibility', () => {
     const SURFACE_COLOR = PALETTE['Black']
 
     expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Gray 30'])
-    expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Brand Blue 30'])
-    expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Product Blue 30'])
+    expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Airo 30'])
+    expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Blue 30'])
     expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Purple 30'])
     expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Pink 30'])
     expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Red 30'])
@@ -86,8 +86,8 @@ describe('dark mode accessibility', () => {
     const SURFACE_COLOR = PALETTE['Black']
 
     expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Gray 40'])
-    expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Brand Blue 40'])
-    expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Product Blue 40'])
+    expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Airo 40'])
+    expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Blue 40'])
     expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Purple 40'])
     expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Pink 40'])
     expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Red 40'])
@@ -111,8 +111,8 @@ describe('dark mode accessibility for Material Design', () => {
     const SURFACE_COLOR = PALETTE['Gray 100']
 
     expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Gray 30'])
-    expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Brand Blue 30'])
-    expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Product Blue 30'])
+    expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Airo 30'])
+    expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Blue 30'])
     expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Purple 30'])
     expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Pink 30'])
     expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Red 30'])
@@ -132,8 +132,8 @@ describe('dark mode accessibility for Material Design', () => {
     const SURFACE_COLOR = PALETTE['Gray 90']
 
     expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Gray 30'])
-    expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Brand Blue 30'])
-    expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Product Blue 30'])
+    expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Airo 30'])
+    expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Blue 30'])
     expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Purple 30'])
     expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Pink 30'])
     expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Red 30'])
@@ -147,8 +147,8 @@ describe('dark mode accessibility for Material Design', () => {
     const SURFACE_COLOR = PALETTE['Gray 80']
 
     expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Gray 30'])
-    expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Brand Blue 30'])
-    expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Product Blue 30'])
+    expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Airo 30'])
+    expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Blue 30'])
     expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Purple 30'])
     expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Pink 30'])
     expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Red 30'])
