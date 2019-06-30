@@ -1,23 +1,27 @@
 const chroma = require('chroma-js')
 const flatten = require('lodash/flatten')
+const isString = require('lodash/isString')
 
 const SKETCH_PALETTE_ROW_COUNT = 8
-const SKETCH_PALETTE_ROW_FILLER = '#ffffff00'
+const SKETCH_PALETTE_ROW_FILLER = {
+  name: ' ',
+  value: '#ffffff00'
+}
 
 module.exports = (colorArray, customProperties = {}) => {
   const sketchPalette = Object.assign(customProperties, {
     compatibleVersion: '2',
-    pluginVersion: '2.14',
-    gradients: [],
+    pluginVersion: '2.22',
     colors: [],
+    gradients: [],
     images: []
   })
 
-  formatPalette(colorArray).map(formatColor).forEach(rgba => {
-    sketchPalette.colors.push(rgba)
+  formatPalette(colorArray).map(formatColor).forEach(colorObject => {
+    sketchPalette.colors.push(colorObject)
   })
 
-  return JSON.stringify(sketchPalette, null, 2)
+  return sketchPalette
 }
 
 function formatPalette(colorArray) {
@@ -43,7 +47,16 @@ function fillOutPaletteRow(colorArray) {
   return row
 }
 
-function formatColor(colorValue) {
+function formatColor(colorObject) {
+  if (isString(colorObject)) {
+    return formatColorString(colorObject)
+  }
+
+  const colorValue = formatColorString(colorObject.value)
+  return Object.assign({ name: colorObject.name }, colorValue)
+}
+
+function formatColorString(colorValue) {
   const color = chroma(colorValue)
 
   return {
