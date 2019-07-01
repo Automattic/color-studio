@@ -4,30 +4,43 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>Color Palette</title>
+    <title>Color Studio</title>
 
-    <link rel="stylesheet" href="assets/page.css">
+    <link rel="stylesheet" href="assets/docs.css">
   </head>
   <body>
-    <div id="download" class="pb-5">
-      <div class="bg-white px-3 py-5">
-        <div class="container">
-          <a class="btn btn-lg btn-dark" href="https://raw.githubusercontent.com/Automattic/color-studio/master/dist/colors.sketchpalette" download="">
-            Download palette
+    <nav class="navbar navbar-expand navbar-light bg-white" id="studio-navbar">
+      <a class="navbar-brand" href="">
+        Color Studio
+      </a>
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="examples">
+            Examples
           </a>
-        </div>
-        <div class="container">
-          <p class="text-secondary mt-3">
-            Use <a class="text-secondary font-weight-bold" href="https://github.com/andrewfiorillo/sketch-palettes">Sketch&nbsp;Palettes</a>
-            to import the generated&nbsp;file.
-            <a class="text-secondary font-weight-bold" href="https://github.com/automattic/color-studio">About&nbsp;this&nbsp;project</a>.
-          </p>
-        </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://github.com/automattic/color-studio">
+            GitHub
+          </a>
+        </li>
+      </ul>
+      <ul class="navbar-nav mr-3">
+        <li class="nav-item">
+          <a class="nav-link disabled" href="" id="studio-download-link">
+            Downloads
+          </a>
+        </li>
+      </ul>
+      <div class="form-inline">
+        <select class="form-control" disabled="" id="studio-version-select">
+          <option>Loading…</option>
+        </select>
       </div>
-    </div>
+    </nav>
 
-    <div id="color-tiles"></div>
+    <div id="studio-color-tiles"></div>
 
-    <script src="assets/page-index.js"></script>
+    <script src="assets/docs.js"></script>
   </body>
 </html>

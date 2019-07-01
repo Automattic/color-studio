@@ -1,0 +1,17 @@
+.device {
+  position: relative;
+  display: block;
+  margin: 20px auto;
+  width: 404px;
+  height: 837px;
+  background: url("assets/device-body.svg");
+}
+
+.device__content {
+  position: absolute;
+  top: 99px;
+  left: 20px;
+  width: 360px;
+  height: 592px;
+  overflow: hidden;
+}

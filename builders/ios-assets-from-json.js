@@ -4,24 +4,24 @@ const path = require('path')
 const chroma = require('chroma-js')
 const removeDirectory = require('rimraf').sync
 
-const PALETTE = require('../dist/colors.json')
+const PALETTE = require('../dist/colors.meta.json')
 
 const INFO_TEMPLATE = {
   info: {
-    author: 'io.github.automattic.color-studio',
+    author: 'blog.color-studio',
     version: PALETTE.version
   }
 }
 
 const OUTPUT_PATH = path.join(__dirname, '../dist/ios')
-const ASSETS_PATH = path.join(OUTPUT_PATH, 'ColorPalette.xcassets')
+const ASSETS_PATH = path.join(OUTPUT_PATH, 'MurielColorPalette.xcassets')
 
 const directoriesToCreate = [OUTPUT_PATH, ASSETS_PATH]
 const filesToCreate = [defineContentsFile(ASSETS_PATH)]
 
 PALETTE.colors.forEach(colorArray => {
   colorArray.forEach(colorObject => {
-    const colorPath = path.join(ASSETS_PATH, `${colorObject.name.replace(/\s+/g, '-')}.colorset`)
+    const colorPath = path.join(ASSETS_PATH, `${colorObject.name.replace(/\s+/g, '')}.colorset`)
     const chromaObject = chroma(colorObject.value)
 
     directoriesToCreate.push(colorPath)

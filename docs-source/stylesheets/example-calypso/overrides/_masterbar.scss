@@ -1,0 +1,15 @@
+.masterbar {
+  background: var(--masterbar-background);
+}
+
+.masterbar__item {
+  &:not(&-logo):not(&-new) {
+    &:hover {
+      background: var(--masterbar-item-hover-background);
+    }
+
+    &.is-active {
+      background: var(--masterbar-item-active-background);
+    }
+  }
+}

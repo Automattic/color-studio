@@ -1,9 +1,11 @@
 {
   "name": "color-studio",
-  "version": "1.0.5",
+  "version": "2.0.0-rc.1",
+  "description": "The computational color palette for Automattic products.",
+  "homepage": "https://color-studio.blog",
   "license": {
     "type": "GPL-2.0+",
-    "url": "https://github.com/automattic/color-studio/blob/master/LICENSE.md"
+    "url": "https://github.com/Automattic/color-studio/blob/master/LICENSE.md"
   },
   "repository": {
     "type": "git",
@@ -12,54 +14,86 @@
   "main": "dist/colors.json",
   "style": "dist/color-variables.scss",
   "devDependencies": {
-    "@skpm/builder": "^0.5.11",
-    "autoprefixer": "^8.2.0",
-    "babel-core": "^6.26.0",
-    "babel-loader": "^7.1.4",
-    "babel-plugin-transform-runtime": "^6.23.0",
-    "babel-preset-env": "^1.6.1",
+    "@babel/core": "^7.4.5",
+    "@babel/plugin-transform-runtime": "^7.4.4",
+    "@babel/preset-env": "^7.4.5",
+    "@skpm/builder": "^0.7.0",
+    "autoprefixer": "^9.6.0",
+    "babel-loader": "^8.0.6",
+    "bezier-easing": "^2.1.0",
     "bootstrap": "^4.0.0",
-    "chroma-js": "^1.3.6",
-    "copy-text-to-clipboard": "^1.0.4",
-    "css-loader": "^0.28.11",
+    "chroma-js": "^2.0.4",
+    "color-studio": "1.0.5",
+    "concurrently": "^4.1.1",
+    "copy-text-to-clipboard": "^2.1.0",
+    "css-loader": "^3.0.0",
+    "easy-table": "^1.1.1",
     "file-saver": "^2.0.0-rc.4",
-    "husky": "^0.14.3",
+    "husky": "^2.7.0",
+    "jest": "^24.8.0",
     "lodash": "^4.17.5",
-    "mini-css-extract-plugin": "^0.4.0",
+    "mini-css-extract-plugin": "^0.7.0",
     "node-sass": "^4.8.3",
-    "postcss-loader": "^2.1.3",
-    "puppeteer": "^1.10.0",
-    "raw-loader": "^0.5.1",
+    "now": "^15.6.2",
+    "onchange": "^6.0.0",
+    "postcss-css-variables": "^0.13.0",
+    "postcss-loader": "^3.0.0",
+    "puppeteer": "^1.18.1",
+    "raw-loader": "^3.0.0",
+    "rename-webpack-plugin": "^2.0.0",
     "rimraf": "^2.6.3",
-    "sass-loader": "^6.0.7",
-    "webpack": "4.19.1",
-    "webpack-cli": "2.1.4",
+    "sass-loader": "^7.1.0",
+    "svgo": "^1.2.2",
+    "url-loader": "^2.0.1",
+    "webpack": "^4.35.2",
+    "webpack-cli": "^3.3.5",
+    "webpack-dev-server": "^3.7.2",
     "webpack-extraneous-file-cleanup-plugin": "^2.0.0",
-    "xo": "^0.20.3"
+    "xo": "^0.24.0"
+  },
+  "engines": {
+    "node": "^10.15.2"
   },
   "scripts": {
-    "build": "yarn palette:build && yarn docs:build && yarn sketch:build && yarn meta:build",
+    "build": "yarn palette:build && yarn docs:build --silent && yarn sketch:build --quiet && yarn meta:build",
+    "calypso": "yarn calypso:clone && yarn calypso:reset",
+    "calypso:clone": "git clone -b master --single-branch https://github.com/Automattic/wp-calypso .cache/calypso || true",
+    "calypso:reset": "git -C .cache/calypso reset --hard 31f0c014fcbfbf20161d2ad47d1228ee9cf27970",
     "docs": "yarn docs:build",
-    "docs:build": "webpack --display=errors-only",
-    "docs:watch": "webpack --watch",
+    "docs:build": "webpack",
+    "docs:deploy": "yarn docs:build --silent && now --target production docs",
+    "docs:watch": "yarn palette:build:_watch && concurrently \"yarn palette:watch\" \"webpack-dev-server\"",
+    "info": "yarn info:colorbox && yarn info:material-elevation",
+    "info:colorbox": "node info/colorbox",
+    "info:material-elevation": "node info/material-elevation",
     "lint": "xo",
     "meta": "yarn meta:build",
     "meta:build": "yarn meta:build:preview",
     "meta:build:preview": "node builders/preview-from-docs",
     "palette": "yarn palette:build",
     "palette:build": "yarn palette:build:json && yarn palette:build:android && yarn palette:build:css && yarn palette:build:ios && yarn palette:build:sketch",
-    "palette:build:android": "node builders/android-xml-from-json > dist/android/colors.xml",
-    "palette:build:css": "yarn palette:build:css:classes && yarn palette:build:css:properties && yarn palette:build:css:variables",
+    "palette:build:android": "node builders/android-xml-from-json > dist/android/muriel-color-palette.xml",
+    "palette:build:css": "yarn palette:build:css:classes && yarn palette:build:css:fills && yarn palette:build:css:properties && yarn palette:build:css:variables",
     "palette:build:css:classes": "node builders/css-classes-from-json > dist/color-classes.css",
+    "palette:build:css:fills": "node builders/css-fills-from-json > dist/color-fills.css",
     "palette:build:css:properties": "node builders/css-properties-from-json > dist/color-properties.css",
     "palette:build:css:variables": "node builders/scss-variables-from-json > dist/color-variables.scss",
     "palette:build:ios": "node builders/ios-assets-from-json",
-    "palette:build:json": "node builders/json > dist/colors.json",
+    "palette:build:json": "yarn palette:build:json:flat && yarn palette:build:json:meta",
+    "palette:build:json:flat": "node builders/json-flat-from-json > dist/colors.json",
+    "palette:build:json:meta": "node builders/json-meta-from-json > dist/colors.meta.json",
     "palette:build:sketch": "node builders/sketchpalette-from-json > dist/colors.sketchpalette",
-    "precommit": "yarn lint && yarn build && git add --update",
+    "palette:build:_watch": "yarn palette:test; yarn palette:build:json && yarn palette:build:css",
+    "palette:test": "jest test/palette.test.js",
+    "palette:watch": "onchange builders/json.js data/color-definitions.js -- yarn palette:build:_watch",
+    "postinstall": "yarn calypso",
+    "precommit": "yarn lint && yarn test && yarn build && git add --update",
     "sketch": "yarn sketch:build && skpm-link",
-    "sketch:build": "skpm-build --quiet",
-    "sketch:watch": "skpm-build --watch"
+    "sketch:build": "skpm-build",
+    "sketch:watch": "skpm-build --watch",
+    "svgo": "svgo --config=svgo.config.json",
+    "svgo:docs": "yarn svgo --folder docs-source --recursive",
+    "test": "jest --all"
   },
   "skpm": {
     "manifest": "extensions/sketch/manifest.json",
@@ -67,7 +101,9 @@
   },
   "xo": {
     "ignores": [
-      "**/assets/*.js"
+      ".cache/**/*",
+      "docs/assets/**/*",
+      "docs/downloads/**/*"
     ],
     "esnext": true,
     "space": true,
@@ -108,10 +144,41 @@
         "error",
         "always"
       ],
+      "prefer-object-spread": [
+        "off"
+      ],
       "space-before-function-paren": [
         "error",
         "never"
+      ],
+      "unicorn/prefer-spread": [
+        "off"
       ]
-    }
+    },
+    "overrides": [
+      {
+        "files": [
+          "docs-source/**/*.js"
+        ],
+        "env": [
+          "browser"
+        ]
+      },
+      {
+        "files": [
+          "**/*.test.js"
+        ],
+        "globals": [
+          "expect",
+          "describe",
+          "test"
+        ],
+        "rules": {
+          "dot-notation": [
+            "off"
+          ]
+        }
+      }
+    ]
   }
 }

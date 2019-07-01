@@ -1,0 +1,34 @@
+@mixin whitespace-values($suffix: "") {
+  $suffix: if($suffix == "", "", unquote("\\@#{$suffix}"));
+
+  @each $value in 0 6 9 12 18 24 30 36 48 72 96 120 144 180 240 {
+    .p#{$suffix} {
+      display: block;
+    }
+
+    .p-#{$value}#{$suffix} {
+      @extend .pt-#{$value}#{$suffix};
+      @extend .pr-#{$value}#{$suffix};
+      @extend .pb-#{$value}#{$suffix};
+      @extend .pl-#{$value}#{$suffix};
+    }
+
+    @each $direction in top right bottom left {
+      .p#{str-slice($direction, 1, 1)}-#{$value}#{$suffix} {
+        padding-#{$direction}: if($value == 0, 0, $value * 1px);
+      }
+    }
+
+    .px-#{$value}#{$suffix} {
+      @extend .pr-#{$value}#{$suffix};
+      @extend .pl-#{$value}#{$suffix};
+    }
+
+    .py-#{$value}#{$suffix} {
+      @extend .pt-#{$value}#{$suffix};
+      @extend .pb-#{$value}#{$suffix};
+    }
+  }
+}
+
+@include whitespace-values();

@@ -1,52 +1,42 @@
-const BASE_COLORS = require('../data/base-colors')
+const chroma = require('chroma-js')
+const generateShades = require('../utilities/generate-shades')
+
+const COLOR_DEFINITIONS = require('../data/color-definitions')
 const PACKAGE = require('../package.json')
 
-const createPrimaryShades = require('../utilities/create-primary-shades')
-const createSecondaryShades = require('../utilities/create-secondary-shades')
-const createBrandShades = require('../utilities/create-brand-shades')
-
-const paletteColors = BASE_COLORS.map(colorObject => {
-  let shades = []
-
-  if (colorObject.formula === 'primary') {
-    shades = createPrimaryShades(colorObject.value)
-  } else if (colorObject.formula === 'secondary') {
-    shades = createSecondaryShades(colorObject.value)
-  } else if (colorObject.formula === 'brand') {
-    shades = createBrandShades(colorObject.value)
-  } else {
-    throw new Error('Unknown formula')
-  }
-
-  return formatShades(colorObject, shades)
+const paletteColors = COLOR_DEFINITIONS.colors.map(color => {
+  const shades = generateShades(COLOR_DEFINITIONS.config, color.specs)
+  return formatShades(color.name, shades)
 })
 
-const paletteData = {
+const specialColors = ['White', 'Black'].map(color => {
+  return {
+    name: color,
+    value: chroma(color).hex(),
+    _meta: {
+      special: true
+    }
+  }
+})
+
+module.exports = {
   version: PACKAGE.version,
-  colors: paletteColors
+  colors: [specialColors].concat(paletteColors)
 }
 
-print(paletteData)
-
-function formatShades(baseColorObject, shades) {
+function formatShades(colorName, shades) {
   const result = []
 
   shades.forEach(colorObject => {
     result.push({
-      name: `${baseColorObject.name} ${colorObject.index}`,
+      name: `${colorName} ${colorObject.index}`,
       value: colorObject.value,
       _meta: {
-        baseColor: colorObject.index === 500,
-        baseName: baseColorObject.name,
-        colorFormula: baseColorObject.formula,
-        shadeIndex: colorObject.index
+        baseName: colorName,
+        index: colorObject.index
       }
     })
   })
 
   return result
-}
-
-function print(data) {
-  console.log(JSON.stringify(data, null, 2))
 }

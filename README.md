@@ -8,24 +8,22 @@
 [dist-scss-variables]: dist/color-variables.scss
 [dist-sketchpalette]: dist/colors.sketchpalette
 
-[docs-custom]: https://automattic.github.io/color-studio/custom.html
-[docs-index]: https://automattic.github.io/color-studio/
+[home]: https://color-studio.blog
 
 # Color Studio
 
-> The computational color palette for a design language system focused on accessibility and inclusion.
+> The computational color palette for Automattic products.
 
 ## What’s Inside
 
 Color Studio generates the following:
 
-* [Online documentation][docs-index] with contrast ratios and click-to-copy hex values.
+* [Online documentation][home] with contrast ratios and click-to-copy hex values.
 * Several stylesheets that can be [imported](#scss) or linked to within any project:
     * [CSS partial][dist-css-properties] with all colors defined as custom properties.
     * [SCSS partial][dist-scss-variables] with all colors defined as variables.
     * [CSS file][dist-css-classes] with all colors defined in separate classes.
 * [Sketch palette file][dist-sketchpalette] that can be imported using the [Sketch Palettes](https://github.com/andrewfiorillo/sketch-palettes) plugin.
-* [Custom color tester][docs-custom] that runs Color Studio’s formula against any specified value.
 
 Also:
 
@@ -36,7 +34,7 @@ Also:
 
 ## The Palette
 
-[![Color palette preview][dist-preview]][docs-index]
+[![Color palette preview][dist-preview]][home]
 
 ## Using Color Studio as a Dependency
 
@@ -52,7 +50,7 @@ This package is dependency-free.
 @import "~color-studio/dist/color-variables";
 
 button {
-  background: $muriel-hot-pink-500;
+  background: $muriel-pink-50;
   color: $muriel-white;
 }
 ```
@@ -61,6 +59,8 @@ button {
 
 ```js
 const PALETTE = require('color-studio')
+
+console.log(PALETTE.colors['Pink 50'])
 ```
 
 The above imports the contents of the [JSON file][dist-json].
@@ -68,10 +68,13 @@ The above imports the contents of the [JSON file][dist-json].
 ## Development
 
 ```sh
+# Spin up Color Studio
+yarn install
+
 # Generate the JSON file, the stylesheets, and the Sketch palette file
 yarn palette
 
-# Build the documentation assets from `docs-source`
+# Build the documentation and example assets from `docs-source`
 yarn docs
 yarn docs:watch
 

@@ -1,2 +1,5 @@
+.cache
 node_modules
 yarn-error.log
+
+docs/assets/*-css.js

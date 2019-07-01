@@ -1,8 +1,16 @@
+.cache
+.huskyrc.json
 builders
 data
 dist/meta/preview.png
 docs
 docs-source
 extensions
+info
+jest.config.js
+svgo.config.json
+test
 utilities
 webpack.config.js
+yarn-error.log
+yarn.lock

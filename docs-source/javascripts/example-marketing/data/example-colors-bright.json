@@ -1,0 +1,149 @@
+{
+  "defaults": {
+    "hero-background": [
+      "White"
+    ],
+    "hero-heading": [
+      "Gray 80"
+    ],
+    "hero-text": [
+      "Gray 50"
+    ],
+    "button-background": [
+      "Pink 50"
+    ]
+  },
+  "examples": [
+    {},
+    {
+      "hero-background": [
+        "Gray 0",
+        "Gray 5"
+      ],
+      "hero-text": [
+        "Gray 60"
+      ]
+    },
+    {
+      "hero-background": [
+        "Airo 0",
+        "Airo 5"
+      ],
+      "hero-heading": [
+        "Airo 80"
+      ],
+      "hero-text": [
+        "Airo 60"
+      ]
+    },
+    {
+      "hero-background": [
+        "Blue 0",
+        "Blue 5"
+      ],
+      "hero-heading": [
+        "Blue 80"
+      ],
+      "hero-text": [
+        "Airo 60"
+      ]
+    },
+    {
+      "hero-background": [
+        "Purple 0",
+        "Purple 5"
+      ],
+      "hero-heading": [
+        "Purple 80"
+      ],
+      "hero-text": [
+        "Purple 70"
+      ],
+      "button-background": [
+        "Airo 60"
+      ]
+    },
+    {
+      "hero-background": [
+        "Pink 0",
+        "Pink 5"
+      ],
+      "hero-heading": [
+        "Pink 80"
+      ],
+      "hero-text": [
+        "Pink 60"
+      ]
+    },
+    {
+      "hero-background": [
+        "Red 0",
+        "Red 5"
+      ],
+      "hero-heading": [
+        "Red 80"
+      ],
+      "hero-text": [
+        "Red 60"
+      ]
+    },
+    {
+      "hero-background": [
+        "Yellow 5"
+      ],
+      "hero-heading": [
+        "Yellow 80"
+      ],
+      "hero-text": [
+        "Yellow 70"
+      ],
+      "button-background": [
+        "Airo 60"
+      ]
+    },
+    {
+      "hero-background": [
+        "Orange 5"
+      ],
+      "hero-heading": [
+        "Orange 80"
+      ],
+      "hero-text": [
+        "Orange 70"
+      ],
+      "button-background": [
+        "Airo 60"
+      ]
+    },
+    {
+      "hero-background": [
+        "Green 0",
+        "Green 5"
+      ],
+      "hero-heading": [
+        "Green 80"
+      ],
+      "hero-text": [
+        "Green 70"
+      ],
+      "button-background": [
+        "Green 60"
+      ]
+    },
+    {
+      "hero-background": [
+        "Celadon 0",
+        "Celadon 5"
+      ],
+      "hero-heading": [
+        "Celadon 80"
+      ],
+      "hero-text": [
+        "Celadon 70"
+      ],
+      "button-background": [
+        "Airo 60"
+      ]
+    }
+  ]
+}

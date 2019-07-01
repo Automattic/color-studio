@@ -5,23 +5,13 @@ const { Artboard, Rectangle, Shape, SharedStyle, Style, SymbolMaster } = require
 
 const padStart = require('lodash/padStart')
 
-const PALETTE = require('../../dist/colors.json')
+const PALETTE = require('../../dist/colors.meta.json')
 
 const SWATCH_WIDTH = 48
 const SWATCH_HEIGHT = 48
 const SWATCH_MARGIN = 12
 const SWATCH_INITIAL_X = 0
 const SWATCH_INITIAL_Y = 240
-
-const PALETTE_WHITE = {
-  name: 'White',
-  value: '#ffffff',
-  _meta: {
-    special: true
-  }
-}
-
-const PALETTE_COLORS = [[PALETTE_WHITE]].concat(PALETTE.colors)
 
 const cachedArtboards = {}
 const cachedSharedStyles = {}
@@ -33,7 +23,7 @@ export default () => {
   cacheArtboards(page)
   cacheSharedStyles(document)
 
-  PALETTE_COLORS.forEach((colorObjects, rowIndex) => {
+  PALETTE.colors.forEach((colorObjects, rowIndex) => {
     colorObjects.forEach((colorObject, columnIndex) => {
       const colorStyle = createColorStyle(document, colorObject)
       createColorSymbol(page, colorObject, colorStyle, rowIndex, columnIndex)
@@ -75,7 +65,7 @@ function normalizeColorName(colorObject) {
   }
 
   const base = colorObject._meta.baseName
-  const index = padStart(colorObject._meta.shadeIndex, 3, 0)
+  const index = padStart(colorObject._meta.index, 3, 0)
   return `${base}/${base} ${index}`
 }
 

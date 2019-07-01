@@ -1,0 +1,28 @@
+.examples {
+  display: grid;
+}
+
+.examples--columns-2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.examples--columns-3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.examples--gap {
+  grid-gap: 12px;
+  padding: 12px;
+}
+
+.example {
+  overflow: hidden;
+
+  .examples--gap & {
+    border-radius: 2px;
+  }
+}
+
+.example--color {
+  background: currentcolor;
+}
