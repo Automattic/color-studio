@@ -50,8 +50,8 @@ This package is dependency-free.
 @import "~color-studio/dist/color-variables";
 
 button {
-  background: $muriel-pink-50;
-  color: $muriel-white;
+  background: $studio-pink-50;
+  color: $studio-white;
 }
 ```
 
