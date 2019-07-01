@@ -1,6 +1,8 @@
 {
   "name": "color-studio",
-  "version": "2.0.0.rc-0",
+  "version": "2.0.0-rc.1",
+  "description": "The computational color palette for Automattic products.",
+  "homepage": "https://color-studio.blog",
   "license": {
     "type": "GPL-2.0+",
     "url": "https://github.com/Automattic/color-studio/blob/master/LICENSE.md"

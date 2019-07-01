@@ -8,17 +8,17 @@
 [dist-scss-variables]: dist/color-variables.scss
 [dist-sketchpalette]: dist/colors.sketchpalette
 
-[docs-index]: https://automattic.github.io/color-studio/
+[home]: https://color-studio.blog
 
 # Color Studio
 
-> The computational color palette for a design language system focused on accessibility and inclusion.
+> The computational color palette for Automattic products.
 
 ## What’s Inside
 
 Color Studio generates the following:
 
-* [Online documentation][docs-index] with contrast ratios and click-to-copy hex values.
+* [Online documentation][home] with contrast ratios and click-to-copy hex values.
 * Several stylesheets that can be [imported](#scss) or linked to within any project:
     * [CSS partial][dist-css-properties] with all colors defined as custom properties.
     * [SCSS partial][dist-scss-variables] with all colors defined as variables.
@@ -34,7 +34,7 @@ Also:
 
 ## The Palette
 
-[![Color palette preview][dist-preview]][docs-index]
+[![Color palette preview][dist-preview]][home]
 
 ## Using Color Studio as a Dependency
 
