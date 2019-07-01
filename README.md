@@ -1,10 +1,10 @@
 [dist-android]: dist/android/colors.xml
+[dist-css-classes]: dist/color-classes.css
+[dist-css-properties]: dist/color-properties.css
 [dist-extensions]: dist/extensions/
 [dist-ios]: dist/ios/
 [dist-json]: dist/colors.json
-[dist-preview]: dist/meta/preview.png
-[dist-css-classes]: dist/color-classes.css
-[dist-css-properties]: dist/color-properties.css
+[dist-preview]: dist/preview.png
 [dist-scss-variables]: dist/color-variables.scss
 [dist-sketchpalette]: dist/colors.sketchpalette
 

@@ -2,7 +2,7 @@ const path = require('path')
 const puppeteer = require('puppeteer')
 
 const INPUT_PATH = path.join(__dirname, '../docs/index.html')
-const OUTPUT_PATH = path.join(__dirname, '../dist/meta/preview.png')
+const OUTPUT_PATH = path.join(__dirname, '../dist/preview.png')
 
 generatePreview()
 
