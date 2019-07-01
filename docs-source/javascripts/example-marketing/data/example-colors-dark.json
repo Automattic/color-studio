@@ -15,22 +15,10 @@
       "hero-background": [
         "Airo 50",
         "Airo 60",
-        "Airo 70"
-      ],
-      "hero-text": [
-        "White"
-      ]
-    },
-    {
-      "hero-background": [
+        "Airo 70",
         "Airo 80",
         "Airo 90",
         "Airo 100"
-      ],
-      "hero-text": [
-        "White",
-        "Yellow 10",
-        "Orange 10"
       ]
     },
     {
@@ -51,85 +39,51 @@
         "Pink 80",
         "Pink 90",
         "Pink 100"
-      ],
-      "hero-text": [
-        "Blue 10",
-        "Yellow 10",
-        "Orange 10",
-        "Red 10"
       ]
     },
     {
       "hero-background": [
-        "Purple 80",
-        "Purple 90",
-        "Purple 100"
-      ],
-      "hero-text": [
-        "Blue 10",
-        "Pink 10",
-        "Yellow 10",
-        "Orange 10",
-        "Red 10"
-      ]
-    },
-    {
-      "hero-background": [
+        "Airo 80",
+        "Airo 90",
+        "Airo 100",
+        "Pink 80",
+        "Pink 90",
+        "Pink 100",
         "Blue 80",
         "Blue 90",
-        "Blue 100"
+        "Blue 100",
+        "Purple 80",
+        "Purple 90",
+        "Purple 100",
+        "Gray 80",
+        "Gray 90",
+        "Gray 100",
+        "Celadon 80",
+        "Celadon 90",
+        "Celadon 100"
       ],
       "hero-text": [
-        "Airo 10",
-        "Purple 10",
         "Yellow 10",
-        "Orange 10"
+        "Pink 10"
       ]
     },
     {
       "hero-background": [
+        "Red 50",
+        "Red 60",
+        "Red 70",
         "Orange 50",
         "Orange 60",
         "Orange 70",
         "Yellow 50",
         "Yellow 60",
-        "Yellow 70"
-      ],
-      "hero-text": [
-        "White"
-      ],
-      "button-background": [
-        "Airo 50"
-      ]
-    },
-    {
-      "hero-background": [
-        "Gray 80",
-        "Gray 90",
-        "Gray 100"
-      ],
-      "hero-text": [
-        "Airo 10",
-        "Yellow 10"
+        "Yellow 70",
+        "Green 50",
+        "Green 60",
+        "Green 70"
       ],
       "button-background": [
-        "Airo 50"
-      ]
-    },
-    {
-      "hero-background": [
-        "Orange 80",
-        "Orange 90",
-        "Orange 100",
-        "Yellow 80",
-        "Yellow 90",
-        "Yellow 100"
-      ],
-      "hero-text": [
-        "White"
-      ],
-      "button-background": [
-        "Airo 50"
+        "Airo 80"
       ]
     },
     {
@@ -138,25 +92,8 @@
         "Green 90",
         "Green 100"
       ],
-      "hero-text": [
-        "White",
-        "Yellow 10"
-      ],
       "button-background": [
         "Green 50"
-      ]
-    },
-    {
-      "hero-background": [
-        "Celadon 80",
-        "Celadon 90",
-        "Celadon 100"
-      ],
-      "hero-text": [
-        "Yellow 10"
-      ],
-      "button-background": [
-        "Airo 50"
       ]
     }
   ]

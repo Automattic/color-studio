@@ -4,7 +4,11 @@
   margin: 20px auto;
   width: 404px;
   height: 837px;
-  background: url("assets/device-body.svg");
+  background: url("assets/device-body-bright-theme.svg");
+}
+
+.device--dark-theme {
+  background: url("assets/device-body-dark-theme.svg");
 }
 
 .device__content {

@@ -7,21 +7,17 @@
       "Gray 80"
     ],
     "hero-text": [
-      "Gray 50"
+      "Gray 60"
     ],
     "button-background": [
       "Pink 50"
     ]
   },
   "examples": [
-    {},
     {
       "hero-background": [
-        "Gray 0",
-        "Gray 5"
-      ],
-      "hero-text": [
-        "Gray 60"
+        "White",
+        "Gray 0"
       ]
     },
     {
@@ -33,7 +29,7 @@
         "Airo 80"
       ],
       "hero-text": [
-        "Airo 60"
+        "Airo 70"
       ]
     },
     {
@@ -45,7 +41,7 @@
         "Blue 80"
       ],
       "hero-text": [
-        "Airo 60"
+        "Blue 70"
       ]
     },
     {
@@ -72,7 +68,7 @@
         "Pink 80"
       ],
       "hero-text": [
-        "Pink 60"
+        "Pink 70"
       ]
     },
     {
@@ -84,11 +80,12 @@
         "Red 80"
       ],
       "hero-text": [
-        "Red 60"
+        "Red 70"
       ]
     },
     {
       "hero-background": [
+        "Yellow 0",
         "Yellow 5"
       ],
       "hero-heading": [
@@ -103,6 +100,7 @@
     },
     {
       "hero-background": [
+        "Orange 0",
         "Orange 5"
       ],
       "hero-heading": [

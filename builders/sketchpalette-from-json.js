@@ -15,7 +15,7 @@ function formatPaletteRows(colorArrays) {
   const paletteRows = []
 
   colorArrays.forEach(colorArray => {
-    chunk(colorArray, 7).forEach(row => {
+    chunk(colorArray, 6).forEach(row => {
       paletteRows.push(row)
     })
   })
