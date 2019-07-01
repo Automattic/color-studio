@@ -43,7 +43,7 @@
     "sass-loader": "^7.1.0",
     "svgo": "^1.2.2",
     "url-loader": "^2.0.1",
-    "webpack": "^4.35.0",
+    "webpack": "^4.35.2",
     "webpack-cli": "^3.3.5",
     "webpack-dev-server": "^3.7.2",
     "webpack-extraneous-file-cleanup-plugin": "^2.0.0",
