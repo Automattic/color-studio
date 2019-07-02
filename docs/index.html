@@ -9,33 +9,35 @@
     <link rel="stylesheet" href="assets/docs.css">
   </head>
   <body>
-    <nav class="navbar navbar-expand navbar-light bg-white" id="studio-navbar">
+    <nav class="navbar navbar-expand-md navbar-light bg-white" id="studio-navbar">
       <a class="navbar-brand" href="">
         Color Studio
       </a>
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item">
-          <a class="nav-link" href="examples">
-            Examples
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="https://github.com/automattic/color-studio">
-            GitHub
-          </a>
-        </li>
-      </ul>
-      <ul class="navbar-nav mr-3">
-        <li class="nav-item">
-          <a class="nav-link disabled" href="" id="studio-download-link">
-            Downloads
-          </a>
-        </li>
-      </ul>
-      <div class="form-inline">
-        <select class="form-control" disabled="" id="studio-version-select">
-          <option>Loading…</option>
-        </select>
+      <div class="collapse navbar-collapse">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="examples">
+              Examples
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://github.com/automattic/color-studio">
+              GitHub
+            </a>
+          </li>
+        </ul>
+        <ul class="navbar-nav mr-md-3">
+          <li class="nav-item">
+            <a class="nav-link disabled" href="" id="studio-download-link">
+              Downloads
+            </a>
+          </li>
+        </ul>
+        <div class="form-inline my-2 my-md-0">
+          <select class="form-control" disabled="" id="studio-version-select" style="width: 100%">
+            <option>Loading…</option>
+          </select>
+        </div>
       </div>
     </nav>
 

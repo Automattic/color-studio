@@ -1,7 +1,7 @@
 .tile {
   position: relative;
   flex: 1;
-  padding: 1.65em 0;
+  padding: 1.25em 0;
   font-size: 0.65em;
   text-align: center;
   overflow: hidden;
@@ -9,6 +9,10 @@
   transition-property: border-radius, box-shadow, transform;
   user-select: none;
   cursor: pointer;
+
+  @include media-breakpoint-up(md) {
+    padding: 1.65em 0 1.5em;
+  }
 
   @include media-breakpoint-up(lg) {
     font-size: 0.85em;
@@ -35,12 +39,21 @@
   padding: 1em 0;
 }
 
-.tile--base {
-  flex: 1.5;
+.tile--featured {
+  flex: 3;
+
+  @include media-breakpoint-up(md) {
+    flex: 1.5;
+  }
 }
 
 .tile__meta {
-  font-size: 0.85em;
+  display: none;
+
+  @include media-breakpoint-up(md) {
+    display: block;
+    font-size: 0.85em;
+  }
 }
 
 .tile__meta--tiny {

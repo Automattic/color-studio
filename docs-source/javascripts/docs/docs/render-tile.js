@@ -6,21 +6,24 @@ const round = require('lodash/round')
 const COLOR_WHITE = '#fff'
 const COLOR_BLACK = '#000'
 
-module.exports = (base, name, value) => {
-  const className = `tile${base ? ' tile--base' : ''} text-center`
+module.exports = (featured, name, value) => {
+  const className = `tile${featured ? ' tile--featured' : ''} text-center`
   const textColor = determineTextColor(value)
 
   /* eslint-disable indent */
   return [
     `<div class="${className}" style="background: ${value}; color: ${textColor}" data-color="${value}">`,
       '<div class="tile__title font-weight-bold">',
-        name,
+        String(name).replace(/\s+/g, '&nbsp;'),
       '</div>',
       '<div class="tile__meta text-uppercase">',
         value,
       '</div>',
-      '<div class="tile__meta tile__meta--tiny text-uppercase pt-1">',
-        getColorProperties(value),
+      '<div class="tile__meta tile__meta--tiny pt-1">',
+        getContrastScore(COLOR_WHITE, value, 'W'),
+      '</div>',
+      '<div class="tile__meta tile__meta--tiny">',
+        getContrastScore(COLOR_BLACK, value, 'B'),
       '</div>',
     '</div>'
   ].join('')
@@ -30,13 +33,6 @@ module.exports = (base, name, value) => {
 function determineTextColor(backgroundColor) {
   const ratio = chroma.contrast(COLOR_WHITE, backgroundColor)
   return ratio > 4.5 ? COLOR_WHITE : COLOR_BLACK
-}
-
-function getColorProperties(colorValue) {
-  return [
-    getContrastScore(COLOR_BLACK, colorValue, 'B'),
-    getContrastScore(COLOR_WHITE, colorValue, 'W')
-  ].join(' &nbsp; ')
 }
 
 function getContrastScore(foregroundColor, backgroundColor, prefix) {
