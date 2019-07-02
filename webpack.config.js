@@ -6,7 +6,7 @@ const RenameFilePlugin = require('rename-webpack-plugin')
 
 module.exports = {
   mode: 'production',
-  context: path.join(__dirname, '/docs-source'),
+  context: path.join(__dirname, 'docs/source'),
   entry: {
     'docs-css': './stylesheets/docs/docs.scss',
     'docs-js': './javascripts/docs/docs.js',
@@ -83,7 +83,7 @@ module.exports = {
     ]
   },
   output: {
-    path: path.join(__dirname, 'docs/assets'),
+    path: path.join(__dirname, 'docs/dist/assets'),
     filename: '[name].js'
   },
   plugins: [
@@ -111,7 +111,7 @@ module.exports = {
     warnings: false
   },
   devServer: {
-    contentBase: path.join(__dirname, 'docs'),
+    contentBase: path.join(__dirname, 'docs/dist'),
     writeToDisk: true
   }
 }

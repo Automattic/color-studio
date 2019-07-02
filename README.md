@@ -74,7 +74,7 @@ yarn install
 # Generate the JSON file, the stylesheets, and the Sketch palette file
 yarn palette
 
-# Build the documentation and example assets from `docs-source`
+# Build the documentation and example assets from `docs/source`
 yarn docs
 yarn docs:watch
 

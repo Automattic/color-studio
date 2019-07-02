@@ -61,7 +61,7 @@
     "calypso:reset": "git -C .cache/calypso reset --hard 31f0c014fcbfbf20161d2ad47d1228ee9cf27970",
     "docs": "yarn docs:build",
     "docs:build": "webpack",
-    "docs:deploy": "yarn docs:build --silent && now --target production docs",
+    "docs:deploy": "yarn docs:build --silent && now --target production docs/dist",
     "docs:watch": "yarn palette:build:_watch && concurrently \"yarn palette:watch\" \"webpack-dev-server\"",
     "info": "yarn info:colorbox && yarn info:material-elevation",
     "info:colorbox": "node info/colorbox",
@@ -92,7 +92,7 @@
     "sketch:build": "skpm-build",
     "sketch:watch": "skpm-build --watch",
     "svgo": "svgo --config=svgo.config.json",
-    "svgo:docs": "yarn svgo --folder docs-source --recursive",
+    "svgo:docs": "yarn svgo --folder docs/source --recursive",
     "test": "jest --all"
   },
   "skpm": {
@@ -102,8 +102,8 @@
   "xo": {
     "ignores": [
       ".cache/**/*",
-      "docs/assets/**/*",
-      "docs/downloads/**/*"
+      "docs/dist/assets/**/*",
+      "docs/dist/downloads/**/*"
     ],
     "esnext": true,
     "space": true,
@@ -158,7 +158,7 @@
     "overrides": [
       {
         "files": [
-          "docs-source/**/*.js"
+          "docs/source/**/*.js"
         ],
         "env": [
           "browser"

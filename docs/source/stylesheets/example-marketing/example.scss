@@ -1,4 +1,4 @@
-@import "../../../dist/color-variables";
+@import "../../../../dist/color-variables";
 @import "example/config";
 
 @import "example/functions/text-style-properties";
@@ -11,7 +11,7 @@
 @import "example/components/example";
 @import "example/components/logo";
 
-@import "../../../dist/color-classes";
-@import "../../../dist/color-fills";
+@import "../../../../dist/color-classes";
+@import "../../../../dist/color-fills";
 @import "example/utilities/typography";
 @import "example/utilities/whitespace";

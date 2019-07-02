@@ -1,4 +1,4 @@
-@import "../../../dist/color-variables";
+@import "../../../../dist/color-variables";
 
 $dark: $studio-black;
 
@@ -13,4 +13,4 @@ $dark: $studio-black;
 @import "example/device";
 @import "example/screen";
 
-@import "../../../dist/color-fills";
+@import "../../../../dist/color-fills";

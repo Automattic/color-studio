@@ -2,10 +2,10 @@
 .huskyrc.json
 builders
 data
-dist/meta/preview.png
+dist/preview.png
 docs
-docs-source
 extensions
+index.html
 info
 jest.config.js
 svgo.config.json

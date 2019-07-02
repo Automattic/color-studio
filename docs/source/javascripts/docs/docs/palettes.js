@@ -1,7 +1,7 @@
 /* eslint-env browser */
 
 const PALETTE_OLD = require('color-studio') // v1
-const PALETTE_NEW = require('../../../../dist/colors.meta.json')
+const PALETTE_NEW = require('../../../../../dist/colors.meta.json')
 
 module.exports = [
   formatNewPalette(PALETTE_NEW),
