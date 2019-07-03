@@ -1,8 +1,12 @@
 # Releases
 
+## 1.0.6
+
+* Bumped the package version to 1.0.6 and published it in the `npm` registry under `@automattic/color-studio`.
+
 ## 1.0.5
 
-* Bumped the package version to 1.0.5 and published it in the `npm` registry.
+* Bumped the package version to 1.0.5 and published it in the `npm` registry under `color-studio` (now deprecated).
 
 ## 1.0.4
 
