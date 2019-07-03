@@ -13,7 +13,7 @@
 
 # Color Studio
 
-> The computational color palette for a design language system focused on accessibility and inclusion.
+> The color palette for Automattic products.
 
 ## What’s Inside
 
@@ -49,7 +49,7 @@ This package is dependency-free.
 ### SCSS
 
 ```scss
-@import "~color-studio/dist/color-variables";
+@import "~@automattic/color-studio/dist/color-variables";
 
 button {
   background: $muriel-hot-pink-500;
@@ -60,7 +60,7 @@ button {
 ### JavaScript
 
 ```js
-const PALETTE = require('color-studio')
+const PALETTE = require('@automattic/color-studio')
 ```
 
 The above imports the contents of the [JSON file][dist-json].
