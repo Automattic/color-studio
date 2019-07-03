@@ -1,7 +1,7 @@
 {
-  "name": "color-studio",
+  "name": "@automattic/color-studio",
   "version": "2.0.0-rc.3",
-  "description": "The computational color palette for Automattic products.",
+  "description": "The color palette for Automattic products.",
   "homepage": "https://color-studio.blog",
   "license": {
     "type": "GPL-2.0+",

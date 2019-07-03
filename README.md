@@ -12,7 +12,7 @@
 
 # Color Studio
 
-> The computational color palette for Automattic products.
+> The color palette for Automattic products.
 
 ## What’s Inside
 
@@ -47,7 +47,7 @@ This package is dependency-free.
 ### SCSS
 
 ```scss
-@import "~color-studio/dist/color-variables";
+@import "~@automattic/color-studio/dist/color-variables";
 
 button {
   background: $studio-pink-50;
@@ -58,7 +58,7 @@ button {
 ### JavaScript
 
 ```js
-const PALETTE = require('color-studio')
+const PALETTE = require('@automattic/color-studio')
 
 console.log(PALETTE.colors['Pink 50'])
 ```
