@@ -1,0 +1,30 @@
+.notice {
+  background: $studio-gray-80 !important;
+}
+
+.notice__action {
+  color: $studio-gray-20 !important;
+
+  &:hover,
+  &:active {
+    color: $studio-gray-0 !important;
+  }
+}
+
+.notice__icon-wrapper {
+  .is-error & {
+    background: $studio-red-40 !important;
+  }
+
+  .is-info & {
+    background: $studio-blue-40 !important;
+  }
+
+  .is-success & {
+    background: $studio-green-40 !important;
+  }
+
+  .is-warning & {
+    background: $studio-yellow-30 !important;
+  }
+}
