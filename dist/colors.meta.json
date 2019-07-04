@@ -117,98 +117,98 @@
     ],
     [
       {
-        "name": "Airo 0",
+        "name": "Sky 0",
         "value": "#e3eef2",
         "_meta": {
-          "baseName": "Airo",
+          "baseName": "Sky",
           "index": 0
         }
       },
       {
-        "name": "Airo 5",
+        "name": "Sky 5",
         "value": "#b3dae9",
         "_meta": {
-          "baseName": "Airo",
+          "baseName": "Sky",
           "index": 5
         }
       },
       {
-        "name": "Airo 10",
+        "name": "Sky 10",
         "value": "#82c3dc",
         "_meta": {
-          "baseName": "Airo",
+          "baseName": "Sky",
           "index": 10
         }
       },
       {
-        "name": "Airo 20",
+        "name": "Sky 20",
         "value": "#55a9cb",
         "_meta": {
-          "baseName": "Airo",
+          "baseName": "Sky",
           "index": 20
         }
       },
       {
-        "name": "Airo 30",
+        "name": "Sky 30",
         "value": "#2d8fb6",
         "_meta": {
-          "baseName": "Airo",
+          "baseName": "Sky",
           "index": 30
         }
       },
       {
-        "name": "Airo 40",
+        "name": "Sky 40",
         "value": "#0f759e",
         "_meta": {
-          "baseName": "Airo",
+          "baseName": "Sky",
           "index": 40
         }
       },
       {
-        "name": "Airo 50",
+        "name": "Sky 50",
         "value": "#005e84",
         "_meta": {
-          "baseName": "Airo",
+          "baseName": "Sky",
           "index": 50
         }
       },
       {
-        "name": "Airo 60",
+        "name": "Sky 60",
         "value": "#004b6a",
         "_meta": {
-          "baseName": "Airo",
+          "baseName": "Sky",
           "index": 60
         }
       },
       {
-        "name": "Airo 70",
+        "name": "Sky 70",
         "value": "#003a52",
         "_meta": {
-          "baseName": "Airo",
+          "baseName": "Sky",
           "index": 70
         }
       },
       {
-        "name": "Airo 80",
+        "name": "Sky 80",
         "value": "#002a3d",
         "_meta": {
-          "baseName": "Airo",
+          "baseName": "Sky",
           "index": 80
         }
       },
       {
-        "name": "Airo 90",
+        "name": "Sky 90",
         "value": "#001b2a",
         "_meta": {
-          "baseName": "Airo",
+          "baseName": "Sky",
           "index": 90
         }
       },
       {
-        "name": "Airo 100",
+        "name": "Sky 100",
         "value": "#000f1a",
         "_meta": {
-          "baseName": "Airo",
+          "baseName": "Sky",
           "index": 100
         }
       }

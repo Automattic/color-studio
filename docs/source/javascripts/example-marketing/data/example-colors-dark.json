@@ -1,7 +1,7 @@
 {
   "defaults": {
     "hero-background": [
-      "Airo 50"
+      "Sky 50"
     ],
     "hero-text": [
       "White"
@@ -13,12 +13,12 @@
   "examples": [
     {
       "hero-background": [
-        "Airo 50",
-        "Airo 60",
-        "Airo 70",
-        "Airo 80",
-        "Airo 90",
-        "Airo 100"
+        "Sky 50",
+        "Sky 60",
+        "Sky 70",
+        "Sky 80",
+        "Sky 90",
+        "Sky 100"
       ]
     },
     {
@@ -31,7 +31,7 @@
         "White"
       ],
       "button-background": [
-        "Airo 80"
+        "Sky 80"
       ]
     },
     {
@@ -43,9 +43,9 @@
     },
     {
       "hero-background": [
-        "Airo 80",
-        "Airo 90",
-        "Airo 100",
+        "Sky 80",
+        "Sky 90",
+        "Sky 100",
         "Pink 80",
         "Pink 90",
         "Pink 100",
@@ -83,7 +83,7 @@
         "Green 70"
       ],
       "button-background": [
-        "Airo 80"
+        "Sky 80"
       ]
     },
     {

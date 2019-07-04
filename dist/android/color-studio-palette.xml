@@ -20,18 +20,18 @@
     <color name="gray_90">#1e252a</color>
     <color name="gray_100">#12171a</color>
 
-    <color name="airo_0">#e3eef2</color>
-    <color name="airo_5">#b3dae9</color>
-    <color name="airo_10">#82c3dc</color>
-    <color name="airo_20">#55a9cb</color>
-    <color name="airo_30">#2d8fb6</color>
-    <color name="airo_40">#0f759e</color>
-    <color name="airo_50">#005e84</color>
-    <color name="airo_60">#004b6a</color>
-    <color name="airo_70">#003a52</color>
-    <color name="airo_80">#002a3d</color>
-    <color name="airo_90">#001b2a</color>
-    <color name="airo_100">#000f1a</color>
+    <color name="sky_0">#e3eef2</color>
+    <color name="sky_5">#b3dae9</color>
+    <color name="sky_10">#82c3dc</color>
+    <color name="sky_20">#55a9cb</color>
+    <color name="sky_30">#2d8fb6</color>
+    <color name="sky_40">#0f759e</color>
+    <color name="sky_50">#005e84</color>
+    <color name="sky_60">#004b6a</color>
+    <color name="sky_70">#003a52</color>
+    <color name="sky_80">#002a3d</color>
+    <color name="sky_90">#001b2a</color>
+    <color name="sky_100">#000f1a</color>
 
     <color name="blue_0">#e5ecf2</color>
     <color name="blue_5">#bdd7f1</color>

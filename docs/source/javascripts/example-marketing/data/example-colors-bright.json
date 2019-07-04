@@ -22,14 +22,14 @@
     },
     {
       "hero-background": [
-        "Airo 0",
-        "Airo 5"
+        "Sky 0",
+        "Sky 5"
       ],
       "hero-heading": [
-        "Airo 80"
+        "Sky 80"
       ],
       "hero-text": [
-        "Airo 70"
+        "Sky 70"
       ]
     },
     {
@@ -56,7 +56,7 @@
         "Purple 70"
       ],
       "button-background": [
-        "Airo 60"
+        "Sky 60"
       ]
     },
     {
@@ -95,7 +95,7 @@
         "Yellow 70"
       ],
       "button-background": [
-        "Airo 60"
+        "Sky 60"
       ]
     },
     {
@@ -110,7 +110,7 @@
         "Orange 70"
       ],
       "button-background": [
-        "Airo 60"
+        "Sky 60"
       ]
     },
     {
@@ -140,7 +140,7 @@
         "Celadon 70"
       ],
       "button-background": [
-        "Airo 60"
+        "Sky 60"
       ]
     }
   ]

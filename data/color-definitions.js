@@ -23,7 +23,7 @@ module.exports = {
       }
     },
     {
-      name: 'Airo',
+      name: 'Sky',
       specs: {
         hue_start: 197,
         hue_end: 205,
