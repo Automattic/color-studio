@@ -7,12 +7,12 @@
     <color name="white">#ffffff</color>
     <color name="black">#000000</color>
 
-    <color name="gray_0">#f7f4f4</color>
-    <color name="gray_5">#e3dfe1</color>
+    <color name="gray_0">#f7f4f5</color>
+    <color name="gray_5">#e3e0e2</color>
     <color name="gray_10">#cec9ce</color>
-    <color name="gray_20">#b6b1b8</color>
-    <color name="gray_30">#9b99a2</color>
-    <color name="gray_40">#80808c</color>
+    <color name="gray_20">#b6b2b8</color>
+    <color name="gray_30">#9c99a2</color>
+    <color name="gray_40">#81808c</color>
     <color name="gray_50">#686b75</color>
     <color name="gray_60">#525760</color>
     <color name="gray_70">#3e454d</color>

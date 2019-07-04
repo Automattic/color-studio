@@ -20,7 +20,7 @@
     [
       {
         "name": "Gray 0",
-        "value": "#f7f4f4",
+        "value": "#f7f4f5",
         "_meta": {
           "baseName": "Gray",
           "index": 0
@@ -28,7 +28,7 @@
       },
       {
         "name": "Gray 5",
-        "value": "#e3dfe1",
+        "value": "#e3e0e2",
         "_meta": {
           "baseName": "Gray",
           "index": 5
@@ -44,7 +44,7 @@
       },
       {
         "name": "Gray 20",
-        "value": "#b6b1b8",
+        "value": "#b6b2b8",
         "_meta": {
           "baseName": "Gray",
           "index": 20
@@ -52,7 +52,7 @@
       },
       {
         "name": "Gray 30",
-        "value": "#9b99a2",
+        "value": "#9c99a2",
         "_meta": {
           "baseName": "Gray",
           "index": 30
@@ -60,7 +60,7 @@
       },
       {
         "name": "Gray 40",
-        "value": "#80808c",
+        "value": "#81808c",
         "_meta": {
           "baseName": "Gray",
           "index": 40

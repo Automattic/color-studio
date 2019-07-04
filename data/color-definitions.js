@@ -13,7 +13,7 @@ module.exports = {
         hue_start: 350,
         hue_end: 200,
         hue_curve: 'easeOutQuad',
-        sat_start: 5,
+        sat_start: 4,
         sat_end: 100,
         sat_curve: 'easeInSine',
         sat_rate: 30,
