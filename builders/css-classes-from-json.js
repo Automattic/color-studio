@@ -12,7 +12,7 @@ const colors = PALETTE.colors.map(colorArray => {
 printStylesheet(colors)
 
 function formatClassEntry(colorObject) {
-  const colorName = toKebabCase(colorObject.name)
+  const colorName = toKebabCase(colorObject.name.toLowerCase())
   const className = `.color-${colorName}`
   const colorValue = formatHex(colorObject.value)
 

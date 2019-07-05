@@ -19,6 +19,104 @@
     ],
     [
       {
+        "name": "WordPress Blue 0",
+        "value": "#e7f3f7",
+        "_meta": {
+          "baseName": "WordPress Blue",
+          "index": 0
+        }
+      },
+      {
+        "name": "WordPress Blue 5",
+        "value": "#b6deee",
+        "_meta": {
+          "baseName": "WordPress Blue",
+          "index": 5
+        }
+      },
+      {
+        "name": "WordPress Blue 10",
+        "value": "#85c7e1",
+        "_meta": {
+          "baseName": "WordPress Blue",
+          "index": 10
+        }
+      },
+      {
+        "name": "WordPress Blue 20",
+        "value": "#57adcf",
+        "_meta": {
+          "baseName": "WordPress Blue",
+          "index": 20
+        }
+      },
+      {
+        "name": "WordPress Blue 30",
+        "value": "#2e92ba",
+        "_meta": {
+          "baseName": "WordPress Blue",
+          "index": 30
+        }
+      },
+      {
+        "name": "WordPress Blue 40",
+        "value": "#0f77a1",
+        "_meta": {
+          "baseName": "WordPress Blue",
+          "index": 40
+        }
+      },
+      {
+        "name": "WordPress Blue 50",
+        "value": "#005f86",
+        "_meta": {
+          "baseName": "WordPress Blue",
+          "index": 50
+        }
+      },
+      {
+        "name": "WordPress Blue 60",
+        "value": "#004d6c",
+        "_meta": {
+          "baseName": "WordPress Blue",
+          "index": 60
+        }
+      },
+      {
+        "name": "WordPress Blue 70",
+        "value": "#003b54",
+        "_meta": {
+          "baseName": "WordPress Blue",
+          "index": 70
+        }
+      },
+      {
+        "name": "WordPress Blue 80",
+        "value": "#002b3e",
+        "_meta": {
+          "baseName": "WordPress Blue",
+          "index": 80
+        }
+      },
+      {
+        "name": "WordPress Blue 90",
+        "value": "#001b2a",
+        "_meta": {
+          "baseName": "WordPress Blue",
+          "index": 90
+        }
+      },
+      {
+        "name": "WordPress Blue 100",
+        "value": "#000f1a",
+        "_meta": {
+          "baseName": "WordPress Blue",
+          "index": 100
+        }
+      }
+    ],
+    [
+      {
         "name": "Gray 0",
         "value": "#f7f4f5",
         "_meta": {
@@ -111,104 +209,6 @@
         "value": "#12171a",
         "_meta": {
           "baseName": "Gray",
-          "index": 100
-        }
-      }
-    ],
-    [
-      {
-        "name": "Sky 0",
-        "value": "#e7f3f7",
-        "_meta": {
-          "baseName": "Sky",
-          "index": 0
-        }
-      },
-      {
-        "name": "Sky 5",
-        "value": "#b6deee",
-        "_meta": {
-          "baseName": "Sky",
-          "index": 5
-        }
-      },
-      {
-        "name": "Sky 10",
-        "value": "#85c7e1",
-        "_meta": {
-          "baseName": "Sky",
-          "index": 10
-        }
-      },
-      {
-        "name": "Sky 20",
-        "value": "#57adcf",
-        "_meta": {
-          "baseName": "Sky",
-          "index": 20
-        }
-      },
-      {
-        "name": "Sky 30",
-        "value": "#2e92ba",
-        "_meta": {
-          "baseName": "Sky",
-          "index": 30
-        }
-      },
-      {
-        "name": "Sky 40",
-        "value": "#0f77a1",
-        "_meta": {
-          "baseName": "Sky",
-          "index": 40
-        }
-      },
-      {
-        "name": "Sky 50",
-        "value": "#005f86",
-        "_meta": {
-          "baseName": "Sky",
-          "index": 50
-        }
-      },
-      {
-        "name": "Sky 60",
-        "value": "#004d6c",
-        "_meta": {
-          "baseName": "Sky",
-          "index": 60
-        }
-      },
-      {
-        "name": "Sky 70",
-        "value": "#003b54",
-        "_meta": {
-          "baseName": "Sky",
-          "index": 70
-        }
-      },
-      {
-        "name": "Sky 80",
-        "value": "#002b3e",
-        "_meta": {
-          "baseName": "Sky",
-          "index": 80
-        }
-      },
-      {
-        "name": "Sky 90",
-        "value": "#001b2a",
-        "_meta": {
-          "baseName": "Sky",
-          "index": 90
-        }
-      },
-      {
-        "name": "Sky 100",
-        "value": "#000f1a",
-        "_meta": {
-          "baseName": "Sky",
           "index": 100
         }
       }

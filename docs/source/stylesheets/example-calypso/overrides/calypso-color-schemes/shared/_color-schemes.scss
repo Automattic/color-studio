@@ -217,7 +217,7 @@
   --color-link-900: #{$studio-blue-90};
   --color-link-900-rgb: #{hex-to-rgb($studio-blue-90)};
 
-  --color-wpcom: #{$studio-sky-50};
+  --color-wpcom: #{$studio-wordpress-blue-50};
   --color-jetpack: #{$studio-green-40};
   --color-jetpack-light: #{$studio-green-20};
   --color-jetpack-dark: #{$studio-green-50};
@@ -261,10 +261,10 @@
   --color-button-primary-scary-background-hover: #{$studio-red-40};
 
   --masterbar-background: var(--color-wpcom);
-  --masterbar-border-color: #{$studio-sky-60};
+  --masterbar-border-color: #{$studio-wordpress-blue-60};
   --masterbar-color: #{$studio-white};
-  --masterbar-item-hover-background: #{$studio-sky-60};
-  --masterbar-item-active-background: #{$studio-sky-80};
+  --masterbar-item-hover-background: #{$studio-wordpress-blue-60};
+  --masterbar-item-active-background: #{$studio-wordpress-blue-80};
   --masterbar-item-new-editor-background: #{$studio-gray-50};
   --masterbar-item-new-editor-hover-background: #{$studio-gray-40};
   --masterbar-toggle-drafts-editor-background: #{$studio-gray-40};

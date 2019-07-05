@@ -8,6 +8,21 @@ module.exports = {
   },
   colors: [
     {
+      name: 'WordPress Blue',
+      specs: {
+        hue_start: 197,
+        hue_end: 205,
+        hue_curve: 'easeInExpo',
+        sat_start: 5,
+        sat_end: 100,
+        sat_curve: 'easeOutSine',
+        sat_rate: 130,
+        lum_start: 97,
+        lum_end: 10,
+        lum_curve: bezier(0.45, 0.35, 0.6, 0.85)
+      }
+    },
+    {
       name: 'Gray',
       specs: {
         hue_start: 350,
@@ -20,21 +35,6 @@ module.exports = {
         lum_start: 97,
         lum_end: 10,
         lum_curve: bezier(0.45, 0.35, 0.5, 0.5)
-      }
-    },
-    {
-      name: 'Sky',
-      specs: {
-        hue_start: 197,
-        hue_end: 205,
-        hue_curve: 'easeInExpo',
-        sat_start: 5,
-        sat_end: 100,
-        sat_curve: 'easeOutSine',
-        sat_rate: 130,
-        lum_start: 97,
-        lum_end: 10,
-        lum_curve: bezier(0.45, 0.35, 0.6, 0.85)
       }
     },
     {

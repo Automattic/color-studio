@@ -42,9 +42,9 @@ function getExamples() {
 function formatExampleData(data) {
   const formattedData = {
     title: formatExampleMetaString(data),
-    heroBackgroundClassName: `color-${toKebabCase(data.heroBackgroundColor)}`,
-    heroTextClassName: `color-${toKebabCase(data.heroTextColor)}`,
-    buttonBackgroundClassName: `color-${toKebabCase(data.buttonBackgroundColor)}`
+    heroBackgroundClassName: `color-${toKebabCase(data.heroBackgroundColor.toLowerCase())}`,
+    heroTextClassName: `color-${toKebabCase(data.heroTextColor.toLowerCase())}`,
+    buttonBackgroundClassName: `color-${toKebabCase(data.buttonBackgroundColor.toLowerCase())}`
   }
 
   return Object.assign({}, data, formattedData)

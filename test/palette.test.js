@@ -58,8 +58,8 @@ describe('light mode accessibility', () => {
     const SURFACE_COLOR = PALETTE['White']
 
     test('shades #40 pass AA Large against pure white', () => {
+      expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['WordPress Blue 40'])
       expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Gray 40'])
-      expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Sky 40'])
       expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Blue 40'])
       expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Purple 40'])
       expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Pink 40'])
@@ -69,8 +69,8 @@ describe('light mode accessibility', () => {
     })
 
     test('shades #50 pass AA against pure white', () => {
+      expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['WordPress Blue 50'])
       expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Gray 50'])
-      expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Sky 50'])
       expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Blue 50'])
       expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Purple 50'])
       expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Pink 50'])
@@ -85,8 +85,8 @@ describe('dark mode accessibility', () => {
   const SURFACE_COLOR = PALETTE['Black']
 
   test('shades #30 pass AA against pure black', () => {
+    expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['WordPress Blue 30'])
     expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Gray 30'])
-    expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Sky 30'])
     expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Blue 30'])
     expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Purple 30'])
     expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Pink 30'])
@@ -98,8 +98,8 @@ describe('dark mode accessibility', () => {
   })
 
   test('shades #40 pass AA Large against pure black', () => {
+    expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['WordPress Blue 40'])
     expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Gray 40'])
-    expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Sky 40'])
     expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Blue 40'])
     expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Purple 40'])
     expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Pink 40'])
@@ -123,8 +123,8 @@ describe('dark mode accessibility for Material Design', () => {
   test('shades #30 pass AA against Gray 100', () => {
     const SURFACE_COLOR = PALETTE['Gray 100']
 
+    expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['WordPress Blue 30'])
     expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Gray 30'])
-    expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Sky 30'])
     expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Blue 30'])
     expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Purple 30'])
     expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Pink 30'])
@@ -144,8 +144,8 @@ describe('dark mode accessibility for Material Design', () => {
   test('shades #30 pass AA Large against Gray 90', () => {
     const SURFACE_COLOR = PALETTE['Gray 90']
 
+    expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['WordPress Blue 30'])
     expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Gray 30'])
-    expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Sky 30'])
     expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Blue 30'])
     expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Purple 30'])
     expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Pink 30'])
@@ -159,8 +159,8 @@ describe('dark mode accessibility for Material Design', () => {
   test('shades #30 pass AA Large against Gray 80', () => {
     const SURFACE_COLOR = PALETTE['Gray 80']
 
+    expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['WordPress Blue 30'])
     expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Gray 30'])
-    expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Sky 30'])
     expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Blue 30'])
     expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Purple 30'])
     expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Pink 30'])

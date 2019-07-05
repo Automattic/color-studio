@@ -40,10 +40,10 @@
 }
 
 .tile--featured {
-  flex: 3;
+  flex: 4;
 
   @include media-breakpoint-up(md) {
-    flex: 1.5;
+    flex: 2;
   }
 }
 

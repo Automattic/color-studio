@@ -12,7 +12,7 @@ printStylesheet(colors)
 
 function formatVariableEntry(colorObject) {
   const { name, value } = colorObject
-  return `--studio-${toKebabCase(name)}: ${formatHex(value)};`
+  return `--studio-${toKebabCase(name.toLowerCase())}: ${formatHex(value)};`
 }
 
 function printStylesheet(colorArrays) {

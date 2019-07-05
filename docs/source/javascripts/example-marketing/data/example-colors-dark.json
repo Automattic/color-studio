@@ -1,7 +1,7 @@
 {
   "defaults": {
     "hero-background": [
-      "Sky 50"
+      "WordPress Blue 50"
     ],
     "hero-text": [
       "White"
@@ -13,12 +13,12 @@
   "examples": [
     {
       "hero-background": [
-        "Sky 50",
-        "Sky 60",
-        "Sky 70",
-        "Sky 80",
-        "Sky 90",
-        "Sky 100"
+        "WordPress Blue 50",
+        "WordPress Blue 60",
+        "WordPress Blue 70",
+        "WordPress Blue 80",
+        "WordPress Blue 90",
+        "WordPress Blue 100"
       ]
     },
     {
@@ -31,7 +31,7 @@
         "White"
       ],
       "button-background": [
-        "Sky 80"
+        "WordPress Blue 80"
       ]
     },
     {
@@ -43,9 +43,9 @@
     },
     {
       "hero-background": [
-        "Sky 80",
-        "Sky 90",
-        "Sky 100",
+        "WordPress Blue 80",
+        "WordPress Blue 90",
+        "WordPress Blue 100",
         "Pink 80",
         "Pink 90",
         "Pink 100",
@@ -83,7 +83,7 @@
         "Green 70"
       ],
       "button-background": [
-        "Sky 80"
+        "WordPress Blue 80"
       ]
     },
     {

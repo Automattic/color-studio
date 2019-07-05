@@ -22,14 +22,14 @@
     },
     {
       "hero-background": [
-        "Sky 0",
-        "Sky 5"
+        "WordPress Blue 0",
+        "WordPress Blue 5"
       ],
       "hero-heading": [
-        "Sky 80"
+        "WordPress Blue 80"
       ],
       "hero-text": [
-        "Sky 70"
+        "WordPress Blue 70"
       ]
     },
     {
@@ -56,7 +56,7 @@
         "Purple 70"
       ],
       "button-background": [
-        "Sky 60"
+        "WordPress Blue 60"
       ]
     },
     {
@@ -95,7 +95,7 @@
         "Yellow 70"
       ],
       "button-background": [
-        "Sky 60"
+        "WordPress Blue 60"
       ]
     },
     {
@@ -110,7 +110,7 @@
         "Orange 70"
       ],
       "button-background": [
-        "Sky 60"
+        "WordPress Blue 60"
       ]
     },
     {
@@ -140,7 +140,7 @@
         "Celadon 70"
       ],
       "button-background": [
-        "Sky 60"
+        "WordPress Blue 60"
       ]
     }
   ]

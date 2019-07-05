@@ -45,10 +45,10 @@ function getExamples() {
 function formatExampleData(data) {
   const formattedData = {
     title: formatExampleMetaString(data),
-    heroBackgroundClassName: `color-${toKebabCase(data.heroBackgroundColor)}`,
-    heroHeadingClassName: `color-${toKebabCase(data.heroHeadingColor)}`,
-    heroTextClassName: `color-${toKebabCase(data.heroTextColor)}`,
-    buttonBackgroundClassName: `color-${toKebabCase(data.buttonBackgroundColor)}`
+    heroBackgroundClassName: `color-${toKebabCase(data.heroBackgroundColor.toLowerCase())}`,
+    heroHeadingClassName: `color-${toKebabCase(data.heroHeadingColor.toLowerCase())}`,
+    heroTextClassName: `color-${toKebabCase(data.heroTextColor.toLowerCase())}`,
+    buttonBackgroundClassName: `color-${toKebabCase(data.buttonBackgroundColor.toLowerCase())}`
   }
 
   return Object.assign({}, data, formattedData)
