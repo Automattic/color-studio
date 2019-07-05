@@ -1,99 +1,99 @@
 {
   "defaults": {
     "hero-background": [
-      "WordPress Blue 50"
+      "color-wordpress-blue-50"
     ],
     "hero-text": [
-      "White"
+      "color-white"
     ],
     "button-background": [
-      "Pink 50"
+      "color-pink-50"
     ]
   },
   "examples": [
     {
       "hero-background": [
-        "WordPress Blue 50",
-        "WordPress Blue 60",
-        "WordPress Blue 70",
-        "WordPress Blue 80",
-        "WordPress Blue 90",
-        "WordPress Blue 100"
+        "color-wordpress-blue-50",
+        "color-wordpress-blue-60",
+        "color-wordpress-blue-70",
+        "color-wordpress-blue-80",
+        "color-wordpress-blue-90",
+        "color-wordpress-blue-100"
       ]
     },
     {
       "hero-background": [
-        "Pink 50",
-        "Pink 60",
-        "Pink 70"
+        "color-pink-50",
+        "color-pink-60",
+        "color-pink-70"
       ],
       "hero-text": [
-        "White"
+        "color-white"
       ],
       "button-background": [
-        "WordPress Blue 80"
+        "color-wordpress-blue-80"
       ]
     },
     {
       "hero-background": [
-        "Pink 80",
-        "Pink 90",
-        "Pink 100"
+        "color-pink-80",
+        "color-pink-90",
+        "color-pink-100"
       ]
     },
     {
       "hero-background": [
-        "WordPress Blue 80",
-        "WordPress Blue 90",
-        "WordPress Blue 100",
-        "Pink 80",
-        "Pink 90",
-        "Pink 100",
-        "Blue 80",
-        "Blue 90",
-        "Blue 100",
-        "Purple 80",
-        "Purple 90",
-        "Purple 100",
-        "Gray 80",
-        "Gray 90",
-        "Gray 100",
-        "Celadon 80",
-        "Celadon 90",
-        "Celadon 100"
+        "color-wordpress-blue-80",
+        "color-wordpress-blue-90",
+        "color-wordpress-blue-100",
+        "color-pink-80",
+        "color-pink-90",
+        "color-pink-100",
+        "color-blue-80",
+        "color-blue-90",
+        "color-blue-100",
+        "color-purple-80",
+        "color-purple-90",
+        "color-purple-100",
+        "color-gray-80",
+        "color-gray-90",
+        "color-gray-100",
+        "color-celadon-80",
+        "color-celadon-90",
+        "color-celadon-100"
       ],
       "hero-text": [
-        "Yellow 10",
-        "Pink 10"
+        "color-yellow-10",
+        "color-pink-10"
       ]
     },
     {
       "hero-background": [
-        "Red 50",
-        "Red 60",
-        "Red 70",
-        "Orange 50",
-        "Orange 60",
-        "Orange 70",
-        "Yellow 50",
-        "Yellow 60",
-        "Yellow 70",
-        "Green 50",
-        "Green 60",
-        "Green 70"
+        "color-red-50",
+        "color-red-60",
+        "color-red-70",
+        "color-orange-50",
+        "color-orange-60",
+        "color-orange-70",
+        "color-yellow-50",
+        "color-yellow-60",
+        "color-yellow-70",
+        "color-green-50",
+        "color-green-60",
+        "color-green-70"
       ],
       "button-background": [
-        "WordPress Blue 80"
+        "color-wordpress-blue-80"
       ]
     },
     {
       "hero-background": [
-        "Green 80",
-        "Green 90",
-        "Green 100"
+        "color-green-80",
+        "color-green-90",
+        "color-green-100"
       ],
       "button-background": [
-        "Green 50"
+        "color-green-50"
       ]
     }
   ]

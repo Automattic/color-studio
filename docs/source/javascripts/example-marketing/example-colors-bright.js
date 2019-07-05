@@ -1,8 +1,8 @@
 const { contrast } = require('chroma-js')
 const floor = require('lodash/floor')
-const toKebabCase = require('lodash/kebabCase')
 
-const PALETTE = require('../../../../dist/colors.json').colors
+const getValueFromClassName = require('./example/get-value-from-class-name')
+
 const COLOR_COMBINATIONS = require('./data/example-colors-bright.json')
 
 document.querySelector('#example-output').innerHTML = getOutputString()
@@ -21,15 +21,15 @@ function getExamples() {
       return example[key] || COLOR_COMBINATIONS.defaults[key] || []
     }
 
-    _('button-background').forEach(buttonBackgroundColor => {
-      _('hero-heading').forEach(heroHeadingColor => {
-        _('hero-text').forEach(heroTextColor => {
-          _('hero-background').forEach(heroBackgroundColor => {
+    _('button-background').forEach(buttonBackgroundClassName => {
+      _('hero-heading').forEach(heroHeadingClassName => {
+        _('hero-text').forEach(heroTextClassName => {
+          _('hero-background').forEach(heroBackgroundClassName => {
             const data = formatExampleData({
-              heroBackgroundColor,
-              heroHeadingColor,
-              heroTextColor,
-              buttonBackgroundColor
+              heroBackgroundClassName,
+              heroHeadingClassName,
+              heroTextClassName,
+              buttonBackgroundClassName
             })
 
             examples.push(data)
@@ -43,22 +43,16 @@ function getExamples() {
 }
 
 function formatExampleData(data) {
-  const formattedData = {
-    title: formatExampleMetaString(data),
-    heroBackgroundClassName: `color-${toKebabCase(data.heroBackgroundColor.toLowerCase())}`,
-    heroHeadingClassName: `color-${toKebabCase(data.heroHeadingColor.toLowerCase())}`,
-    heroTextClassName: `color-${toKebabCase(data.heroTextColor.toLowerCase())}`,
-    buttonBackgroundClassName: `color-${toKebabCase(data.buttonBackgroundColor.toLowerCase())}`
-  }
-
-  return Object.assign({}, data, formattedData)
+  return Object.assign({}, data, {
+    title: formatExampleMetaString(data)
+  })
 }
 
 function formatExampleMetaString(data) {
-  const heroBackgroundColor = PALETTE[data.heroBackgroundColor] || data.heroBackgroundColor
-  const heroHeadingColor = PALETTE[data.heroHeadingColor] || data.heroHeadingColor
-  const heroTextColor = PALETTE[data.heroTextColor] || data.heroTextColor
-  const buttonBackgroundColor = PALETTE[data.buttonBackgroundColor] || data.buttonBackgroundColor
+  const heroBackgroundColor = getValueFromClassName(data.heroBackgroundClassName)
+  const heroHeadingColor = getValueFromClassName(data.heroHeadingClassName)
+  const heroTextColor = getValueFromClassName(data.heroTextClassName)
+  const buttonBackgroundColor = getValueFromClassName(data.buttonBackgroundClassName)
 
   const meta = [
     `${formatContrastRatio(heroHeadingColor, heroBackgroundColor)} | Heading: ${data.heroHeadingColor} on ${data.heroBackgroundColor}`,

@@ -1,146 +1,146 @@
 {
   "defaults": {
     "hero-background": [
-      "White"
+      "color-white"
     ],
     "hero-heading": [
-      "Gray 80"
+      "color-gray-80"
     ],
     "hero-text": [
-      "Gray 60"
+      "color-gray-60"
     ],
     "button-background": [
-      "Pink 50"
+      "color-pink-50"
     ]
   },
   "examples": [
     {
       "hero-background": [
-        "White",
-        "Gray 0"
+        "color-white",
+        "color-gray-0"
       ]
     },
     {
       "hero-background": [
-        "WordPress Blue 0",
-        "WordPress Blue 5"
+        "color-wordpress-blue-0",
+        "color-wordpress-blue-5"
       ],
       "hero-heading": [
-        "WordPress Blue 80"
+        "color-wordpress-blue-80"
       ],
       "hero-text": [
-        "WordPress Blue 70"
+        "color-wordpress-blue-70"
       ]
     },
     {
       "hero-background": [
-        "Blue 0",
-        "Blue 5"
+        "color-blue-0",
+        "color-blue-5"
       ],
       "hero-heading": [
-        "Blue 80"
+        "color-blue-80"
       ],
       "hero-text": [
-        "Blue 70"
+        "color-blue-70"
       ]
     },
     {
       "hero-background": [
-        "Purple 0",
-        "Purple 5"
+        "color-purple-0",
+        "color-purple-5"
       ],
       "hero-heading": [
-        "Purple 80"
+        "color-purple-80"
       ],
       "hero-text": [
-        "Purple 70"
+        "color-purple-70"
       ],
       "button-background": [
-        "WordPress Blue 60"
+        "color-wordpress-blue-60"
       ]
     },
     {
       "hero-background": [
-        "Pink 0",
-        "Pink 5"
+        "color-pink-0",
+        "color-pink-5"
       ],
       "hero-heading": [
-        "Pink 80"
+        "color-pink-80"
       ],
       "hero-text": [
-        "Pink 70"
+        "color-pink-70"
       ]
     },
     {
       "hero-background": [
-        "Red 0",
-        "Red 5"
+        "color-red-0",
+        "color-red-5"
       ],
       "hero-heading": [
-        "Red 80"
+        "color-red-80"
       ],
       "hero-text": [
-        "Red 70"
+        "color-red-70"
       ]
     },
     {
       "hero-background": [
-        "Yellow 0",
-        "Yellow 5"
+        "color-yellow-0",
+        "color-yellow-5"
       ],
       "hero-heading": [
-        "Yellow 80"
+        "color-yellow-80"
       ],
       "hero-text": [
-        "Yellow 70"
+        "color-yellow-70"
       ],
       "button-background": [
-        "WordPress Blue 60"
+        "color-wordpress-blue-60"
       ]
     },
     {
       "hero-background": [
-        "Orange 0",
-        "Orange 5"
+        "color-orange-0",
+        "color-orange-5"
       ],
       "hero-heading": [
-        "Orange 80"
+        "color-orange-80"
       ],
       "hero-text": [
-        "Orange 70"
+        "color-orange-70"
       ],
       "button-background": [
-        "WordPress Blue 60"
+        "color-wordpress-blue-60"
       ]
     },
     {
       "hero-background": [
-        "Green 0",
-        "Green 5"
+        "color-green-0",
+        "color-green-5"
       ],
       "hero-heading": [
-        "Green 80"
+        "color-green-80"
       ],
       "hero-text": [
-        "Green 70"
+        "color-green-70"
       ],
       "button-background": [
-        "Green 60"
+        "color-green-60"
       ]
     },
     {
       "hero-background": [
-        "Celadon 0",
-        "Celadon 5"
+        "color-celadon-0",
+        "color-celadon-5"
       ],
       "hero-heading": [
-        "Celadon 80"
+        "color-celadon-80"
       ],
       "hero-text": [
-        "Celadon 70"
+        "color-celadon-70"
       ],
       "button-background": [
-        "WordPress Blue 60"
+        "color-wordpress-blue-60"
       ]
     }
   ]
