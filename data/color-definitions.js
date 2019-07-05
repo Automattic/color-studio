@@ -32,7 +32,7 @@ module.exports = {
         sat_end: 100,
         sat_curve: 'easeOutSine',
         sat_rate: 130,
-        lum_start: 95,
+        lum_start: 97,
         lum_end: 10,
         lum_curve: bezier(0.45, 0.35, 0.6, 0.85)
       }
@@ -47,7 +47,7 @@ module.exports = {
         sat_end: 90,
         sat_curve: 'easeOutQuad',
         sat_rate: 110,
-        lum_start: 95,
+        lum_start: 97,
         lum_end: 10,
         lum_curve: 'easeOutSine'
       }
@@ -62,7 +62,7 @@ module.exports = {
         sat_end: 80,
         sat_curve: 'easeOutQuad',
         sat_rate: 70,
-        lum_start: 95,
+        lum_start: 97,
         lum_end: 10,
         lum_curve: bezier(0.35, 0.5, 0.65, 0.95)
       }
@@ -77,7 +77,7 @@ module.exports = {
         sat_end: 100,
         sat_curve: 'easeOutQuad',
         sat_rate: 80,
-        lum_start: 95,
+        lum_start: 97,
         lum_end: 10,
         lum_curve: 'easeOutQuad'
       }
@@ -92,7 +92,7 @@ module.exports = {
         sat_end: 80,
         sat_curve: 'easeOutQuad',
         sat_rate: 110,
-        lum_start: 95,
+        lum_start: 97,
         lum_end: 10,
         lum_curve: 'easeOutCubic'
       }
@@ -107,7 +107,7 @@ module.exports = {
         sat_end: 90,
         sat_curve: 'easeOutQuad',
         sat_rate: 110,
-        lum_start: 95,
+        lum_start: 97,
         lum_end: 10,
         lum_curve: 'easeOutQuad'
       }
@@ -122,7 +122,7 @@ module.exports = {
         sat_end: 100,
         sat_curve: 'easeOutQuad',
         sat_rate: 130,
-        lum_start: 95,
+        lum_start: 97,
         lum_end: 10,
         lum_curve: bezier(0.5, 0.5, 0.65, 1)
       }
@@ -137,7 +137,7 @@ module.exports = {
         sat_end: 100,
         sat_curve: 'easeOutQuad',
         sat_rate: 130,
-        lum_start: 95,
+        lum_start: 97,
         lum_end: 10,
         lum_curve: bezier(0.5, 0.5, 0.85, 1)
       }
@@ -152,7 +152,7 @@ module.exports = {
         sat_end: 100,
         sat_curve: 'easeOutQuad',
         sat_rate: 110,
-        lum_start: 95,
+        lum_start: 97,
         lum_end: 10,
         lum_curve: 'linear'
       }
