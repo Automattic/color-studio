@@ -1,0 +1,16 @@
+.plan {
+  display: flex;
+  align-items: center;
+  width: 600px;
+  margin: 0 auto;
+}
+
+.plan__icon {
+  margin-right: 120px;
+}
+
+.plan__heading {
+  position: relative;
+  top: 1px;
+  left: -1px;
+}

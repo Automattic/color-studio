@@ -10,15 +10,18 @@
   grid-template-columns: repeat(3, 1fr);
 }
 
-.examples--gap {
-  grid-gap: 12px;
-  padding: 12px;
+@each $value in 12 24 36 {
+  .examples--gap-#{$value} {
+    @extend %examples--gap;
+    grid-gap: $value * 1px;
+    padding: $value * 1px;
+  }
 }
 
 .example {
   overflow: hidden;
 
-  .examples--gap & {
+  %examples--gap & {
     border-radius: 2px;
   }
 }

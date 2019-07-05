@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="72" height="72">
+  <defs>
+    <circle id="path-pen-yellow-path-1" cx="36" cy="36" r="36"/>
+    <path id="path-pen-yellow-path-3" d="M14 50v2.959c0 .478-.027.649-.088.834a1.33 1.33 0 0 1-.283.49c-.13.145-.265.254-.68.493l-4.7 2.708A1.5 1.5 0 0 1 6 56.184V50H4c0-10.667-1.333-21-4-31V0h20v19c-2.667 10-4 20.333-4 31h-2z"/>
+  </defs>
+  <g id="plan-pen-yellow" fill="none" fill-rule="evenodd" stroke="none" stroke-width="1">
+    <mask id="mask-pen-yellow-path-2" fill="#fff">
+      <use xlink:href="#path-pen-yellow-path-1"/>
+    </mask>
+    <use id="Background" fill="#E0BD56" fill-rule="nonzero" xlink:href="#path-pen-yellow-path-1"/>
+    <path id="Line" fill="#BA9830" d="M-4 54h32l-3 2H-4z" mask="url(#mask-pen-yellow-path-2)"/>
+    <g id="Pen" mask="url(#mask-pen-yellow-path-2)">
+      <g transform="rotate(30 26.732 85.517)">
+        <mask id="mask-pen-yellow-path-4" fill="#fff">
+          <use xlink:href="#path-pen-yellow-path-3"/>
+        </mask>
+        <use id="Pen-1" fill="#826B32" fill-rule="evenodd" stroke="none" xlink:href="#path-pen-yellow-path-3"/>
+        <path id="Pen-0" fill="#FFF" fill-rule="evenodd" stroke="none" d="M-4 22h28v28H-4z" mask="url(#mask-pen-yellow-path-4)"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -10,7 +10,7 @@ document.querySelector('#example-output').innerHTML = getOutputString()
 function getOutputString() {
   const examples = getExamples()
   const outputString = examples.map(getExampleMarkup).join('')
-  return `<div class="examples examples--gap examples--columns-2">${outputString}</div>`
+  return `<div class="examples examples--gap-12 examples--columns-2">${outputString}</div>`
 }
 
 function getExamples() {
