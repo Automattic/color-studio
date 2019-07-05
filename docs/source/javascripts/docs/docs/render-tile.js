@@ -1,47 +1,63 @@
 /* eslint-env browser */
 
-const chroma = require('chroma-js')
 const round = require('lodash/round')
+const toFormattedHexValue = require('../../../../../utilities/to-formatted-hex-value')
 
-const COLOR_WHITE = '#fff'
-const COLOR_BLACK = '#000'
+const COLOR_BLACK = 'black'
+const COLOR_WHITE = 'white'
 
-module.exports = (featured, name, value) => {
-  const className = `tile${featured ? ' tile--featured' : ''} text-center`
-  const textColor = determineTextColor(value)
-
+module.exports = colorObject => {
   /* eslint-disable indent */
   return [
-    `<div class="${className}" style="background: ${value}; color: ${textColor}" data-color="${value}">`,
+    `<div ${getTileElementAttributes(colorObject)}>`,
       '<div class="tile__title font-weight-bold">',
-        String(name).replace(/\s+/g, '&nbsp;'),
+        getName(colorObject),
       '</div>',
       '<div class="tile__meta text-uppercase">',
-        value,
+        getValue(colorObject),
       '</div>',
       '<div class="tile__meta tile__meta--tiny pt-1">',
-        getContrastScore(COLOR_WHITE, value, 'W'),
+        getContrastScore(colorObject, COLOR_WHITE, 'W'),
       '</div>',
       '<div class="tile__meta tile__meta--tiny">',
-        getContrastScore(COLOR_BLACK, value, 'B'),
+        getContrastScore(colorObject, COLOR_BLACK, 'B'),
       '</div>',
     '</div>'
   ].join('')
   /* eslint-enable indent */
 }
 
-function determineTextColor(backgroundColor) {
-  const ratio = chroma.contrast(COLOR_WHITE, backgroundColor)
-  return ratio > 4.5 ? COLOR_WHITE : COLOR_BLACK
+function getTileElementAttributes(colorObject) {
+  const { value } = colorObject
+
+  const classAttribute = `${colorObject._meta.featured ? 'tile tile--featured' : 'tile'} text-center`
+  const styleAttribute = `background: ${value}; color: ${colorObject._meta.contrast.displayColor}`
+
+  return `class="${classAttribute}" style="${styleAttribute}" data-color="${value}"`
 }
 
-function getContrastScore(foregroundColor, backgroundColor, prefix) {
-  const ratio = chroma.contrast(foregroundColor, backgroundColor)
+function getName(colorObject) {
+  const colorName = colorObject._meta.featured ? colorObject.name : colorObject._meta.index
+  const displayName = String(colorName).replace(/\s+/g, '&nbsp;')
+
+  return isAA(colorObject, COLOR_WHITE) ?
+    `<span style="color: ${toFormattedHexValue(COLOR_WHITE)}">${displayName}</span>` :
+    displayName
+}
+
+function getValue(colorObject) {
+  return colorObject.value
+}
+
+function getContrastScore(colorObject, contrastColorName, prefix) {
+  const ratioAAA = isAAA(colorObject, contrastColorName)
+  const ratioAA = isAA(colorObject, contrastColorName)
+  const ratio = colorObject._meta.contrast[contrastColorName]
   let score = round(ratio, 2)
 
-  if (ratio >= 7.5) {
+  if (ratioAAA) {
     score = 'AAA'
-  } else if (ratio >= 4.5) {
+  } else if (ratioAA) {
     score = 'AA'
   }
 
@@ -49,5 +65,13 @@ function getContrastScore(foregroundColor, backgroundColor, prefix) {
     score = [prefix, score].join(':')
   }
 
-  return `<span style="color: ${foregroundColor}" title="${ratio}">${score}</span>`
+  return `<span title="${ratio}">${score}</span>`
+}
+
+function isAA(colorObject, contrastColorName) {
+  return colorObject._meta.contrast[contrastColorName] >= 4.5
+}
+
+function isAAA(colorObject, contrastColorName) {
+  return colorObject._meta.contrast[contrastColorName] >= 7.5
 }

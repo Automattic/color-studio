@@ -7,19 +7,6 @@
     <color name="white">#ffffff</color>
     <color name="black">#000000</color>
 
-    <color name="word_press_blue_0">#e7f3f7</color>
-    <color name="word_press_blue_5">#b6deee</color>
-    <color name="word_press_blue_10">#85c7e1</color>
-    <color name="word_press_blue_20">#57adcf</color>
-    <color name="word_press_blue_30">#2e92ba</color>
-    <color name="word_press_blue_40">#0f77a1</color>
-    <color name="word_press_blue_50">#005f86</color>
-    <color name="word_press_blue_60">#004d6c</color>
-    <color name="word_press_blue_70">#003b54</color>
-    <color name="word_press_blue_80">#002b3e</color>
-    <color name="word_press_blue_90">#001b2a</color>
-    <color name="word_press_blue_100">#000f1a</color>
-
     <color name="gray_0">#f7f4f5</color>
     <color name="gray_5">#e3e0e2</color>
     <color name="gray_10">#cec9ce</color>
@@ -136,4 +123,17 @@
     <color name="celadon_80">#004236</color>
     <color name="celadon_90">#002e26</color>
     <color name="celadon_100">#001a15</color>
+
+    <color name="word_press_blue_0">#e7f3f7</color>
+    <color name="word_press_blue_5">#b6deee</color>
+    <color name="word_press_blue_10">#85c7e1</color>
+    <color name="word_press_blue_20">#57adcf</color>
+    <color name="word_press_blue_30">#2e92ba</color>
+    <color name="word_press_blue_40">#0f77a1</color>
+    <color name="word_press_blue_50">#005f86</color>
+    <color name="word_press_blue_60">#004d6c</color>
+    <color name="word_press_blue_70">#003b54</color>
+    <color name="word_press_blue_80">#002b3e</color>
+    <color name="word_press_blue_90">#001b2a</color>
+    <color name="word_press_blue_100">#000f1a</color>
 </resources>

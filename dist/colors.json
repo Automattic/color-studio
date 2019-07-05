@@ -3,18 +3,6 @@
   "colors": {
     "White": "#fff",
     "Black": "#000",
-    "WordPress Blue 0": "#e7f3f7",
-    "WordPress Blue 5": "#b6deee",
-    "WordPress Blue 10": "#85c7e1",
-    "WordPress Blue 20": "#57adcf",
-    "WordPress Blue 30": "#2e92ba",
-    "WordPress Blue 40": "#0f77a1",
-    "WordPress Blue 50": "#005f86",
-    "WordPress Blue 60": "#004d6c",
-    "WordPress Blue 70": "#003b54",
-    "WordPress Blue 80": "#002b3e",
-    "WordPress Blue 90": "#001b2a",
-    "WordPress Blue 100": "#000f1a",
     "Gray 0": "#f7f4f5",
     "Gray 5": "#e3e0e2",
     "Gray 10": "#cec9ce",
@@ -122,6 +110,18 @@
     "Celadon 70": "#005647",
     "Celadon 80": "#004236",
     "Celadon 90": "#002e26",
-    "Celadon 100": "#001a15"
+    "Celadon 100": "#001a15",
+    "WordPress Blue 0": "#e7f3f7",
+    "WordPress Blue 5": "#b6deee",
+    "WordPress Blue 10": "#85c7e1",
+    "WordPress Blue 20": "#57adcf",
+    "WordPress Blue 30": "#2e92ba",
+    "WordPress Blue 40": "#0f77a1",
+    "WordPress Blue 50": "#005f86",
+    "WordPress Blue 60": "#004d6c",
+    "WordPress Blue 70": "#003b54",
+    "WordPress Blue 80": "#002b3e",
+    "WordPress Blue 90": "#001b2a",
+    "WordPress Blue 100": "#000f1a"
   }
 }

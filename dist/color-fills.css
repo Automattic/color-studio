@@ -8,54 +8,6 @@
   fill: #000;
 }
 
-.fill-wordpress-blue-0 {
-  fill: #e7f3f7;
-}
-
-.fill-wordpress-blue-5 {
-  fill: #b6deee;
-}
-
-.fill-wordpress-blue-10 {
-  fill: #85c7e1;
-}
-
-.fill-wordpress-blue-20 {
-  fill: #57adcf;
-}
-
-.fill-wordpress-blue-30 {
-  fill: #2e92ba;
-}
-
-.fill-wordpress-blue-40 {
-  fill: #0f77a1;
-}
-
-.fill-wordpress-blue-50 {
-  fill: #005f86;
-}
-
-.fill-wordpress-blue-60 {
-  fill: #004d6c;
-}
-
-.fill-wordpress-blue-70 {
-  fill: #003b54;
-}
-
-.fill-wordpress-blue-80 {
-  fill: #002b3e;
-}
-
-.fill-wordpress-blue-90 {
-  fill: #001b2a;
-}
-
-.fill-wordpress-blue-100 {
-  fill: #000f1a;
-}
-
 .fill-gray-0 {
   fill: #f7f4f5;
 }
@@ -486,4 +438,52 @@
 
 .fill-celadon-100 {
   fill: #001a15;
+}
+
+.fill-wordpress-blue-0 {
+  fill: #e7f3f7;
+}
+
+.fill-wordpress-blue-5 {
+  fill: #b6deee;
+}
+
+.fill-wordpress-blue-10 {
+  fill: #85c7e1;
+}
+
+.fill-wordpress-blue-20 {
+  fill: #57adcf;
+}
+
+.fill-wordpress-blue-30 {
+  fill: #2e92ba;
+}
+
+.fill-wordpress-blue-40 {
+  fill: #0f77a1;
+}
+
+.fill-wordpress-blue-50 {
+  fill: #005f86;
+}
+
+.fill-wordpress-blue-60 {
+  fill: #004d6c;
+}
+
+.fill-wordpress-blue-70 {
+  fill: #003b54;
+}
+
+.fill-wordpress-blue-80 {
+  fill: #002b3e;
+}
+
+.fill-wordpress-blue-90 {
+  fill: #001b2a;
+}
+
+.fill-wordpress-blue-100 {
+  fill: #000f1a;
 }

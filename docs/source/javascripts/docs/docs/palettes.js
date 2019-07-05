@@ -3,14 +3,12 @@
 const PALETTE_OLD = require('@automattic/color-studio') // v1
 const PALETTE_NEW = require('../../../../../dist/colors.meta.json')
 
+const determineContrast = require('./determine-contrast')
+
 module.exports = [
   formatNewPalette(PALETTE_NEW),
   formatOldPalette(PALETTE_OLD)
 ]
-
-function extend(target, source) {
-  return Object.assign({}, target, source)
-}
 
 function formatNewPalette(palette) {
   return extend(palette, {
@@ -23,7 +21,8 @@ function formatNewPalette(palette) {
         })
         .map(colorObject => {
           const meta = extend(colorObject._meta, {
-            featured: colorObject._meta.index === 50
+            featured: colorObject._meta.index === 50,
+            contrast: determineContrast(colorObject, colorArray)
           })
           return extend(colorObject, { _meta: meta })
         })
@@ -40,10 +39,15 @@ function formatOldPalette(palette) {
         const meta = {
           baseName: colorObject._meta.baseName,
           index: colorObject._meta.shadeIndex,
-          featured: colorObject._meta.shadeIndex === 500
+          featured: colorObject._meta.shadeIndex === 500,
+          contrast: determineContrast(colorObject, colorArray)
         }
         return extend(colorObject, { _meta: meta })
       })
     })
   })
+}
+
+function extend(target, source) {
+  return Object.assign({}, target, source)
 }

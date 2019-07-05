@@ -44,19 +44,12 @@ function setDownloadLink(palette) {
 
 function renderTiles(palette) {
   const colors = palette.colors.map(colorArray => {
-    const html = colorArray.map(createColorTile).join('')
+    const html = colorArray.map(renderTile).join('')
     return html ? `<div class="d-flex pb-1">${html}</div>` : ''
   })
 
   ELEMENT_OUTPUT.innerHTML = colors.join('')
   activateTiles(ELEMENT_OUTPUT)
-}
-
-function createColorTile(colorObject) {
-  const { featured } = colorObject._meta
-  const name = featured ? colorObject.name : colorObject._meta.index
-
-  return renderTile(featured, name, colorObject.value)
 }
 
 function activateTiles(scope = document) {
