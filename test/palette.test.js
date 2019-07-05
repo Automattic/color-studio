@@ -35,41 +35,56 @@ describe('palette colors', () => {
 })
 
 describe('light mode accessibility', () => {
-  test('shades #40 pass AA Large against pure white', () => {
+  describe('orange and yellow', () => {
     const SURFACE_COLOR = PALETTE['White']
 
-    expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Gray 40'])
-    expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Sky 40'])
-    expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Blue 40'])
-    expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Purple 40'])
-    expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Pink 40'])
-    expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Red 40'])
-    expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Orange 40'])
-    expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Yellow 40'])
-    expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Green 40'])
-    expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Celadon 40'])
+    test('shades #40 pass AA Large against pure white', () => {
+      expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Orange 40'])
+      expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Yellow 40'])
+    })
+
+    test('shades #50 pass AA Large against pure white', () => {
+      expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Orange 50'])
+      expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Yellow 50'])
+    })
+
+    test('shades #60 pass AA against pure white', () => {
+      expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Orange 60'])
+      expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Yellow 60'])
+    })
   })
 
-  test('shades #50 pass AA against pure white', () => {
+  describe('other palette colors', () => {
     const SURFACE_COLOR = PALETTE['White']
 
-    expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Gray 50'])
-    expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Sky 50'])
-    expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Blue 50'])
-    expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Purple 50'])
-    expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Pink 50'])
-    expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Red 50'])
-    expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Orange 50'])
-    expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Yellow 50'])
-    expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Green 50'])
-    expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Celadon 50'])
+    test('shades #40 pass AA Large against pure white', () => {
+      expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Gray 40'])
+      expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Sky 40'])
+      expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Blue 40'])
+      expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Purple 40'])
+      expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Pink 40'])
+      expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Red 40'])
+      expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Green 40'])
+      expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Celadon 40'])
+    })
+
+    test('shades #50 pass AA against pure white', () => {
+      expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Gray 50'])
+      expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Sky 50'])
+      expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Blue 50'])
+      expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Purple 50'])
+      expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Pink 50'])
+      expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Red 50'])
+      expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Green 50'])
+      expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Celadon 50'])
+    })
   })
 })
 
 describe('dark mode accessibility', () => {
-  test('shades #30 pass AA against pure black', () => {
-    const SURFACE_COLOR = PALETTE['Black']
+  const SURFACE_COLOR = PALETTE['Black']
 
+  test('shades #30 pass AA against pure black', () => {
     expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Gray 30'])
     expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Sky 30'])
     expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Blue 30'])
@@ -83,8 +98,6 @@ describe('dark mode accessibility', () => {
   })
 
   test('shades #40 pass AA Large against pure black', () => {
-    const SURFACE_COLOR = PALETTE['Black']
-
     expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Gray 40'])
     expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Sky 40'])
     expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Blue 40'])
