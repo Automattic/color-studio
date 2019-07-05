@@ -96,7 +96,8 @@
     "sketch:watch": "skpm-build --watch",
     "svgo": "svgo --config=svgo.config.json",
     "svgo:docs": "yarn svgo --folder docs/source --recursive",
-    "test": "jest --all"
+    "test": "jest --all",
+    "watch": "yarn docs:watch"
   },
   "skpm": {
     "manifest": "extensions/sketch/manifest.json",

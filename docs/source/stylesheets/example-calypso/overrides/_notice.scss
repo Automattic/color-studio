@@ -12,6 +12,8 @@
 }
 
 .notice__icon-wrapper {
+  width: 48px !important;
+
   .is-error & {
     background: $studio-red-40 !important;
   }
