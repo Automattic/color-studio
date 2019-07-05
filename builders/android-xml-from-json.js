@@ -19,7 +19,7 @@ function formatColors(colorArrays, indent = 0) {
 }
 
 function formatShade(colorObject) {
-  return `<color name="${toSnakeCase(colorObject.name).toLowerCase()}">${colorObject.value}</color>`
+  return `<color name="${toSnakeCase(colorObject.name.toLowerCase())}">${colorObject.value}</color>`
 }
 
 function printDocument(colorArrays) {
