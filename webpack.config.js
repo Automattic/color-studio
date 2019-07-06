@@ -12,6 +12,7 @@ module.exports = {
     'docs-js': './javascripts/docs/docs.js',
 
     'example-android-css': './stylesheets/example-android/example.scss',
+    'example-android-js': './javascripts/example-android/example.js',
 
     'example-calypso-css': './stylesheets/example-calypso/example.scss',
 
