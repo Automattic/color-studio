@@ -1,5 +1,3 @@
-/* eslint-env browser */
-
 const round = require('lodash/round')
 const toFormattedHexValue = require('../../../../../utilities/to-formatted-hex-value')
 

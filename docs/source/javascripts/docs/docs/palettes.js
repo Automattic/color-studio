@@ -1,5 +1,3 @@
-/* eslint-env browser */
-
 const PALETTE_OLD = require('@automattic/color-studio') // v1
 const PALETTE_NEW = require('../../../../../dist/colors.meta.json')
 

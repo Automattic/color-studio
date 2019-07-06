@@ -1,5 +1,3 @@
-/* eslint-env browser */
-
 const copyToClipboard = require('copy-text-to-clipboard')
 const toArray = require('lodash/toArray')
 
@@ -13,7 +11,7 @@ const ELEMENT_OUTPUT = document.querySelector('#studio-color-tiles')
 let desaturationActive = false
 
 createPaletteSelector(PALETTES)
-handleDesaturation()
+initDesaturationListener()
 
 function createPaletteSelector(palettes) {
   const options = palettes.map((palette, index) => {
@@ -59,7 +57,7 @@ function activateTiles(scope = document) {
   })
 }
 
-function handleDesaturation() {
+function initDesaturationListener() {
   window.addEventListener('keydown', event => {
     if (event.ctrlKey && event.code === 'KeyG') {
       toggleDesaturation()
