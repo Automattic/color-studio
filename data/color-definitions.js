@@ -18,7 +18,7 @@ module.exports = {
         sat_curve: 'easeInSine',
         sat_rate: 30,
         lum_start: 97,
-        lum_end: 10,
+        lum_end: 11,
         lum_curve: bezier(0.45, 0.35, 0.5, 0.5)
       }
     },
@@ -33,7 +33,7 @@ module.exports = {
         sat_curve: 'easeOutQuad',
         sat_rate: 110,
         lum_start: 97,
-        lum_end: 10,
+        lum_end: 11,
         lum_curve: 'easeOutSine'
       }
     },
@@ -48,7 +48,7 @@ module.exports = {
         sat_curve: 'easeOutQuad',
         sat_rate: 70,
         lum_start: 97,
-        lum_end: 10,
+        lum_end: 11,
         lum_curve: bezier(0.35, 0.5, 0.65, 0.95)
       }
     },
@@ -63,7 +63,7 @@ module.exports = {
         sat_curve: 'easeOutQuad',
         sat_rate: 80,
         lum_start: 97,
-        lum_end: 10,
+        lum_end: 11,
         lum_curve: 'easeOutQuad'
       }
     },
@@ -78,7 +78,7 @@ module.exports = {
         sat_curve: 'easeOutQuad',
         sat_rate: 110,
         lum_start: 97,
-        lum_end: 10,
+        lum_end: 11,
         lum_curve: 'easeOutCubic'
       }
     },
@@ -93,7 +93,7 @@ module.exports = {
         sat_curve: 'easeOutQuad',
         sat_rate: 110,
         lum_start: 97,
-        lum_end: 10,
+        lum_end: 11,
         lum_curve: 'easeOutQuad'
       }
     },
@@ -108,7 +108,7 @@ module.exports = {
         sat_curve: 'easeOutQuad',
         sat_rate: 130,
         lum_start: 97,
-        lum_end: 10,
+        lum_end: 11,
         lum_curve: bezier(0.5, 0.5, 0.65, 1)
       }
     },
@@ -123,7 +123,7 @@ module.exports = {
         sat_curve: 'easeOutQuad',
         sat_rate: 130,
         lum_start: 97,
-        lum_end: 10,
+        lum_end: 11,
         lum_curve: bezier(0.5, 0.5, 0.85, 1)
       }
     },
@@ -138,7 +138,7 @@ module.exports = {
         sat_curve: 'easeOutQuad',
         sat_rate: 110,
         lum_start: 97,
-        lum_end: 10,
+        lum_end: 11,
         lum_curve: 'linear'
       }
     },
@@ -153,7 +153,7 @@ module.exports = {
         sat_curve: 'easeOutSine',
         sat_rate: 130,
         lum_start: 97,
-        lum_end: 10,
+        lum_end: 11,
         lum_curve: bezier(0.45, 0.35, 0.6, 0.85)
       }
     }

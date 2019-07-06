@@ -17,43 +17,43 @@
 }
 
 .fill-gray-10 {
-  fill: #cec9ce;
+  fill: #cecace;
 }
 
 .fill-gray-20 {
-  fill: #b6b2b8;
+  fill: #b6b2b9;
 }
 
 .fill-gray-30 {
-  fill: #9c99a2;
+  fill: #9d9aa3;
 }
 
 .fill-gray-40 {
-  fill: #81808c;
+  fill: #82828d;
 }
 
 .fill-gray-50 {
-  fill: #686b75;
+  fill: #6a6c77;
 }
 
 .fill-gray-60 {
-  fill: #525760;
+  fill: #545962;
 }
 
 .fill-gray-70 {
-  fill: #3e454d;
+  fill: #40474f;
 }
 
 .fill-gray-80 {
-  fill: #2d353b;
+  fill: #2f373d;
 }
 
 .fill-gray-90 {
-  fill: #1e252a;
+  fill: #20282c;
 }
 
 .fill-gray-100 {
-  fill: #12171a;
+  fill: #14191c;
 }
 
 .fill-blue-0 {
@@ -73,7 +73,7 @@
 }
 
 .fill-blue-30 {
-  fill: #5098db;
+  fill: #5099db;
 }
 
 .fill-blue-40 {
@@ -81,27 +81,27 @@
 }
 
 .fill-blue-50 {
-  fill: #2170b0;
+  fill: #2170b1;
 }
 
 .fill-blue-60 {
-  fill: #135d95;
+  fill: #135e96;
 }
 
 .fill-blue-70 {
-  fill: #094a76;
+  fill: #0a4b78;
 }
 
 .fill-blue-80 {
-  fill: #043757;
+  fill: #043959;
 }
 
 .fill-blue-90 {
-  fill: #012438;
+  fill: #01263a;
 }
 
 .fill-blue-100 {
-  fill: #00111a;
+  fill: #00131c;
 }
 
 .fill-purple-0 {
@@ -117,11 +117,11 @@
 }
 
 .fill-purple-20 {
-  fill: #dd9cd7;
+  fill: #dd9dd7;
 }
 
 .fill-purple-30 {
-  fill: #cb83cc;
+  fill: #cc83cd;
 }
 
 .fill-purple-40 {
@@ -129,27 +129,27 @@
 }
 
 .fill-purple-50 {
-  fill: #9558a2;
+  fill: #9658a3;
 }
 
 .fill-purple-60 {
-  fill: #7a4589;
+  fill: #7b468b;
 }
 
 .fill-purple-70 {
-  fill: #5f356f;
+  fill: #613670;
 }
 
 .fill-purple-80 {
-  fill: #452653;
+  fill: #472755;
 }
 
 .fill-purple-90 {
-  fill: #2d1836;
+  fill: #2f1939;
 }
 
 .fill-purple-100 {
-  fill: #150b1a;
+  fill: #170c1c;
 }
 
 .fill-pink-0 {
@@ -173,31 +173,31 @@
 }
 
 .fill-pink-40 {
-  fill: #cd5481;
+  fill: #ce5481;
 }
 
 .fill-pink-50 {
-  fill: #bb406f;
+  fill: #bb4070;
 }
 
 .fill-pink-60 {
-  fill: #a3305e;
+  fill: #a4305f;
 }
 
 .fill-pink-70 {
-  fill: #86224d;
+  fill: #87234e;
 }
 
 .fill-pink-80 {
-  fill: #64173a;
+  fill: #66173b;
 }
 
 .fill-pink-90 {
-  fill: #3f0d25;
+  fill: #410e26;
 }
 
 .fill-pink-100 {
-  fill: #1a050f;
+  fill: #1c0611;
 }
 
 .fill-red-0 {
@@ -225,7 +225,7 @@
 }
 
 .fill-red-50 {
-  fill: #d43b40;
+  fill: #d53b40;
 }
 
 .fill-red-60 {
@@ -233,19 +233,19 @@
 }
 
 .fill-red-70 {
-  fill: #a71e26;
+  fill: #a81e26;
 }
 
 .fill-red-80 {
-  fill: #82141b;
+  fill: #83141b;
 }
 
 .fill-red-90 {
-  fill: #510b10;
+  fill: #530b10;
 }
 
 .fill-red-100 {
-  fill: #1a0305;
+  fill: #1c0305;
 }
 
 .fill-orange-0 {
@@ -261,15 +261,15 @@
 }
 
 .fill-orange-20 {
-  fill: #e79b71;
+  fill: #e79c71;
 }
 
 .fill-orange-30 {
-  fill: #dc8450;
+  fill: #dc8451;
 }
 
 .fill-orange-40 {
-  fill: #cd7037;
+  fill: #ce7037;
 }
 
 .fill-orange-50 {
@@ -277,23 +277,23 @@
 }
 
 .fill-orange-60 {
-  fill: #a34f14;
+  fill: #a45015;
 }
 
 .fill-orange-70 {
-  fill: #86400b;
+  fill: #87410b;
 }
 
 .fill-orange-80 {
-  fill: #643005;
+  fill: #663105;
 }
 
 .fill-orange-90 {
-  fill: #3f1f01;
+  fill: #412002;
 }
 
 .fill-orange-100 {
-  fill: #1a0d00;
+  fill: #1c0e00;
 }
 
 .fill-yellow-0 {
@@ -313,35 +313,35 @@
 }
 
 .fill-yellow-30 {
-  fill: #c8a022;
+  fill: #c9a122;
 }
 
 .fill-yellow-40 {
-  fill: #af8907;
+  fill: #b08a07;
 }
 
 .fill-yellow-50 {
-  fill: #947400;
+  fill: #957500;
 }
 
 .fill-yellow-60 {
-  fill: #786000;
+  fill: #7a6100;
 }
 
 .fill-yellow-70 {
-  fill: #5e4c00;
+  fill: #604d00;
 }
 
 .fill-yellow-80 {
-  fill: #453800;
+  fill: #473a00;
 }
 
 .fill-yellow-90 {
-  fill: #2f2600;
+  fill: #312800;
 }
 
 .fill-yellow-100 {
-  fill: #1a1500;
+  fill: #1c1700;
 }
 
 .fill-green-0 {
@@ -353,43 +353,43 @@
 }
 
 .fill-green-10 {
-  fill: #9cde73;
+  fill: #9dde73;
 }
 
 .fill-green-20 {
-  fill: #64c942;
+  fill: #64ca43;
 }
 
 .fill-green-30 {
-  fill: #2fb31e;
+  fill: #2fb41f;
 }
 
 .fill-green-40 {
-  fill: #069d08;
+  fill: #069e08;
 }
 
 .fill-green-50 {
-  fill: #008610;
+  fill: #008710;
 }
 
 .fill-green-60 {
-  fill: #006f17;
+  fill: #007117;
 }
 
 .fill-green-70 {
-  fill: #005918;
+  fill: #005b18;
 }
 
 .fill-green-80 {
-  fill: #004314;
+  fill: #004515;
 }
 
 .fill-green-90 {
-  fill: #002e0f;
+  fill: #003010;
 }
 
 .fill-green-100 {
-  fill: #001a09;
+  fill: #001c09;
 }
 
 .fill-celadon-0 {
@@ -405,39 +405,39 @@
 }
 
 .fill-celadon-20 {
-  fill: #51bba0;
+  fill: #51bca1;
 }
 
 .fill-celadon-30 {
-  fill: #32a78c;
+  fill: #32a88d;
 }
 
 .fill-celadon-40 {
-  fill: #1b9379;
+  fill: #1b947a;
 }
 
 .fill-celadon-50 {
-  fill: #0c7e68;
+  fill: #0c8069;
 }
 
 .fill-celadon-60 {
-  fill: #036a57;
+  fill: #036c58;
 }
 
 .fill-celadon-70 {
-  fill: #005647;
+  fill: #005848;
 }
 
 .fill-celadon-80 {
-  fill: #004236;
+  fill: #004438;
 }
 
 .fill-celadon-90 {
-  fill: #002e26;
+  fill: #003028;
 }
 
 .fill-celadon-100 {
-  fill: #001a15;
+  fill: #001c17;
 }
 
 .fill-wordpress-blue-0 {
@@ -453,7 +453,7 @@
 }
 
 .fill-wordpress-blue-20 {
-  fill: #57adcf;
+  fill: #57add0;
 }
 
 .fill-wordpress-blue-30 {
@@ -461,29 +461,29 @@
 }
 
 .fill-wordpress-blue-40 {
-  fill: #0f77a1;
+  fill: #0f78a2;
 }
 
 .fill-wordpress-blue-50 {
-  fill: #005f86;
+  fill: #006088;
 }
 
 .fill-wordpress-blue-60 {
-  fill: #004d6c;
+  fill: #004e6e;
 }
 
 .fill-wordpress-blue-70 {
-  fill: #003b54;
+  fill: #003c56;
 }
 
 .fill-wordpress-blue-80 {
-  fill: #002b3e;
+  fill: #002c40;
 }
 
 .fill-wordpress-blue-90 {
-  fill: #001b2a;
+  fill: #001d2d;
 }
 
 .fill-wordpress-blue-100 {
-  fill: #000f1a;
+  fill: #00101c;
 }
