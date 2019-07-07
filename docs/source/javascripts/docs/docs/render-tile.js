@@ -1,4 +1,4 @@
-const round = require('lodash/round')
+const floor = require('lodash/floor')
 const toFormattedHexValue = require('../../../../../utilities/to-formatted-hex-value')
 
 const COLOR_BLACK = 'black'
@@ -38,7 +38,7 @@ function getName(colorObject) {
   const colorName = colorObject._meta.featured ? colorObject.name : colorObject._meta.index
   const displayName = String(colorName).replace(/\s+/g, '&nbsp;')
 
-  return isAA(colorObject, COLOR_WHITE) ?
+  return isAccessibleContrast(colorObject, COLOR_WHITE) ?
     `<span style="color: ${toFormattedHexValue(COLOR_WHITE)}">${displayName}</span>` :
     displayName
 }
@@ -48,28 +48,13 @@ function getValue(colorObject) {
 }
 
 function getContrastScore(colorObject, contrastColorName, prefix) {
-  const ratioAAA = isAAA(colorObject, contrastColorName)
-  const ratioAA = isAA(colorObject, contrastColorName)
   const ratio = colorObject._meta.contrast[contrastColorName]
-  let score = round(ratio, 2)
-
-  if (ratioAAA) {
-    score = 'AAA'
-  } else if (ratioAA) {
-    score = 'AA'
-  }
-
-  if (prefix) {
-    score = [prefix, score].join(':')
-  }
+  const roundRatio = floor(ratio, 2)
+  const score = prefix ? [prefix, roundRatio].join(':') : roundRatio
 
   return `<span title="${ratio}">${score}</span>`
 }
 
-function isAA(colorObject, contrastColorName) {
+function isAccessibleContrast(colorObject, contrastColorName) {
   return colorObject._meta.contrast[contrastColorName] >= 4.5
-}
-
-function isAAA(colorObject, contrastColorName) {
-  return colorObject._meta.contrast[contrastColorName] >= 7.5
 }

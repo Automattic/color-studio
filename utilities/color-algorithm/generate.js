@@ -29,7 +29,7 @@ module.exports = ({ specs }) => {
   return luminositySteps.map((luminosity, index) => {
     const rightIndex = stepCount - index - 1
 
-    const hue = hueSteps[rightIndex]
+    const hue = hueSteps[rightIndex] % 360
     const saturation = Math.min(1, saturationSteps[rightIndex])
 
     return chroma.hsv(hue, saturation, luminosity)

@@ -12,11 +12,12 @@ module.exports = (colorObject, colorArray) => {
 
   const contastBlack = contrast(backgroundColor, COLOR_BLACK)
   const contastWhite = contrast(backgroundColor, COLOR_WHITE)
+  const isBrighter = !isAccessibleContrast(backgroundColor, COLOR_WHITE) && contastBlack > contastWhite
 
   return {
     black: contastBlack,
     white: contastWhite,
-    displayColor: contastWhite < contastBlack ?
+    displayColor: isBrighter ?
       determineDisplayColor(backgroundColor, textColors, COLOR_BLACK) :
       determineDisplayColor(backgroundColor, reverse(textColors), COLOR_WHITE)
   }
@@ -24,10 +25,14 @@ module.exports = (colorObject, colorArray) => {
 
 function determineDisplayColor(backgroundColor, textColors, fallbackColor) {
   for (const textColor of textColors) {
-    if (contrast(backgroundColor, textColor) >= 4.5) {
+    if (isAccessibleContrast(backgroundColor, textColor)) {
       return textColor
     }
   }
 
   return fallbackColor
+}
+
+function isAccessibleContrast(color1, color2) {
+  return contrast(color1, color2) >= 4.5
 }

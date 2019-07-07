@@ -10,7 +10,7 @@
         "components": {
           "red": "28",
           "green": "3",
-          "blue": "5",
+          "blue": "3",
           "alpha": 1
         },
         "color-space": "srgb"
