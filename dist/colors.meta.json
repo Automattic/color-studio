@@ -804,7 +804,7 @@
     [
       {
         "name": "Celadon 0",
-        "value": "#eaf7f3",
+        "value": "#e9f7f2",
         "_meta": {
           "baseName": "Celadon",
           "index": 0
@@ -812,7 +812,7 @@
       },
       {
         "name": "Celadon 5",
-        "value": "#aee3d3",
+        "value": "#abe3d2",
         "_meta": {
           "baseName": "Celadon",
           "index": 5
@@ -820,7 +820,7 @@
       },
       {
         "name": "Celadon 10",
-        "value": "#7bcfb8",
+        "value": "#75cfb6",
         "_meta": {
           "baseName": "Celadon",
           "index": 10
@@ -828,7 +828,7 @@
       },
       {
         "name": "Celadon 20",
-        "value": "#51bca1",
+        "value": "#4abc9f",
         "_meta": {
           "baseName": "Celadon",
           "index": 20
@@ -836,7 +836,7 @@
       },
       {
         "name": "Celadon 30",
-        "value": "#32a88d",
+        "value": "#29a88b",
         "_meta": {
           "baseName": "Celadon",
           "index": 30
@@ -844,7 +844,7 @@
       },
       {
         "name": "Celadon 40",
-        "value": "#1b947a",
+        "value": "#139478",
         "_meta": {
           "baseName": "Celadon",
           "index": 40
@@ -852,7 +852,7 @@
       },
       {
         "name": "Celadon 50",
-        "value": "#0c8069",
+        "value": "#048067",
         "_meta": {
           "baseName": "Celadon",
           "index": 50
@@ -860,7 +860,7 @@
       },
       {
         "name": "Celadon 60",
-        "value": "#036c58",
+        "value": "#006c58",
         "_meta": {
           "baseName": "Celadon",
           "index": 60
