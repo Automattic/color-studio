@@ -706,7 +706,7 @@
     [
       {
         "name": "Green 0",
-        "value": "#f2f7e7",
+        "value": "#eef7e8",
         "_meta": {
           "baseName": "Green",
           "index": 0
@@ -714,7 +714,7 @@
       },
       {
         "name": "Green 5",
-        "value": "#d0efad",
+        "value": "#c1efb0",
         "_meta": {
           "baseName": "Green",
           "index": 5
@@ -722,7 +722,7 @@
       },
       {
         "name": "Green 10",
-        "value": "#9dde73",
+        "value": "#85de77",
         "_meta": {
           "baseName": "Green",
           "index": 10
@@ -730,7 +730,7 @@
       },
       {
         "name": "Green 20",
-        "value": "#64ca43",
+        "value": "#48ca48",
         "_meta": {
           "baseName": "Green",
           "index": 20
@@ -738,7 +738,7 @@
       },
       {
         "name": "Green 30",
-        "value": "#2fb41f",
+        "value": "#24b438",
         "_meta": {
           "baseName": "Green",
           "index": 30
@@ -746,7 +746,7 @@
       },
       {
         "name": "Green 40",
-        "value": "#069e08",
+        "value": "#0c9e32",
         "_meta": {
           "baseName": "Green",
           "index": 40
@@ -754,7 +754,7 @@
       },
       {
         "name": "Green 50",
-        "value": "#008710",
+        "value": "#008732",
         "_meta": {
           "baseName": "Green",
           "index": 50
@@ -762,7 +762,7 @@
       },
       {
         "name": "Green 60",
-        "value": "#007117",
+        "value": "#007133",
         "_meta": {
           "baseName": "Green",
           "index": 60
@@ -770,7 +770,7 @@
       },
       {
         "name": "Green 70",
-        "value": "#005b18",
+        "value": "#005b2f",
         "_meta": {
           "baseName": "Green",
           "index": 70
@@ -778,7 +778,7 @@
       },
       {
         "name": "Green 80",
-        "value": "#004515",
+        "value": "#004526",
         "_meta": {
           "baseName": "Green",
           "index": 80
@@ -786,7 +786,7 @@
       },
       {
         "name": "Green 90",
-        "value": "#003010",
+        "value": "#00301c",
         "_meta": {
           "baseName": "Green",
           "index": 90
@@ -794,7 +794,7 @@
       },
       {
         "name": "Green 100",
-        "value": "#001c09",
+        "value": "#001c10",
         "_meta": {
           "baseName": "Green",
           "index": 100

@@ -115,13 +115,13 @@ module.exports = {
     {
       name: 'Green',
       specs: {
-        hue_start: 80,
-        hue_end: 140,
+        hue_start: 95,
+        hue_end: 155,
         hue_curve: 'easeOutSine',
         sat_start: 5,
         sat_end: 100,
         sat_curve: 'easeOutQuad',
-        sat_rate: 130,
+        sat_rate: 125,
         lum_start: 97,
         lum_end: 11,
         lum_curve: bezier(0.5, 0.5, 0.85, 1)

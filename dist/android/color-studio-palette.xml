@@ -98,18 +98,18 @@
     <color name="yellow_90">#322900</color>
     <color name="yellow_100">#1c1700</color>
 
-    <color name="green_0">#f2f7e7</color>
-    <color name="green_5">#d0efad</color>
-    <color name="green_10">#9dde73</color>
-    <color name="green_20">#64ca43</color>
-    <color name="green_30">#2fb41f</color>
-    <color name="green_40">#069e08</color>
-    <color name="green_50">#008710</color>
-    <color name="green_60">#007117</color>
-    <color name="green_70">#005b18</color>
-    <color name="green_80">#004515</color>
-    <color name="green_90">#003010</color>
-    <color name="green_100">#001c09</color>
+    <color name="green_0">#eef7e8</color>
+    <color name="green_5">#c1efb0</color>
+    <color name="green_10">#85de77</color>
+    <color name="green_20">#48ca48</color>
+    <color name="green_30">#24b438</color>
+    <color name="green_40">#0c9e32</color>
+    <color name="green_50">#008732</color>
+    <color name="green_60">#007133</color>
+    <color name="green_70">#005b2f</color>
+    <color name="green_80">#004526</color>
+    <color name="green_90">#00301c</color>
+    <color name="green_100">#001c10</color>
 
     <color name="celadon_0">#eaf7f3</color>
     <color name="celadon_5">#aee3d3</color>
