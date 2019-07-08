@@ -10,7 +10,7 @@ module.exports = {
     {
       name: 'Gray',
       specs: {
-        hue_start: 350,
+        hue_start: 340,
         hue_end: 200,
         hue_curve: 'easeOutQuad',
         sat_start: 4,
