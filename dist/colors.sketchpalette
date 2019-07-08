@@ -1178,6 +1178,118 @@
       "green": 1,
       "blue": 1,
       "alpha": 0
+    },
+    {
+      "name": "Jetpack Green 0",
+      "red": 0.9490196078431372,
+      "green": 0.9686274509803922,
+      "blue": 0.9058823529411765,
+      "alpha": 1
+    },
+    {
+      "name": "Jetpack Green 5",
+      "red": 0.8156862745098039,
+      "green": 0.9372549019607843,
+      "blue": 0.6784313725490196,
+      "alpha": 1
+    },
+    {
+      "name": "Jetpack Green 10",
+      "red": 0.615686274509804,
+      "green": 0.8705882352941177,
+      "blue": 0.45098039215686275,
+      "alpha": 1
+    },
+    {
+      "name": "Jetpack Green 20",
+      "red": 0.39215686274509803,
+      "green": 0.792156862745098,
+      "blue": 0.2627450980392157,
+      "alpha": 1
+    },
+    {
+      "name": "Jetpack Green 30",
+      "red": 0.1843137254901961,
+      "green": 0.7058823529411765,
+      "blue": 0.12156862745098039,
+      "alpha": 1
+    },
+    {
+      "name": "Jetpack Green 40",
+      "red": 0.023529411764705882,
+      "green": 0.6196078431372549,
+      "blue": 0.03137254901960784,
+      "alpha": 1
+    },
+    {
+      "name": " ",
+      "red": 1,
+      "green": 1,
+      "blue": 1,
+      "alpha": 0
+    },
+    {
+      "name": " ",
+      "red": 1,
+      "green": 1,
+      "blue": 1,
+      "alpha": 0
+    },
+    {
+      "name": "Jetpack Green 50",
+      "red": 0,
+      "green": 0.5294117647058824,
+      "blue": 0.06274509803921569,
+      "alpha": 1
+    },
+    {
+      "name": "Jetpack Green 60",
+      "red": 0,
+      "green": 0.44313725490196076,
+      "blue": 0.09019607843137255,
+      "alpha": 1
+    },
+    {
+      "name": "Jetpack Green 70",
+      "red": 0,
+      "green": 0.3568627450980392,
+      "blue": 0.09411764705882353,
+      "alpha": 1
+    },
+    {
+      "name": "Jetpack Green 80",
+      "red": 0,
+      "green": 0.27058823529411763,
+      "blue": 0.08235294117647059,
+      "alpha": 1
+    },
+    {
+      "name": "Jetpack Green 90",
+      "red": 0,
+      "green": 0.18823529411764706,
+      "blue": 0.06274509803921569,
+      "alpha": 1
+    },
+    {
+      "name": "Jetpack Green 100",
+      "red": 0,
+      "green": 0.10980392156862745,
+      "blue": 0.03529411764705882,
+      "alpha": 1
+    },
+    {
+      "name": " ",
+      "red": 1,
+      "green": 1,
+      "blue": 1,
+      "alpha": 0
+    },
+    {
+      "name": " ",
+      "red": 1,
+      "green": 1,
+      "blue": 1,
+      "alpha": 0
     }
   ],
   "gradients": [],

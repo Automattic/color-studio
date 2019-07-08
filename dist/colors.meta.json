@@ -996,6 +996,104 @@
           "index": 100
         }
       }
+    ],
+    [
+      {
+        "name": "Jetpack Green 0",
+        "value": "#f2f7e7",
+        "_meta": {
+          "baseName": "Jetpack Green",
+          "index": 0
+        }
+      },
+      {
+        "name": "Jetpack Green 5",
+        "value": "#d0efad",
+        "_meta": {
+          "baseName": "Jetpack Green",
+          "index": 5
+        }
+      },
+      {
+        "name": "Jetpack Green 10",
+        "value": "#9dde73",
+        "_meta": {
+          "baseName": "Jetpack Green",
+          "index": 10
+        }
+      },
+      {
+        "name": "Jetpack Green 20",
+        "value": "#64ca43",
+        "_meta": {
+          "baseName": "Jetpack Green",
+          "index": 20
+        }
+      },
+      {
+        "name": "Jetpack Green 30",
+        "value": "#2fb41f",
+        "_meta": {
+          "baseName": "Jetpack Green",
+          "index": 30
+        }
+      },
+      {
+        "name": "Jetpack Green 40",
+        "value": "#069e08",
+        "_meta": {
+          "baseName": "Jetpack Green",
+          "index": 40
+        }
+      },
+      {
+        "name": "Jetpack Green 50",
+        "value": "#008710",
+        "_meta": {
+          "baseName": "Jetpack Green",
+          "index": 50
+        }
+      },
+      {
+        "name": "Jetpack Green 60",
+        "value": "#007117",
+        "_meta": {
+          "baseName": "Jetpack Green",
+          "index": 60
+        }
+      },
+      {
+        "name": "Jetpack Green 70",
+        "value": "#005b18",
+        "_meta": {
+          "baseName": "Jetpack Green",
+          "index": 70
+        }
+      },
+      {
+        "name": "Jetpack Green 80",
+        "value": "#004515",
+        "_meta": {
+          "baseName": "Jetpack Green",
+          "index": 80
+        }
+      },
+      {
+        "name": "Jetpack Green 90",
+        "value": "#003010",
+        "_meta": {
+          "baseName": "Jetpack Green",
+          "index": 90
+        }
+      },
+      {
+        "name": "Jetpack Green 100",
+        "value": "#001c09",
+        "_meta": {
+          "baseName": "Jetpack Green",
+          "index": 100
+        }
+      }
     ]
   ]
 }
