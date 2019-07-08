@@ -112,6 +112,8 @@ module.exports = {
     warnings: false
   },
   devServer: {
+    host: 'color-studio.localhost',
+    port: 3000,
     contentBase: path.join(__dirname, 'docs/dist'),
     writeToDisk: true
   }
