@@ -216,7 +216,7 @@
     [
       {
         "name": "Purple 0",
-        "value": "#f7eff3",
+        "value": "#f7eef3",
         "_meta": {
           "baseName": "Purple",
           "index": 0
@@ -224,7 +224,7 @@
       },
       {
         "name": "Purple 5",
-        "value": "#f2d4e8",
+        "value": "#f2d1e6",
         "_meta": {
           "baseName": "Purple",
           "index": 5
@@ -232,7 +232,7 @@
       },
       {
         "name": "Purple 10",
-        "value": "#eab8df",
+        "value": "#eab2de",
         "_meta": {
           "baseName": "Purple",
           "index": 10
@@ -240,7 +240,7 @@
       },
       {
         "name": "Purple 20",
-        "value": "#dd9dd7",
+        "value": "#dd95d6",
         "_meta": {
           "baseName": "Purple",
           "index": 20
@@ -248,7 +248,7 @@
       },
       {
         "name": "Purple 30",
-        "value": "#cc83cd",
+        "value": "#cc7bcd",
         "_meta": {
           "baseName": "Purple",
           "index": 30
@@ -256,7 +256,7 @@
       },
       {
         "name": "Purple 40",
-        "value": "#b16cb9",
+        "value": "#b063b9",
         "_meta": {
           "baseName": "Purple",
           "index": 40
@@ -264,7 +264,7 @@
       },
       {
         "name": "Purple 50",
-        "value": "#9658a3",
+        "value": "#954fa3",
         "_meta": {
           "baseName": "Purple",
           "index": 50
@@ -272,7 +272,7 @@
       },
       {
         "name": "Purple 60",
-        "value": "#7b468b",
+        "value": "#793e8b",
         "_meta": {
           "baseName": "Purple",
           "index": 60
@@ -280,7 +280,7 @@
       },
       {
         "name": "Purple 70",
-        "value": "#613670",
+        "value": "#5f2f70",
         "_meta": {
           "baseName": "Purple",
           "index": 70
@@ -288,7 +288,7 @@
       },
       {
         "name": "Purple 80",
-        "value": "#472755",
+        "value": "#452255",
         "_meta": {
           "baseName": "Purple",
           "index": 80
@@ -296,7 +296,7 @@
       },
       {
         "name": "Purple 90",
-        "value": "#2f1939",
+        "value": "#2d1639",
         "_meta": {
           "baseName": "Purple",
           "index": 90
@@ -304,7 +304,7 @@
       },
       {
         "name": "Purple 100",
-        "value": "#170c1c",
+        "value": "#160b1c",
         "_meta": {
           "baseName": "Purple",
           "index": 100

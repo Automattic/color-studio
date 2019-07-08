@@ -33,18 +33,18 @@
     <color name="blue_90">#01263a</color>
     <color name="blue_100">#00131c</color>
 
-    <color name="purple_0">#f7eff3</color>
-    <color name="purple_5">#f2d4e8</color>
-    <color name="purple_10">#eab8df</color>
-    <color name="purple_20">#dd9dd7</color>
-    <color name="purple_30">#cc83cd</color>
-    <color name="purple_40">#b16cb9</color>
-    <color name="purple_50">#9658a3</color>
-    <color name="purple_60">#7b468b</color>
-    <color name="purple_70">#613670</color>
-    <color name="purple_80">#472755</color>
-    <color name="purple_90">#2f1939</color>
-    <color name="purple_100">#170c1c</color>
+    <color name="purple_0">#f7eef3</color>
+    <color name="purple_5">#f2d1e6</color>
+    <color name="purple_10">#eab2de</color>
+    <color name="purple_20">#dd95d6</color>
+    <color name="purple_30">#cc7bcd</color>
+    <color name="purple_40">#b063b9</color>
+    <color name="purple_50">#954fa3</color>
+    <color name="purple_60">#793e8b</color>
+    <color name="purple_70">#5f2f70</color>
+    <color name="purple_80">#452255</color>
+    <color name="purple_90">#2d1639</color>
+    <color name="purple_100">#160b1c</color>
 
     <color name="pink_0">#f7edf1</color>
     <color name="pink_5">#f4cbd9</color>

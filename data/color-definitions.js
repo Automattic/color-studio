@@ -46,7 +46,7 @@ module.exports = {
         sat_start: 5,
         sat_end: 80,
         sat_curve: 'easeOutQuad',
-        sat_rate: 70,
+        sat_rate: 78,
         lum_start: 97,
         lum_end: 11,
         lum_curve: bezier(0.35, 0.5, 0.65, 0.95)
