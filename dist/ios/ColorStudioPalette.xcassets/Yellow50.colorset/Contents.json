@@ -8,8 +8,8 @@
       "idiom": "universal",
       "color": {
         "components": {
-          "red": "180",
-          "green": "144",
+          "red": "144",
+          "green": "115",
           "blue": "0",
           "alpha": 1
         },

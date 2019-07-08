@@ -616,7 +616,7 @@
       },
       {
         "name": "Yellow 5",
-        "value": "#f7e0ad",
+        "value": "#f7e1ae",
         "_meta": {
           "baseName": "Yellow",
           "index": 5
@@ -624,7 +624,7 @@
       },
       {
         "name": "Yellow 10",
-        "value": "#f4d175",
+        "value": "#f2cf75",
         "_meta": {
           "baseName": "Yellow",
           "index": 10
@@ -632,7 +632,7 @@
       },
       {
         "name": "Yellow 20",
-        "value": "#edc242",
+        "value": "#f0c443",
         "_meta": {
           "baseName": "Yellow",
           "index": 20
@@ -640,7 +640,7 @@
       },
       {
         "name": "Yellow 30",
-        "value": "#e3b418",
+        "value": "#dbae17",
         "_meta": {
           "baseName": "Yellow",
           "index": 30
@@ -648,7 +648,7 @@
       },
       {
         "name": "Yellow 40",
-        "value": "#d1a400",
+        "value": "#b69000",
         "_meta": {
           "baseName": "Yellow",
           "index": 40
@@ -656,7 +656,7 @@
       },
       {
         "name": "Yellow 50",
-        "value": "#b49000",
+        "value": "#907300",
         "_meta": {
           "baseName": "Yellow",
           "index": 50
@@ -664,7 +664,7 @@
       },
       {
         "name": "Yellow 60",
-        "value": "#8f7400",
+        "value": "#705b00",
         "_meta": {
           "baseName": "Yellow",
           "index": 60
@@ -672,7 +672,7 @@
       },
       {
         "name": "Yellow 70",
-        "value": "#6a5700",
+        "value": "#5c4b00",
         "_meta": {
           "baseName": "Yellow",
           "index": 70
@@ -680,7 +680,7 @@
       },
       {
         "name": "Yellow 80",
-        "value": "#4b3e00",
+        "value": "#453900",
         "_meta": {
           "baseName": "Yellow",
           "index": 80
@@ -688,7 +688,7 @@
       },
       {
         "name": "Yellow 90",
-        "value": "#322900",
+        "value": "#302800",
         "_meta": {
           "baseName": "Yellow",
           "index": 90
