@@ -46,18 +46,18 @@
     <color name="purple_90">#2d1639</color>
     <color name="purple_100">#160b1c</color>
 
-    <color name="pink_0">#f7edf1</color>
-    <color name="pink_5">#f4cbd9</color>
-    <color name="pink_10">#efa8c0</color>
-    <color name="pink_20">#e788a9</color>
-    <color name="pink_30">#dc6c94</color>
-    <color name="pink_40">#ce5481</color>
-    <color name="pink_50">#bb4070</color>
-    <color name="pink_60">#a4305f</color>
-    <color name="pink_70">#87234e</color>
-    <color name="pink_80">#66173b</color>
-    <color name="pink_90">#410e26</color>
-    <color name="pink_100">#1c0611</color>
+    <color name="pink_0">#f7ecf0</color>
+    <color name="pink_5">#f4c7d6</color>
+    <color name="pink_10">#efa1bc</color>
+    <color name="pink_20">#e77ea3</color>
+    <color name="pink_30">#dc608d</color>
+    <color name="pink_40">#ce4879</color>
+    <color name="pink_50">#bb3468</color>
+    <color name="pink_60">#a42558</color>
+    <color name="pink_70">#871948</color>
+    <color name="pink_80">#661037</color>
+    <color name="pink_90">#410924</color>
+    <color name="pink_100">#1c0310</color>
 
     <color name="red_0">#f7e7e9</color>
     <color name="red_5">#f7c3c7</color>
