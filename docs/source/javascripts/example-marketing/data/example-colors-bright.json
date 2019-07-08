@@ -142,6 +142,21 @@
       "button-background": [
         "color-wordpress-blue-60"
       ]
+    },
+    {
+      "hero-background": [
+        "color-jetpack-green-0",
+        "color-jetpack-green-5"
+      ],
+      "hero-heading": [
+        "color-jetpack-green-80"
+      ],
+      "hero-text": [
+        "color-jetpack-green-70"
+      ],
+      "button-background": [
+        "color-jetpack-green-60"
+      ]
     }
   ]
 }

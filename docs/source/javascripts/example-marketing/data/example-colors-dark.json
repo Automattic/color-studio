@@ -88,12 +88,32 @@
     },
     {
       "hero-background": [
-        "color-green-80",
-        "color-green-90",
-        "color-green-100"
+        "color-jetpack-green-80",
+        "color-jetpack-green-90",
+        "color-jetpack-green-100"
       ],
       "button-background": [
-        "color-green-50"
+        "color-jetpack-green-50"
+      ]
+    },
+    {
+      "hero-background": [
+        "color-jetpack-green-50",
+        "color-jetpack-green-60",
+        "color-jetpack-green-70"
+      ],
+      "button-background": [
+        "color-jetpack-green-90"
+      ]
+    },
+    {
+      "hero-background": [
+        "color-jetpack-green-80",
+        "color-jetpack-green-90",
+        "color-jetpack-green-100"
+      ],
+      "button-background": [
+        "color-jetpack-green-50"
       ]
     }
   ]

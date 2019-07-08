@@ -1,5 +1,6 @@
 const { contrast } = require('chroma-js')
 const floor = require('lodash/floor')
+const repeat = require('lodash/repeat')
 
 const getValueFromClassName = require('./example/get-value-from-class-name')
 
@@ -48,21 +49,22 @@ function formatExampleData(data) {
 function formatExampleMetaString(data) {
   const heroBackgroundColor = getValueFromClassName(data.heroBackgroundClassName)
   const heroTextColor = getValueFromClassName(data.heroTextClassName)
-  const buttonBackgroundColor = getValueFromClassName(data.buttonBackgroundClassName)
+  const indent = repeat(' ', 10)
 
   const meta = [
-    `${formatContrastRatio(heroTextColor, heroBackgroundColor)} | Copy: ${data.heroTextColor} on ${data.heroBackgroundColor}`,
-    `${formatContrastRatio('white', buttonBackgroundColor)} | Button: White on ${data.buttonBackgroundColor}`
+    `${formatContrastRatio('Copy', heroTextColor, heroBackgroundColor)}`,
+    `${indent}.${data.heroTextClassName}`,
+    `${indent}.${data.heroBackgroundClassName}`
   ]
 
   return `title="${meta.join('\n')}"`
 }
 
-function formatContrastRatio(foreground, background) {
+function formatContrastRatio(title, foreground, background) {
   const colorContrast = contrast(foreground, background)
   const contrastIcon = colorContrast >= 4.5 ? '✅' : '🔴'
 
-  return `${contrastIcon} ${floor(colorContrast, 2)}`.trim()
+  return `${contrastIcon} ${title} (${floor(colorContrast, 2)})`
 }
 
 function getExampleMarkup(data) {
