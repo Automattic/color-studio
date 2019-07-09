@@ -115,16 +115,16 @@ module.exports = {
     {
       name: 'Green',
       specs: {
-        hue_start: 95,
-        hue_end: 155,
-        hue_curve: 'easeOutSine',
-        sat_start: 5,
+        hue_start: 150,
+        hue_end: 130,
+        hue_curve: 'easeOutQuad',
+        sat_start: 3,
         sat_end: 100,
         sat_curve: 'easeOutQuad',
-        sat_rate: 125,
-        lum_start: 97,
-        lum_end: 11,
-        lum_curve: bezier(0.5, 0.5, 0.85, 1)
+        sat_rate: 170,
+        lum_steps: [
+          97, 96, 89, 82, 73, 64, 54, 44, 36, 27, 19, 11
+        ]
       }
     },
     {
@@ -133,13 +133,13 @@ module.exports = {
         hue_start: 160,
         hue_end: 170,
         hue_curve: 'easeOutQuad',
-        sat_start: 5,
+        sat_start: 3,
         sat_end: 100,
         sat_curve: 'easeOutQuad',
-        sat_rate: 118,
+        sat_rate: 150,
         lum_start: 97,
         lum_end: 11,
-        lum_curve: 'linear'
+        lum_curve: bezier(0.15, 0, 0.85, 1)
       }
     },
     {
