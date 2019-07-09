@@ -58,13 +58,13 @@ module.exports = {
         hue_start: 340,
         hue_end: 330,
         hue_curve: 'easeInQuad',
-        sat_start: 5,
+        sat_start: 4,
         sat_end: 100,
         sat_curve: 'easeOutQuad',
-        sat_rate: 88,
+        sat_rate: 90,
         lum_start: 97,
-        lum_end: 11,
-        lum_curve: 'easeOutQuad'
+        lum_end: 16,
+        lum_curve: bezier(0.25, 0.45, 0.35, 0.85)
       }
     },
     {
@@ -73,13 +73,12 @@ module.exports = {
         hue_start: 355,
         hue_end: 360,
         hue_curve: 'easeOutQuad',
-        sat_start: 5,
-        sat_end: 70,
-        sat_curve: 'easeOutQuad',
-        sat_rate: 130,
-        lum_start: 97,
-        lum_end: 11,
-        lum_curve: bezier(0.4, 0.65, 0.2, 1)
+        sat_steps: [
+          4, 20, 35, 50, 60, 65, 75, 75, 74, 73, 73, 73
+        ],
+        lum_steps: [
+          97, 100, 100, 100, 98, 90, 84, 70, 54, 41, 27, 14
+        ]
       }
     },
     {

@@ -16,26 +16,34 @@ module.exports = ({ specs }) => {
   const luminositySteps = generateLuminositySteps(specs)
 
   return luminositySteps.map((luminosity, index) => {
-    const rightIndex = specs.steps - index - 1
-
-    const hue = hueSteps[rightIndex] % 360
-    const saturation = Math.min(1, saturationSteps[rightIndex])
+    const hue = hueSteps[index] % 360
+    const saturation = Math.min(1, saturationSteps[index])
 
     return chroma.hsv(hue, saturation, luminosity)
   })
 }
 
 function generateHueSteps(specs) {
-  return generateSteps(specs.steps, specs.hue_curve).map(step => {
+  const steps = generateSteps(specs.steps, specs.hue_curve).map(step => {
     return distribute(step, 0, specs.hue_start, 1, specs.hue_end)
   })
+
+  return reverse(steps)
 }
 
 function generateSaturationsSteps(specs) {
-  return generateSteps(specs.steps, specs.sat_curve).map(step => {
+  const customSteps = specs.sat_steps
+
+  if (Array.isArray(customSteps) && customSteps.length === specs.steps) {
+    return customSteps.map(step => step / 100)
+  }
+
+  const steps = generateSteps(specs.steps, specs.sat_curve).map(step => {
     const saturation = distribute(step, 0, specs.sat_start / 100, 1, specs.sat_end / 100)
     return saturation * specs.sat_rate / 100
   })
+
+  return reverse(steps)
 }
 
 function generateLuminositySteps(specs) {

@@ -314,7 +314,7 @@
     [
       {
         "name": "Pink 0",
-        "value": "#f7ecf0",
+        "value": "#f7eef1",
         "_meta": {
           "baseName": "Pink",
           "index": 0
@@ -322,7 +322,7 @@
       },
       {
         "name": "Pink 5",
-        "value": "#f4c7d6",
+        "value": "#f2c6d5",
         "_meta": {
           "baseName": "Pink",
           "index": 5
@@ -330,7 +330,7 @@
       },
       {
         "name": "Pink 10",
-        "value": "#efa1bc",
+        "value": "#ec9fb9",
         "_meta": {
           "baseName": "Pink",
           "index": 10
@@ -338,7 +338,7 @@
       },
       {
         "name": "Pink 20",
-        "value": "#e77ea3",
+        "value": "#e57ca0",
         "_meta": {
           "baseName": "Pink",
           "index": 20
@@ -346,7 +346,7 @@
       },
       {
         "name": "Pink 30",
-        "value": "#dc608d",
+        "value": "#db5e8a",
         "_meta": {
           "baseName": "Pink",
           "index": 30
@@ -354,7 +354,7 @@
       },
       {
         "name": "Pink 40",
-        "value": "#ce4879",
+        "value": "#cf4678",
         "_meta": {
           "baseName": "Pink",
           "index": 40
@@ -362,7 +362,7 @@
       },
       {
         "name": "Pink 50",
-        "value": "#bb3468",
+        "value": "#bf3268",
         "_meta": {
           "baseName": "Pink",
           "index": 50
@@ -370,7 +370,7 @@
       },
       {
         "name": "Pink 60",
-        "value": "#a42558",
+        "value": "#ab235a",
         "_meta": {
           "baseName": "Pink",
           "index": 60
@@ -378,7 +378,7 @@
       },
       {
         "name": "Pink 70",
-        "value": "#871948",
+        "value": "#91184b",
         "_meta": {
           "baseName": "Pink",
           "index": 70
@@ -386,7 +386,7 @@
       },
       {
         "name": "Pink 80",
-        "value": "#661037",
+        "value": "#700f3b",
         "_meta": {
           "baseName": "Pink",
           "index": 80
@@ -394,7 +394,7 @@
       },
       {
         "name": "Pink 90",
-        "value": "#410924",
+        "value": "#4c0929",
         "_meta": {
           "baseName": "Pink",
           "index": 90
@@ -402,7 +402,7 @@
       },
       {
         "name": "Pink 100",
-        "value": "#1c0310",
+        "value": "#290416",
         "_meta": {
           "baseName": "Pink",
           "index": 100
@@ -412,7 +412,7 @@
     [
       {
         "name": "Red 0",
-        "value": "#f7e7e9",
+        "value": "#f7edee",
         "_meta": {
           "baseName": "Red",
           "index": 0
@@ -420,7 +420,7 @@
       },
       {
         "name": "Red 5",
-        "value": "#f7c3c7",
+        "value": "#ffccd0",
         "_meta": {
           "baseName": "Red",
           "index": 5
@@ -428,7 +428,7 @@
       },
       {
         "name": "Red 10",
-        "value": "#f6a0a4",
+        "value": "#ffa6ab",
         "_meta": {
           "baseName": "Red",
           "index": 10
@@ -436,7 +436,7 @@
       },
       {
         "name": "Red 20",
-        "value": "#f37f84",
+        "value": "#ff8085",
         "_meta": {
           "baseName": "Red",
           "index": 20
@@ -444,7 +444,7 @@
       },
       {
         "name": "Red 30",
-        "value": "#ef6267",
+        "value": "#fa6469",
         "_meta": {
           "baseName": "Red",
           "index": 30
@@ -452,7 +452,7 @@
       },
       {
         "name": "Red 40",
-        "value": "#e74a4e",
+        "value": "#e65054",
         "_meta": {
           "baseName": "Red",
           "index": 40
@@ -460,7 +460,7 @@
       },
       {
         "name": "Red 50",
-        "value": "#db3739",
+        "value": "#d63638",
         "_meta": {
           "baseName": "Red",
           "index": 50
@@ -468,7 +468,7 @@
       },
       {
         "name": "Red 60",
-        "value": "#c42628",
+        "value": "#b32d2e",
         "_meta": {
           "baseName": "Red",
           "index": 60
@@ -476,7 +476,7 @@
       },
       {
         "name": "Red 70",
-        "value": "#9c1819",
+        "value": "#8a2424",
         "_meta": {
           "baseName": "Red",
           "index": 70
@@ -484,7 +484,7 @@
       },
       {
         "name": "Red 80",
-        "value": "#6a0d0d",
+        "value": "#691c1c",
         "_meta": {
           "baseName": "Red",
           "index": 80
@@ -492,7 +492,7 @@
       },
       {
         "name": "Red 90",
-        "value": "#3f0607",
+        "value": "#451313",
         "_meta": {
           "baseName": "Red",
           "index": 90
@@ -500,7 +500,7 @@
       },
       {
         "name": "Red 100",
-        "value": "#1c0303",
+        "value": "#240a0a",
         "_meta": {
           "baseName": "Red",
           "index": 100
