@@ -84,16 +84,16 @@ module.exports = {
     {
       name: 'Orange',
       specs: {
-        hue_start: 30,
-        hue_end: 40,
+        hue_start: 25,
+        hue_end: 35,
         hue_curve: 'easeOutQuad',
-        sat_start: 5,
+        sat_start: 4,
         sat_end: 100,
         sat_curve: 'easeOutQuad',
         sat_rate: 130,
-        lum_start: 97,
-        lum_end: 11,
-        lum_curve: bezier(0.7, 0.7, 0.35, 1)
+        lum_steps: [
+          97, 99, 100, 98, 90, 84, 69.9, 54, 44, 33, 21, 12
+        ]
       }
     },
     {

@@ -72,18 +72,18 @@
     <color name="red_90">#451313</color>
     <color name="red_100">#240a0a</color>
 
-    <color name="orange_0">#f7efe7</color>
-    <color name="orange_5">#f7d7b3</color>
-    <color name="orange_10">#f5c17f</color>
-    <color name="orange_20">#f0ad4f</color>
-    <color name="orange_30">#e69a27</color>
-    <color name="orange_40">#ce8308</color>
-    <color name="orange_50">#a66900</color>
-    <color name="orange_60">#805300</color>
-    <color name="orange_70">#624000</color>
-    <color name="orange_80">#482f00</color>
-    <color name="orange_90">#312000</color>
-    <color name="orange_100">#1c1300</color>
+    <color name="orange_0">#f7f0ea</color>
+    <color name="orange_5">#fcd7ba</color>
+    <color name="orange_10">#ffbf86</color>
+    <color name="orange_20">#faa754</color>
+    <color name="orange_30">#e68b28</color>
+    <color name="orange_40">#d67709</color>
+    <color name="orange_50">#b26200</color>
+    <color name="orange_60">#8a4d00</color>
+    <color name="orange_70">#704000</color>
+    <color name="orange_80">#543100</color>
+    <color name="orange_90">#361f00</color>
+    <color name="orange_100">#1f1200</color>
 
     <color name="yellow_0">#f7f2e6</color>
     <color name="yellow_5">#f7e1ae</color>
