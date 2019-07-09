@@ -118,7 +118,7 @@
     [
       {
         "name": "Blue 0",
-        "value": "#eaf1f7",
+        "value": "#eff3f7",
         "_meta": {
           "baseName": "Blue",
           "index": 0
@@ -126,7 +126,7 @@
       },
       {
         "name": "Blue 5",
-        "value": "#c1dcf6",
+        "value": "#c6def6",
         "_meta": {
           "baseName": "Blue",
           "index": 5
@@ -134,7 +134,7 @@
       },
       {
         "name": "Blue 10",
-        "value": "#98c5f1",
+        "value": "#9bc7f1",
         "_meta": {
           "baseName": "Blue",
           "index": 10
@@ -142,7 +142,7 @@
       },
       {
         "name": "Blue 20",
-        "value": "#71aee8",
+        "value": "#74b0e8",
         "_meta": {
           "baseName": "Blue",
           "index": 20
@@ -150,7 +150,7 @@
       },
       {
         "name": "Blue 30",
-        "value": "#5099db",
+        "value": "#529adb",
         "_meta": {
           "baseName": "Blue",
           "index": 30
@@ -158,7 +158,7 @@
       },
       {
         "name": "Blue 40",
-        "value": "#3584c8",
+        "value": "#3685c8",
         "_meta": {
           "baseName": "Blue",
           "index": 40
@@ -166,7 +166,7 @@
       },
       {
         "name": "Blue 50",
-        "value": "#2170b1",
+        "value": "#2271b1",
         "_meta": {
           "baseName": "Blue",
           "index": 50
@@ -216,7 +216,7 @@
     [
       {
         "name": "Purple 0",
-        "value": "#f7eef3",
+        "value": "#f2ecef",
         "_meta": {
           "baseName": "Purple",
           "index": 0
@@ -224,7 +224,7 @@
       },
       {
         "name": "Purple 5",
-        "value": "#f2d1e6",
+        "value": "#f0d1e4",
         "_meta": {
           "baseName": "Purple",
           "index": 5
@@ -232,7 +232,7 @@
       },
       {
         "name": "Purple 10",
-        "value": "#eab2de",
+        "value": "#e3aed4",
         "_meta": {
           "baseName": "Purple",
           "index": 10
@@ -240,7 +240,7 @@
       },
       {
         "name": "Purple 20",
-        "value": "#dd95d6",
+        "value": "#d48fc8",
         "_meta": {
           "baseName": "Purple",
           "index": 20
@@ -248,7 +248,7 @@
       },
       {
         "name": "Purple 30",
-        "value": "#cc7bcd",
+        "value": "#c475bd",
         "_meta": {
           "baseName": "Purple",
           "index": 30
@@ -256,7 +256,7 @@
       },
       {
         "name": "Purple 40",
-        "value": "#b063b9",
+        "value": "#b35eb1",
         "_meta": {
           "baseName": "Purple",
           "index": 40
@@ -264,7 +264,7 @@
       },
       {
         "name": "Purple 50",
-        "value": "#954fa3",
+        "value": "#984a9c",
         "_meta": {
           "baseName": "Purple",
           "index": 50
@@ -272,7 +272,7 @@
       },
       {
         "name": "Purple 60",
-        "value": "#793e8b",
+        "value": "#7c3982",
         "_meta": {
           "baseName": "Purple",
           "index": 60
@@ -280,7 +280,7 @@
       },
       {
         "name": "Purple 70",
-        "value": "#5f2f70",
+        "value": "#662c6e",
         "_meta": {
           "baseName": "Purple",
           "index": 70
@@ -288,7 +288,7 @@
       },
       {
         "name": "Purple 80",
-        "value": "#452255",
+        "value": "#4d2054",
         "_meta": {
           "baseName": "Purple",
           "index": 80
@@ -296,7 +296,7 @@
       },
       {
         "name": "Purple 90",
-        "value": "#2d1639",
+        "value": "#35163b",
         "_meta": {
           "baseName": "Purple",
           "index": 90
@@ -304,7 +304,7 @@
       },
       {
         "name": "Purple 100",
-        "value": "#160b1c",
+        "value": "#1e0c21",
         "_meta": {
           "baseName": "Purple",
           "index": 100
@@ -902,7 +902,7 @@
     [
       {
         "name": "WordPress Blue 0",
-        "value": "#e7f3f7",
+        "value": "#e9f3f7",
         "_meta": {
           "baseName": "WordPress Blue",
           "index": 0
@@ -910,7 +910,7 @@
       },
       {
         "name": "WordPress Blue 5",
-        "value": "#b6deee",
+        "value": "#c1e1ee",
         "_meta": {
           "baseName": "WordPress Blue",
           "index": 5
@@ -918,7 +918,7 @@
       },
       {
         "name": "WordPress Blue 10",
-        "value": "#85c7e1",
+        "value": "#99cde1",
         "_meta": {
           "baseName": "WordPress Blue",
           "index": 10
@@ -926,7 +926,7 @@
       },
       {
         "name": "WordPress Blue 20",
-        "value": "#57add0",
+        "value": "#6ab3d0",
         "_meta": {
           "baseName": "WordPress Blue",
           "index": 20
@@ -934,7 +934,7 @@
       },
       {
         "name": "WordPress Blue 30",
-        "value": "#2e92ba",
+        "value": "#3895ba",
         "_meta": {
           "baseName": "WordPress Blue",
           "index": 30
@@ -942,7 +942,7 @@
       },
       {
         "name": "WordPress Blue 40",
-        "value": "#0f78a2",
+        "value": "#187aa2",
         "_meta": {
           "baseName": "WordPress Blue",
           "index": 40

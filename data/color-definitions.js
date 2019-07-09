@@ -28,7 +28,7 @@ module.exports = {
         hue_start: 210,
         hue_end: 200,
         hue_curve: 'easeInQuad',
-        sat_start: 5,
+        sat_start: 3,
         sat_end: 90,
         sat_curve: 'easeOutQuad',
         sat_rate: 110,
@@ -41,15 +41,15 @@ module.exports = {
       name: 'Purple',
       specs: {
         hue_start: 330,
-        hue_end: 280,
+        hue_end: 290,
         hue_curve: 'easeOutQuad',
-        sat_start: 5,
+        sat_start: 3,
         sat_end: 80,
         sat_curve: 'easeOutQuad',
-        sat_rate: 78,
-        lum_start: 97,
-        lum_end: 11,
-        lum_curve: bezier(0.35, 0.5, 0.65, 0.95)
+        sat_rate: 80,
+        lum_steps: [
+          95, 94, 89, 83, 77, 70, 61, 51, 43, 33, 23, 13
+        ]
       }
     },
     {
@@ -147,10 +147,9 @@ module.exports = {
         hue_start: 197,
         hue_end: 205,
         hue_curve: 'easeInExpo',
-        sat_start: 5,
-        sat_end: 100,
-        sat_curve: 'easeOutSine',
-        sat_rate: 130,
+        sat_steps: [
+          6, 19, 32, 49, 70, 85, 100, 100, 100, 100, 100, 100
+        ],
         lum_start: 97,
         lum_end: 11,
         lum_curve: bezier(0.45, 0.35, 0.6, 0.85)
