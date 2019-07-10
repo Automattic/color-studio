@@ -29,6 +29,10 @@ async function generatePreview() {
     Array.from(elements).forEach(element => {
       element.classList.add('tile--preview')
     })
+
+    // Remove excess whitespace
+    document.querySelector('#studio-color-tiles > :first-child').classList.remove('pt-1')
+    document.querySelector('#studio-color-tiles > :last-child').classList.remove('pb-1')
   })
 
   await page.screenshot({
