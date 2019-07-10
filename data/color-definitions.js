@@ -18,7 +18,7 @@ module.exports = {
         sat_curve: 'easeInSine',
         sat_rate: 30,
         lum_start: 97,
-        lum_end: 11,
+        lum_end: 9,
         lum_curve: bezier(0.45, 0.35, 0.5, 0.5)
       }
     },
