@@ -29,59 +29,42 @@ describe('palette colors', () => {
     expect(COLOR_NAMES).toEqual(unique(COLOR_NAMES))
   })
 
-  test.skip('all values are unique', () => {
+  test('all values are unique', () => {
     expect(COLOR_VALUES).toEqual(unique(COLOR_VALUES))
   })
 })
 
 describe('light mode accessibility', () => {
-  describe('orange and yellow', () => {
-    const SURFACE_COLOR = PALETTE['White']
+  const SURFACE_COLOR = PALETTE['White']
 
-    test.skip('shades #40 pass AA Large against pure white', () => {
-      expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Orange 40'])
-      expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Yellow 40'])
-    })
+  test('shades #40 pass AA Large against pure white', () => {
+    expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Gray 40'])
+    expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Blue 40'])
+    expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Purple 40'])
+    expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Pink 40'])
+    expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Red 40'])
+    expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Orange 40'])
+    expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Yellow 40'])
+    expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Green 40'])
+    expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Celadon 40'])
 
-    test('shades #50 pass AA Large against pure white', () => {
-      expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Orange 50'])
-      expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Yellow 50'])
-    })
-
-    test('shades #60 pass AA against pure white', () => {
-      expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Orange 60'])
-      expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Yellow 60'])
-    })
+    expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['WordPress Blue 50'])
+    expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Jetpack Green 50'])
   })
 
-  describe('other palette colors', () => {
-    const SURFACE_COLOR = PALETTE['White']
+  test('shades #50 pass AA against pure white', () => {
+    expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Gray 50'])
+    expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Blue 50'])
+    expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Purple 50'])
+    expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Pink 50'])
+    expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Red 50'])
+    expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Orange 50'])
+    expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Yellow 50'])
+    expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Green 50'])
+    expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Celadon 50'])
 
-    test('shades #40 pass AA Large against pure white', () => {
-      expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Gray 40'])
-      expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Blue 40'])
-      expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Purple 40'])
-      expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Pink 40'])
-      expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Red 40'])
-      expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Green 40'])
-      expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Celadon 40'])
-
-      expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['WordPress Blue 50'])
-      expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Jetpack Green 50'])
-    })
-
-    test('shades #50 pass AA against pure white', () => {
-      expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Gray 50'])
-      expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Blue 50'])
-      expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Purple 50'])
-      expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Pink 50'])
-      expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Red 50'])
-      expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Green 50'])
-      expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Celadon 50'])
-
-      expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['WordPress Blue 50'])
-      expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Jetpack Green 50'])
-    })
+    expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['WordPress Blue 50'])
+    expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Jetpack Green 50'])
   })
 })
 
@@ -151,21 +134,21 @@ describe('dark mode accessibility for Material Design', () => {
   // Using the second darkest Gray shade. Run `yarn info:material-elevation`
   // to see how the predefined palette colors correspond to Material Design’s
   // elevation changes in a dark theme.
-  test('shades #30 pass AA Large against Gray 90', () => {
+  test('shades #30 pass AA against Gray 90', () => {
     const SURFACE_COLOR = PALETTE['Gray 90']
 
-    expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Gray 30'])
-    expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Blue 30'])
-    expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Purple 30'])
-    expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Pink 30'])
-    expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Red 30'])
-    expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Orange 30'])
-    expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Yellow 30'])
-    expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Green 30'])
-    expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Celadon 30'])
+    expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Gray 30'])
+    expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Blue 30'])
+    expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Purple 30'])
+    expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Pink 30'])
+    expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Red 30'])
+    expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Orange 30'])
+    expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Yellow 30'])
+    expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Green 30'])
+    expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Celadon 30'])
 
-    expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['WordPress Blue 30'])
-    expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Jetpack Green 30'])
+    expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['WordPress Blue 30'])
+    expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Jetpack Green 30'])
   })
 
   test('shades #30 pass AA Large against Gray 80', () => {
