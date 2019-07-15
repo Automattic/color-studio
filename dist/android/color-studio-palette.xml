@@ -22,10 +22,10 @@
 
     <color name="blue_0">#eff3f7</color>
     <color name="blue_5">#c6def6</color>
-    <color name="blue_10">#9bc7f1</color>
-    <color name="blue_20">#74b0e8</color>
-    <color name="blue_30">#529adb</color>
-    <color name="blue_40">#3685c8</color>
+    <color name="blue_10">#9ac6f0</color>
+    <color name="blue_20">#72aee6</color>
+    <color name="blue_30">#5198d9</color>
+    <color name="blue_40">#3582c4</color>
     <color name="blue_50">#2271b1</color>
     <color name="blue_60">#135e96</color>
     <color name="blue_70">#0a4b78</color>
@@ -63,7 +63,7 @@
     <color name="red_5">#ffccd0</color>
     <color name="red_10">#ffa6ab</color>
     <color name="red_20">#ff8085</color>
-    <color name="red_30">#fa6469</color>
+    <color name="red_30">#f86368</color>
     <color name="red_40">#e65054</color>
     <color name="red_50">#d63638</color>
     <color name="red_60">#b32d2e</color>
@@ -112,11 +112,11 @@
     <color name="green_100">#001c05</color>
 
     <color name="celadon_0">#ecf7f4</color>
-    <color name="celadon_5">#a7ecd7</color>
-    <color name="celadon_10">#65d9b9</color>
-    <color name="celadon_20">#2fc39e</color>
-    <color name="celadon_30">#09ad87</color>
-    <color name="celadon_40">#009576</color>
+    <color name="celadon_5">#a6ebd6</color>
+    <color name="celadon_10">#63d6b6</color>
+    <color name="celadon_20">#2ebd99</color>
+    <color name="celadon_30">#09a884</color>
+    <color name="celadon_40">#009172</color>
     <color name="celadon_50">#007e65</color>
     <color name="celadon_60">#006753</color>
     <color name="celadon_70">#005042</color>

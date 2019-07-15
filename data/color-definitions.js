@@ -32,9 +32,9 @@ module.exports = {
         sat_end: 90,
         sat_curve: 'easeOutQuad',
         sat_rate: 110,
-        lum_start: 97,
-        lum_end: 11,
-        lum_curve: 'easeOutSine'
+        lum_steps: [
+          97, 96.5, 94, 90, 85, 77, 69.5, 59, 47, 35, 22.6, 11
+        ]
       }
     },
     {
@@ -77,7 +77,7 @@ module.exports = {
           4, 20, 35, 50, 60, 65, 75, 75, 74, 73, 73, 73
         ],
         lum_steps: [
-          97, 100, 100, 100, 98, 90, 84, 70, 54, 41, 27, 14
+          97, 100, 100, 100, 97.4, 90, 84, 70, 54, 41, 27, 14
         ]
       }
     },
@@ -136,9 +136,9 @@ module.exports = {
         sat_end: 100,
         sat_curve: 'easeOutQuad',
         sat_rate: 150,
-        lum_start: 97,
-        lum_end: 11,
-        lum_curve: bezier(0.15, 0, 0.85, 1)
+        lum_steps: [
+          97, 92, 84, 74, 66, 57, 49.5, 40.2, 31.4, 23, 15.4, 11
+        ]
       }
     },
     {

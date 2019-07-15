@@ -19,7 +19,14 @@ module.exports = ({ specs }) => {
     const hue = hueSteps[index] % 360
     const saturation = Math.min(1, saturationSteps[index])
 
-    return chroma.hsv(hue, saturation, luminosity)
+    return {
+      color: chroma.hsv(hue, saturation, luminosity),
+      properties: {
+        hue,
+        saturation,
+        luminosity
+      }
+    }
   })
 }
 
