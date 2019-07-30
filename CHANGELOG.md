@@ -1,5 +1,26 @@
 # Releases
 
+## 2.0.1
+
+* _No color changes._
+* Included a stylesheet with CSS custom properties that return RGB values.
+* Base color name are now aliased to the their respective primary shades in all the formats, for both generic and brand colors:
+
+  ```
+  Gray    → Gray 50
+  Blue    → Blue 50
+  Purple  → Purple 50
+  Pink    → Pink 50
+  Red     → Red 50
+  Orange  → Orange 50
+  Yellow  → Yellow 50
+  Green   → Green 50
+  Celadon → Celadon 50
+
+  WordPress Blue → WordPress Blue 50
+  Jetpack Green  → Jetpack Green 30
+  ```
+
 ## 2.0.0
 
 * Redesigned the whole color palette.
