@@ -32,6 +32,7 @@
   fill: #7f808a;
 }
 
+.fill-gray,
 .fill-gray-50 {
   fill: #676a74;
 }
@@ -80,6 +81,7 @@
   fill: #3582c4;
 }
 
+.fill-blue,
 .fill-blue-50 {
   fill: #2271b1;
 }
@@ -128,6 +130,7 @@
   fill: #b35eb1;
 }
 
+.fill-purple,
 .fill-purple-50 {
   fill: #984a9c;
 }
@@ -176,6 +179,7 @@
   fill: #e34c84;
 }
 
+.fill-pink,
 .fill-pink-50 {
   fill: #c9356e;
 }
@@ -224,6 +228,7 @@
   fill: #e65054;
 }
 
+.fill-red,
 .fill-red-50 {
   fill: #d63638;
 }
@@ -272,6 +277,7 @@
   fill: #d67709;
 }
 
+.fill-orange,
 .fill-orange-50 {
   fill: #b26200;
 }
@@ -320,6 +326,7 @@
   fill: #b69000;
 }
 
+.fill-yellow,
 .fill-yellow-50 {
   fill: #907300;
 }
@@ -368,6 +375,7 @@
   fill: #00a32a;
 }
 
+.fill-green,
 .fill-green-50 {
   fill: #008a20;
 }
@@ -416,6 +424,7 @@
   fill: #009172;
 }
 
+.fill-celadon,
 .fill-celadon-50 {
   fill: #007e65;
 }
@@ -464,6 +473,7 @@
   fill: #187aa2;
 }
 
+.fill-wordpress-blue,
 .fill-wordpress-blue-50 {
   fill: #006088;
 }
@@ -504,6 +514,7 @@
   fill: #64ca43;
 }
 
+.fill-jetpack-green,
 .fill-jetpack-green-30 {
   fill: #2fb41f;
 }

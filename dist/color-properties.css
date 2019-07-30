@@ -16,6 +16,7 @@
   --studio-gray-80: #2c3338;
   --studio-gray-90: #1d2327;
   --studio-gray-100: #101517;
+  --studio-gray: var(--studio-gray-50);
 
   --studio-blue-0: #eff3f7;
   --studio-blue-5: #c6def6;
@@ -29,6 +30,7 @@
   --studio-blue-80: #043959;
   --studio-blue-90: #01263a;
   --studio-blue-100: #00131c;
+  --studio-blue: var(--studio-blue-50);
 
   --studio-purple-0: #f2ecef;
   --studio-purple-5: #f0d1e4;
@@ -42,6 +44,7 @@
   --studio-purple-80: #4d2054;
   --studio-purple-90: #35163b;
   --studio-purple-100: #1e0c21;
+  --studio-purple: var(--studio-purple-50);
 
   --studio-pink-0: #f5ecef;
   --studio-pink-5: #faccdc;
@@ -55,6 +58,7 @@
   --studio-pink-80: #700f3b;
   --studio-pink-90: #4f092a;
   --studio-pink-100: #260415;
+  --studio-pink: var(--studio-pink-50);
 
   --studio-red-0: #f7edee;
   --studio-red-5: #ffccd0;
@@ -68,6 +72,7 @@
   --studio-red-80: #691c1c;
   --studio-red-90: #451313;
   --studio-red-100: #240a0a;
+  --studio-red: var(--studio-red-50);
 
   --studio-orange-0: #f7f0ea;
   --studio-orange-5: #fcd7ba;
@@ -81,6 +86,7 @@
   --studio-orange-80: #543100;
   --studio-orange-90: #361f00;
   --studio-orange-100: #1f1200;
+  --studio-orange: var(--studio-orange-50);
 
   --studio-yellow-0: #f7f2e6;
   --studio-yellow-5: #f7e1ae;
@@ -94,6 +100,7 @@
   --studio-yellow-80: #453900;
   --studio-yellow-90: #302800;
   --studio-yellow-100: #1c1700;
+  --studio-yellow: var(--studio-yellow-50);
 
   --studio-green-0: #ebf7f1;
   --studio-green-5: #a4f5c8;
@@ -107,6 +114,7 @@
   --studio-green-80: #00450c;
   --studio-green-90: #003008;
   --studio-green-100: #001c05;
+  --studio-green: var(--studio-green-50);
 
   --studio-celadon-0: #ecf7f4;
   --studio-celadon-5: #a6ebd6;
@@ -120,6 +128,7 @@
   --studio-celadon-80: #003b30;
   --studio-celadon-90: #002721;
   --studio-celadon-100: #001c17;
+  --studio-celadon: var(--studio-celadon-50);
 
   --studio-wordpress-blue-0: #e9f3f7;
   --studio-wordpress-blue-5: #c1e1ee;
@@ -133,6 +142,7 @@
   --studio-wordpress-blue-80: #002c40;
   --studio-wordpress-blue-90: #001d2d;
   --studio-wordpress-blue-100: #00101c;
+  --studio-wordpress-blue: var(--studio-wordpress-blue-50);
 
   --studio-jetpack-green-0: #f2f7e7;
   --studio-jetpack-green-5: #d0efad;
@@ -146,4 +156,5 @@
   --studio-jetpack-green-80: #004515;
   --studio-jetpack-green-90: #003010;
   --studio-jetpack-green-100: #001c09;
+  --studio-jetpack-green: var(--studio-jetpack-green-30);
 }

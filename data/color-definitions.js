@@ -9,6 +9,7 @@ module.exports = {
   colors: [
     {
       name: 'Gray',
+      default: 50,
       specs: {
         hue_start: 340,
         hue_end: 200,
@@ -24,6 +25,7 @@ module.exports = {
     },
     {
       name: 'Blue',
+      default: 50,
       specs: {
         hue_start: 210,
         hue_end: 200,
@@ -39,6 +41,7 @@ module.exports = {
     },
     {
       name: 'Purple',
+      default: 50,
       specs: {
         hue_start: 330,
         hue_end: 290,
@@ -54,6 +57,7 @@ module.exports = {
     },
     {
       name: 'Pink',
+      default: 50,
       specs: {
         hue_start: 340,
         hue_end: 330,
@@ -69,6 +73,7 @@ module.exports = {
     },
     {
       name: 'Red',
+      default: 50,
       specs: {
         hue_start: 355,
         hue_end: 360,
@@ -83,6 +88,7 @@ module.exports = {
     },
     {
       name: 'Orange',
+      default: 50,
       specs: {
         hue_start: 25,
         hue_end: 35,
@@ -98,6 +104,7 @@ module.exports = {
     },
     {
       name: 'Yellow',
+      default: 50,
       specs: {
         hue_start: 40,
         hue_end: 50,
@@ -113,6 +120,7 @@ module.exports = {
     },
     {
       name: 'Green',
+      default: 50,
       specs: {
         hue_start: 150,
         hue_end: 130,
@@ -128,6 +136,7 @@ module.exports = {
     },
     {
       name: 'Celadon',
+      default: 50,
       specs: {
         hue_start: 160,
         hue_end: 170,
@@ -143,6 +152,7 @@ module.exports = {
     },
     {
       name: 'WordPress Blue',
+      default: 50,
       specs: {
         hue_start: 197,
         hue_end: 205,
@@ -157,6 +167,7 @@ module.exports = {
     },
     {
       name: 'Jetpack Green',
+      default: 30,
       specs: {
         hue_start: 80,
         hue_end: 140,

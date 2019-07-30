@@ -7,7 +7,9 @@ const PALETTE_JSON = require('../builders/json')
 
 const toNamedColorCollection = require('../utilities/to-named-color-collection')
 
-const PALETTE = toNamedColorCollection(PALETTE_JSON.colors)
+const PALETTE = toNamedColorCollection(PALETTE_JSON.colors, {
+  excludeAliases: true
+})
 
 expect.extend({
   toBeContrastRatioBetween: (expected, color1, color2) => {
@@ -29,7 +31,7 @@ describe('palette colors', () => {
     expect(COLOR_NAMES).toEqual(unique(COLOR_NAMES))
   })
 
-  test('all values are unique', () => {
+  test('all values are unique (excluding aliases)', () => {
     expect(COLOR_VALUES).toEqual(unique(COLOR_VALUES))
   })
 })

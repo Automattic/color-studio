@@ -24,7 +24,8 @@ export default () => {
   cacheSharedStyles(document)
 
   PALETTE.colors.forEach((colorObjects, rowIndex) => {
-    colorObjects.forEach((colorObject, columnIndex) => {
+    const sourceColorObjects = colorObjects.filter(colorObject => !colorObject._meta.alias)
+    sourceColorObjects.forEach((colorObject, columnIndex) => {
       const colorStyle = createColorStyle(document, colorObject)
       createColorSymbol(page, colorObject, colorStyle, rowIndex, columnIndex)
     })

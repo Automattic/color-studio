@@ -32,6 +32,7 @@
   color: #7f808a;
 }
 
+.color-gray,
 .color-gray-50 {
   color: #676a74;
 }
@@ -80,6 +81,7 @@
   color: #3582c4;
 }
 
+.color-blue,
 .color-blue-50 {
   color: #2271b1;
 }
@@ -128,6 +130,7 @@
   color: #b35eb1;
 }
 
+.color-purple,
 .color-purple-50 {
   color: #984a9c;
 }
@@ -176,6 +179,7 @@
   color: #e34c84;
 }
 
+.color-pink,
 .color-pink-50 {
   color: #c9356e;
 }
@@ -224,6 +228,7 @@
   color: #e65054;
 }
 
+.color-red,
 .color-red-50 {
   color: #d63638;
 }
@@ -272,6 +277,7 @@
   color: #d67709;
 }
 
+.color-orange,
 .color-orange-50 {
   color: #b26200;
 }
@@ -320,6 +326,7 @@
   color: #b69000;
 }
 
+.color-yellow,
 .color-yellow-50 {
   color: #907300;
 }
@@ -368,6 +375,7 @@
   color: #00a32a;
 }
 
+.color-green,
 .color-green-50 {
   color: #008a20;
 }
@@ -416,6 +424,7 @@
   color: #009172;
 }
 
+.color-celadon,
 .color-celadon-50 {
   color: #007e65;
 }
@@ -464,6 +473,7 @@
   color: #187aa2;
 }
 
+.color-wordpress-blue,
 .color-wordpress-blue-50 {
   color: #006088;
 }
@@ -504,6 +514,7 @@
   color: #64ca43;
 }
 
+.color-jetpack-green,
 .color-jetpack-green-30 {
   color: #2fb41f;
 }

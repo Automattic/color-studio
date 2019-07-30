@@ -19,6 +19,15 @@
     ],
     [
       {
+        "name": "Gray",
+        "value": "#676a74",
+        "_meta": {
+          "alias": true,
+          "baseName": "Gray",
+          "index": 50
+        }
+      },
+      {
         "name": "Gray 0",
         "value": "#f7f4f5",
         "_meta": {
@@ -116,6 +125,15 @@
       }
     ],
     [
+      {
+        "name": "Blue",
+        "value": "#2271b1",
+        "_meta": {
+          "alias": true,
+          "baseName": "Blue",
+          "index": 50
+        }
+      },
       {
         "name": "Blue 0",
         "value": "#eff3f7",
@@ -215,6 +233,15 @@
     ],
     [
       {
+        "name": "Purple",
+        "value": "#984a9c",
+        "_meta": {
+          "alias": true,
+          "baseName": "Purple",
+          "index": 50
+        }
+      },
+      {
         "name": "Purple 0",
         "value": "#f2ecef",
         "_meta": {
@@ -312,6 +339,15 @@
       }
     ],
     [
+      {
+        "name": "Pink",
+        "value": "#c9356e",
+        "_meta": {
+          "alias": true,
+          "baseName": "Pink",
+          "index": 50
+        }
+      },
       {
         "name": "Pink 0",
         "value": "#f5ecef",
@@ -411,6 +447,15 @@
     ],
     [
       {
+        "name": "Red",
+        "value": "#d63638",
+        "_meta": {
+          "alias": true,
+          "baseName": "Red",
+          "index": 50
+        }
+      },
+      {
         "name": "Red 0",
         "value": "#f7edee",
         "_meta": {
@@ -508,6 +553,15 @@
       }
     ],
     [
+      {
+        "name": "Orange",
+        "value": "#b26200",
+        "_meta": {
+          "alias": true,
+          "baseName": "Orange",
+          "index": 50
+        }
+      },
       {
         "name": "Orange 0",
         "value": "#f7f0ea",
@@ -607,6 +661,15 @@
     ],
     [
       {
+        "name": "Yellow",
+        "value": "#907300",
+        "_meta": {
+          "alias": true,
+          "baseName": "Yellow",
+          "index": 50
+        }
+      },
+      {
         "name": "Yellow 0",
         "value": "#f7f2e6",
         "_meta": {
@@ -704,6 +767,15 @@
       }
     ],
     [
+      {
+        "name": "Green",
+        "value": "#008a20",
+        "_meta": {
+          "alias": true,
+          "baseName": "Green",
+          "index": 50
+        }
+      },
       {
         "name": "Green 0",
         "value": "#ebf7f1",
@@ -803,6 +875,15 @@
     ],
     [
       {
+        "name": "Celadon",
+        "value": "#007e65",
+        "_meta": {
+          "alias": true,
+          "baseName": "Celadon",
+          "index": 50
+        }
+      },
+      {
         "name": "Celadon 0",
         "value": "#ecf7f4",
         "_meta": {
@@ -901,6 +982,15 @@
     ],
     [
       {
+        "name": "WordPress Blue",
+        "value": "#006088",
+        "_meta": {
+          "alias": true,
+          "baseName": "WordPress Blue",
+          "index": 50
+        }
+      },
+      {
         "name": "WordPress Blue 0",
         "value": "#e9f3f7",
         "_meta": {
@@ -998,6 +1088,15 @@
       }
     ],
     [
+      {
+        "name": "Jetpack Green",
+        "value": "#2fb41f",
+        "_meta": {
+          "alias": true,
+          "baseName": "Jetpack Green",
+          "index": 30
+        }
+      },
       {
         "name": "Jetpack Green 0",
         "value": "#f2f7e7",

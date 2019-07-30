@@ -15,7 +15,7 @@ function formatNewPalette(palette) {
     colors: palette.colors.map(colorArray => {
       return colorArray
         .filter(colorObject => {
-          return !colorObject._meta.special
+          return !colorObject._meta.special && !colorObject._meta.alias
         })
         .map(colorObject => {
           const meta = extend(colorObject._meta, {

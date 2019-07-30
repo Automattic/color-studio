@@ -15,7 +15,9 @@ function formatPaletteRows(colorArrays) {
   const paletteRows = []
 
   colorArrays.forEach(colorArray => {
-    chunk(colorArray, 6).forEach(row => {
+    const colors = colorArray.filter(colorObject => !colorObject._meta.alias)
+
+    chunk(colors, 6).forEach(row => {
       paletteRows.push(row)
     })
   })

@@ -5,14 +5,33 @@ const PALETTE = require('../dist/colors.meta.json')
 const formatHex = require('../utilities/to-formatted-hex-value')
 
 const colors = PALETTE.colors.map(colorArray => {
-  return colorArray.map(formatVariableEntry)
+  return orderByVariableEntry(colorArray).map(formatVariableEntry)
 })
 
 printStylesheet(colors)
 
+function orderByVariableEntry(colorArray) {
+  const source = colorArray.filter(colorObject => !colorObject._meta.alias)
+  const aliases = colorArray.filter(colorObject => colorObject._meta.alias)
+
+  return source.concat(aliases)
+}
+
 function formatVariableEntry(colorObject) {
-  const { name, value } = colorObject
-  return `$studio-${toKebabCase(name.toLowerCase())}: ${formatHex(value)};`
+  return `${formatVariableName(colorObject)}: ${formatVariableValue(colorObject)};`
+}
+
+function formatVariableName(colorObject) {
+  return `$studio-${toKebabCase(colorObject.name.toLowerCase())}`
+}
+
+function formatVariableValue(colorObject) {
+  if (!colorObject._meta.alias) {
+    return formatHex(colorObject.value)
+  }
+
+  const name = `${colorObject._meta.baseName} ${colorObject._meta.index}`
+  return formatVariableName({ name })
 }
 
 function printStylesheet(colorArrays) {
