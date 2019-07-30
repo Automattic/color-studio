@@ -1,3 +1,0 @@
-@function hex-to-rgb($color) {
-  @return round(red($color)), round(green($color)), round(blue($color));
-}

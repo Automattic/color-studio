@@ -1,8 +1,11 @@
-// Shared
+// Colors
 @import "../../../../dist/color-variables";
+@import "../../../../dist/color-properties";
+@import "../../../../dist/color-properties-rgb";
+
+// Shared
 @import "../../../../.cache/calypso/assets/stylesheets/shared/reset";
 @import "../../../../.cache/calypso/assets/stylesheets/shared/functions";
-@import "overrides/calypso-color-schemes/shared/functions/hex-to-rgb";
 @import "../../../../.cache/calypso/assets/stylesheets/shared/functions/overflow-gradient";
 @import "../../../../.cache/calypso/assets/stylesheets/shared/functions/z-index";
 @import "overrides/calypso-color-schemes/shared/colors";
