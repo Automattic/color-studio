@@ -7,16 +7,16 @@
     <color name="white">#ffffff</color>
     <color name="black">#000000</color>
 
-    <color name="gray">#666b73</color>
-    <color name="gray_0">#f7f8fa</color>
-    <color name="gray_5">#dbdcde</color>
-    <color name="gray_10">#c2c5c7</color>
-    <color name="gray_20">#aaadb0</color>
-    <color name="gray_30">#909499</color>
-    <color name="gray_40">#7a7e85</color>
-    <color name="gray_50">#666b73</color>
-    <color name="gray_60">#51565f</color>
-    <color name="gray_70">#3d444b</color>
+    <color name="gray">#646970</color>
+    <color name="gray_0">#f6f7f7</color>
+    <color name="gray_5">#dcdcde</color>
+    <color name="gray_10">#c0c2c4</color>
+    <color name="gray_20">#a7aaad</color>
+    <color name="gray_30">#8e9196</color>
+    <color name="gray_40">#787c82</color>
+    <color name="gray_50">#646970</color>
+    <color name="gray_60">#50575e</color>
+    <color name="gray_70">#3c434a</color>
     <color name="gray_80">#2c3338</color>
     <color name="gray_90">#1d2327</color>
     <color name="gray_100">#101517</color>
