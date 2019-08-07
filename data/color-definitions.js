@@ -11,16 +11,16 @@ module.exports = {
       name: 'Gray',
       default: 50,
       specs: {
-        hue_start: 340,
-        hue_end: 200,
-        hue_curve: 'easeOutQuad',
+        hue_steps: [
+          210, 210, 210, 212, 215, 217, 217, 217, 210, 205, 204, 200
+        ],
         sat_start: 4,
         sat_end: 100,
         sat_curve: 'easeInSine',
         sat_rate: 30,
-        lum_start: 97,
-        lum_end: 9,
-        lum_curve: bezier(0.45, 0.35, 0.5, 0.5)
+        lum_steps: [
+          98, 87, 78, 69, 60, 52, 45, 37.1, 29.3, 22.1, 15.3, 9
+        ]
       }
     },
     {

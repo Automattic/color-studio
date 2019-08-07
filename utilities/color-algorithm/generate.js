@@ -31,6 +31,12 @@ module.exports = ({ specs }) => {
 }
 
 function generateHueSteps(specs) {
+  const customSteps = specs.hue_steps
+
+  if (Array.isArray(customSteps) && customSteps.length === specs.steps) {
+    return customSteps
+  }
+
   const steps = generateSteps(specs.steps, specs.hue_curve).map(step => {
     return distribute(step, 0, specs.hue_start, 1, specs.hue_end)
   })

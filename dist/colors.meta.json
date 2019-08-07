@@ -20,7 +20,7 @@
     [
       {
         "name": "Gray",
-        "value": "#676a74",
+        "value": "#666b73",
         "_meta": {
           "alias": true,
           "baseName": "Gray",
@@ -29,7 +29,7 @@
       },
       {
         "name": "Gray 0",
-        "value": "#f7f4f5",
+        "value": "#f7f8fa",
         "_meta": {
           "baseName": "Gray",
           "index": 0
@@ -37,7 +37,7 @@
       },
       {
         "name": "Gray 5",
-        "value": "#e3dfe2",
+        "value": "#dbdcde",
         "_meta": {
           "baseName": "Gray",
           "index": 5
@@ -45,7 +45,7 @@
       },
       {
         "name": "Gray 10",
-        "value": "#cdc9cd",
+        "value": "#c2c5c7",
         "_meta": {
           "baseName": "Gray",
           "index": 10
@@ -53,7 +53,7 @@
       },
       {
         "name": "Gray 20",
-        "value": "#b4b1b8",
+        "value": "#aaadb0",
         "_meta": {
           "baseName": "Gray",
           "index": 20
@@ -61,7 +61,7 @@
       },
       {
         "name": "Gray 30",
-        "value": "#9a98a1",
+        "value": "#909499",
         "_meta": {
           "baseName": "Gray",
           "index": 30
@@ -69,7 +69,7 @@
       },
       {
         "name": "Gray 40",
-        "value": "#7f808a",
+        "value": "#7a7e85",
         "_meta": {
           "baseName": "Gray",
           "index": 40
@@ -77,7 +77,7 @@
       },
       {
         "name": "Gray 50",
-        "value": "#676a74",
+        "value": "#666b73",
         "_meta": {
           "baseName": "Gray",
           "index": 50
