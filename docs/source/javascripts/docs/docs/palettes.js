@@ -1,7 +1,7 @@
 const PALETTE_OLD = require('@automattic/color-studio') // v1
 const PALETTE_NEW = require('../../../../../dist/colors.meta.json')
 
-const determineContrast = require('./determine-contrast')
+const determineContrast = require('./contrast')
 
 module.exports = [
   formatNewPalette(PALETTE_NEW),
@@ -11,7 +11,7 @@ module.exports = [
 function formatNewPalette(palette) {
   return extend(palette, {
     displayName: `v${palette.version}`,
-    downloadLink: 'https://github.com/Automattic/color-studio/tree/master/dist',
+    downloadLink: `https://github.com/Automattic/color-studio/tree/${palette.version}/dist`,
     colors: palette.colors.map(colorArray => {
       return colorArray
         .filter(colorObject => {
@@ -31,7 +31,7 @@ function formatNewPalette(palette) {
 function formatOldPalette(palette) {
   return extend(palette, {
     displayName: `v${palette.version} (deprecated)`,
-    downloadLink: 'https://github.com/Automattic/color-studio/tree/1.0.5/dist',
+    downloadLink: `https://github.com/Automattic/color-studio/tree/${palette.version}/dist`,
     colors: palette.colors.map(colorArray => {
       return colorArray.map(colorObject => {
         const meta = {

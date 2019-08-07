@@ -9,13 +9,11 @@ module.exports = {
   context: path.join(__dirname, 'docs/source'),
   entry: {
     'docs-css': './stylesheets/docs/docs.scss',
-    'docs-js': './javascripts/docs/docs.js',
-
+    'docs-debug-js': './javascripts/docs/docs-debug.js',
+    'docs-index-js': './javascripts/docs/docs-index.js',
     'example-android-css': './stylesheets/example-android/example.scss',
     'example-android-js': './javascripts/example-android/example.js',
-
     'example-calypso-css': './stylesheets/example-calypso/example.scss',
-
     'example-marketing-css': './stylesheets/example-marketing/example.scss',
     'example-marketing-colors-bright-js': './javascripts/example-marketing/example-colors-bright.js',
     'example-marketing-colors-dark-js': './javascripts/example-marketing/example-colors-dark.js'

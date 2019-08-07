@@ -9,7 +9,9 @@ const PACKAGE = require('../package.json')
 const paletteColors = COLOR_DEFINITIONS.colors.map(color => {
   const shades = generateShades(COLOR_DEFINITIONS.config, color.specs)
   const formattedShades = shades.map(colorObject => {
-    return formatShade(color.name, colorObject.index, colorObject.value)
+    return formatShade(color.name, colorObject.index, colorObject.value, {
+      _debug: colorObject.properties
+    })
   })
 
   if (isNumber(color.default)) {

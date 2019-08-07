@@ -1,17 +1,16 @@
 const copyToClipboard = require('copy-text-to-clipboard')
 const toArray = require('lodash/toArray')
 
-const renderTile = require('./docs/render-tile')
-const PALETTES = require('./docs/palettes')
+const initDesaturationListener = require('./docs/desaturation')
+const renderTile = require('./docs/tile.debug')
+const PALETTES = require('./docs/palettes.debug')
 
 const ELEMENT_DOWNLOAD_LINK = document.querySelector('#studio-download-link')
 const ELEMENT_VERSION_SELECT = document.querySelector('#studio-version-select')
 const ELEMENT_OUTPUT = document.querySelector('#studio-color-tiles')
 
-let desaturationActive = false
-
 createPaletteSelector(PALETTES)
-initDesaturationListener()
+initDesaturationListener(ELEMENT_OUTPUT)
 
 function createPaletteSelector(palettes) {
   const options = palettes.map((palette, index) => {
@@ -55,30 +54,4 @@ function activateTiles(scope = document) {
     const color = String(element.dataset.color).trim()
     element.addEventListener('click', () => copyToClipboard(color))
   })
-}
-
-function initDesaturationListener() {
-  window.addEventListener('keydown', event => {
-    if (event.ctrlKey && event.code === 'KeyG') {
-      toggleDesaturation()
-    }
-  })
-}
-
-function toggleDesaturation() {
-  if (desaturationActive) {
-    setDesaturationOff()
-  } else {
-    setDesaturationOn()
-  }
-}
-
-function setDesaturationOn() {
-  ELEMENT_OUTPUT.classList.add('js-desaturated', 'js-disabled')
-  desaturationActive = true
-}
-
-function setDesaturationOff() {
-  ELEMENT_OUTPUT.classList.remove('js-desaturated', 'js-disabled')
-  desaturationActive = false
 }
