@@ -17,7 +17,8 @@ module.exports = {
     'example-calypso-woocommerce-css': './stylesheets/example-calypso-woocommerce/example.scss',
     'example-marketing-css': './stylesheets/example-marketing/example.scss',
     'example-marketing-colors-bright-js': './javascripts/example-marketing/example-colors-bright.js',
-    'example-marketing-colors-dark-js': './javascripts/example-marketing/example-colors-dark.js'
+    'example-marketing-colors-dark-js': './javascripts/example-marketing/example-colors-dark.js',
+    'example-woocommerce-css': './stylesheets/example-woocommerce/example.scss'
   },
   module: {
     rules: [

@@ -1,0 +1,20 @@
+.ad,
+.ad__image {
+  display: block;
+  width: 600px;
+  height: 314px;
+}
+
+.ad {
+  margin: 24px auto;
+}
+
+.ad__image {
+  border-radius: 3px;
+  overflow: hidden;
+  box-shadow:
+    0 0 1px rgba($studio-woocommerce-purple-100, 0.05),
+    0 1px 6px rgba($studio-woocommerce-purple-100, 0.05),
+    0 3px 12px rgba($studio-woocommerce-purple-100, 0.05),
+    0 6px 24px rgba($studio-woocommerce-purple-100, 0.05);
+}

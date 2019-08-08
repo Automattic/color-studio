@@ -1,0 +1,25 @@
+.sidebar {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: currentcolor;
+}
+
+.sidebar--position-1 {
+  left: 0;
+}
+
+.sidebar--position-2 {
+  left: 20%;
+}
+
+.sidebar--position-3 {
+  left: 40%;
+}
+
+.sidebar--position-4 {
+  left: 60%;
+}
