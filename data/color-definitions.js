@@ -168,15 +168,14 @@ module.exports = {
       name: 'WooCommerce Purple',
       default: 50,
       specs: {
-        hue_start: 320,
-        hue_end: 268,
+        hue_start: 300,
+        hue_end: 260,
         hue_curve: 'easeOutQuad',
-        sat_start: 3,
-        sat_end: 80,
-        sat_curve: 'easeOutQuad',
-        sat_rate: 80,
+        sat_steps: [
+          3, 10, 20, 30, 40, 47, 53, 56, 59, 59, 56, 53
+        ],
         lum_steps: [
-          95, 94, 89, 83, 77, 70, 61, 51, 43, 33, 23, 13
+          96, 93, 89, 85, 83, 78, 70, 60, 51, 38, 24, 12
         ]
       }
     },
