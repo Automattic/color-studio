@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="72" height="72">
   <defs>
     <circle id="path-pen-orange-path-1" cx="36" cy="36" r="36"/>
-    <path id="path-pen-orange-path-3" d="M4.273 31.063C2.62 22.838 1 6.94 1 4V0h20v4c0 2.94-1.62 18.838-3.273 27.063 2.64 2.01 3.881 5.288 3.273 8.937-.915 5.49-7 15-9 18h-2c-2-3-8-12-9-18-.608-3.649.633-6.927 3.273-8.937zm7.615 11.167a2.4 2.4 0 1 0-1.776 0l.588 11.777a.3.3 0 0 0 .6 0l.588-11.777z"/>
+    <path id="path-pen-orange-path-3" d="M4.273 31.063C2.62 22.838 1 6.94 1 4V0h20v4c0 2.94-1.62 18.838-3.273 27.063 2.64 2.01 3.881 5.288 3.273 8.937-.915 5.49-7 15-9 18h-2c-2-3-8-12-9-18-.608-3.649.633-6.927 3.273-8.937zm7.615 11.167a2.4 2.4 0 10-1.776 0l.588 11.777a.3.3 0 00.6 0l.588-11.777z"/>
   </defs>
   <g id="plan-pen-orange" fill="none" fill-rule="evenodd" stroke="none" stroke-width="1">
     <mask id="mask-pen-orange-path-2" fill="#fff">

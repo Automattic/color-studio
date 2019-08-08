@@ -1,8 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="72" height="72">
   <defs>
+    <path id="plan-pen-gray-path-3" d="M0 0h29l3.153 1.577a.75.75 0 01-.336 1.42L0 2.972V0z"/>
+    <path id="plan-pen-gray-path-5" d="M10.802 56.404L16.503 45c1-2 1.502-3 1.502-5V.178h-18V40c0 2 .566 3 1.566 5 .568 1.136 2.452 4.935 5.65 11.397a2 2 0 003.581.007z"/>
     <circle id="plan-pen-gray-path-1" cx="36" cy="36" r="36"/>
-    <path id="plan-pen-gray-path-3" d="M0 0h29l3.153 1.577a.75.75 0 0 1-.336 1.42L0 2.972V0z"/>
-    <path id="plan-pen-gray-path-5" d="M10.802 56.404L16.503 45c1-2 1.502-3 1.502-5V.178h-18V40c0 2 .566 3 1.566 5 .568 1.136 2.452 4.935 5.65 11.397a2 2 0 0 0 3.581.007z"/>
   </defs>
   <g id="plan-pen-gray" fill="none" fill-rule="evenodd" stroke="none" stroke-width="1">
     <mask id="mask-pen-gray-path-2" fill="#fff">

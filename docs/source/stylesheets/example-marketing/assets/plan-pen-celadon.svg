@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="72" height="72">
   <defs>
     <circle id="plan-pen-celadon-path-1" cx="36" cy="36" r="36"/>
-    <path id="plan-pen-celadon-path-3" d="M.143 34.358l8.929 22.32a1 1 0 0 0 1.856 0l8.929-22.32a2 2 0 0 0 .143-.743V0H0v33.615a2 2 0 0 0 .143.743z"/>
+    <path id="plan-pen-celadon-path-3" d="M.143 34.358l8.929 22.32a1 1 0 001.856 0l8.929-22.32a2 2 0 00.143-.743V0H0v33.615a2 2 0 00.143.743z"/>
   </defs>
   <g id="plan-pen-celadon" fill="none" fill-rule="evenodd" stroke="none" stroke-width="1">
     <mask id="plan-pen-celadon-mask-2" fill="#fff">
@@ -15,7 +15,7 @@
           <use xlink:href="#plan-pen-celadon-path-3"/>
         </mask>
         <use id="Pen-1" fill="#195D52" fill-rule="evenodd" stroke="none" xlink:href="#plan-pen-celadon-path-3"/>
-        <path id="Pen-0" fill="#FFF" fill-rule="evenodd" stroke="none" d="M9.003 0h2v22.463c0 4.011.418 5.466 1.202 6.933a8.178 8.178 0 0 0 3.402 3.402c1.262.675 2.514 1.078 5.393 1.178V50H-1V33.976c2.883-.1 4.136-.503 5.399-1.178A8.178 8.178 0 0 0 7.8 29.396c.784-1.467 1.202-2.922 1.202-6.933V0z" mask="url(#plan-pen-celadon-mask-4)"/>
+        <path id="Pen-0" fill="#FFF" fill-rule="evenodd" stroke="none" d="M9.003 0h2v22.463c0 4.011.418 5.466 1.202 6.933a8.178 8.178 0 003.402 3.402c1.262.675 2.514 1.078 5.393 1.178V50H-1V33.976c2.883-.1 4.136-.503 5.399-1.178A8.178 8.178 0 007.8 29.396c.784-1.467 1.202-2.922 1.202-6.933V0z" mask="url(#plan-pen-celadon-mask-4)"/>
       </g>
     </g>
   </g>
