@@ -108,12 +108,12 @@
     },
     {
       "hero-background": [
-        "color-jetpack-green-80",
-        "color-jetpack-green-90",
-        "color-jetpack-green-100"
-      ],
-      "button-background": [
-        "color-jetpack-green-50"
+        "color-woocommerce-purple-50",
+        "color-woocommerce-purple-60",
+        "color-woocommerce-purple-70",
+        "color-woocommerce-purple-80",
+        "color-woocommerce-purple-90",
+        "color-woocommerce-purple-100"
       ]
     }
   ]

@@ -1089,6 +1089,113 @@
     ],
     [
       {
+        "name": "WooCommerce Purple",
+        "value": "#7d4a9c",
+        "_meta": {
+          "alias": true,
+          "baseName": "WooCommerce Purple",
+          "index": 50
+        }
+      },
+      {
+        "name": "WooCommerce Purple 0",
+        "value": "#f2ecf0",
+        "_meta": {
+          "baseName": "WooCommerce Purple",
+          "index": 0
+        }
+      },
+      {
+        "name": "WooCommerce Purple 5",
+        "value": "#f0d1ea",
+        "_meta": {
+          "baseName": "WooCommerce Purple",
+          "index": 5
+        }
+      },
+      {
+        "name": "WooCommerce Purple 10",
+        "value": "#e3aee1",
+        "_meta": {
+          "baseName": "WooCommerce Purple",
+          "index": 10
+        }
+      },
+      {
+        "name": "WooCommerce Purple 20",
+        "value": "#cd8fd4",
+        "_meta": {
+          "baseName": "WooCommerce Purple",
+          "index": 20
+        }
+      },
+      {
+        "name": "WooCommerce Purple 30",
+        "value": "#b475c4",
+        "_meta": {
+          "baseName": "WooCommerce Purple",
+          "index": 30
+        }
+      },
+      {
+        "name": "WooCommerce Purple 40",
+        "value": "#9a5eb3",
+        "_meta": {
+          "baseName": "WooCommerce Purple",
+          "index": 40
+        }
+      },
+      {
+        "name": "WooCommerce Purple 50",
+        "value": "#7d4a9c",
+        "_meta": {
+          "baseName": "WooCommerce Purple",
+          "index": 50
+        }
+      },
+      {
+        "name": "WooCommerce Purple 60",
+        "value": "#633982",
+        "_meta": {
+          "baseName": "WooCommerce Purple",
+          "index": 60
+        }
+      },
+      {
+        "name": "WooCommerce Purple 70",
+        "value": "#4f2c6e",
+        "_meta": {
+          "baseName": "WooCommerce Purple",
+          "index": 70
+        }
+      },
+      {
+        "name": "WooCommerce Purple 80",
+        "value": "#3a2054",
+        "_meta": {
+          "baseName": "WooCommerce Purple",
+          "index": 80
+        }
+      },
+      {
+        "name": "WooCommerce Purple 90",
+        "value": "#27163b",
+        "_meta": {
+          "baseName": "WooCommerce Purple",
+          "index": 90
+        }
+      },
+      {
+        "name": "WooCommerce Purple 100",
+        "value": "#160c21",
+        "_meta": {
+          "baseName": "WooCommerce Purple",
+          "index": 100
+        }
+      }
+    ],
+    [
+      {
         "name": "Jetpack Green",
         "value": "#2fb41f",
         "_meta": {

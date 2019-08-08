@@ -144,6 +144,20 @@
   --studio-wordpress-blue-100-rgb: 0, 16, 28;
   --studio-wordpress-blue-rgb: var(--studio-wordpress-blue-50-rgb);
 
+  --studio-woocommerce-purple-0-rgb: 242, 236, 240;
+  --studio-woocommerce-purple-5-rgb: 240, 209, 234;
+  --studio-woocommerce-purple-10-rgb: 227, 174, 225;
+  --studio-woocommerce-purple-20-rgb: 205, 143, 212;
+  --studio-woocommerce-purple-30-rgb: 180, 117, 196;
+  --studio-woocommerce-purple-40-rgb: 154, 94, 179;
+  --studio-woocommerce-purple-50-rgb: 125, 74, 156;
+  --studio-woocommerce-purple-60-rgb: 99, 57, 130;
+  --studio-woocommerce-purple-70-rgb: 79, 44, 110;
+  --studio-woocommerce-purple-80-rgb: 58, 32, 84;
+  --studio-woocommerce-purple-90-rgb: 39, 22, 59;
+  --studio-woocommerce-purple-100-rgb: 22, 12, 33;
+  --studio-woocommerce-purple-rgb: var(--studio-woocommerce-purple-50-rgb);
+
   --studio-jetpack-green-0-rgb: 242, 247, 231;
   --studio-jetpack-green-5-rgb: 208, 239, 173;
   --studio-jetpack-green-10-rgb: 157, 222, 115;

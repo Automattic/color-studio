@@ -165,6 +165,22 @@ module.exports = {
       }
     },
     {
+      name: 'WooCommerce Purple',
+      default: 50,
+      specs: {
+        hue_start: 320,
+        hue_end: 268,
+        hue_curve: 'easeOutQuad',
+        sat_start: 3,
+        sat_end: 80,
+        sat_curve: 'easeOutQuad',
+        sat_rate: 80,
+        lum_steps: [
+          95, 94, 89, 83, 77, 70, 61, 51, 43, 33, 23, 13
+        ]
+      }
+    },
+    {
       name: 'Jetpack Green',
       default: 30,
       specs: {

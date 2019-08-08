@@ -1689,6 +1689,173 @@
     ],
     [
       {
+        "name": "WooCommerce Purple",
+        "value": "#7d4a9c",
+        "_meta": {
+          "alias": true,
+          "baseName": "WooCommerce Purple",
+          "index": 50
+        }
+      },
+      {
+        "name": "WooCommerce Purple 0",
+        "value": "#f2ecf0",
+        "_meta": {
+          "_debug": {
+            "hue": 320,
+            "saturation": 0.024,
+            "luminosity": 0.95
+          },
+          "baseName": "WooCommerce Purple",
+          "index": 0
+        }
+      },
+      {
+        "name": "WooCommerce Purple 5",
+        "value": "#f0d1ea",
+        "_meta": {
+          "_debug": {
+            "hue": 311.15089703847775,
+            "saturation": 0.12882783508264842,
+            "luminosity": 0.94
+          },
+          "baseName": "WooCommerce Purple",
+          "index": 5
+        }
+      },
+      {
+        "name": "WooCommerce Purple 10",
+        "value": "#e3aee1",
+        "_meta": {
+          "_debug": {
+            "hue": 302.45815123696906,
+            "saturation": 0.2318034391928281,
+            "luminosity": 0.89
+          },
+          "baseName": "WooCommerce Purple",
+          "index": 10
+        }
+      },
+      {
+        "name": "WooCommerce Purple 20",
+        "value": "#cd8fd4",
+        "_meta": {
+          "_debug": {
+            "hue": 294.5442581813476,
+            "saturation": 0.32555263385172895,
+            "luminosity": 0.83
+          },
+          "baseName": "WooCommerce Purple",
+          "index": 20
+        }
+      },
+      {
+        "name": "WooCommerce Purple 30",
+        "value": "#b475c4",
+        "_meta": {
+          "_debug": {
+            "hue": 287.7728682051995,
+            "saturation": 0.4057675612614833,
+            "luminosity": 0.77
+          },
+          "baseName": "WooCommerce Purple",
+          "index": 30
+        }
+      },
+      {
+        "name": "WooCommerce Purple 40",
+        "value": "#9a5eb3",
+        "_meta": {
+          "_debug": {
+            "hue": 282.227329723744,
+            "saturation": 0.4714608632725713,
+            "luminosity": 0.7
+          },
+          "baseName": "WooCommerce Purple",
+          "index": 40
+        }
+      },
+      {
+        "name": "WooCommerce Purple 50",
+        "value": "#7d4a9c",
+        "_meta": {
+          "_debug": {
+            "hue": 277.823213881569,
+            "saturation": 0.5236326970952596,
+            "luminosity": 0.61
+          },
+          "baseName": "WooCommerce Purple",
+          "index": 50
+        }
+      },
+      {
+        "name": "WooCommerce Purple 60",
+        "value": "#633982",
+        "_meta": {
+          "_debug": {
+            "hue": 274.4144322562614,
+            "saturation": 0.5640136486565956,
+            "luminosity": 0.51
+          },
+          "baseName": "WooCommerce Purple",
+          "index": 60
+        }
+      },
+      {
+        "name": "WooCommerce Purple 70",
+        "value": "#4f2c6e",
+        "_meta": {
+          "_debug": {
+            "hue": 271.85032288870616,
+            "saturation": 0.5943884827030192,
+            "luminosity": 0.43
+          },
+          "baseName": "WooCommerce Purple",
+          "index": 70
+        }
+      },
+      {
+        "name": "WooCommerce Purple 80",
+        "value": "#3a2054",
+        "_meta": {
+          "_debug": {
+            "hue": 269.99741611788255,
+            "saturation": 0.6163383013727761,
+            "luminosity": 0.33
+          },
+          "baseName": "WooCommerce Purple",
+          "index": 80
+        }
+      },
+      {
+        "name": "WooCommerce Purple 90",
+        "value": "#27163b",
+        "_meta": {
+          "_debug": {
+            "hue": 268.7442849848919,
+            "saturation": 0.6311830855635884,
+            "luminosity": 0.23
+          },
+          "baseName": "WooCommerce Purple",
+          "index": 90
+        }
+      },
+      {
+        "name": "WooCommerce Purple 100",
+        "value": "#160c21",
+        "_meta": {
+          "_debug": {
+            "hue": 268,
+            "saturation": 0.64,
+            "luminosity": 0.13
+          },
+          "baseName": "WooCommerce Purple",
+          "index": 100
+        }
+      }
+    ],
+    [
+      {
         "name": "Jetpack Green",
         "value": "#2fb41f",
         "_meta": {

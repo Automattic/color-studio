@@ -51,6 +51,7 @@ describe('light mode accessibility', () => {
     expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Celadon 40'])
 
     expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['WordPress Blue 50'])
+    expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['WooCommerce Purple 50'])
     expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Jetpack Green 50'])
   })
 
@@ -66,6 +67,7 @@ describe('light mode accessibility', () => {
     expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Celadon 50'])
 
     expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['WordPress Blue 50'])
+    expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['WooCommerce Purple 50'])
     expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Jetpack Green 50'])
   })
 })
@@ -85,6 +87,7 @@ describe('dark mode accessibility', () => {
     expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Celadon 30'])
 
     expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['WordPress Blue 30'])
+    expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['WooCommerce Purple 30'])
     expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Jetpack Green 30'])
   })
 
@@ -100,6 +103,7 @@ describe('dark mode accessibility', () => {
     expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Celadon 40'])
 
     expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['WordPress Blue 40'])
+    expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['WooCommerce Purple 40'])
     expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Jetpack Green 40'])
   })
 })
@@ -127,6 +131,7 @@ describe('dark mode accessibility for Material Design', () => {
     expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Celadon 30'])
 
     expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['WordPress Blue 30'])
+    expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['WooCommerce Purple 30'])
     expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Jetpack Green 30'])
   })
 
@@ -150,6 +155,7 @@ describe('dark mode accessibility for Material Design', () => {
     expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Celadon 30'])
 
     expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['WordPress Blue 30'])
+    expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['WooCommerce Purple 30'])
     expect(4.5).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Jetpack Green 30'])
   })
 
@@ -167,6 +173,7 @@ describe('dark mode accessibility for Material Design', () => {
     expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Celadon 30'])
 
     expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['WordPress Blue 30'])
+    expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['WooCommerce Purple 30'])
     expect(3.0).toBeContrastRatioBetween(SURFACE_COLOR, PALETTE['Jetpack Green 30'])
   })
 })

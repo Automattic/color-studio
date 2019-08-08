@@ -157,6 +157,18 @@
       "button-background": [
         "color-jetpack-green-60"
       ]
+    },
+    {
+      "hero-background": [
+        "color-woocommerce-purple-0",
+        "color-woocommerce-purple-5"
+      ],
+      "hero-heading": [
+        "color-woocommerce-purple-80"
+      ],
+      "hero-text": [
+        "color-woocommerce-purple-70"
+      ]
     }
   ]
 }
