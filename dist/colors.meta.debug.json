@@ -1699,11 +1699,11 @@
       },
       {
         "name": "WooCommerce Purple 0",
-        "value": "#f5edf5",
+        "value": "#f5e9f5",
         "_meta": {
           "_debug": {
             "hue": 300,
-            "saturation": 0.03,
+            "saturation": 0.05,
             "luminosity": 0.96
           },
           "baseName": "WooCommerce Purple",
@@ -1712,12 +1712,12 @@
       },
       {
         "name": "WooCommerce Purple 5",
-        "value": "#ead5ed",
+        "value": "#ecccf0",
         "_meta": {
           "_debug": {
             "hue": 293.19299772190595,
-            "saturation": 0.1,
-            "luminosity": 0.93
+            "saturation": 0.15,
+            "luminosity": 0.94
           },
           "baseName": "WooCommerce Purple",
           "index": 5
@@ -1725,12 +1725,12 @@
       },
       {
         "name": "WooCommerce Purple 10",
-        "value": "#d9b6e3",
+        "value": "#ddb0eb",
         "_meta": {
           "_debug": {
             "hue": 286.5062701822839,
-            "saturation": 0.2,
-            "luminosity": 0.89
+            "saturation": 0.25,
+            "luminosity": 0.92
           },
           "baseName": "WooCommerce Purple",
           "index": 10
@@ -1738,12 +1738,12 @@
       },
       {
         "name": "WooCommerce Purple 20",
-        "value": "#c498d9",
+        "value": "#c792e0",
         "_meta": {
           "_debug": {
             "hue": 280.4186601394981,
-            "saturation": 0.3,
-            "luminosity": 0.85
+            "saturation": 0.35,
+            "luminosity": 0.88
           },
           "baseName": "WooCommerce Purple",
           "index": 20
@@ -1751,12 +1751,12 @@
       },
       {
         "name": "WooCommerce Purple 30",
-        "value": "#b17fd4",
+        "value": "#af7dd1",
         "_meta": {
           "_debug": {
             "hue": 275.2098986193842,
             "saturation": 0.4,
-            "luminosity": 0.83
+            "luminosity": 0.82
           },
           "baseName": "WooCommerce Purple",
           "index": 30

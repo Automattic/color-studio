@@ -148,11 +148,11 @@
     <color name="wordpress_blue_100">#00101c</color>
 
     <color name="woocommerce_purple">#7f54b3</color>
-    <color name="woocommerce_purple_0">#f5edf5</color>
-    <color name="woocommerce_purple_5">#ead5ed</color>
-    <color name="woocommerce_purple_10">#d9b6e3</color>
-    <color name="woocommerce_purple_20">#c498d9</color>
-    <color name="woocommerce_purple_30">#b17fd4</color>
+    <color name="woocommerce_purple_0">#f5e9f5</color>
+    <color name="woocommerce_purple_5">#ecccf0</color>
+    <color name="woocommerce_purple_10">#ddb0eb</color>
+    <color name="woocommerce_purple_20">#c792e0</color>
+    <color name="woocommerce_purple_30">#af7dd1</color>
     <color name="woocommerce_purple_40">#9a69c7</color>
     <color name="woocommerce_purple_50">#7f54b3</color>
     <color name="woocommerce_purple_60">#674399</color>
