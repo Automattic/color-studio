@@ -55,12 +55,12 @@
       },
       {
         "name": "Gray 10",
-        "value": "#c0c2c4",
+        "value": "#c3c4c7",
         "_meta": {
           "_debug": {
             "hue": 219.08192008432374,
             "saturation": 0.02,
-            "luminosity": 0.77
+            "luminosity": 0.78
           },
           "baseName": "Gray",
           "index": 10
