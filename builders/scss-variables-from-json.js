@@ -1,5 +1,4 @@
 const toKebabCase = require('lodash/kebabCase')
-const formatHex = require('../utilities/to-formatted-hex-value')
 
 const PALETTE = require('../dist/colors.meta.json')
 
@@ -26,7 +25,7 @@ function formatVariableName(colorObject) {
 
 function formatVariableValue(colorObject) {
   if (!colorObject._meta.alias) {
-    return formatHex(colorObject.value)
+    return colorObject.value
   }
 
   const name = `${colorObject._meta.baseName} ${colorObject._meta.index}`

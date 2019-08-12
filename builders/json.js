@@ -1,6 +1,7 @@
 const chroma = require('chroma-js')
 const isNumber = require('lodash/isNumber')
 const generateShades = require('../utilities/generate-shades')
+const toFormattedHexValue = require('../utilities/to-formatted-hex-value')
 
 const COLOR_DEFINITIONS = require('../data/color-definitions')
 const PACKAGE = require('../package.json')
@@ -34,7 +35,7 @@ module.exports = {
 function formatShade(baseName, index, value, _meta = {}) {
   const shade = {
     name: baseName,
-    value,
+    value: toFormattedHexValue(value),
     _meta
   }
 

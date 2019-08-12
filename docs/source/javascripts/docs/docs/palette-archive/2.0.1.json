@@ -4,14 +4,14 @@
     [
       {
         "name": "White",
-        "value": "#ffffff",
+        "value": "#fff",
         "_meta": {
           "special": true
         }
       },
       {
         "name": "Black",
-        "value": "#000000",
+        "value": "#000",
         "_meta": {
           "special": true
         }

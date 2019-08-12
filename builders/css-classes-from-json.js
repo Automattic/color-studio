@@ -1,6 +1,5 @@
 const flatten = require('lodash/flatten')
 const toKebabCase = require('lodash/kebabCase')
-const formatHex = require('../utilities/to-formatted-hex-value')
 
 const PALETTE = require('../dist/colors.meta.json')
 
@@ -17,10 +16,9 @@ printStylesheet(colors)
 
 function formatClassEntry(colorObject, aliases) {
   const colorSelector = formatClassSelector(colorObject, aliases)
-  const colorValue = formatHex(colorObject.value)
 
   return `${colorSelector} {
-  color: ${colorValue};
+  color: ${colorObject.value};
 }`
 }
 
