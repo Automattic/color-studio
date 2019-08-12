@@ -1,31 +1,41 @@
-const PALETTE = require('../../../../../dist/colors.meta.debug.json')
-
+const extend = require('../../../../../utilities/extend')
 const determineContrast = require('./contrast')
 
 module.exports = [
-  formatPalette(PALETTE)
+  formatDevelopmentPalette(require('../../../../../dist/colors.meta.debug.json'))
 ]
 
-function formatPalette(palette) {
-  return extend(palette, {
-    displayName: `v${palette.version} (development)`,
-    downloadLink: 'https://github.com/Automattic/color-studio/tree/master/dist',
-    colors: palette.colors.map(colorArray => {
-      return colorArray
-        .filter(colorObject => {
-          return !colorObject._meta.special && !colorObject._meta.alias
-        })
-        .map(colorObject => {
-          const meta = extend(colorObject._meta, {
-            featured: colorObject._meta.index === 50,
-            contrast: determineContrast(colorObject, colorArray)
-          })
-          return extend(colorObject, { _meta: meta })
-        })
-    })
+function formatDevelopmentPalette(palette) {
+  return extend(palette, formatDisplayProperties(palette), {
+    label: 'Development',
+    colors: palette.colors.map(colorArray => formatColorArray(stripUtilityColors(colorArray)))
   })
 }
 
-function extend(target, source) {
-  return Object.assign({}, target, source)
+function formatColorArray(colorArray, featuredShadeIndex = 50) {
+  return colorArray.map(colorObject => {
+    const meta = extend(colorObject._meta, formatColorProperties(colorObject, colorArray, featuredShadeIndex))
+    return extend(colorObject, { _meta: meta })
+  })
+}
+
+function formatDisplayProperties(paletteObject) {
+  const { version } = paletteObject
+  return {
+    displayName: `v${version}`,
+    downloadLink: 'https://github.com/Automattic/color-studio/tree/master/dist'
+  }
+}
+
+function stripUtilityColors(colorArray) {
+  return colorArray.filter(colorObject => {
+    return !colorObject._meta.special && !colorObject._meta.alias
+  })
+}
+
+function formatColorProperties(colorObject, colorArray, featuredShadeIndex) {
+  return {
+    featured: colorObject._meta.index === featuredShadeIndex,
+    contrast: determineContrast(colorObject, colorArray)
+  }
 }

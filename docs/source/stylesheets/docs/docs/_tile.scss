@@ -35,6 +35,12 @@
   }
 }
 
+.tile--empty {
+  z-index: -1;
+  background: $studio-gray-0;
+  pointer-events: none;
+}
+
 .tile--preview {
   padding: 1em 0;
 }

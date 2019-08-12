@@ -5,6 +5,10 @@ const COLOR_BLACK = 'black'
 const COLOR_WHITE = 'white'
 
 module.exports = colorObject => {
+  if (colorObject._empty) {
+    return renderEmptyTile()
+  }
+
   /* eslint-disable indent */
   return [
     `<div ${getTileElementAttributes(colorObject)}>`,
@@ -23,6 +27,10 @@ module.exports = colorObject => {
     '</div>'
   ].join('')
   /* eslint-enable indent */
+}
+
+function renderEmptyTile() {
+  return '<div class="tile tile--empty"></div>'
 }
 
 function getTileElementAttributes(colorObject) {

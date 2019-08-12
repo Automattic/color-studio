@@ -1,4 +1,5 @@
 const clone = require('lodash/cloneDeep')
+const print = require('../utilities/print')
 
 const PALETTE_DATA = require('./json')
 
@@ -18,8 +19,4 @@ function removeDebugData(paletteObject) {
   })
 
   return palette
-}
-
-function print(data) {
-  console.log(JSON.stringify(data, null, 2))
 }

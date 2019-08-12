@@ -1,7 +1,7 @@
 const { contrast } = require('chroma-js')
 const floor = require('lodash/floor')
 const repeat = require('lodash/repeat')
-
+const extend = require('../../../../utilities/extend')
 const getValueFromClassName = require('./example/get-value-from-class-name')
 
 const COLOR_COMBINATIONS = require('./data/example-colors-bright.json')
@@ -44,7 +44,7 @@ function getExamples() {
 }
 
 function formatExampleData(data) {
-  return Object.assign({}, data, {
+  return extend(data, {
     title: formatExampleMetaString(data)
   })
 }

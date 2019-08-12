@@ -1,8 +1,9 @@
 const fs = require('fs')
 const path = require('path')
-
 const chroma = require('chroma-js')
 const removeDirectory = require('rimraf').sync
+const extend = require('../utilities/extend')
+const print = require('../utilities/print')
 
 const PALETTE = require('../dist/colors.meta.json')
 
@@ -47,11 +48,11 @@ PALETTE.colors.forEach(colorArray => {
 })
 
 function defineContentsFile(dirname, contents) {
-  const json = Object.assign({}, INFO_TEMPLATE, contents || {})
+  const json = extend(INFO_TEMPLATE, contents || {})
 
   return {
     path: path.join(dirname, 'Contents.json'),
-    contents: JSON.stringify(json, null, 2)
+    contents: print.prepare(json)
   }
 }
 

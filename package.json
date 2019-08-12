@@ -14,7 +14,6 @@
   "main": "dist/colors.json",
   "style": "dist/color-variables.scss",
   "devDependencies": {
-    "@automattic/color-studio": "1.0.6",
     "@babel/core": "^7.5.5",
     "@babel/plugin-transform-runtime": "^7.5.5",
     "@babel/preset-env": "^7.5.5",
@@ -66,9 +65,6 @@
     "docs:deploy": "yarn docs:clean && yarn docs:build --silent && now docs/dist",
     "docs:deploy:production": "yarn docs:deploy --target production",
     "docs:watch": "yarn palette:build:_watch && concurrently \"yarn palette:watch\" \"webpack-dev-server\"",
-    "info": "yarn info:colorbox && yarn info:material-elevation",
-    "info:colorbox": "node info/colorbox",
-    "info:material-elevation": "node info/material-elevation",
     "lint": "xo",
     "meta": "yarn meta:build",
     "meta:build": "yarn meta:build:preview",

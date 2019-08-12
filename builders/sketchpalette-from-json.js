@@ -1,8 +1,8 @@
 const chunk = require('lodash/chunk')
+const print = require('../utilities/print')
+const toSketchPalette = require('../utilities/to-sketch-palette')
 
 const PALETTE = require('../dist/colors.meta.json')
-
-const toSketchPalette = require('../utilities/to-sketch-palette')
 
 const paletteRows = formatPaletteRows(PALETTE.colors)
 const sketchPalette = toSketchPalette(paletteRows, {
@@ -23,8 +23,4 @@ function formatPaletteRows(colorArrays) {
   })
 
   return paletteRows
-}
-
-function print(data) {
-  console.log(JSON.stringify(data, null, 2))
 }

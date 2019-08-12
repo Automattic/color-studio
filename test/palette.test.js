@@ -2,10 +2,9 @@ const { contrast } = require('chroma-js')
 const flatten = require('lodash/flatten')
 const round = require('lodash/round')
 const unique = require('lodash/uniq')
+const toNamedColorCollection = require('../utilities/to-named-color-collection')
 
 const PALETTE_JSON = require('../builders/json')
-
-const toNamedColorCollection = require('../utilities/to-named-color-collection')
 
 const PALETTE = toNamedColorCollection(PALETTE_JSON.colors, {
   excludeAliases: true

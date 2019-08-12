@@ -1,9 +1,8 @@
 const flatten = require('lodash/flatten')
 const toKebabCase = require('lodash/kebabCase')
+const formatHex = require('../utilities/to-formatted-hex-value')
 
 const PALETTE = require('../dist/colors.meta.json')
-
-const formatHex = require('../utilities/to-formatted-hex-value')
 
 const colors = PALETTE.colors.map(colorArray => {
   const source = colorArray.filter(colorObject => !colorObject._meta.alias)

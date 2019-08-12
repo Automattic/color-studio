@@ -1,8 +1,10 @@
 const copyToClipboard = require('copy-text-to-clipboard')
+const forIn = require('lodash/forIn')
+const groupBy = require('lodash/groupBy')
 const toArray = require('lodash/toArray')
-
 const initDesaturationListener = require('./docs/desaturation')
 const renderTile = require('./docs/tile.debug')
+
 const PALETTES = require('./docs/palettes.debug')
 
 const ELEMENT_DOWNLOAD_LINK = document.querySelector('#studio-download-link')
@@ -13,11 +15,11 @@ createPaletteSelector(PALETTES)
 initDesaturationListener(ELEMENT_OUTPUT)
 
 function createPaletteSelector(palettes) {
-  const options = palettes.map((palette, index) => {
-    return `<option value="${index}">${palette.displayName}</option>`
-  })
+  const selectPalette = index => {
+    renderPalette(palettes[index])
+  }
 
-  ELEMENT_VERSION_SELECT.innerHTML = options.join()
+  ELEMENT_VERSION_SELECT.innerHTML = createOptions(palettes)
   ELEMENT_VERSION_SELECT.removeAttribute('disabled')
   ELEMENT_VERSION_SELECT.addEventListener('change', event => {
     const index = parseInt(event.target.value, 10)
@@ -27,9 +29,31 @@ function createPaletteSelector(palettes) {
   selectPalette(0)
 }
 
-function selectPalette(index) {
-  const palette = PALETTES[index]
+function createOptions(palettes) {
+  const options = palettes.map((palette, index) => {
+    return {
+      index,
+      name: palette.displayName,
+      group: palette.label
+    }
+  })
 
+  const groups = groupBy(options, 'group')
+  const html = []
+
+  forIn(groups, (items, name) => {
+    html.push(createOptionGroup(name, items))
+  })
+
+  return html.join('')
+}
+
+function createOptionGroup(name, items) {
+  const options = items.map(item => `<option value="${item.index}">${item.name}</option>`)
+  return `<optgroup label="${name}">${options.join()}</optgroup>`
+}
+
+function renderPalette(palette) {
   setDownloadLink(palette)
   renderTiles(palette)
 }

@@ -1,6 +1,7 @@
 const chroma = require('chroma-js')
 const flatten = require('lodash/flatten')
 const isString = require('lodash/isString')
+const extend = require('./extend')
 
 const SKETCH_PALETTE_ROW_COUNT = 8
 const SKETCH_PALETTE_ROW_FILLER = {
@@ -9,7 +10,7 @@ const SKETCH_PALETTE_ROW_FILLER = {
 }
 
 module.exports = (colorArray, customProperties = {}) => {
-  const sketchPalette = Object.assign(customProperties, {
+  const sketchPalette = extend(customProperties, {
     compatibleVersion: '2',
     pluginVersion: '2.22',
     colors: [],
@@ -53,7 +54,7 @@ function formatColor(colorObject) {
   }
 
   const colorValue = formatColorString(colorObject.value)
-  return Object.assign({ name: colorObject.name }, colorValue)
+  return extend({ name: colorObject.name }, colorValue)
 }
 
 function formatColorString(colorValue) {

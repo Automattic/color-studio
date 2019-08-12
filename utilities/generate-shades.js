@@ -1,7 +1,8 @@
+const extend = require('./extend')
 const generate = require('./color-algorithm/generate')
 
 module.exports = (config, specs) => {
-  const properties = Object.assign({}, config, specs)
+  const properties = extend(config, specs)
 
   const palette = generate({ specs: properties }).map((colorObject, arrayIndex) => {
     return {
