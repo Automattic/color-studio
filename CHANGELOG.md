@@ -1,5 +1,10 @@
 # Releases
 
+## 2.1.0
+
+* Adjusted Gray 0–70.
+* Added a new color: WooCommerce Purple.
+
 ## 2.0.1
 
 * _No color changes._

@@ -15,7 +15,7 @@
       "generate-color-library"
     ]
   },
-  "version": "2.0.1",
+  "version": "2.1.0",
   "description": "The color palette for Automattic products.",
   "homepage": "https://color-studio.blog",
   "identifier": "@automattic/color-studio",
