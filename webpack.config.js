@@ -61,10 +61,12 @@ module.exports = {
           {
             loader: 'sass-loader',
             options: {
-              includePaths: [
-                path.join(__dirname, '.cache/calypso/client')
-              ],
-              outputStyle: 'compressed'
+              sassOptions: {
+                includePaths: [
+                  path.join(__dirname, '.cache/calypso/client')
+                ],
+                outputStyle: 'compressed'
+              }
             }
           }
         ]
