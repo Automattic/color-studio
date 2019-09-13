@@ -213,7 +213,7 @@
         "_meta": {
           "_debug": {
             "hue": 209.81809538988267,
-            "saturation": 0.19585752950340024,
+            "saturation": 0.196,
             "luminosity": 0.965
           },
           "baseName": "Blue",
@@ -226,7 +226,7 @@
         "_meta": {
           "_debug": {
             "hue": 209.54096004216186,
-            "saturation": 0.3558374858888579,
+            "saturation": 0.35600000000000004,
             "luminosity": 0.94
           },
           "baseName": "Blue",
@@ -239,7 +239,7 @@
         "_meta": {
           "_debug": {
             "hue": 209.14590389333108,
-            "saturation": 0.5014835561625075,
+            "saturation": 0.502,
             "luminosity": 0.9
           },
           "baseName": "Blue",
@@ -252,7 +252,7 @@
         "_meta": {
           "_debug": {
             "hue": 208.60405615797194,
-            "saturation": 0.6261031755312328,
+            "saturation": 0.626,
             "luminosity": 0.85
           },
           "baseName": "Blue",
@@ -265,7 +265,7 @@
         "_meta": {
           "_debug": {
             "hue": 207.88086471193256,
-            "saturation": 0.7281624125841732,
+            "saturation": 0.728,
             "luminosity": 0.77
           },
           "baseName": "Blue",
@@ -278,7 +278,7 @@
         "_meta": {
           "_debug": {
             "hue": 206.94160550632722,
-            "saturation": 0.8092150829872784,
+            "saturation": 0.809,
             "luminosity": 0.695
           },
           "baseName": "Blue",
@@ -291,7 +291,7 @@
         "_meta": {
           "_debug": {
             "hue": 205.76814385070935,
-            "saturation": 0.8719497755914967,
+            "saturation": 0.872,
             "luminosity": 0.59
           },
           "baseName": "Blue",
@@ -304,7 +304,7 @@
         "_meta": {
           "_debug": {
             "hue": 204.38817567196375,
-            "saturation": 0.9191392499136191,
+            "saturation": 0.92,
             "luminosity": 0.47
           },
           "baseName": "Blue",
@@ -317,7 +317,7 @@
         "_meta": {
           "_debug": {
             "hue": 202.89200507588268,
-            "saturation": 0.9532398610612773,
+            "saturation": 0.953,
             "luminosity": 0.35
           },
           "baseName": "Blue",
@@ -330,7 +330,7 @@
         "_meta": {
           "_debug": {
             "hue": 201.39913543277763,
-            "saturation": 0.9763022936434319,
+            "saturation": 0.976,
             "luminosity": 0.226
           },
           "baseName": "Blue",
@@ -380,7 +380,7 @@
         "_meta": {
           "_debug": {
             "hue": 323.19299772190595,
-            "saturation": 0.12882783508264842,
+            "saturation": 0.129,
             "luminosity": 0.94
           },
           "baseName": "Purple",
@@ -393,7 +393,7 @@
         "_meta": {
           "_debug": {
             "hue": 316.5062701822839,
-            "saturation": 0.2318034391928281,
+            "saturation": 0.23199999999999998,
             "luminosity": 0.89
           },
           "baseName": "Purple",
@@ -406,7 +406,7 @@
         "_meta": {
           "_debug": {
             "hue": 310.4186601394981,
-            "saturation": 0.32555263385172895,
+            "saturation": 0.326,
             "luminosity": 0.83
           },
           "baseName": "Purple",
@@ -419,7 +419,7 @@
         "_meta": {
           "_debug": {
             "hue": 305.2098986193842,
-            "saturation": 0.4057675612614833,
+            "saturation": 0.406,
             "luminosity": 0.77
           },
           "baseName": "Purple",
@@ -432,7 +432,7 @@
         "_meta": {
           "_debug": {
             "hue": 300.94409978749536,
-            "saturation": 0.4714608632725713,
+            "saturation": 0.47200000000000003,
             "luminosity": 0.7
           },
           "baseName": "Purple",
@@ -445,7 +445,7 @@
         "_meta": {
           "_debug": {
             "hue": 297.5563183704377,
-            "saturation": 0.5236326970952596,
+            "saturation": 0.524,
             "luminosity": 0.61
           },
           "baseName": "Purple",
@@ -458,7 +458,7 @@
         "_meta": {
           "_debug": {
             "hue": 294.93417865866263,
-            "saturation": 0.5640136486565956,
+            "saturation": 0.564,
             "luminosity": 0.51
           },
           "baseName": "Purple",
@@ -471,7 +471,7 @@
         "_meta": {
           "_debug": {
             "hue": 292.96178683746626,
-            "saturation": 0.5943884827030192,
+            "saturation": 0.595,
             "luminosity": 0.43
           },
           "baseName": "Purple",
@@ -484,7 +484,7 @@
         "_meta": {
           "_debug": {
             "hue": 291.5364739368327,
-            "saturation": 0.6163383013727761,
+            "saturation": 0.616,
             "luminosity": 0.33
           },
           "baseName": "Purple",
@@ -497,7 +497,7 @@
         "_meta": {
           "_debug": {
             "hue": 290.57252691145527,
-            "saturation": 0.6311830855635884,
+            "saturation": 0.63,
             "luminosity": 0.23
           },
           "baseName": "Purple",
@@ -547,7 +547,7 @@
         "_meta": {
           "_debug": {
             "hue": 339.81809538988267,
-            "saturation": 0.18303124920683156,
+            "saturation": 0.183,
             "luminosity": 0.98
           },
           "baseName": "Pink",
@@ -560,7 +560,7 @@
         "_meta": {
           "_debug": {
             "hue": 339.5409600421619,
-            "saturation": 0.32746456406266794,
+            "saturation": 0.32799999999999996,
             "luminosity": 0.97
           },
           "baseName": "Pink",
@@ -573,7 +573,7 @@
         "_meta": {
           "_debug": {
             "hue": 339.1459038933311,
-            "saturation": 0.45895694098684053,
+            "saturation": 0.45899999999999996,
             "luminosity": 0.95
           },
           "baseName": "Pink",
@@ -586,7 +586,7 @@
         "_meta": {
           "_debug": {
             "hue": 338.6040561579719,
-            "saturation": 0.5714661898213012,
+            "saturation": 0.5710000000000001,
             "luminosity": 0.92
           },
           "baseName": "Pink",
@@ -599,7 +599,7 @@
         "_meta": {
           "_debug": {
             "hue": 337.88086471193253,
-            "saturation": 0.6636074445900998,
+            "saturation": 0.664,
             "luminosity": 0.89
           },
           "baseName": "Pink",
@@ -612,7 +612,7 @@
         "_meta": {
           "_debug": {
             "hue": 336.9416055063272,
-            "saturation": 0.736783523198546,
+            "saturation": 0.737,
             "luminosity": 0.79
           },
           "baseName": "Pink",
@@ -625,7 +625,7 @@
         "_meta": {
           "_debug": {
             "hue": 335.76814385070935,
-            "saturation": 0.7934217409728873,
+            "saturation": 0.7929999999999999,
             "luminosity": 0.67
           },
           "baseName": "Pink",
@@ -638,7 +638,7 @@
         "_meta": {
           "_debug": {
             "hue": 334.3881756719638,
-            "saturation": 0.8360254043107282,
+            "saturation": 0.836,
             "luminosity": 0.55
           },
           "baseName": "Pink",
@@ -651,7 +651,7 @@
         "_meta": {
           "_debug": {
             "hue": 332.89200507588265,
-            "saturation": 0.8668121629644133,
+            "saturation": 0.867,
             "luminosity": 0.44
           },
           "baseName": "Pink",
@@ -664,7 +664,7 @@
         "_meta": {
           "_debug": {
             "hue": 331.39913543277765,
-            "saturation": 0.8876334187125654,
+            "saturation": 0.888,
             "luminosity": 0.31
           },
           "baseName": "Pink",
@@ -881,7 +881,7 @@
         "_meta": {
           "_debug": {
             "hue": 26.70175056952351,
-            "saturation": 0.26437847107653445,
+            "saturation": 0.264,
             "luminosity": 0.99
           },
           "baseName": "Orange",
@@ -894,7 +894,7 @@
         "_meta": {
           "_debug": {
             "hue": 28.37343245442903,
-            "saturation": 0.4730043703127426,
+            "saturation": 0.473,
             "luminosity": 1
           },
           "baseName": "Orange",
@@ -907,7 +907,7 @@
         "_meta": {
           "_debug": {
             "hue": 29.89533496512547,
-            "saturation": 0.6629378036476586,
+            "saturation": 0.6629999999999999,
             "luminosity": 0.98
           },
           "baseName": "Orange",
@@ -920,7 +920,7 @@
         "_meta": {
           "_debug": {
             "hue": 31.19752534515395,
-            "saturation": 0.8254511630752128,
+            "saturation": 0.826,
             "luminosity": 0.9
           },
           "baseName": "Orange",
@@ -933,7 +933,7 @@
         "_meta": {
           "_debug": {
             "hue": 32.26397505312616,
-            "saturation": 0.9585440866301442,
+            "saturation": 0.96,
             "luminosity": 0.84
           },
           "baseName": "Orange",
@@ -1048,7 +1048,7 @@
         "_meta": {
           "_debug": {
             "hue": 41.70175056952351,
-            "saturation": 0.2963328257466273,
+            "saturation": 0.29600000000000004,
             "luminosity": 0.97
           },
           "baseName": "Yellow",
@@ -1061,7 +1061,7 @@
         "_meta": {
           "_debug": {
             "hue": 43.37343245442903,
-            "saturation": 0.5186665164390607,
+            "saturation": 0.519,
             "luminosity": 0.95
           },
           "baseName": "Yellow",
@@ -1074,7 +1074,7 @@
         "_meta": {
           "_debug": {
             "hue": 44.89533496512547,
-            "saturation": 0.7210795503616876,
+            "saturation": 0.72,
             "luminosity": 0.94
           },
           "baseName": "Yellow",
@@ -1087,7 +1087,7 @@
         "_meta": {
           "_debug": {
             "hue": 46.19752534515395,
-            "saturation": 0.8942708709054752,
+            "saturation": 0.894,
             "luminosity": 0.86
           },
           "baseName": "Yellow",
@@ -1202,7 +1202,7 @@
         "_meta": {
           "_debug": {
             "hue": 150,
-            "saturation": 0.051,
+            "saturation": 0.05,
             "luminosity": 0.97
           },
           "baseName": "Green",
@@ -1215,7 +1215,7 @@
         "_meta": {
           "_debug": {
             "hue": 146.59649886095298,
-            "saturation": 0.3316186689144274,
+            "saturation": 0.332,
             "luminosity": 0.96
           },
           "baseName": "Green",
@@ -1228,7 +1228,7 @@
         "_meta": {
           "_debug": {
             "hue": 143.25313509114196,
-            "saturation": 0.6072790117353467,
+            "saturation": 0.607,
             "luminosity": 0.89
           },
           "baseName": "Green",
@@ -1241,7 +1241,7 @@
         "_meta": {
           "_debug": {
             "hue": 140.20933006974906,
-            "saturation": 0.85824073574919,
+            "saturation": 0.858,
             "luminosity": 0.82
           },
           "baseName": "Green",
@@ -1382,7 +1382,7 @@
         "_meta": {
           "_debug": {
             "hue": 161.7017505695235,
-            "saturation": 0.29260470786567117,
+            "saturation": 0.293,
             "luminosity": 0.92
           },
           "baseName": "Celadon",
@@ -1395,7 +1395,7 @@
         "_meta": {
           "_debug": {
             "hue": 163.37343245442904,
-            "saturation": 0.5358344221194237,
+            "saturation": 0.536,
             "luminosity": 0.84
           },
           "baseName": "Celadon",
@@ -1408,7 +1408,7 @@
         "_meta": {
           "_debug": {
             "hue": 164.89533496512547,
-            "saturation": 0.7572712374257559,
+            "saturation": 0.757,
             "luminosity": 0.74
           },
           "baseName": "Celadon",
@@ -1421,7 +1421,7 @@
         "_meta": {
           "_debug": {
             "hue": 166.19752534515393,
-            "saturation": 0.9467399377198995,
+            "saturation": 0.9470000000000001,
             "luminosity": 0.66
           },
           "baseName": "Celadon",
@@ -1883,7 +1883,7 @@
         "_meta": {
           "_debug": {
             "hue": 88.2084771068016,
-            "saturation": 0.2751661953361539,
+            "saturation": 0.275,
             "luminosity": 0.9364780132420752
           },
           "baseName": "Jetpack Green",
@@ -1896,7 +1896,7 @@
         "_meta": {
           "_debug": {
             "hue": 96.6610590927115,
-            "saturation": 0.48161890812198493,
+            "saturation": 0.48200000000000004,
             "luminosity": 0.87030278126362
           },
           "baseName": "Jetpack Green",
@@ -1909,7 +1909,7 @@
         "_meta": {
           "_debug": {
             "hue": 105.14427607770166,
-            "saturation": 0.6695738681929956,
+            "saturation": 0.67,
             "luminosity": 0.7911862715123236
           },
           "baseName": "Jetpack Green",
@@ -1922,7 +1922,7 @@
         "_meta": {
           "_debug": {
             "hue": 113.3275776940473,
-            "saturation": 0.8303943801265128,
+            "saturation": 0.83,
             "luminosity": 0.7061326386318417
           },
           "baseName": "Jetpack Green",
@@ -1935,7 +1935,7 @@
         "_meta": {
           "_debug": {
             "hue": 120.79981041948896,
-            "saturation": 0.9621009190610802,
+            "saturation": 0.9620000000000001,
             "luminosity": 0.6185251657751947
           },
           "baseName": "Jetpack Green",

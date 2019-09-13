@@ -29,10 +29,9 @@ module.exports = {
         hue_start: 210,
         hue_end: 200,
         hue_curve: 'easeInQuad',
-        sat_start: 3,
-        sat_end: 90,
-        sat_curve: 'easeOutQuad',
-        sat_rate: 110,
+        sat_steps: [
+          3.3, 19.6, 35.6, 50.2, 62.6, 72.8, 80.9, 87.2, 92, 95.3, 97.6, 99
+        ],
         lum_steps: [
           97, 96.5, 94, 90, 85, 77, 69.5, 59, 47, 35, 22.6, 11
         ]
@@ -45,10 +44,9 @@ module.exports = {
         hue_start: 330,
         hue_end: 290,
         hue_curve: 'easeOutQuad',
-        sat_start: 3,
-        sat_end: 80,
-        sat_curve: 'easeOutQuad',
-        sat_rate: 80,
+        sat_steps: [
+          2.4, 12.9, 23.2, 32.6, 40.6, 47.2, 52.4, 56.4, 59.5, 61.6, 63, 64
+        ],
         lum_steps: [
           95, 94, 89, 83, 77, 70, 61, 51, 43, 33, 23, 13
         ]
@@ -61,10 +59,9 @@ module.exports = {
         hue_start: 340,
         hue_end: 330,
         hue_curve: 'easeInQuad',
-        sat_start: 4,
-        sat_end: 100,
-        sat_curve: 'easeOutQuad',
-        sat_rate: 90,
+        sat_steps: [
+          3.6, 18.3, 32.8, 45.9, 57.1, 66.4, 73.7, 79.3, 83.6, 86.7, 88.8, 90
+        ],
         lum_steps: [
           96, 98, 97, 95, 92, 89, 79, 67, 55, 44, 31, 15
         ]
@@ -92,10 +89,9 @@ module.exports = {
         hue_start: 25,
         hue_end: 35,
         hue_curve: 'easeOutQuad',
-        sat_start: 4,
-        sat_end: 100,
-        sat_curve: 'easeOutQuad',
-        sat_rate: 130,
+        sat_steps: [
+          5.2, 26.4, 47.3, 66.3, 82.6, 96, 100, 100, 100, 100, 100, 100
+        ],
         lum_steps: [
           97, 99, 100, 98, 90, 84, 69.9, 54, 44, 33, 21, 12
         ]
@@ -108,10 +104,9 @@ module.exports = {
         hue_start: 40,
         hue_end: 50,
         hue_curve: 'easeOutQuad',
-        sat_start: 5,
-        sat_end: 100,
-        sat_curve: 'easeOutQuad',
-        sat_rate: 140,
+        sat_steps: [
+          7, 29.6, 51.9, 72, 89.4, 100, 100, 100, 100, 100, 100, 100
+        ],
         lum_steps: [
           97, 97, 95, 94, 86, 71.5, 56.4, 44, 36, 27, 19, 11
         ]
@@ -124,10 +119,9 @@ module.exports = {
         hue_start: 150,
         hue_end: 130,
         hue_curve: 'easeOutQuad',
-        sat_start: 3,
-        sat_end: 100,
-        sat_curve: 'easeOutQuad',
-        sat_rate: 170,
+        sat_steps: [
+          5, 33.2, 60.7, 85.8, 100, 100, 100, 100, 100, 100, 100, 100
+        ],
         lum_steps: [
           97, 96, 89, 82, 73, 64, 54, 44, 36, 27, 19, 11
         ]
@@ -140,10 +134,9 @@ module.exports = {
         hue_start: 160,
         hue_end: 170,
         hue_curve: 'easeOutQuad',
-        sat_start: 3,
-        sat_end: 100,
-        sat_curve: 'easeOutQuad',
-        sat_rate: 150,
+        sat_steps: [
+          4.5, 29.3, 53.6, 75.7, 94.7, 100, 100, 100, 100, 100, 100, 100
+        ],
         lum_steps: [
           97, 92, 84, 74, 66, 57, 49.5, 40.2, 31.4, 23, 15.4, 11
         ]
@@ -186,10 +179,9 @@ module.exports = {
         hue_start: 80,
         hue_end: 140,
         hue_curve: 'easeOutSine',
-        sat_start: 5,
-        sat_end: 100,
-        sat_curve: 'easeOutQuad',
-        sat_rate: 130,
+        sat_steps: [
+          6.5, 27.5, 48.2, 67, 83, 96.2, 100, 100, 100, 100, 100, 100
+        ],
         lum_start: 97,
         lum_end: 11,
         lum_curve: bezier(0.5, 0.5, 0.85, 1)
