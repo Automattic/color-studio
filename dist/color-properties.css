@@ -16,7 +16,7 @@
   --studio-gray-80: #2c3338;
   --studio-gray-90: #1d2327;
   --studio-gray-100: #101517;
-  --studio-gray: var(--studio-gray-50);
+  --studio-gray: #646970;
 
   --studio-blue-0: #e9eff5;
   --studio-blue-5: #c5d9ed;
@@ -30,7 +30,7 @@
   --studio-blue-80: #043959;
   --studio-blue-90: #01263a;
   --studio-blue-100: #00131c;
-  --studio-blue: var(--studio-blue-50);
+  --studio-blue: #2271b1;
 
   --studio-purple-0: #f2e9ed;
   --studio-purple-5: #ebcee0;
@@ -44,7 +44,7 @@
   --studio-purple-80: #4d2054;
   --studio-purple-90: #35163b;
   --studio-purple-100: #1e0c21;
-  --studio-purple: var(--studio-purple-50);
+  --studio-purple: #984a9c;
 
   --studio-pink-0: #f5e9ed;
   --studio-pink-5: #f2ceda;
@@ -58,7 +58,7 @@
   --studio-pink-80: #700f3b;
   --studio-pink-90: #4f092a;
   --studio-pink-100: #260415;
-  --studio-pink: var(--studio-pink-50);
+  --studio-pink: #c9356e;
 
   --studio-red-0: #f7ebec;
   --studio-red-5: #facfd2;
@@ -72,7 +72,7 @@
   --studio-red-80: #691c1c;
   --studio-red-90: #451313;
   --studio-red-100: #240a0a;
-  --studio-red: var(--studio-red-50);
+  --studio-red: #d63638;
 
   --studio-orange-0: #f5ece6;
   --studio-orange-5: #f7dcc6;
@@ -86,7 +86,7 @@
   --studio-orange-80: #543100;
   --studio-orange-90: #361f00;
   --studio-orange-100: #1f1200;
-  --studio-orange: var(--studio-orange-50);
+  --studio-orange: #b26200;
 
   --studio-yellow-0: #f5efe4;
   --studio-yellow-5: #f5e1b3;
@@ -100,7 +100,7 @@
   --studio-yellow-80: #453900;
   --studio-yellow-90: #302800;
   --studio-yellow-100: #1c1700;
-  --studio-yellow: var(--studio-yellow-50);
+  --studio-yellow: #907300;
 
   --studio-green-0: #e6f2e8;
   --studio-green-5: #b8e6bf;
@@ -114,7 +114,7 @@
   --studio-green-80: #00450c;
   --studio-green-90: #003008;
   --studio-green-100: #001c05;
-  --studio-green: var(--studio-green-50);
+  --studio-green: #008a20;
 
   --studio-celadon-0: #e4f2ed;
   --studio-celadon-5: #a7e8d4;
@@ -128,7 +128,7 @@
   --studio-celadon-80: #003b30;
   --studio-celadon-90: #002721;
   --studio-celadon-100: #001c17;
-  --studio-celadon: var(--studio-celadon-50);
+  --studio-celadon: #007e65;
 
   --studio-wordpress-blue-0: #e6f1f5;
   --studio-wordpress-blue-5: #bedae6;
@@ -142,7 +142,7 @@
   --studio-wordpress-blue-80: #002c40;
   --studio-wordpress-blue-90: #001d2d;
   --studio-wordpress-blue-100: #00101c;
-  --studio-wordpress-blue: var(--studio-wordpress-blue-50);
+  --studio-wordpress-blue: #006088;
 
   --studio-woocommerce-purple-0: #f7edf7;
   --studio-woocommerce-purple-5: #e5cfe8;
@@ -156,7 +156,7 @@
   --studio-woocommerce-purple-80: #3c2861;
   --studio-woocommerce-purple-90: #271b3d;
   --studio-woocommerce-purple-100: #140e1f;
-  --studio-woocommerce-purple: var(--studio-woocommerce-purple-50);
+  --studio-woocommerce-purple: #7f54b3;
 
   --studio-jetpack-green-0: #f0f2eb;
   --studio-jetpack-green-5: #d0e6b8;
@@ -170,5 +170,5 @@
   --studio-jetpack-green-80: #004515;
   --studio-jetpack-green-90: #003010;
   --studio-jetpack-green-100: #001c09;
-  --studio-jetpack-green: var(--studio-jetpack-green-30);
+  --studio-jetpack-green: #2fb41f;
 }

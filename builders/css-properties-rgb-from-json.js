@@ -25,12 +25,7 @@ function formatVariableName(colorObject) {
 }
 
 function formatVariableValue(colorObject) {
-  if (!colorObject._meta.alias) {
-    return formatRGB(colorObject.value)
-  }
-
-  const name = `${colorObject._meta.baseName} ${colorObject._meta.index}`
-  return `var(${formatVariableName({ name })})`
+  return formatRGB(colorObject.value)
 }
 
 function formatRGB(colorValue) {
