@@ -136,7 +136,7 @@
       },
       {
         "name": "Blue 0",
-        "value": "#eff3f7",
+        "value": "#e9eff5",
         "_meta": {
           "baseName": "Blue",
           "index": 0
@@ -144,7 +144,7 @@
       },
       {
         "name": "Blue 5",
-        "value": "#c6def6",
+        "value": "#c5d9ed",
         "_meta": {
           "baseName": "Blue",
           "index": 5
@@ -152,7 +152,7 @@
       },
       {
         "name": "Blue 10",
-        "value": "#9ac6f0",
+        "value": "#9ec2e6",
         "_meta": {
           "baseName": "Blue",
           "index": 10
@@ -243,7 +243,7 @@
       },
       {
         "name": "Purple 0",
-        "value": "#f2ecef",
+        "value": "#f2e9ed",
         "_meta": {
           "baseName": "Purple",
           "index": 0
@@ -251,7 +251,7 @@
       },
       {
         "name": "Purple 5",
-        "value": "#f0d1e4",
+        "value": "#ebcee0",
         "_meta": {
           "baseName": "Purple",
           "index": 5
@@ -259,7 +259,7 @@
       },
       {
         "name": "Purple 10",
-        "value": "#e3aed4",
+        "value": "#e3afd5",
         "_meta": {
           "baseName": "Purple",
           "index": 10
@@ -350,7 +350,7 @@
       },
       {
         "name": "Pink 0",
-        "value": "#f5ecef",
+        "value": "#f5e9ed",
         "_meta": {
           "baseName": "Pink",
           "index": 0
@@ -358,7 +358,7 @@
       },
       {
         "name": "Pink 5",
-        "value": "#faccdc",
+        "value": "#f2ceda",
         "_meta": {
           "baseName": "Pink",
           "index": 5
@@ -366,7 +366,7 @@
       },
       {
         "name": "Pink 10",
-        "value": "#f7a6c2",
+        "value": "#f7a8c3",
         "_meta": {
           "baseName": "Pink",
           "index": 10
@@ -457,7 +457,7 @@
       },
       {
         "name": "Red 0",
-        "value": "#f7edee",
+        "value": "#f7ebec",
         "_meta": {
           "baseName": "Red",
           "index": 0
@@ -465,7 +465,7 @@
       },
       {
         "name": "Red 5",
-        "value": "#ffccd0",
+        "value": "#facfd2",
         "_meta": {
           "baseName": "Red",
           "index": 5
@@ -473,7 +473,7 @@
       },
       {
         "name": "Red 10",
-        "value": "#ffa6ab",
+        "value": "#ffabaf",
         "_meta": {
           "baseName": "Red",
           "index": 10
@@ -564,7 +564,7 @@
       },
       {
         "name": "Orange 0",
-        "value": "#f7f0ea",
+        "value": "#f5ece6",
         "_meta": {
           "baseName": "Orange",
           "index": 0
@@ -572,7 +572,7 @@
       },
       {
         "name": "Orange 5",
-        "value": "#fcd7ba",
+        "value": "#f7dcc6",
         "_meta": {
           "baseName": "Orange",
           "index": 5
@@ -671,7 +671,7 @@
       },
       {
         "name": "Yellow 0",
-        "value": "#f7f2e6",
+        "value": "#f5efe4",
         "_meta": {
           "baseName": "Yellow",
           "index": 0
@@ -679,7 +679,7 @@
       },
       {
         "name": "Yellow 5",
-        "value": "#f7e1ae",
+        "value": "#f5e1b3",
         "_meta": {
           "baseName": "Yellow",
           "index": 5
@@ -778,7 +778,7 @@
       },
       {
         "name": "Green 0",
-        "value": "#ebf7f1",
+        "value": "#e6f2e8",
         "_meta": {
           "baseName": "Green",
           "index": 0
@@ -786,7 +786,7 @@
       },
       {
         "name": "Green 5",
-        "value": "#a4f5c8",
+        "value": "#b8e6bf",
         "_meta": {
           "baseName": "Green",
           "index": 5
@@ -794,7 +794,7 @@
       },
       {
         "name": "Green 10",
-        "value": "#59e38f",
+        "value": "#68de86",
         "_meta": {
           "baseName": "Green",
           "index": 10
@@ -885,7 +885,7 @@
       },
       {
         "name": "Celadon 0",
-        "value": "#ecf7f4",
+        "value": "#e4f2ed",
         "_meta": {
           "baseName": "Celadon",
           "index": 0
@@ -893,7 +893,7 @@
       },
       {
         "name": "Celadon 5",
-        "value": "#a6ebd6",
+        "value": "#a7e8d4",
         "_meta": {
           "baseName": "Celadon",
           "index": 5
@@ -992,7 +992,7 @@
       },
       {
         "name": "WordPress Blue 0",
-        "value": "#e9f3f7",
+        "value": "#e6f1f5",
         "_meta": {
           "baseName": "WordPress Blue",
           "index": 0
@@ -1000,7 +1000,7 @@
       },
       {
         "name": "WordPress Blue 5",
-        "value": "#c1e1ee",
+        "value": "#bedae6",
         "_meta": {
           "baseName": "WordPress Blue",
           "index": 5
@@ -1008,7 +1008,7 @@
       },
       {
         "name": "WordPress Blue 10",
-        "value": "#99cde1",
+        "value": "#98c6d9",
         "_meta": {
           "baseName": "WordPress Blue",
           "index": 10
@@ -1099,7 +1099,7 @@
       },
       {
         "name": "WooCommerce Purple 0",
-        "value": "#f5e9f5",
+        "value": "#f7edf7",
         "_meta": {
           "baseName": "WooCommerce Purple",
           "index": 0
@@ -1107,7 +1107,7 @@
       },
       {
         "name": "WooCommerce Purple 5",
-        "value": "#ecccf0",
+        "value": "#e5cfe8",
         "_meta": {
           "baseName": "WooCommerce Purple",
           "index": 5
@@ -1115,7 +1115,7 @@
       },
       {
         "name": "WooCommerce Purple 10",
-        "value": "#ddb0eb",
+        "value": "#d6b4e0",
         "_meta": {
           "baseName": "WooCommerce Purple",
           "index": 10
@@ -1206,7 +1206,7 @@
       },
       {
         "name": "Jetpack Green 0",
-        "value": "#f2f7e7",
+        "value": "#f0f2eb",
         "_meta": {
           "baseName": "Jetpack Green",
           "index": 0
@@ -1214,7 +1214,7 @@
       },
       {
         "name": "Jetpack Green 5",
-        "value": "#d0efad",
+        "value": "#d0e6b8",
         "_meta": {
           "baseName": "Jetpack Green",
           "index": 5
@@ -1222,7 +1222,7 @@
       },
       {
         "name": "Jetpack Green 10",
-        "value": "#9dde73",
+        "value": "#9dd977",
         "_meta": {
           "baseName": "Jetpack Green",
           "index": 10

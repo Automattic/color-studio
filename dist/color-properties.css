@@ -18,9 +18,9 @@
   --studio-gray-100: #101517;
   --studio-gray: var(--studio-gray-50);
 
-  --studio-blue-0: #eff3f7;
-  --studio-blue-5: #c6def6;
-  --studio-blue-10: #9ac6f0;
+  --studio-blue-0: #e9eff5;
+  --studio-blue-5: #c5d9ed;
+  --studio-blue-10: #9ec2e6;
   --studio-blue-20: #72aee6;
   --studio-blue-30: #5198d9;
   --studio-blue-40: #3582c4;
@@ -32,9 +32,9 @@
   --studio-blue-100: #00131c;
   --studio-blue: var(--studio-blue-50);
 
-  --studio-purple-0: #f2ecef;
-  --studio-purple-5: #f0d1e4;
-  --studio-purple-10: #e3aed4;
+  --studio-purple-0: #f2e9ed;
+  --studio-purple-5: #ebcee0;
+  --studio-purple-10: #e3afd5;
   --studio-purple-20: #d48fc8;
   --studio-purple-30: #c475bd;
   --studio-purple-40: #b35eb1;
@@ -46,9 +46,9 @@
   --studio-purple-100: #1e0c21;
   --studio-purple: var(--studio-purple-50);
 
-  --studio-pink-0: #f5ecef;
-  --studio-pink-5: #faccdc;
-  --studio-pink-10: #f7a6c2;
+  --studio-pink-0: #f5e9ed;
+  --studio-pink-5: #f2ceda;
+  --studio-pink-10: #f7a8c3;
   --studio-pink-20: #f283aa;
   --studio-pink-30: #eb6594;
   --studio-pink-40: #e34c84;
@@ -60,9 +60,9 @@
   --studio-pink-100: #260415;
   --studio-pink: var(--studio-pink-50);
 
-  --studio-red-0: #f7edee;
-  --studio-red-5: #ffccd0;
-  --studio-red-10: #ffa6ab;
+  --studio-red-0: #f7ebec;
+  --studio-red-5: #facfd2;
+  --studio-red-10: #ffabaf;
   --studio-red-20: #ff8085;
   --studio-red-30: #f86368;
   --studio-red-40: #e65054;
@@ -74,8 +74,8 @@
   --studio-red-100: #240a0a;
   --studio-red: var(--studio-red-50);
 
-  --studio-orange-0: #f7f0ea;
-  --studio-orange-5: #fcd7ba;
+  --studio-orange-0: #f5ece6;
+  --studio-orange-5: #f7dcc6;
   --studio-orange-10: #ffbf86;
   --studio-orange-20: #faa754;
   --studio-orange-30: #e68b28;
@@ -88,8 +88,8 @@
   --studio-orange-100: #1f1200;
   --studio-orange: var(--studio-orange-50);
 
-  --studio-yellow-0: #f7f2e6;
-  --studio-yellow-5: #f7e1ae;
+  --studio-yellow-0: #f5efe4;
+  --studio-yellow-5: #f5e1b3;
   --studio-yellow-10: #f2cf75;
   --studio-yellow-20: #f0c443;
   --studio-yellow-30: #dbae17;
@@ -102,9 +102,9 @@
   --studio-yellow-100: #1c1700;
   --studio-yellow: var(--studio-yellow-50);
 
-  --studio-green-0: #ebf7f1;
-  --studio-green-5: #a4f5c8;
-  --studio-green-10: #59e38f;
+  --studio-green-0: #e6f2e8;
+  --studio-green-5: #b8e6bf;
+  --studio-green-10: #68de86;
   --studio-green-20: #1ed15a;
   --studio-green-30: #00ba37;
   --studio-green-40: #00a32a;
@@ -116,8 +116,8 @@
   --studio-green-100: #001c05;
   --studio-green: var(--studio-green-50);
 
-  --studio-celadon-0: #ecf7f4;
-  --studio-celadon-5: #a6ebd6;
+  --studio-celadon-0: #e4f2ed;
+  --studio-celadon-5: #a7e8d4;
   --studio-celadon-10: #63d6b6;
   --studio-celadon-20: #2ebd99;
   --studio-celadon-30: #09a884;
@@ -130,9 +130,9 @@
   --studio-celadon-100: #001c17;
   --studio-celadon: var(--studio-celadon-50);
 
-  --studio-wordpress-blue-0: #e9f3f7;
-  --studio-wordpress-blue-5: #c1e1ee;
-  --studio-wordpress-blue-10: #99cde1;
+  --studio-wordpress-blue-0: #e6f1f5;
+  --studio-wordpress-blue-5: #bedae6;
+  --studio-wordpress-blue-10: #98c6d9;
   --studio-wordpress-blue-20: #6ab3d0;
   --studio-wordpress-blue-30: #3895ba;
   --studio-wordpress-blue-40: #187aa2;
@@ -144,9 +144,9 @@
   --studio-wordpress-blue-100: #00101c;
   --studio-wordpress-blue: var(--studio-wordpress-blue-50);
 
-  --studio-woocommerce-purple-0: #f5e9f5;
-  --studio-woocommerce-purple-5: #ecccf0;
-  --studio-woocommerce-purple-10: #ddb0eb;
+  --studio-woocommerce-purple-0: #f7edf7;
+  --studio-woocommerce-purple-5: #e5cfe8;
+  --studio-woocommerce-purple-10: #d6b4e0;
   --studio-woocommerce-purple-20: #c792e0;
   --studio-woocommerce-purple-30: #af7dd1;
   --studio-woocommerce-purple-40: #9a69c7;
@@ -158,9 +158,9 @@
   --studio-woocommerce-purple-100: #140e1f;
   --studio-woocommerce-purple: var(--studio-woocommerce-purple-50);
 
-  --studio-jetpack-green-0: #f2f7e7;
-  --studio-jetpack-green-5: #d0efad;
-  --studio-jetpack-green-10: #9dde73;
+  --studio-jetpack-green-0: #f0f2eb;
+  --studio-jetpack-green-5: #d0e6b8;
+  --studio-jetpack-green-10: #9dd977;
   --studio-jetpack-green-20: #64ca43;
   --studio-jetpack-green-30: #2fb41f;
   --studio-jetpack-green-40: #069e08;

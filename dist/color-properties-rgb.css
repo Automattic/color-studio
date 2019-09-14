@@ -18,9 +18,9 @@
   --studio-gray-100-rgb: 16, 21, 23;
   --studio-gray-rgb: var(--studio-gray-50-rgb);
 
-  --studio-blue-0-rgb: 239, 243, 247;
-  --studio-blue-5-rgb: 198, 222, 246;
-  --studio-blue-10-rgb: 154, 198, 240;
+  --studio-blue-0-rgb: 233, 239, 245;
+  --studio-blue-5-rgb: 197, 217, 237;
+  --studio-blue-10-rgb: 158, 194, 230;
   --studio-blue-20-rgb: 114, 174, 230;
   --studio-blue-30-rgb: 81, 152, 217;
   --studio-blue-40-rgb: 53, 130, 196;
@@ -32,9 +32,9 @@
   --studio-blue-100-rgb: 0, 19, 28;
   --studio-blue-rgb: var(--studio-blue-50-rgb);
 
-  --studio-purple-0-rgb: 242, 236, 239;
-  --studio-purple-5-rgb: 240, 209, 228;
-  --studio-purple-10-rgb: 227, 174, 212;
+  --studio-purple-0-rgb: 242, 233, 237;
+  --studio-purple-5-rgb: 235, 206, 224;
+  --studio-purple-10-rgb: 227, 175, 213;
   --studio-purple-20-rgb: 212, 143, 200;
   --studio-purple-30-rgb: 196, 117, 189;
   --studio-purple-40-rgb: 179, 94, 177;
@@ -46,9 +46,9 @@
   --studio-purple-100-rgb: 30, 12, 33;
   --studio-purple-rgb: var(--studio-purple-50-rgb);
 
-  --studio-pink-0-rgb: 245, 236, 239;
-  --studio-pink-5-rgb: 250, 204, 220;
-  --studio-pink-10-rgb: 247, 166, 194;
+  --studio-pink-0-rgb: 245, 233, 237;
+  --studio-pink-5-rgb: 242, 206, 218;
+  --studio-pink-10-rgb: 247, 168, 195;
   --studio-pink-20-rgb: 242, 131, 170;
   --studio-pink-30-rgb: 235, 101, 148;
   --studio-pink-40-rgb: 227, 76, 132;
@@ -60,9 +60,9 @@
   --studio-pink-100-rgb: 38, 4, 21;
   --studio-pink-rgb: var(--studio-pink-50-rgb);
 
-  --studio-red-0-rgb: 247, 237, 238;
-  --studio-red-5-rgb: 255, 204, 208;
-  --studio-red-10-rgb: 255, 166, 171;
+  --studio-red-0-rgb: 247, 235, 236;
+  --studio-red-5-rgb: 250, 207, 210;
+  --studio-red-10-rgb: 255, 171, 175;
   --studio-red-20-rgb: 255, 128, 133;
   --studio-red-30-rgb: 248, 99, 104;
   --studio-red-40-rgb: 230, 80, 84;
@@ -74,8 +74,8 @@
   --studio-red-100-rgb: 36, 10, 10;
   --studio-red-rgb: var(--studio-red-50-rgb);
 
-  --studio-orange-0-rgb: 247, 240, 234;
-  --studio-orange-5-rgb: 252, 215, 186;
+  --studio-orange-0-rgb: 245, 236, 230;
+  --studio-orange-5-rgb: 247, 220, 198;
   --studio-orange-10-rgb: 255, 191, 134;
   --studio-orange-20-rgb: 250, 167, 84;
   --studio-orange-30-rgb: 230, 139, 40;
@@ -88,8 +88,8 @@
   --studio-orange-100-rgb: 31, 18, 0;
   --studio-orange-rgb: var(--studio-orange-50-rgb);
 
-  --studio-yellow-0-rgb: 247, 242, 230;
-  --studio-yellow-5-rgb: 247, 225, 174;
+  --studio-yellow-0-rgb: 245, 239, 228;
+  --studio-yellow-5-rgb: 245, 225, 179;
   --studio-yellow-10-rgb: 242, 207, 117;
   --studio-yellow-20-rgb: 240, 196, 67;
   --studio-yellow-30-rgb: 219, 174, 23;
@@ -102,9 +102,9 @@
   --studio-yellow-100-rgb: 28, 23, 0;
   --studio-yellow-rgb: var(--studio-yellow-50-rgb);
 
-  --studio-green-0-rgb: 235, 247, 241;
-  --studio-green-5-rgb: 164, 245, 200;
-  --studio-green-10-rgb: 89, 227, 143;
+  --studio-green-0-rgb: 230, 242, 232;
+  --studio-green-5-rgb: 184, 230, 191;
+  --studio-green-10-rgb: 104, 222, 134;
   --studio-green-20-rgb: 30, 209, 90;
   --studio-green-30-rgb: 0, 186, 55;
   --studio-green-40-rgb: 0, 163, 42;
@@ -116,8 +116,8 @@
   --studio-green-100-rgb: 0, 28, 5;
   --studio-green-rgb: var(--studio-green-50-rgb);
 
-  --studio-celadon-0-rgb: 236, 247, 244;
-  --studio-celadon-5-rgb: 166, 235, 214;
+  --studio-celadon-0-rgb: 228, 242, 237;
+  --studio-celadon-5-rgb: 167, 232, 212;
   --studio-celadon-10-rgb: 99, 214, 182;
   --studio-celadon-20-rgb: 46, 189, 153;
   --studio-celadon-30-rgb: 9, 168, 132;
@@ -130,9 +130,9 @@
   --studio-celadon-100-rgb: 0, 28, 23;
   --studio-celadon-rgb: var(--studio-celadon-50-rgb);
 
-  --studio-wordpress-blue-0-rgb: 233, 243, 247;
-  --studio-wordpress-blue-5-rgb: 193, 225, 238;
-  --studio-wordpress-blue-10-rgb: 153, 205, 225;
+  --studio-wordpress-blue-0-rgb: 230, 241, 245;
+  --studio-wordpress-blue-5-rgb: 190, 218, 230;
+  --studio-wordpress-blue-10-rgb: 152, 198, 217;
   --studio-wordpress-blue-20-rgb: 106, 179, 208;
   --studio-wordpress-blue-30-rgb: 56, 149, 186;
   --studio-wordpress-blue-40-rgb: 24, 122, 162;
@@ -144,9 +144,9 @@
   --studio-wordpress-blue-100-rgb: 0, 16, 28;
   --studio-wordpress-blue-rgb: var(--studio-wordpress-blue-50-rgb);
 
-  --studio-woocommerce-purple-0-rgb: 245, 233, 245;
-  --studio-woocommerce-purple-5-rgb: 236, 204, 240;
-  --studio-woocommerce-purple-10-rgb: 221, 176, 235;
+  --studio-woocommerce-purple-0-rgb: 247, 237, 247;
+  --studio-woocommerce-purple-5-rgb: 229, 207, 232;
+  --studio-woocommerce-purple-10-rgb: 214, 180, 224;
   --studio-woocommerce-purple-20-rgb: 199, 146, 224;
   --studio-woocommerce-purple-30-rgb: 175, 125, 209;
   --studio-woocommerce-purple-40-rgb: 154, 105, 199;
@@ -158,9 +158,9 @@
   --studio-woocommerce-purple-100-rgb: 20, 14, 31;
   --studio-woocommerce-purple-rgb: var(--studio-woocommerce-purple-50-rgb);
 
-  --studio-jetpack-green-0-rgb: 242, 247, 231;
-  --studio-jetpack-green-5-rgb: 208, 239, 173;
-  --studio-jetpack-green-10-rgb: 157, 222, 115;
+  --studio-jetpack-green-0-rgb: 240, 242, 235;
+  --studio-jetpack-green-5-rgb: 208, 230, 184;
+  --studio-jetpack-green-10-rgb: 157, 217, 119;
   --studio-jetpack-green-20-rgb: 100, 202, 67;
   --studio-jetpack-green-30-rgb: 47, 180, 31;
   --studio-jetpack-green-40-rgb: 6, 158, 8;
