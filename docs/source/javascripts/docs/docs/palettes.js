@@ -3,6 +3,7 @@ const determineContrast = require('./contrast')
 
 module.exports = [
   formatMostRecentPalette(require('../../../../../dist/colors.meta.json')),
+  formatDeprecatedPalette(require('./palette-archive/2.1.0.json')),
   formatDeprecatedPalette(require('./palette-archive/2.0.1.json')),
   formatDeprecatedPaletteVersion1(require('./palette-archive/1.0.6.json'))
 ]
