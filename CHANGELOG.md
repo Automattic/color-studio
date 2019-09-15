@@ -1,5 +1,24 @@
 # Releases
 
+## 2.2.0
+
+* Adjusted the level of luminosity in the brighter end of the palette.
+* The custom properties in CSS exports are no longer aliased in favor of using direct values.
+* Colors affected by this release:
+  ```
+  Blue:               0, 5, 10
+  Purple:             0, 5, 10
+  Pink:               0, 5, 10
+  Red:                0, 5, 10
+  Orange:             0, 5
+  Yellow:             0, 5
+  Green:              0, 5, 10
+  Celadon:            0, 5
+  WordPress Blue:     0, 5, 10
+  WooCommerce Purple: 0, 5, 10
+  Jetpack Green:      0, 5, 10
+  ```
+
 ## 2.1.0
 
 * Adjusted Gray 0–70.
