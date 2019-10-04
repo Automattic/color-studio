@@ -33,6 +33,18 @@
     transform: scale(1.195);
     transition: none;
   }
+
+  :target & {
+    padding: 10em 0 10em;
+
+    &:hover {
+      transform: scale(1.15);
+    }
+
+    &:active {
+      transform: scale(1.115);
+    }
+  }
 }
 
 .tile--empty {

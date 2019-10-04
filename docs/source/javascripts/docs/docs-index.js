@@ -2,6 +2,7 @@ const copyToClipboard = require('copy-text-to-clipboard')
 const forIn = require('lodash/forIn')
 const groupBy = require('lodash/groupBy')
 const toArray = require('lodash/toArray')
+const toKebabCase = require('lodash/kebabCase')
 const initDesaturationListener = require('./docs/desaturation')
 const renderTile = require('./docs/tile')
 
@@ -65,8 +66,13 @@ function setDownloadLink(palette) {
 
 function renderTiles(palette) {
   const colors = palette.colors.map(colorArray => {
+    if (colorArray.length <= 0) {
+      return
+    }
+
+    const name = toKebabCase(colorArray[0]._meta.baseName.toLowerCase())
     const html = colorArray.map(renderTile).join('')
-    return html ? `<div class="d-flex pb-1">${html}</div>` : ''
+    return html ? `<div id="${name}" class="d-flex pb-1">${html}</div>` : ''
   })
 
   ELEMENT_OUTPUT.innerHTML = colors.join('')
