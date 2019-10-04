@@ -1,7 +1,5 @@
-/* eslint-disable import/no-unresolved */
 const { getSelectedDocument } = require('sketch')
 const { Artboard, Rectangle, Shape, SharedStyle, Style, SymbolMaster } = require('sketch/dom')
-/* eslint-enable import/no-unresolved */
 
 const padStart = require('lodash/padStart')
 

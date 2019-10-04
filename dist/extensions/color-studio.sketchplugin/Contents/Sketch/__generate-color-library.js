@@ -113,7 +113,6 @@ module.exports = JSON.parse("{\"version\":\"2.2.0\",\"colors\":[[{\"name\":\"Whi
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* eslint-disable import/no-unresolved */
 var _require = __webpack_require__(/*! sketch */ "sketch"),
     getSelectedDocument = _require.getSelectedDocument;
 
@@ -124,8 +123,6 @@ var _require2 = __webpack_require__(/*! sketch/dom */ "sketch/dom"),
     SharedStyle = _require2.SharedStyle,
     Style = _require2.Style,
     SymbolMaster = _require2.SymbolMaster;
-/* eslint-enable import/no-unresolved */
-
 
 var padStart = __webpack_require__(/*! lodash/padStart */ "./node_modules/lodash/padStart.js");
 
