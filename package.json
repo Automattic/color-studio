@@ -50,9 +50,6 @@
     "webpack-extraneous-file-cleanup-plugin": "^2.0.0",
     "xo": "^0.25.3"
   },
-  "engines": {
-    "node": "^10.15.2"
-  },
   "scripts": {
     "build": "yarn palette:build && yarn docs:build --silent && yarn sketch:build --quiet && yarn meta:build",
     "calypso": "yarn calypso:clone && yarn calypso:reset",
