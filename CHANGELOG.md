@@ -1,5 +1,10 @@
 # Releases
 
+## 2.2.1
+
+* _No color changes._
+* Dropped the `engines` constraint for the `npm` package.
+
 ## 2.2.0
 
 * Adjusted the level of luminosity in the brighter end of the palette.
