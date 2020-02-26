@@ -1022,7 +1022,7 @@
     [
       {
         "name": "Yellow",
-        "value": "#907300",
+        "value": "#a16c00",
         "_meta": {
           "alias": true,
           "baseName": "Yellow",
@@ -1031,11 +1031,11 @@
       },
       {
         "name": "Yellow 0",
-        "value": "#f5efe4",
+        "value": "#f5f1e1",
         "_meta": {
           "_debug": {
-            "hue": 40,
-            "saturation": 0.07,
+            "hue": 47,
+            "saturation": 0.08,
             "luminosity": 0.96
           },
           "baseName": "Yellow",
@@ -1044,10 +1044,10 @@
       },
       {
         "name": "Yellow 5",
-        "value": "#f5e1b3",
+        "value": "#f5e6b3",
         "_meta": {
           "_debug": {
-            "hue": 41.70175056952351,
+            "hue": 47,
             "saturation": 0.27,
             "luminosity": 0.96
           },
@@ -1057,11 +1057,11 @@
       },
       {
         "name": "Yellow 10",
-        "value": "#f2cf75",
+        "value": "#f2d76b",
         "_meta": {
           "_debug": {
-            "hue": 43.37343245442903,
-            "saturation": 0.519,
+            "hue": 48,
+            "saturation": 0.56,
             "luminosity": 0.95
           },
           "baseName": "Yellow",
@@ -1070,11 +1070,11 @@
       },
       {
         "name": "Yellow 20",
-        "value": "#f0c443",
+        "value": "#f0c930",
         "_meta": {
           "_debug": {
-            "hue": 44.89533496512547,
-            "saturation": 0.72,
+            "hue": 48,
+            "saturation": 0.8,
             "luminosity": 0.94
           },
           "baseName": "Yellow",
@@ -1083,12 +1083,12 @@
       },
       {
         "name": "Yellow 30",
-        "value": "#dbae17",
+        "value": "#deb100",
         "_meta": {
           "_debug": {
-            "hue": 46.19752534515395,
-            "saturation": 0.894,
-            "luminosity": 0.86
+            "hue": 48,
+            "saturation": 1,
+            "luminosity": 0.87
           },
           "baseName": "Yellow",
           "index": 30
@@ -1099,7 +1099,7 @@
         "value": "#b69000",
         "_meta": {
           "_debug": {
-            "hue": 47.26397505312616,
+            "hue": 47.26,
             "saturation": 1,
             "luminosity": 0.715
           },
@@ -1109,12 +1109,12 @@
       },
       {
         "name": "Yellow 50",
-        "value": "#907300",
+        "value": "#a16c00",
         "_meta": {
           "_debug": {
-            "hue": 48.11092040739058,
+            "hue": 40,
             "saturation": 1,
-            "luminosity": 0.564
+            "luminosity": 0.633
           },
           "baseName": "Yellow",
           "index": 50
@@ -1122,12 +1122,12 @@
       },
       {
         "name": "Yellow 60",
-        "value": "#705b00",
+        "value": "#805500",
         "_meta": {
           "_debug": {
-            "hue": 48.76645533533434,
+            "hue": 40,
             "saturation": 1,
-            "luminosity": 0.44
+            "luminosity": 0.5
           },
           "baseName": "Yellow",
           "index": 60
@@ -1135,12 +1135,12 @@
       },
       {
         "name": "Yellow 70",
-        "value": "#5c4b00",
+        "value": "#640",
         "_meta": {
           "_debug": {
-            "hue": 49.25955329063343,
+            "hue": 40,
             "saturation": 1,
-            "luminosity": 0.36
+            "luminosity": 0.4
           },
           "baseName": "Yellow",
           "index": 70
@@ -1148,12 +1148,12 @@
       },
       {
         "name": "Yellow 80",
-        "value": "#453900",
+        "value": "#4d3300",
         "_meta": {
           "_debug": {
-            "hue": 49.61588151579182,
+            "hue": 40,
             "saturation": 1,
-            "luminosity": 0.27
+            "luminosity": 0.3
           },
           "baseName": "Yellow",
           "index": 80
@@ -1161,12 +1161,12 @@
       },
       {
         "name": "Yellow 90",
-        "value": "#302800",
+        "value": "#320",
         "_meta": {
           "_debug": {
-            "hue": 49.856868272136175,
+            "hue": 40,
             "saturation": 1,
-            "luminosity": 0.19
+            "luminosity": 0.2
           },
           "baseName": "Yellow",
           "index": 90
@@ -1174,10 +1174,10 @@
       },
       {
         "name": "Yellow 100",
-        "value": "#1c1700",
+        "value": "#1c1300",
         "_meta": {
           "_debug": {
-            "hue": 50,
+            "hue": 40,
             "saturation": 1,
             "luminosity": 0.11
           },
