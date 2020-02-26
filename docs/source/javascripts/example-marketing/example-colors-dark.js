@@ -77,16 +77,16 @@ function getExampleMarkup(data) {
     <div class="example"${_('title')}>
       <div class="example__content" style="width: 999px">
         <div class="container p-96${_('heroBackgroundClassName')}">
-          <div class="container__wrapper${_('heroTextClassName')}">
-            <p class="text-48 text-brand text-weight-500">
+          <div class="container__wrapper${_('heroTextClassName')} text-18">
+            <p class="text-56 text-brand">
               Build a website,<span class="br"></span>
               build a movement.
             </p>
-            <p class="text-20 pt-24 pb-36">
+            <p class="py-24">
               Whatever you want to create, share, or sell,<span class="br"></span>
               we’ll help you do it right here.
             </p>
-            <span class="button button--20${_('buttonBackgroundClassName')}">
+            <span class="button${_('buttonBackgroundClassName')}">
               <span class="button__label${_('buttonTextClassName')}">
                 Get started
               </span>

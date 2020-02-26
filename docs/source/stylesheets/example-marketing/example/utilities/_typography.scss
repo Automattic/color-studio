@@ -29,7 +29,7 @@
 @mixin text-styles($suffix: "") {
   $suffix: if($suffix == "", "", unquote("\\@#{$suffix}"));
 
-  @each $value in 12 13 14 16 20 24 32 40 48 56 64 72 80 88 96 {
+  @each $value in 12 13 14 16 18 20 24 32 40 48 56 64 72 {
     @include text-style($value, $suffix);
   }
 }

@@ -84,12 +84,12 @@ function getExampleMarkup(data) {
     <div class="example"${_('title')}>
       <div class="example__content">
         <div class="container p-96${_('heroBackgroundClassName')}">
-          <div class="container__wrapper${_('heroHeadingClassName')}">
-            <p class="text-80 text-brand text-weight-500">
+          <div class="container__wrapper${_('heroHeadingClassName')} text-16">
+            <p class="text-72 text-brand">
               Engineering<span class="br"></span>
               happiness.
             </p>
-            <div class="text-16 py-36${_('heroTextClassName')}" style="width: 432px">
+            <div class="pt-36 pb-24${_('heroTextClassName')}" style="max-width: 432px">
               <p>
                 Our 24/7 support is powered by actual people. We call them Happiness Engineers.
               </p>

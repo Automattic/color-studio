@@ -39,17 +39,16 @@ The above imports the contents of the [JSON file](dist/colors.json).
 # Spin up Color Studio
 yarn install
 yarn test
+yarn start
 
 # Generate the JSON file, the stylesheets, and the Sketch Palettes file
 yarn palette
 
 # Build the documentation and the examples from `docs/source`
 yarn docs
-yarn docs:watch
 
 # Build and link the Sketch extension
 yarn sketch
-yarn sketch:watch
 
 # Generate the preview image (by taking a screenshot of the documentation)
 yarn meta

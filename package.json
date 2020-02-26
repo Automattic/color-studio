@@ -90,10 +90,10 @@
     "sketch": "yarn sketch:build && skpm-link",
     "sketch:build": "skpm-build",
     "sketch:watch": "skpm-build --watch",
+    "start": "yarn docs:watch",
     "svgo": "svgo --config=svgo.config.json",
     "svgo:docs": "yarn svgo --folder docs/source --recursive",
-    "test": "jest --all",
-    "watch": "yarn docs:watch"
+    "test": "jest --all"
   },
   "husky": {
     "hooks": {

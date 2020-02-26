@@ -2,27 +2,15 @@
   appearance: none;
   position: relative;
   display: inline-block;
-  padding: 6px 12px 8px;
+  padding: 0.6em 1.45em 0.7em;
   border: none;
-  border-radius: 0.315em;
+  border-radius: 0.35em;
   background: currentcolor;
-  font-family: inherit;
   font-weight: 700;
-  @include text-style-properties(14);
   white-space: nowrap;
   overflow: hidden;
 }
 
 .button__label {
   color: $studio-white;
-}
-
-.button--16 {
-  padding: 9px 18px 12px;
-  @include text-style-properties(16);
-}
-
-.button--20 {
-  padding: 11px 24px 14px;
-  @include text-style-properties(20);
 }
