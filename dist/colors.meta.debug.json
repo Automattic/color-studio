@@ -1022,7 +1022,7 @@
     [
       {
         "name": "Yellow",
-        "value": "#a16c00",
+        "value": "#9d6e00",
         "_meta": {
           "alias": true,
           "baseName": "Yellow",
@@ -1096,12 +1096,12 @@
       },
       {
         "name": "Yellow 40",
-        "value": "#b69000",
+        "value": "#c08c00",
         "_meta": {
           "_debug": {
-            "hue": 47.26,
+            "hue": 44,
             "saturation": 1,
-            "luminosity": 0.715
+            "luminosity": 0.7509999999999999
           },
           "baseName": "Yellow",
           "index": 40
@@ -1109,12 +1109,12 @@
       },
       {
         "name": "Yellow 50",
-        "value": "#a16c00",
+        "value": "#9d6e00",
         "_meta": {
           "_debug": {
-            "hue": 40,
+            "hue": 42,
             "saturation": 1,
-            "luminosity": 0.633
+            "luminosity": 0.616
           },
           "baseName": "Yellow",
           "index": 50
@@ -1122,12 +1122,12 @@
       },
       {
         "name": "Yellow 60",
-        "value": "#805500",
+        "value": "#7d5600",
         "_meta": {
           "_debug": {
-            "hue": 40,
+            "hue": 41.2,
             "saturation": 1,
-            "luminosity": 0.5
+            "luminosity": 0.49
           },
           "baseName": "Yellow",
           "index": 60
@@ -1135,12 +1135,12 @@
       },
       {
         "name": "Yellow 70",
-        "value": "#640",
+        "value": "#674600",
         "_meta": {
           "_debug": {
-            "hue": 40,
+            "hue": 40.7,
             "saturation": 1,
-            "luminosity": 0.4
+            "luminosity": 0.405
           },
           "baseName": "Yellow",
           "index": 70
@@ -1148,12 +1148,12 @@
       },
       {
         "name": "Yellow 80",
-        "value": "#4d3300",
+        "value": "#4f3500",
         "_meta": {
           "_debug": {
-            "hue": 40,
+            "hue": 40.3,
             "saturation": 1,
-            "luminosity": 0.3
+            "luminosity": 0.31
           },
           "baseName": "Yellow",
           "index": 80

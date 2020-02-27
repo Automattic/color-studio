@@ -662,7 +662,7 @@
     [
       {
         "name": "Yellow",
-        "value": "#a16c00",
+        "value": "#9d6e00",
         "_meta": {
           "alias": true,
           "baseName": "Yellow",
@@ -711,7 +711,7 @@
       },
       {
         "name": "Yellow 40",
-        "value": "#b69000",
+        "value": "#c08c00",
         "_meta": {
           "baseName": "Yellow",
           "index": 40
@@ -719,7 +719,7 @@
       },
       {
         "name": "Yellow 50",
-        "value": "#a16c00",
+        "value": "#9d6e00",
         "_meta": {
           "baseName": "Yellow",
           "index": 50
@@ -727,7 +727,7 @@
       },
       {
         "name": "Yellow 60",
-        "value": "#805500",
+        "value": "#7d5600",
         "_meta": {
           "baseName": "Yellow",
           "index": 60
@@ -735,7 +735,7 @@
       },
       {
         "name": "Yellow 70",
-        "value": "#640",
+        "value": "#674600",
         "_meta": {
           "baseName": "Yellow",
           "index": 70
@@ -743,7 +743,7 @@
       },
       {
         "name": "Yellow 80",
-        "value": "#4d3300",
+        "value": "#4f3500",
         "_meta": {
           "baseName": "Yellow",
           "index": 80
