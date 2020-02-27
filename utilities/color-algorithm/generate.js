@@ -4,7 +4,7 @@
 // https://github.com/lyft/coloralgorithm
 
 const chroma = require('chroma-js')
-const isString = require('lodash/isString')
+const isFunction = require('lodash/isFunction')
 const range = require('lodash/range')
 const reverse = require('lodash/reverse')
 
@@ -72,7 +72,7 @@ function generateLuminositySteps(specs) {
 }
 
 function generateSteps(count, easing) {
-  const ease = isString(easing) ? Curves[easing] : easing
+  const ease = isFunction(easing) ? easing : Curves[easing || 'linear']
   const steps = range(count).map(index => ease(index / (count - 1)))
 
   return reverse(steps)
