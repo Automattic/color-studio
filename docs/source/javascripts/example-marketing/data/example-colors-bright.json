@@ -168,6 +168,24 @@
       ],
       "hero-text": [
         "color-woocommerce-purple-70"
+      ],
+      "button-background": [
+        "color-woocommerce-purple-50"
+      ]
+    },
+    {
+      "hero-background": [
+        "color-white",
+        "color-simplenote-blue-0"
+      ],
+      "hero-heading": [
+        "color-simplenote-blue-80"
+      ],
+      "hero-text": [
+        "color-simplenote-blue-80"
+      ],
+      "button-background": [
+        "color-simplenote-blue-50"
       ]
     }
   ]
