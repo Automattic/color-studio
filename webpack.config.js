@@ -1,3 +1,4 @@
+/* eslint-disable-next-line import/no-extraneous-dependencies */
 const path = require('path')
 
 const ExtraneousFileCleanupPlugin = require('webpack-extraneous-file-cleanup-plugin')
