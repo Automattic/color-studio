@@ -8,15 +8,22 @@ module.exports = [
 function formatDevelopmentPalette(palette) {
   return extend(palette, formatDisplayProperties(palette), {
     label: 'Development',
-    colors: palette.colors.map(colorArray => formatColorArray(stripUtilityColors(colorArray)))
+    colors: palette.colors.map(colorArray => formatColorArray(colorArray))
   })
 }
 
 function formatColorArray(colorArray, featuredShadeIndex = 50) {
-  return colorArray.map(colorObject => {
-    const meta = extend(colorObject._meta, formatColorProperties(colorObject, colorArray, featuredShadeIndex))
+  const defaultShadeIndex = determineDefaultColorIndex(colorArray)
+
+  return stripUtilityColors(colorArray).map(colorObject => {
+    const meta = extend(colorObject._meta, formatColorProperties(colorObject, colorArray, defaultShadeIndex, featuredShadeIndex))
     return extend(colorObject, { _meta: meta })
   })
+}
+
+function determineDefaultColorIndex(colorArray) {
+  const colorObject = colorArray.filter(colorObject => colorObject._meta.alias)[0]
+  return colorObject ? colorObject._meta.index : -1
 }
 
 function formatDisplayProperties(paletteObject) {
@@ -33,9 +40,11 @@ function stripUtilityColors(colorArray) {
   })
 }
 
-function formatColorProperties(colorObject, colorArray, featuredShadeIndex) {
+function formatColorProperties(colorObject, colorArray, defaultShadeIndex, featuredShadeIndex) {
+  const { index } = colorObject._meta
   return {
-    featured: colorObject._meta.index === featuredShadeIndex,
-    contrast: determineContrast(colorObject, colorArray)
+    contrast: determineContrast(colorObject, colorArray),
+    isDefaultIndex: index === defaultShadeIndex,
+    isFeaturedIndex: index === featuredShadeIndex
   }
 }

@@ -28,15 +28,18 @@ module.exports = colorObject => {
 
 function getTileElementAttributes(colorObject) {
   const { value } = colorObject
+  const { contrast, isFeaturedIndex } = colorObject._meta
 
-  const classAttribute = `${colorObject._meta.featured ? 'tile tile--featured' : 'tile'} text-center`
-  const styleAttribute = `background: ${value}; color: ${colorObject._meta.contrast.displayColor}`
+  const classAttribute = `${isFeaturedIndex ? 'tile tile--featured' : 'tile'} text-center`
+  const styleAttribute = `background: ${value}; color: ${contrast.displayColor}`
 
   return `class="${classAttribute}" style="${styleAttribute}" data-color="${value}"`
 }
 
 function getName(colorObject) {
-  const colorName = colorObject._meta.featured ? colorObject.name : colorObject._meta.index
+  const { index, isDefaultIndex, isFeaturedIndex } = colorObject._meta
+
+  const colorName = isFeaturedIndex ? colorObject.name : (isDefaultIndex ? `(${index})` : index)
   const displayName = String(colorName).replace(/\s+/g, '&nbsp;')
 
   return isAccessibleContrast(colorObject, COLOR_WHITE) ?
