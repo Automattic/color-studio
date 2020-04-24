@@ -156,6 +156,21 @@ module.exports = {
       }
     },
     {
+      name: 'Simplenote Blue',
+      default: 50,
+      specs: {
+        hue_start: 221,
+        hue_end: 224,
+        hue_curve: 'easeInQuad',
+        sat_steps: [
+          5, 15, 32, 46, 62, 70, 75, 85, 90, 90, 90, 90
+        ],
+        lum_steps: [
+          96, 95, 95, 92, 92, 89, 80, 78, 68, 52, 36, 18
+        ]
+      }
+    },
+    {
       name: 'WooCommerce Purple',
       default: 50,
       specs: {

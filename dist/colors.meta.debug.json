@@ -1689,6 +1689,173 @@
     ],
     [
       {
+        "name": "Simplenote Blue",
+        "value": "#3361cc",
+        "_meta": {
+          "alias": true,
+          "baseName": "Simplenote Blue",
+          "index": 50
+        }
+      },
+      {
+        "name": "Simplenote Blue 0",
+        "value": "#e9ecf5",
+        "_meta": {
+          "_debug": {
+            "hue": 221,
+            "saturation": 0.05,
+            "luminosity": 0.96
+          },
+          "baseName": "Simplenote Blue",
+          "index": 0
+        }
+      },
+      {
+        "name": "Simplenote Blue 5",
+        "value": "#ced9f2",
+        "_meta": {
+          "_debug": {
+            "hue": 221.0545713830352,
+            "saturation": 0.15,
+            "luminosity": 0.95
+          },
+          "baseName": "Simplenote Blue",
+          "index": 5
+        }
+      },
+      {
+        "name": "Simplenote Blue 10",
+        "value": "#a5bdf2",
+        "_meta": {
+          "_debug": {
+            "hue": 221.13771198735145,
+            "saturation": 0.32,
+            "luminosity": 0.95
+          },
+          "baseName": "Simplenote Blue",
+          "index": 10
+        }
+      },
+      {
+        "name": "Simplenote Blue 20",
+        "value": "#7fa0eb",
+        "_meta": {
+          "_debug": {
+            "hue": 221.2562288320007,
+            "saturation": 0.46,
+            "luminosity": 0.92
+          },
+          "baseName": "Simplenote Blue",
+          "index": 20
+        }
+      },
+      {
+        "name": "Simplenote Blue 30",
+        "value": "#5986eb",
+        "_meta": {
+          "_debug": {
+            "hue": 221.41878315260843,
+            "saturation": 0.62,
+            "luminosity": 0.92
+          },
+          "baseName": "Simplenote Blue",
+          "index": 30
+        }
+      },
+      {
+        "name": "Simplenote Blue 40",
+        "value": "#4475e3",
+        "_meta": {
+          "_debug": {
+            "hue": 221.63574058642024,
+            "saturation": 0.7,
+            "luminosity": 0.89
+          },
+          "baseName": "Simplenote Blue",
+          "index": 40
+        }
+      },
+      {
+        "name": "Simplenote Blue 50",
+        "value": "#3361cc",
+        "_meta": {
+          "_debug": {
+            "hue": 221.91751834810182,
+            "saturation": 0.75,
+            "luminosity": 0.8
+          },
+          "baseName": "Simplenote Blue",
+          "index": 50
+        }
+      },
+      {
+        "name": "Simplenote Blue 60",
+        "value": "#1e50c7",
+        "_meta": {
+          "_debug": {
+            "hue": 222.2695568447872,
+            "saturation": 0.85,
+            "luminosity": 0.78
+          },
+          "baseName": "Simplenote Blue",
+          "index": 60
+        }
+      },
+      {
+        "name": "Simplenote Blue 70",
+        "value": "#113ead",
+        "_meta": {
+          "_debug": {
+            "hue": 222.68354729841087,
+            "saturation": 0.9,
+            "luminosity": 0.68
+          },
+          "baseName": "Simplenote Blue",
+          "index": 70
+        }
+      },
+      {
+        "name": "Simplenote Blue 80",
+        "value": "#0d2f85",
+        "_meta": {
+          "_debug": {
+            "hue": 223.1323984772352,
+            "saturation": 0.9,
+            "luminosity": 0.52
+          },
+          "baseName": "Simplenote Blue",
+          "index": 80
+        }
+      },
+      {
+        "name": "Simplenote Blue 90",
+        "value": "#09205c",
+        "_meta": {
+          "_debug": {
+            "hue": 223.58025937016671,
+            "saturation": 0.9,
+            "luminosity": 0.36
+          },
+          "baseName": "Simplenote Blue",
+          "index": 90
+        }
+      },
+      {
+        "name": "Simplenote Blue 100",
+        "value": "#05102e",
+        "_meta": {
+          "_debug": {
+            "hue": 224,
+            "saturation": 0.9,
+            "luminosity": 0.18
+          },
+          "baseName": "Simplenote Blue",
+          "index": 100
+        }
+      }
+    ],
+    [
+      {
         "name": "WooCommerce Purple",
         "value": "#7f54b3",
         "_meta": {

@@ -1180,6 +1180,118 @@
       "alpha": 0
     },
     {
+      "name": "Simplenote Blue 0",
+      "red": 0.9137254901960784,
+      "green": 0.9254901960784314,
+      "blue": 0.9607843137254902,
+      "alpha": 1
+    },
+    {
+      "name": "Simplenote Blue 5",
+      "red": 0.807843137254902,
+      "green": 0.8509803921568627,
+      "blue": 0.9490196078431372,
+      "alpha": 1
+    },
+    {
+      "name": "Simplenote Blue 10",
+      "red": 0.6470588235294118,
+      "green": 0.7411764705882353,
+      "blue": 0.9490196078431372,
+      "alpha": 1
+    },
+    {
+      "name": "Simplenote Blue 20",
+      "red": 0.4980392156862745,
+      "green": 0.6274509803921569,
+      "blue": 0.9215686274509803,
+      "alpha": 1
+    },
+    {
+      "name": "Simplenote Blue 30",
+      "red": 0.34901960784313724,
+      "green": 0.5254901960784314,
+      "blue": 0.9215686274509803,
+      "alpha": 1
+    },
+    {
+      "name": "Simplenote Blue 40",
+      "red": 0.26666666666666666,
+      "green": 0.4588235294117647,
+      "blue": 0.8901960784313725,
+      "alpha": 1
+    },
+    {
+      "name": " ",
+      "red": 1,
+      "green": 1,
+      "blue": 1,
+      "alpha": 0
+    },
+    {
+      "name": " ",
+      "red": 1,
+      "green": 1,
+      "blue": 1,
+      "alpha": 0
+    },
+    {
+      "name": "Simplenote Blue 50",
+      "red": 0.2,
+      "green": 0.3803921568627451,
+      "blue": 0.8,
+      "alpha": 1
+    },
+    {
+      "name": "Simplenote Blue 60",
+      "red": 0.11764705882352941,
+      "green": 0.3137254901960784,
+      "blue": 0.7803921568627451,
+      "alpha": 1
+    },
+    {
+      "name": "Simplenote Blue 70",
+      "red": 0.06666666666666667,
+      "green": 0.24313725490196078,
+      "blue": 0.6784313725490196,
+      "alpha": 1
+    },
+    {
+      "name": "Simplenote Blue 80",
+      "red": 0.050980392156862744,
+      "green": 0.1843137254901961,
+      "blue": 0.5215686274509804,
+      "alpha": 1
+    },
+    {
+      "name": "Simplenote Blue 90",
+      "red": 0.03529411764705882,
+      "green": 0.12549019607843137,
+      "blue": 0.3607843137254902,
+      "alpha": 1
+    },
+    {
+      "name": "Simplenote Blue 100",
+      "red": 0.0196078431372549,
+      "green": 0.06274509803921569,
+      "blue": 0.1803921568627451,
+      "alpha": 1
+    },
+    {
+      "name": " ",
+      "red": 1,
+      "green": 1,
+      "blue": 1,
+      "alpha": 0
+    },
+    {
+      "name": " ",
+      "red": 1,
+      "green": 1,
+      "blue": 1,
+      "alpha": 0
+    },
+    {
       "name": "WooCommerce Purple 0",
       "red": 0.9686274509803922,
       "green": 0.9294117647058824,
