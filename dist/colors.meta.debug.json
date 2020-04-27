@@ -1702,7 +1702,7 @@
         "value": "#e9ecf5",
         "_meta": {
           "_debug": {
-            "hue": 221,
+            "hue": 222,
             "saturation": 0.05,
             "luminosity": 0.96
           },
@@ -1715,7 +1715,7 @@
         "value": "#ced9f2",
         "_meta": {
           "_debug": {
-            "hue": 221.0545713830352,
+            "hue": 222,
             "saturation": 0.15,
             "luminosity": 0.95
           },
@@ -1725,12 +1725,12 @@
       },
       {
         "name": "Simplenote Blue 10",
-        "value": "#a5bdf2",
+        "value": "#abc1f5",
         "_meta": {
           "_debug": {
-            "hue": 221.13771198735145,
-            "saturation": 0.32,
-            "luminosity": 0.95
+            "hue": 222,
+            "saturation": 0.3,
+            "luminosity": 0.96
           },
           "baseName": "Simplenote Blue",
           "index": 10
@@ -1738,12 +1738,12 @@
       },
       {
         "name": "Simplenote Blue 20",
-        "value": "#7fa0eb",
+        "value": "#84a4f0",
         "_meta": {
           "_debug": {
-            "hue": 221.2562288320007,
-            "saturation": 0.46,
-            "luminosity": 0.92
+            "hue": 222,
+            "saturation": 0.45,
+            "luminosity": 0.94
           },
           "baseName": "Simplenote Blue",
           "index": 20
@@ -1751,12 +1751,12 @@
       },
       {
         "name": "Simplenote Blue 30",
-        "value": "#5986eb",
+        "value": "#618df2",
         "_meta": {
           "_debug": {
-            "hue": 221.41878315260843,
-            "saturation": 0.62,
-            "luminosity": 0.92
+            "hue": 222,
+            "saturation": 0.6,
+            "luminosity": 0.95
           },
           "baseName": "Simplenote Blue",
           "index": 30
@@ -1764,12 +1764,12 @@
       },
       {
         "name": "Simplenote Blue 40",
-        "value": "#4475e3",
+        "value": "#4678eb",
         "_meta": {
           "_debug": {
-            "hue": 221.63574058642024,
+            "hue": 222,
             "saturation": 0.7,
-            "luminosity": 0.89
+            "luminosity": 0.92
           },
           "baseName": "Simplenote Blue",
           "index": 40
@@ -1780,7 +1780,7 @@
         "value": "#3361cc",
         "_meta": {
           "_debug": {
-            "hue": 221.91751834810182,
+            "hue": 222,
             "saturation": 0.75,
             "luminosity": 0.8
           },
@@ -1790,12 +1790,12 @@
       },
       {
         "name": "Simplenote Blue 60",
-        "value": "#1e50c7",
+        "value": "#1d4fc4",
         "_meta": {
           "_debug": {
-            "hue": 222.2695568447872,
+            "hue": 222.3,
             "saturation": 0.85,
-            "luminosity": 0.78
+            "luminosity": 0.77
           },
           "baseName": "Simplenote Blue",
           "index": 60
@@ -1806,7 +1806,7 @@
         "value": "#113ead",
         "_meta": {
           "_debug": {
-            "hue": 222.68354729841087,
+            "hue": 222.7,
             "saturation": 0.9,
             "luminosity": 0.68
           },
@@ -1819,7 +1819,7 @@
         "value": "#0d2f85",
         "_meta": {
           "_debug": {
-            "hue": 223.1323984772352,
+            "hue": 223.1,
             "saturation": 0.9,
             "luminosity": 0.52
           },
@@ -1832,7 +1832,7 @@
         "value": "#09205c",
         "_meta": {
           "_debug": {
-            "hue": 223.58025937016671,
+            "hue": 223.6,
             "saturation": 0.9,
             "luminosity": 0.36
           },
