@@ -1,5 +1,5 @@
 {
-  "version": "2.3.0",
+  "version": "2.2.1",
   "colors": [
     [
       {
@@ -31,11 +31,6 @@
         "name": "Gray 0",
         "value": "#f6f7f7",
         "_meta": {
-          "_debug": {
-            "hue": 220,
-            "saturation": 0.005,
-            "luminosity": 0.97
-          },
           "baseName": "Gray",
           "index": 0
         }
@@ -44,11 +39,6 @@
         "name": "Gray 5",
         "value": "#dcdcde",
         "_meta": {
-          "_debug": {
-            "hue": 219.63619077976534,
-            "saturation": 0.01,
-            "luminosity": 0.87
-          },
           "baseName": "Gray",
           "index": 5
         }
@@ -57,11 +47,6 @@
         "name": "Gray 10",
         "value": "#c3c4c7",
         "_meta": {
-          "_debug": {
-            "hue": 219.08192008432374,
-            "saturation": 0.02,
-            "luminosity": 0.78
-          },
           "baseName": "Gray",
           "index": 10
         }
@@ -70,24 +55,14 @@
         "name": "Gray 20",
         "value": "#a7aaad",
         "_meta": {
-          "_debug": {
-            "hue": 218.29180778666216,
-            "saturation": 0.035,
-            "luminosity": 0.68
-          },
           "baseName": "Gray",
           "index": 20
         }
       },
       {
         "name": "Gray 30",
-        "value": "#8c8f94",
+        "value": "#8e9196",
         "_meta": {
-          "_debug": {
-            "hue": 217.20811231594385,
-            "saturation": 0.055,
-            "luminosity": 0.58
-          },
           "baseName": "Gray",
           "index": 30
         }
@@ -96,11 +71,6 @@
         "name": "Gray 40",
         "value": "#787c82",
         "_meta": {
-          "_debug": {
-            "hue": 215.76172942386512,
-            "saturation": 0.08,
-            "luminosity": 0.51
-          },
           "baseName": "Gray",
           "index": 40
         }
@@ -109,11 +79,6 @@
         "name": "Gray 50",
         "value": "#646970",
         "_meta": {
-          "_debug": {
-            "hue": 213.88321101265444,
-            "saturation": 0.11,
-            "luminosity": 0.44
-          },
           "baseName": "Gray",
           "index": 50
         }
@@ -122,11 +87,6 @@
         "name": "Gray 60",
         "value": "#50575e",
         "_meta": {
-          "_debug": {
-            "hue": 211.53628770141867,
-            "saturation": 0.15,
-            "luminosity": 0.37
-          },
           "baseName": "Gray",
           "index": 60
         }
@@ -135,11 +95,6 @@
         "name": "Gray 70",
         "value": "#3c434a",
         "_meta": {
-          "_debug": {
-            "hue": 208.77635134392753,
-            "saturation": 0.19,
-            "luminosity": 0.29
-          },
           "baseName": "Gray",
           "index": 70
         }
@@ -148,11 +103,6 @@
         "name": "Gray 80",
         "value": "#2c3338",
         "_meta": {
-          "_debug": {
-            "hue": 205.78401015176536,
-            "saturation": 0.225,
-            "luminosity": 0.221
-          },
           "baseName": "Gray",
           "index": 80
         }
@@ -161,11 +111,6 @@
         "name": "Gray 90",
         "value": "#1d2327",
         "_meta": {
-          "_debug": {
-            "hue": 202.79827086555525,
-            "saturation": 0.265,
-            "luminosity": 0.153
-          },
           "baseName": "Gray",
           "index": 90
         }
@@ -174,11 +119,6 @@
         "name": "Gray 100",
         "value": "#101517",
         "_meta": {
-          "_debug": {
-            "hue": 200,
-            "saturation": 0.3,
-            "luminosity": 0.09
-          },
           "baseName": "Gray",
           "index": 100
         }
@@ -198,11 +138,6 @@
         "name": "Blue 0",
         "value": "#e9eff5",
         "_meta": {
-          "_debug": {
-            "hue": 210,
-            "saturation": 0.05,
-            "luminosity": 0.96
-          },
           "baseName": "Blue",
           "index": 0
         }
@@ -211,11 +146,6 @@
         "name": "Blue 5",
         "value": "#c5d9ed",
         "_meta": {
-          "_debug": {
-            "hue": 209.81809538988267,
-            "saturation": 0.17,
-            "luminosity": 0.93
-          },
           "baseName": "Blue",
           "index": 5
         }
@@ -224,11 +154,6 @@
         "name": "Blue 10",
         "value": "#9ec2e6",
         "_meta": {
-          "_debug": {
-            "hue": 209.54096004216186,
-            "saturation": 0.31,
-            "luminosity": 0.9
-          },
           "baseName": "Blue",
           "index": 10
         }
@@ -237,11 +162,6 @@
         "name": "Blue 20",
         "value": "#72aee6",
         "_meta": {
-          "_debug": {
-            "hue": 209.14590389333108,
-            "saturation": 0.502,
-            "luminosity": 0.9
-          },
           "baseName": "Blue",
           "index": 20
         }
@@ -250,11 +170,6 @@
         "name": "Blue 30",
         "value": "#5198d9",
         "_meta": {
-          "_debug": {
-            "hue": 208.60405615797194,
-            "saturation": 0.626,
-            "luminosity": 0.85
-          },
           "baseName": "Blue",
           "index": 30
         }
@@ -263,11 +178,6 @@
         "name": "Blue 40",
         "value": "#3582c4",
         "_meta": {
-          "_debug": {
-            "hue": 207.88086471193256,
-            "saturation": 0.728,
-            "luminosity": 0.77
-          },
           "baseName": "Blue",
           "index": 40
         }
@@ -276,11 +186,6 @@
         "name": "Blue 50",
         "value": "#2271b1",
         "_meta": {
-          "_debug": {
-            "hue": 206.94160550632722,
-            "saturation": 0.809,
-            "luminosity": 0.695
-          },
           "baseName": "Blue",
           "index": 50
         }
@@ -289,11 +194,6 @@
         "name": "Blue 60",
         "value": "#135e96",
         "_meta": {
-          "_debug": {
-            "hue": 205.76814385070935,
-            "saturation": 0.872,
-            "luminosity": 0.59
-          },
           "baseName": "Blue",
           "index": 60
         }
@@ -302,11 +202,6 @@
         "name": "Blue 70",
         "value": "#0a4b78",
         "_meta": {
-          "_debug": {
-            "hue": 204.38817567196375,
-            "saturation": 0.92,
-            "luminosity": 0.47
-          },
           "baseName": "Blue",
           "index": 70
         }
@@ -315,11 +210,6 @@
         "name": "Blue 80",
         "value": "#043959",
         "_meta": {
-          "_debug": {
-            "hue": 202.89200507588268,
-            "saturation": 0.953,
-            "luminosity": 0.35
-          },
           "baseName": "Blue",
           "index": 80
         }
@@ -328,11 +218,6 @@
         "name": "Blue 90",
         "value": "#01263a",
         "_meta": {
-          "_debug": {
-            "hue": 201.39913543277763,
-            "saturation": 0.976,
-            "luminosity": 0.226
-          },
           "baseName": "Blue",
           "index": 90
         }
@@ -341,11 +226,6 @@
         "name": "Blue 100",
         "value": "#00131c",
         "_meta": {
-          "_debug": {
-            "hue": 200,
-            "saturation": 0.99,
-            "luminosity": 0.11
-          },
           "baseName": "Blue",
           "index": 100
         }
@@ -365,11 +245,6 @@
         "name": "Purple 0",
         "value": "#f2e9ed",
         "_meta": {
-          "_debug": {
-            "hue": 330,
-            "saturation": 0.04,
-            "luminosity": 0.95
-          },
           "baseName": "Purple",
           "index": 0
         }
@@ -378,11 +253,6 @@
         "name": "Purple 5",
         "value": "#ebcee0",
         "_meta": {
-          "_debug": {
-            "hue": 323.19299772190595,
-            "saturation": 0.12,
-            "luminosity": 0.92
-          },
           "baseName": "Purple",
           "index": 5
         }
@@ -391,11 +261,6 @@
         "name": "Purple 10",
         "value": "#e3afd5",
         "_meta": {
-          "_debug": {
-            "hue": 316.5062701822839,
-            "saturation": 0.23,
-            "luminosity": 0.89
-          },
           "baseName": "Purple",
           "index": 10
         }
@@ -404,11 +269,6 @@
         "name": "Purple 20",
         "value": "#d48fc8",
         "_meta": {
-          "_debug": {
-            "hue": 310.4186601394981,
-            "saturation": 0.326,
-            "luminosity": 0.83
-          },
           "baseName": "Purple",
           "index": 20
         }
@@ -417,11 +277,6 @@
         "name": "Purple 30",
         "value": "#c475bd",
         "_meta": {
-          "_debug": {
-            "hue": 305.2098986193842,
-            "saturation": 0.406,
-            "luminosity": 0.77
-          },
           "baseName": "Purple",
           "index": 30
         }
@@ -430,11 +285,6 @@
         "name": "Purple 40",
         "value": "#b35eb1",
         "_meta": {
-          "_debug": {
-            "hue": 300.94409978749536,
-            "saturation": 0.47200000000000003,
-            "luminosity": 0.7
-          },
           "baseName": "Purple",
           "index": 40
         }
@@ -443,11 +293,6 @@
         "name": "Purple 50",
         "value": "#984a9c",
         "_meta": {
-          "_debug": {
-            "hue": 297.5563183704377,
-            "saturation": 0.524,
-            "luminosity": 0.61
-          },
           "baseName": "Purple",
           "index": 50
         }
@@ -456,11 +301,6 @@
         "name": "Purple 60",
         "value": "#7c3982",
         "_meta": {
-          "_debug": {
-            "hue": 294.93417865866263,
-            "saturation": 0.564,
-            "luminosity": 0.51
-          },
           "baseName": "Purple",
           "index": 60
         }
@@ -469,11 +309,6 @@
         "name": "Purple 70",
         "value": "#662c6e",
         "_meta": {
-          "_debug": {
-            "hue": 292.96178683746626,
-            "saturation": 0.595,
-            "luminosity": 0.43
-          },
           "baseName": "Purple",
           "index": 70
         }
@@ -482,11 +317,6 @@
         "name": "Purple 80",
         "value": "#4d2054",
         "_meta": {
-          "_debug": {
-            "hue": 291.5364739368327,
-            "saturation": 0.616,
-            "luminosity": 0.33
-          },
           "baseName": "Purple",
           "index": 80
         }
@@ -495,11 +325,6 @@
         "name": "Purple 90",
         "value": "#35163b",
         "_meta": {
-          "_debug": {
-            "hue": 290.57252691145527,
-            "saturation": 0.63,
-            "luminosity": 0.23
-          },
           "baseName": "Purple",
           "index": 90
         }
@@ -508,11 +333,6 @@
         "name": "Purple 100",
         "value": "#1e0c21",
         "_meta": {
-          "_debug": {
-            "hue": 290,
-            "saturation": 0.64,
-            "luminosity": 0.13
-          },
           "baseName": "Purple",
           "index": 100
         }
@@ -532,11 +352,6 @@
         "name": "Pink 0",
         "value": "#f5e9ed",
         "_meta": {
-          "_debug": {
-            "hue": 340,
-            "saturation": 0.05,
-            "luminosity": 0.96
-          },
           "baseName": "Pink",
           "index": 0
         }
@@ -545,11 +360,6 @@
         "name": "Pink 5",
         "value": "#f2ceda",
         "_meta": {
-          "_debug": {
-            "hue": 339.81809538988267,
-            "saturation": 0.15,
-            "luminosity": 0.95
-          },
           "baseName": "Pink",
           "index": 5
         }
@@ -558,11 +368,6 @@
         "name": "Pink 10",
         "value": "#f7a8c3",
         "_meta": {
-          "_debug": {
-            "hue": 339.5409600421619,
-            "saturation": 0.32,
-            "luminosity": 0.97
-          },
           "baseName": "Pink",
           "index": 10
         }
@@ -571,11 +376,6 @@
         "name": "Pink 20",
         "value": "#f283aa",
         "_meta": {
-          "_debug": {
-            "hue": 339.1459038933311,
-            "saturation": 0.45899999999999996,
-            "luminosity": 0.95
-          },
           "baseName": "Pink",
           "index": 20
         }
@@ -584,11 +384,6 @@
         "name": "Pink 30",
         "value": "#eb6594",
         "_meta": {
-          "_debug": {
-            "hue": 338.6040561579719,
-            "saturation": 0.5710000000000001,
-            "luminosity": 0.92
-          },
           "baseName": "Pink",
           "index": 30
         }
@@ -597,11 +392,6 @@
         "name": "Pink 40",
         "value": "#e34c84",
         "_meta": {
-          "_debug": {
-            "hue": 337.88086471193253,
-            "saturation": 0.664,
-            "luminosity": 0.89
-          },
           "baseName": "Pink",
           "index": 40
         }
@@ -610,11 +400,6 @@
         "name": "Pink 50",
         "value": "#c9356e",
         "_meta": {
-          "_debug": {
-            "hue": 336.9416055063272,
-            "saturation": 0.737,
-            "luminosity": 0.79
-          },
           "baseName": "Pink",
           "index": 50
         }
@@ -623,11 +408,6 @@
         "name": "Pink 60",
         "value": "#ab235a",
         "_meta": {
-          "_debug": {
-            "hue": 335.76814385070935,
-            "saturation": 0.7929999999999999,
-            "luminosity": 0.67
-          },
           "baseName": "Pink",
           "index": 60
         }
@@ -636,11 +416,6 @@
         "name": "Pink 70",
         "value": "#8c1749",
         "_meta": {
-          "_debug": {
-            "hue": 334.3881756719638,
-            "saturation": 0.836,
-            "luminosity": 0.55
-          },
           "baseName": "Pink",
           "index": 70
         }
@@ -649,11 +424,6 @@
         "name": "Pink 80",
         "value": "#700f3b",
         "_meta": {
-          "_debug": {
-            "hue": 332.89200507588265,
-            "saturation": 0.867,
-            "luminosity": 0.44
-          },
           "baseName": "Pink",
           "index": 80
         }
@@ -662,11 +432,6 @@
         "name": "Pink 90",
         "value": "#4f092a",
         "_meta": {
-          "_debug": {
-            "hue": 331.39913543277765,
-            "saturation": 0.888,
-            "luminosity": 0.31
-          },
           "baseName": "Pink",
           "index": 90
         }
@@ -675,11 +440,6 @@
         "name": "Pink 100",
         "value": "#260415",
         "_meta": {
-          "_debug": {
-            "hue": 330,
-            "saturation": 0.9,
-            "luminosity": 0.15
-          },
           "baseName": "Pink",
           "index": 100
         }
@@ -699,11 +459,6 @@
         "name": "Red 0",
         "value": "#f7ebec",
         "_meta": {
-          "_debug": {
-            "hue": 355,
-            "saturation": 0.05,
-            "luminosity": 0.97
-          },
           "baseName": "Red",
           "index": 0
         }
@@ -712,11 +467,6 @@
         "name": "Red 5",
         "value": "#facfd2",
         "_meta": {
-          "_debug": {
-            "hue": 355.85087528476174,
-            "saturation": 0.17,
-            "luminosity": 0.98
-          },
           "baseName": "Red",
           "index": 5
         }
@@ -725,11 +475,6 @@
         "name": "Red 10",
         "value": "#ffabaf",
         "_meta": {
-          "_debug": {
-            "hue": 356.6867162272145,
-            "saturation": 0.33,
-            "luminosity": 1
-          },
           "baseName": "Red",
           "index": 10
         }
@@ -738,11 +483,6 @@
         "name": "Red 20",
         "value": "#ff8085",
         "_meta": {
-          "_debug": {
-            "hue": 357.44766748256274,
-            "saturation": 0.5,
-            "luminosity": 1
-          },
           "baseName": "Red",
           "index": 20
         }
@@ -751,11 +491,6 @@
         "name": "Red 30",
         "value": "#f86368",
         "_meta": {
-          "_debug": {
-            "hue": 358.098762672577,
-            "saturation": 0.6,
-            "luminosity": 0.9740000000000001
-          },
           "baseName": "Red",
           "index": 30
         }
@@ -764,11 +499,6 @@
         "name": "Red 40",
         "value": "#e65054",
         "_meta": {
-          "_debug": {
-            "hue": 358.6319875265631,
-            "saturation": 0.65,
-            "luminosity": 0.9
-          },
           "baseName": "Red",
           "index": 40
         }
@@ -777,11 +507,6 @@
         "name": "Red 50",
         "value": "#d63638",
         "_meta": {
-          "_debug": {
-            "hue": 359.0554602036953,
-            "saturation": 0.75,
-            "luminosity": 0.84
-          },
           "baseName": "Red",
           "index": 50
         }
@@ -790,11 +515,6 @@
         "name": "Red 60",
         "value": "#b32d2e",
         "_meta": {
-          "_debug": {
-            "hue": 359.3832276676672,
-            "saturation": 0.75,
-            "luminosity": 0.7
-          },
           "baseName": "Red",
           "index": 60
         }
@@ -803,11 +523,6 @@
         "name": "Red 70",
         "value": "#8a2424",
         "_meta": {
-          "_debug": {
-            "hue": 359.6297766453167,
-            "saturation": 0.74,
-            "luminosity": 0.54
-          },
           "baseName": "Red",
           "index": 70
         }
@@ -816,11 +531,6 @@
         "name": "Red 80",
         "value": "#691c1c",
         "_meta": {
-          "_debug": {
-            "hue": 359.8079407578959,
-            "saturation": 0.73,
-            "luminosity": 0.41
-          },
           "baseName": "Red",
           "index": 80
         }
@@ -829,11 +539,6 @@
         "name": "Red 90",
         "value": "#451313",
         "_meta": {
-          "_debug": {
-            "hue": 359.92843413606806,
-            "saturation": 0.73,
-            "luminosity": 0.27
-          },
           "baseName": "Red",
           "index": 90
         }
@@ -842,11 +547,6 @@
         "name": "Red 100",
         "value": "#240a0a",
         "_meta": {
-          "_debug": {
-            "hue": 0,
-            "saturation": 0.73,
-            "luminosity": 0.14
-          },
           "baseName": "Red",
           "index": 100
         }
@@ -866,11 +566,6 @@
         "name": "Orange 0",
         "value": "#f5ece6",
         "_meta": {
-          "_debug": {
-            "hue": 25,
-            "saturation": 0.06,
-            "luminosity": 0.96
-          },
           "baseName": "Orange",
           "index": 0
         }
@@ -879,11 +574,6 @@
         "name": "Orange 5",
         "value": "#f7dcc6",
         "_meta": {
-          "_debug": {
-            "hue": 26.70175056952351,
-            "saturation": 0.2,
-            "luminosity": 0.97
-          },
           "baseName": "Orange",
           "index": 5
         }
@@ -892,11 +582,6 @@
         "name": "Orange 10",
         "value": "#ffbf86",
         "_meta": {
-          "_debug": {
-            "hue": 28.37343245442903,
-            "saturation": 0.473,
-            "luminosity": 1
-          },
           "baseName": "Orange",
           "index": 10
         }
@@ -905,11 +590,6 @@
         "name": "Orange 20",
         "value": "#faa754",
         "_meta": {
-          "_debug": {
-            "hue": 29.89533496512547,
-            "saturation": 0.6629999999999999,
-            "luminosity": 0.98
-          },
           "baseName": "Orange",
           "index": 20
         }
@@ -918,11 +598,6 @@
         "name": "Orange 30",
         "value": "#e68b28",
         "_meta": {
-          "_debug": {
-            "hue": 31.19752534515395,
-            "saturation": 0.826,
-            "luminosity": 0.9
-          },
           "baseName": "Orange",
           "index": 30
         }
@@ -931,11 +606,6 @@
         "name": "Orange 40",
         "value": "#d67709",
         "_meta": {
-          "_debug": {
-            "hue": 32.26397505312616,
-            "saturation": 0.96,
-            "luminosity": 0.84
-          },
           "baseName": "Orange",
           "index": 40
         }
@@ -944,11 +614,6 @@
         "name": "Orange 50",
         "value": "#b26200",
         "_meta": {
-          "_debug": {
-            "hue": 33.11092040739058,
-            "saturation": 1,
-            "luminosity": 0.6990000000000001
-          },
           "baseName": "Orange",
           "index": 50
         }
@@ -957,11 +622,6 @@
         "name": "Orange 60",
         "value": "#8a4d00",
         "_meta": {
-          "_debug": {
-            "hue": 33.76645533533434,
-            "saturation": 1,
-            "luminosity": 0.54
-          },
           "baseName": "Orange",
           "index": 60
         }
@@ -970,11 +630,6 @@
         "name": "Orange 70",
         "value": "#704000",
         "_meta": {
-          "_debug": {
-            "hue": 34.25955329063343,
-            "saturation": 1,
-            "luminosity": 0.44
-          },
           "baseName": "Orange",
           "index": 70
         }
@@ -983,11 +638,6 @@
         "name": "Orange 80",
         "value": "#543100",
         "_meta": {
-          "_debug": {
-            "hue": 34.61588151579182,
-            "saturation": 1,
-            "luminosity": 0.33
-          },
           "baseName": "Orange",
           "index": 80
         }
@@ -996,11 +646,6 @@
         "name": "Orange 90",
         "value": "#361f00",
         "_meta": {
-          "_debug": {
-            "hue": 34.856868272136175,
-            "saturation": 1,
-            "luminosity": 0.21
-          },
           "baseName": "Orange",
           "index": 90
         }
@@ -1009,11 +654,6 @@
         "name": "Orange 100",
         "value": "#1f1200",
         "_meta": {
-          "_debug": {
-            "hue": 35,
-            "saturation": 1,
-            "luminosity": 0.12
-          },
           "baseName": "Orange",
           "index": 100
         }
@@ -1022,7 +662,7 @@
     [
       {
         "name": "Yellow",
-        "value": "#9d6e00",
+        "value": "#907300",
         "_meta": {
           "alias": true,
           "baseName": "Yellow",
@@ -1031,156 +671,96 @@
       },
       {
         "name": "Yellow 0",
-        "value": "#f5f1e1",
+        "value": "#f5efe4",
         "_meta": {
-          "_debug": {
-            "hue": 47,
-            "saturation": 0.08,
-            "luminosity": 0.96
-          },
           "baseName": "Yellow",
           "index": 0
         }
       },
       {
         "name": "Yellow 5",
-        "value": "#f5e6b3",
+        "value": "#f5e1b3",
         "_meta": {
-          "_debug": {
-            "hue": 47,
-            "saturation": 0.27,
-            "luminosity": 0.96
-          },
           "baseName": "Yellow",
           "index": 5
         }
       },
       {
         "name": "Yellow 10",
-        "value": "#f2d76b",
+        "value": "#f2cf75",
         "_meta": {
-          "_debug": {
-            "hue": 48,
-            "saturation": 0.56,
-            "luminosity": 0.95
-          },
           "baseName": "Yellow",
           "index": 10
         }
       },
       {
         "name": "Yellow 20",
-        "value": "#f0c930",
+        "value": "#f0c443",
         "_meta": {
-          "_debug": {
-            "hue": 48,
-            "saturation": 0.8,
-            "luminosity": 0.94
-          },
           "baseName": "Yellow",
           "index": 20
         }
       },
       {
         "name": "Yellow 30",
-        "value": "#deb100",
+        "value": "#dbae17",
         "_meta": {
-          "_debug": {
-            "hue": 48,
-            "saturation": 1,
-            "luminosity": 0.87
-          },
           "baseName": "Yellow",
           "index": 30
         }
       },
       {
         "name": "Yellow 40",
-        "value": "#c08c00",
+        "value": "#b69000",
         "_meta": {
-          "_debug": {
-            "hue": 44,
-            "saturation": 1,
-            "luminosity": 0.7509999999999999
-          },
           "baseName": "Yellow",
           "index": 40
         }
       },
       {
         "name": "Yellow 50",
-        "value": "#9d6e00",
+        "value": "#907300",
         "_meta": {
-          "_debug": {
-            "hue": 42,
-            "saturation": 1,
-            "luminosity": 0.616
-          },
           "baseName": "Yellow",
           "index": 50
         }
       },
       {
         "name": "Yellow 60",
-        "value": "#7d5600",
+        "value": "#705b00",
         "_meta": {
-          "_debug": {
-            "hue": 41.2,
-            "saturation": 1,
-            "luminosity": 0.49
-          },
           "baseName": "Yellow",
           "index": 60
         }
       },
       {
         "name": "Yellow 70",
-        "value": "#674600",
+        "value": "#5c4b00",
         "_meta": {
-          "_debug": {
-            "hue": 40.7,
-            "saturation": 1,
-            "luminosity": 0.405
-          },
           "baseName": "Yellow",
           "index": 70
         }
       },
       {
         "name": "Yellow 80",
-        "value": "#4f3500",
+        "value": "#453900",
         "_meta": {
-          "_debug": {
-            "hue": 40.3,
-            "saturation": 1,
-            "luminosity": 0.31
-          },
           "baseName": "Yellow",
           "index": 80
         }
       },
       {
         "name": "Yellow 90",
-        "value": "#320",
+        "value": "#302800",
         "_meta": {
-          "_debug": {
-            "hue": 40,
-            "saturation": 1,
-            "luminosity": 0.2
-          },
           "baseName": "Yellow",
           "index": 90
         }
       },
       {
         "name": "Yellow 100",
-        "value": "#1c1300",
+        "value": "#1c1700",
         "_meta": {
-          "_debug": {
-            "hue": 40,
-            "saturation": 1,
-            "luminosity": 0.11
-          },
           "baseName": "Yellow",
           "index": 100
         }
@@ -1200,11 +780,6 @@
         "name": "Green 0",
         "value": "#e6f2e8",
         "_meta": {
-          "_debug": {
-            "hue": 130,
-            "saturation": 0.05,
-            "luminosity": 0.95
-          },
           "baseName": "Green",
           "index": 0
         }
@@ -1213,11 +788,6 @@
         "name": "Green 5",
         "value": "#b8e6bf",
         "_meta": {
-          "_debug": {
-            "hue": 130,
-            "saturation": 0.2,
-            "luminosity": 0.9
-          },
           "baseName": "Green",
           "index": 5
         }
@@ -1226,11 +796,6 @@
         "name": "Green 10",
         "value": "#68de86",
         "_meta": {
-          "_debug": {
-            "hue": 135,
-            "saturation": 0.53,
-            "luminosity": 0.87
-          },
           "baseName": "Green",
           "index": 10
         }
@@ -1239,11 +804,6 @@
         "name": "Green 20",
         "value": "#1ed15a",
         "_meta": {
-          "_debug": {
-            "hue": 140.2,
-            "saturation": 0.858,
-            "luminosity": 0.82
-          },
           "baseName": "Green",
           "index": 20
         }
@@ -1252,11 +812,6 @@
         "name": "Green 30",
         "value": "#00ba37",
         "_meta": {
-          "_debug": {
-            "hue": 137.6,
-            "saturation": 1,
-            "luminosity": 0.73
-          },
           "baseName": "Green",
           "index": 30
         }
@@ -1265,11 +820,6 @@
         "name": "Green 40",
         "value": "#00a32a",
         "_meta": {
-          "_debug": {
-            "hue": 135.5,
-            "saturation": 1,
-            "luminosity": 0.64
-          },
           "baseName": "Green",
           "index": 40
         }
@@ -1278,11 +828,6 @@
         "name": "Green 50",
         "value": "#008a20",
         "_meta": {
-          "_debug": {
-            "hue": 133.8,
-            "saturation": 1,
-            "luminosity": 0.54
-          },
           "baseName": "Green",
           "index": 50
         }
@@ -1291,11 +836,6 @@
         "name": "Green 60",
         "value": "#007017",
         "_meta": {
-          "_debug": {
-            "hue": 132.5,
-            "saturation": 1,
-            "luminosity": 0.44
-          },
           "baseName": "Green",
           "index": 60
         }
@@ -1304,11 +844,6 @@
         "name": "Green 70",
         "value": "#005c12",
         "_meta": {
-          "_debug": {
-            "hue": 131.5,
-            "saturation": 1,
-            "luminosity": 0.36
-          },
           "baseName": "Green",
           "index": 70
         }
@@ -1317,11 +852,6 @@
         "name": "Green 80",
         "value": "#00450c",
         "_meta": {
-          "_debug": {
-            "hue": 130.8,
-            "saturation": 1,
-            "luminosity": 0.27
-          },
           "baseName": "Green",
           "index": 80
         }
@@ -1330,11 +860,6 @@
         "name": "Green 90",
         "value": "#003008",
         "_meta": {
-          "_debug": {
-            "hue": 130.3,
-            "saturation": 1,
-            "luminosity": 0.19
-          },
           "baseName": "Green",
           "index": 90
         }
@@ -1343,11 +868,6 @@
         "name": "Green 100",
         "value": "#001c05",
         "_meta": {
-          "_debug": {
-            "hue": 130,
-            "saturation": 1,
-            "luminosity": 0.11
-          },
           "baseName": "Green",
           "index": 100
         }
@@ -1367,11 +887,6 @@
         "name": "Celadon 0",
         "value": "#e4f2ed",
         "_meta": {
-          "_debug": {
-            "hue": 160,
-            "saturation": 0.06,
-            "luminosity": 0.95
-          },
           "baseName": "Celadon",
           "index": 0
         }
@@ -1380,11 +895,6 @@
         "name": "Celadon 5",
         "value": "#a7e8d4",
         "_meta": {
-          "_debug": {
-            "hue": 161.7017505695235,
-            "saturation": 0.28,
-            "luminosity": 0.91
-          },
           "baseName": "Celadon",
           "index": 5
         }
@@ -1393,11 +903,6 @@
         "name": "Celadon 10",
         "value": "#63d6b6",
         "_meta": {
-          "_debug": {
-            "hue": 163.37343245442904,
-            "saturation": 0.536,
-            "luminosity": 0.84
-          },
           "baseName": "Celadon",
           "index": 10
         }
@@ -1406,11 +911,6 @@
         "name": "Celadon 20",
         "value": "#2ebd99",
         "_meta": {
-          "_debug": {
-            "hue": 164.89533496512547,
-            "saturation": 0.757,
-            "luminosity": 0.74
-          },
           "baseName": "Celadon",
           "index": 20
         }
@@ -1419,11 +919,6 @@
         "name": "Celadon 30",
         "value": "#09a884",
         "_meta": {
-          "_debug": {
-            "hue": 166.19752534515393,
-            "saturation": 0.9470000000000001,
-            "luminosity": 0.66
-          },
           "baseName": "Celadon",
           "index": 30
         }
@@ -1432,11 +927,6 @@
         "name": "Celadon 40",
         "value": "#009172",
         "_meta": {
-          "_debug": {
-            "hue": 167.26397505312616,
-            "saturation": 1,
-            "luminosity": 0.57
-          },
           "baseName": "Celadon",
           "index": 40
         }
@@ -1445,11 +935,6 @@
         "name": "Celadon 50",
         "value": "#007e65",
         "_meta": {
-          "_debug": {
-            "hue": 168.11092040739058,
-            "saturation": 1,
-            "luminosity": 0.495
-          },
           "baseName": "Celadon",
           "index": 50
         }
@@ -1458,11 +943,6 @@
         "name": "Celadon 60",
         "value": "#006753",
         "_meta": {
-          "_debug": {
-            "hue": 168.76645533533434,
-            "saturation": 1,
-            "luminosity": 0.402
-          },
           "baseName": "Celadon",
           "index": 60
         }
@@ -1471,11 +951,6 @@
         "name": "Celadon 70",
         "value": "#005042",
         "_meta": {
-          "_debug": {
-            "hue": 169.25955329063342,
-            "saturation": 1,
-            "luminosity": 0.314
-          },
           "baseName": "Celadon",
           "index": 70
         }
@@ -1484,11 +959,6 @@
         "name": "Celadon 80",
         "value": "#003b30",
         "_meta": {
-          "_debug": {
-            "hue": 169.6158815157918,
-            "saturation": 1,
-            "luminosity": 0.23
-          },
           "baseName": "Celadon",
           "index": 80
         }
@@ -1497,11 +967,6 @@
         "name": "Celadon 90",
         "value": "#002721",
         "_meta": {
-          "_debug": {
-            "hue": 169.85686827213618,
-            "saturation": 1,
-            "luminosity": 0.154
-          },
           "baseName": "Celadon",
           "index": 90
         }
@@ -1510,11 +975,6 @@
         "name": "Celadon 100",
         "value": "#001c17",
         "_meta": {
-          "_debug": {
-            "hue": 170,
-            "saturation": 1,
-            "luminosity": 0.11
-          },
           "baseName": "Celadon",
           "index": 100
         }
@@ -1534,11 +994,6 @@
         "name": "WordPress Blue 0",
         "value": "#e6f1f5",
         "_meta": {
-          "_debug": {
-            "hue": 197,
-            "saturation": 0.06,
-            "luminosity": 0.96
-          },
           "baseName": "WordPress Blue",
           "index": 0
         }
@@ -1547,11 +1002,6 @@
         "name": "WordPress Blue 5",
         "value": "#bedae6",
         "_meta": {
-          "_debug": {
-            "hue": 197.0383792525429,
-            "saturation": 0.17,
-            "luminosity": 0.9
-          },
           "baseName": "WordPress Blue",
           "index": 5
         }
@@ -1560,11 +1010,6 @@
         "name": "WordPress Blue 10",
         "value": "#98c6d9",
         "_meta": {
-          "_debug": {
-            "hue": 197.07833408443753,
-            "saturation": 0.3,
-            "luminosity": 0.85
-          },
           "baseName": "WordPress Blue",
           "index": 10
         }
@@ -1573,11 +1018,6 @@
         "name": "WordPress Blue 20",
         "value": "#6ab3d0",
         "_meta": {
-          "_debug": {
-            "hue": 197.1228613957824,
-            "saturation": 0.49,
-            "luminosity": 0.8140000000000001
-          },
           "baseName": "WordPress Blue",
           "index": 20
         }
@@ -1586,11 +1026,6 @@
         "name": "WordPress Blue 30",
         "value": "#3895ba",
         "_meta": {
-          "_debug": {
-            "hue": 197.1769835359806,
-            "saturation": 0.7,
-            "luminosity": 0.7304999999999999
-          },
           "baseName": "WordPress Blue",
           "index": 30
         }
@@ -1599,11 +1034,6 @@
         "name": "WordPress Blue 40",
         "value": "#187aa2",
         "_meta": {
-          "_debug": {
-            "hue": 197.24957955525684,
-            "saturation": 0.85,
-            "luminosity": 0.634
-          },
           "baseName": "WordPress Blue",
           "index": 40
         }
@@ -1612,11 +1042,6 @@
         "name": "WordPress Blue 50",
         "value": "#006088",
         "_meta": {
-          "_debug": {
-            "hue": 197.3576108412553,
-            "saturation": 1,
-            "luminosity": 0.532
-          },
           "baseName": "WordPress Blue",
           "index": 50
         }
@@ -1625,11 +1050,6 @@
         "name": "WordPress Blue 60",
         "value": "#004e6e",
         "_meta": {
-          "_debug": {
-            "hue": 197.5374411393355,
-            "saturation": 1,
-            "luminosity": 0.4307
-          },
           "baseName": "WordPress Blue",
           "index": 60
         }
@@ -1638,11 +1058,6 @@
         "name": "WordPress Blue 70",
         "value": "#003c56",
         "_meta": {
-          "_debug": {
-            "hue": 197.88255852421779,
-            "saturation": 1,
-            "luminosity": 0.336
-          },
           "baseName": "WordPress Blue",
           "index": 70
         }
@@ -1651,11 +1066,6 @@
         "name": "WordPress Blue 80",
         "value": "#002c40",
         "_meta": {
-          "_debug": {
-            "hue": 198.71656485401385,
-            "saturation": 1,
-            "luminosity": 0.2507
-          },
           "baseName": "WordPress Blue",
           "index": 80
         }
@@ -1664,11 +1074,6 @@
         "name": "WordPress Blue 90",
         "value": "#001d2d",
         "_meta": {
-          "_debug": {
-            "hue": 201.26707223795714,
-            "saturation": 1,
-            "luminosity": 0.175
-          },
           "baseName": "WordPress Blue",
           "index": 90
         }
@@ -1677,179 +1082,7 @@
         "name": "WordPress Blue 100",
         "value": "#00101c",
         "_meta": {
-          "_debug": {
-            "hue": 205,
-            "saturation": 1,
-            "luminosity": 0.11
-          },
           "baseName": "WordPress Blue",
-          "index": 100
-        }
-      }
-    ],
-    [
-      {
-        "name": "Simplenote Blue",
-        "value": "#3361cc",
-        "_meta": {
-          "alias": true,
-          "baseName": "Simplenote Blue",
-          "index": 50
-        }
-      },
-      {
-        "name": "Simplenote Blue 0",
-        "value": "#e9ecf5",
-        "_meta": {
-          "_debug": {
-            "hue": 222,
-            "saturation": 0.05,
-            "luminosity": 0.96
-          },
-          "baseName": "Simplenote Blue",
-          "index": 0
-        }
-      },
-      {
-        "name": "Simplenote Blue 5",
-        "value": "#ced9f2",
-        "_meta": {
-          "_debug": {
-            "hue": 222,
-            "saturation": 0.15,
-            "luminosity": 0.95
-          },
-          "baseName": "Simplenote Blue",
-          "index": 5
-        }
-      },
-      {
-        "name": "Simplenote Blue 10",
-        "value": "#abc1f5",
-        "_meta": {
-          "_debug": {
-            "hue": 222,
-            "saturation": 0.3,
-            "luminosity": 0.96
-          },
-          "baseName": "Simplenote Blue",
-          "index": 10
-        }
-      },
-      {
-        "name": "Simplenote Blue 20",
-        "value": "#84a4f0",
-        "_meta": {
-          "_debug": {
-            "hue": 222,
-            "saturation": 0.45,
-            "luminosity": 0.94
-          },
-          "baseName": "Simplenote Blue",
-          "index": 20
-        }
-      },
-      {
-        "name": "Simplenote Blue 30",
-        "value": "#618df2",
-        "_meta": {
-          "_debug": {
-            "hue": 222,
-            "saturation": 0.6,
-            "luminosity": 0.95
-          },
-          "baseName": "Simplenote Blue",
-          "index": 30
-        }
-      },
-      {
-        "name": "Simplenote Blue 40",
-        "value": "#4678eb",
-        "_meta": {
-          "_debug": {
-            "hue": 222,
-            "saturation": 0.7,
-            "luminosity": 0.92
-          },
-          "baseName": "Simplenote Blue",
-          "index": 40
-        }
-      },
-      {
-        "name": "Simplenote Blue 50",
-        "value": "#3361cc",
-        "_meta": {
-          "_debug": {
-            "hue": 222,
-            "saturation": 0.75,
-            "luminosity": 0.8
-          },
-          "baseName": "Simplenote Blue",
-          "index": 50
-        }
-      },
-      {
-        "name": "Simplenote Blue 60",
-        "value": "#1d4fc4",
-        "_meta": {
-          "_debug": {
-            "hue": 222.3,
-            "saturation": 0.85,
-            "luminosity": 0.77
-          },
-          "baseName": "Simplenote Blue",
-          "index": 60
-        }
-      },
-      {
-        "name": "Simplenote Blue 70",
-        "value": "#113ead",
-        "_meta": {
-          "_debug": {
-            "hue": 222.7,
-            "saturation": 0.9,
-            "luminosity": 0.68
-          },
-          "baseName": "Simplenote Blue",
-          "index": 70
-        }
-      },
-      {
-        "name": "Simplenote Blue 80",
-        "value": "#0d2f85",
-        "_meta": {
-          "_debug": {
-            "hue": 223.1,
-            "saturation": 0.9,
-            "luminosity": 0.52
-          },
-          "baseName": "Simplenote Blue",
-          "index": 80
-        }
-      },
-      {
-        "name": "Simplenote Blue 90",
-        "value": "#09205c",
-        "_meta": {
-          "_debug": {
-            "hue": 223.6,
-            "saturation": 0.9,
-            "luminosity": 0.36
-          },
-          "baseName": "Simplenote Blue",
-          "index": 90
-        }
-      },
-      {
-        "name": "Simplenote Blue 100",
-        "value": "#05102e",
-        "_meta": {
-          "_debug": {
-            "hue": 224,
-            "saturation": 0.9,
-            "luminosity": 0.18
-          },
-          "baseName": "Simplenote Blue",
           "index": 100
         }
       }
@@ -1868,11 +1101,6 @@
         "name": "WooCommerce Purple 0",
         "value": "#f7edf7",
         "_meta": {
-          "_debug": {
-            "hue": 300,
-            "saturation": 0.04,
-            "luminosity": 0.97
-          },
           "baseName": "WooCommerce Purple",
           "index": 0
         }
@@ -1881,11 +1109,6 @@
         "name": "WooCommerce Purple 5",
         "value": "#e5cfe8",
         "_meta": {
-          "_debug": {
-            "hue": 293.19299772190595,
-            "saturation": 0.11,
-            "luminosity": 0.91
-          },
           "baseName": "WooCommerce Purple",
           "index": 5
         }
@@ -1894,11 +1117,6 @@
         "name": "WooCommerce Purple 10",
         "value": "#d6b4e0",
         "_meta": {
-          "_debug": {
-            "hue": 286.5062701822839,
-            "saturation": 0.2,
-            "luminosity": 0.88
-          },
           "baseName": "WooCommerce Purple",
           "index": 10
         }
@@ -1907,11 +1125,6 @@
         "name": "WooCommerce Purple 20",
         "value": "#c792e0",
         "_meta": {
-          "_debug": {
-            "hue": 280.4186601394981,
-            "saturation": 0.35,
-            "luminosity": 0.88
-          },
           "baseName": "WooCommerce Purple",
           "index": 20
         }
@@ -1920,11 +1133,6 @@
         "name": "WooCommerce Purple 30",
         "value": "#af7dd1",
         "_meta": {
-          "_debug": {
-            "hue": 275.2098986193842,
-            "saturation": 0.4,
-            "luminosity": 0.82
-          },
           "baseName": "WooCommerce Purple",
           "index": 30
         }
@@ -1933,11 +1141,6 @@
         "name": "WooCommerce Purple 40",
         "value": "#9a69c7",
         "_meta": {
-          "_debug": {
-            "hue": 270.94409978749536,
-            "saturation": 0.47,
-            "luminosity": 0.78
-          },
           "baseName": "WooCommerce Purple",
           "index": 40
         }
@@ -1946,11 +1149,6 @@
         "name": "WooCommerce Purple 50",
         "value": "#7f54b3",
         "_meta": {
-          "_debug": {
-            "hue": 267.5563183704377,
-            "saturation": 0.53,
-            "luminosity": 0.7
-          },
           "baseName": "WooCommerce Purple",
           "index": 50
         }
@@ -1959,11 +1157,6 @@
         "name": "WooCommerce Purple 60",
         "value": "#674399",
         "_meta": {
-          "_debug": {
-            "hue": 264.93417865866263,
-            "saturation": 0.56,
-            "luminosity": 0.6
-          },
           "baseName": "WooCommerce Purple",
           "index": 60
         }
@@ -1972,11 +1165,6 @@
         "name": "WooCommerce Purple 70",
         "value": "#533582",
         "_meta": {
-          "_debug": {
-            "hue": 262.96178683746626,
-            "saturation": 0.59,
-            "luminosity": 0.51
-          },
           "baseName": "WooCommerce Purple",
           "index": 70
         }
@@ -1985,11 +1173,6 @@
         "name": "WooCommerce Purple 80",
         "value": "#3c2861",
         "_meta": {
-          "_debug": {
-            "hue": 261.5364739368327,
-            "saturation": 0.59,
-            "luminosity": 0.38
-          },
           "baseName": "WooCommerce Purple",
           "index": 80
         }
@@ -1998,11 +1181,6 @@
         "name": "WooCommerce Purple 90",
         "value": "#271b3d",
         "_meta": {
-          "_debug": {
-            "hue": 260.57252691145527,
-            "saturation": 0.56,
-            "luminosity": 0.24
-          },
           "baseName": "WooCommerce Purple",
           "index": 90
         }
@@ -2011,11 +1189,6 @@
         "name": "WooCommerce Purple 100",
         "value": "#140e1f",
         "_meta": {
-          "_debug": {
-            "hue": 260,
-            "saturation": 0.53,
-            "luminosity": 0.12
-          },
           "baseName": "WooCommerce Purple",
           "index": 100
         }
@@ -2035,11 +1208,6 @@
         "name": "Jetpack Green 0",
         "value": "#f0f2eb",
         "_meta": {
-          "_debug": {
-            "hue": 80,
-            "saturation": 0.03,
-            "luminosity": 0.95
-          },
           "baseName": "Jetpack Green",
           "index": 0
         }
@@ -2048,11 +1216,6 @@
         "name": "Jetpack Green 5",
         "value": "#d0e6b8",
         "_meta": {
-          "_debug": {
-            "hue": 88.2084771068016,
-            "saturation": 0.2,
-            "luminosity": 0.9
-          },
           "baseName": "Jetpack Green",
           "index": 5
         }
@@ -2061,11 +1224,6 @@
         "name": "Jetpack Green 10",
         "value": "#9dd977",
         "_meta": {
-          "_debug": {
-            "hue": 96.6610590927115,
-            "saturation": 0.45,
-            "luminosity": 0.85
-          },
           "baseName": "Jetpack Green",
           "index": 10
         }
@@ -2074,11 +1232,6 @@
         "name": "Jetpack Green 20",
         "value": "#64ca43",
         "_meta": {
-          "_debug": {
-            "hue": 105.14427607770166,
-            "saturation": 0.67,
-            "luminosity": 0.7909999999999999
-          },
           "baseName": "Jetpack Green",
           "index": 20
         }
@@ -2087,11 +1240,6 @@
         "name": "Jetpack Green 30",
         "value": "#2fb41f",
         "_meta": {
-          "_debug": {
-            "hue": 113.3275776940473,
-            "saturation": 0.83,
-            "luminosity": 0.706
-          },
           "baseName": "Jetpack Green",
           "index": 30
         }
@@ -2100,11 +1248,6 @@
         "name": "Jetpack Green 40",
         "value": "#069e08",
         "_meta": {
-          "_debug": {
-            "hue": 120.79981041948896,
-            "saturation": 0.9620000000000001,
-            "luminosity": 0.619
-          },
           "baseName": "Jetpack Green",
           "index": 40
         }
@@ -2113,11 +1256,6 @@
         "name": "Jetpack Green 50",
         "value": "#008710",
         "_meta": {
-          "_debug": {
-            "hue": 127.17637483507221,
-            "saturation": 1,
-            "luminosity": 0.53
-          },
           "baseName": "Jetpack Green",
           "index": 50
         }
@@ -2126,11 +1264,6 @@
         "name": "Jetpack Green 60",
         "value": "#007117",
         "_meta": {
-          "_debug": {
-            "hue": 132.22110408374624,
-            "saturation": 1,
-            "luminosity": 0.44299999999999995
-          },
           "baseName": "Jetpack Green",
           "index": 60
         }
@@ -2139,11 +1272,6 @@
         "name": "Jetpack Green 70",
         "value": "#005b18",
         "_meta": {
-          "_debug": {
-            "hue": 135.8919578932154,
-            "saturation": 1,
-            "luminosity": 0.35600000000000004
-          },
           "baseName": "Jetpack Green",
           "index": 70
         }
@@ -2152,11 +1280,6 @@
         "name": "Jetpack Green 80",
         "value": "#004515",
         "_meta": {
-          "_debug": {
-            "hue": 138.29427912490675,
-            "saturation": 1,
-            "luminosity": 0.272
-          },
           "baseName": "Jetpack Green",
           "index": 80
         }
@@ -2165,11 +1288,6 @@
         "name": "Jetpack Green 90",
         "value": "#003010",
         "_meta": {
-          "_debug": {
-            "hue": 139.6022362384688,
-            "saturation": 1,
-            "luminosity": 0.19
-          },
           "baseName": "Jetpack Green",
           "index": 90
         }
@@ -2178,11 +1296,6 @@
         "name": "Jetpack Green 100",
         "value": "#001c09",
         "_meta": {
-          "_debug": {
-            "hue": 140,
-            "saturation": 1,
-            "luminosity": 0.11
-          },
           "baseName": "Jetpack Green",
           "index": 100
         }
