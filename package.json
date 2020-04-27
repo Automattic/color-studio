@@ -23,9 +23,9 @@
     "bezier-easing": "^2.1.0",
     "bootstrap": "^4.0.0",
     "chroma-js": "^2.0.6",
-    "concurrently": "^5.0.2",
+    "concurrently": "5.2.0",
     "copy-text-to-clipboard": "2.2.0",
-    "css-loader": "3.5.2",
+    "css-loader": "3.5.3",
     "easy-table": "^1.1.1",
     "file-saver": "^2.0.0-rc.4",
     "husky": "4.2.5",
@@ -33,8 +33,8 @@
     "lodash": "^4.17.15",
     "mini-css-extract-plugin": "^0.9.0",
     "node-sass": "4.14.0",
-    "onchange": "6.1.1",
-    "postcss-css-variables": "^0.14.0",
+    "onchange": "7.0.0",
+    "postcss-css-variables": "0.17.0",
     "postcss-loader": "^3.0.0",
     "puppeteer": "3.0.1",
     "raw-loader": "4.0.1",
@@ -47,7 +47,7 @@
     "webpack-cli": "^3.3.11",
     "webpack-dev-server": "^3.10.3",
     "webpack-extraneous-file-cleanup-plugin": "^2.0.0",
-    "xo": "0.29.1"
+    "xo": "0.30.0"
   },
   "scripts": {
     "build": "yarn palette:build && yarn docs:build --silent && yarn sketch:build --quiet && yarn meta:build",
@@ -158,6 +158,9 @@
         "never"
       ],
       "unicorn/better-regex": [
+        "off"
+      ],
+      "unicorn/no-fn-reference-in-iterator": [
         "off"
       ],
       "unicorn/prefer-node-remove": [
