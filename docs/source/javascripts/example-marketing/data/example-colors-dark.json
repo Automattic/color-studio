@@ -115,6 +115,26 @@
         "color-woocommerce-purple-90",
         "color-woocommerce-purple-100"
       ]
+    },
+    {
+      "hero-background": [
+        "color-simplenote-blue-50",
+        "color-simplenote-blue-60",
+        "color-simplenote-blue-70"
+      ],
+      "button-background": [
+        "color-simplenote-blue-90"
+      ]
+    },
+    {
+      "hero-background": [
+        "color-simplenote-blue-80",
+        "color-simplenote-blue-90",
+        "color-simplenote-blue-100"
+      ],
+      "button-background": [
+        "color-simplenote-blue-50"
+      ]
     }
   ]
 }

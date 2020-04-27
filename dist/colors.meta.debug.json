@@ -1689,6 +1689,173 @@
     ],
     [
       {
+        "name": "Simplenote Blue",
+        "value": "#3361cc",
+        "_meta": {
+          "alias": true,
+          "baseName": "Simplenote Blue",
+          "index": 50
+        }
+      },
+      {
+        "name": "Simplenote Blue 0",
+        "value": "#e9ecf5",
+        "_meta": {
+          "_debug": {
+            "hue": 222,
+            "saturation": 0.05,
+            "luminosity": 0.96
+          },
+          "baseName": "Simplenote Blue",
+          "index": 0
+        }
+      },
+      {
+        "name": "Simplenote Blue 5",
+        "value": "#ced9f2",
+        "_meta": {
+          "_debug": {
+            "hue": 222,
+            "saturation": 0.15,
+            "luminosity": 0.95
+          },
+          "baseName": "Simplenote Blue",
+          "index": 5
+        }
+      },
+      {
+        "name": "Simplenote Blue 10",
+        "value": "#abc1f5",
+        "_meta": {
+          "_debug": {
+            "hue": 222,
+            "saturation": 0.3,
+            "luminosity": 0.96
+          },
+          "baseName": "Simplenote Blue",
+          "index": 10
+        }
+      },
+      {
+        "name": "Simplenote Blue 20",
+        "value": "#84a4f0",
+        "_meta": {
+          "_debug": {
+            "hue": 222,
+            "saturation": 0.45,
+            "luminosity": 0.94
+          },
+          "baseName": "Simplenote Blue",
+          "index": 20
+        }
+      },
+      {
+        "name": "Simplenote Blue 30",
+        "value": "#618df2",
+        "_meta": {
+          "_debug": {
+            "hue": 222,
+            "saturation": 0.6,
+            "luminosity": 0.95
+          },
+          "baseName": "Simplenote Blue",
+          "index": 30
+        }
+      },
+      {
+        "name": "Simplenote Blue 40",
+        "value": "#4678eb",
+        "_meta": {
+          "_debug": {
+            "hue": 222,
+            "saturation": 0.7,
+            "luminosity": 0.92
+          },
+          "baseName": "Simplenote Blue",
+          "index": 40
+        }
+      },
+      {
+        "name": "Simplenote Blue 50",
+        "value": "#3361cc",
+        "_meta": {
+          "_debug": {
+            "hue": 222,
+            "saturation": 0.75,
+            "luminosity": 0.8
+          },
+          "baseName": "Simplenote Blue",
+          "index": 50
+        }
+      },
+      {
+        "name": "Simplenote Blue 60",
+        "value": "#1d4fc4",
+        "_meta": {
+          "_debug": {
+            "hue": 222.3,
+            "saturation": 0.85,
+            "luminosity": 0.77
+          },
+          "baseName": "Simplenote Blue",
+          "index": 60
+        }
+      },
+      {
+        "name": "Simplenote Blue 70",
+        "value": "#113ead",
+        "_meta": {
+          "_debug": {
+            "hue": 222.7,
+            "saturation": 0.9,
+            "luminosity": 0.68
+          },
+          "baseName": "Simplenote Blue",
+          "index": 70
+        }
+      },
+      {
+        "name": "Simplenote Blue 80",
+        "value": "#0d2f85",
+        "_meta": {
+          "_debug": {
+            "hue": 223.1,
+            "saturation": 0.9,
+            "luminosity": 0.52
+          },
+          "baseName": "Simplenote Blue",
+          "index": 80
+        }
+      },
+      {
+        "name": "Simplenote Blue 90",
+        "value": "#09205c",
+        "_meta": {
+          "_debug": {
+            "hue": 223.6,
+            "saturation": 0.9,
+            "luminosity": 0.36
+          },
+          "baseName": "Simplenote Blue",
+          "index": 90
+        }
+      },
+      {
+        "name": "Simplenote Blue 100",
+        "value": "#05102e",
+        "_meta": {
+          "_debug": {
+            "hue": 224,
+            "saturation": 0.9,
+            "luminosity": 0.18
+          },
+          "baseName": "Simplenote Blue",
+          "index": 100
+        }
+      }
+    ],
+    [
+      {
         "name": "WooCommerce Purple",
         "value": "#7f54b3",
         "_meta": {

@@ -15,6 +15,7 @@ module.exports = {
     'example-android-css': './stylesheets/example-android/example.scss',
     'example-android-js': './javascripts/example-android/example.js',
     'example-calypso-css': './stylesheets/example-calypso/example.scss',
+    'example-calypso-simplenote-css': './stylesheets/example-calypso-simplenote/example.scss',
     'example-calypso-woocommerce-css': './stylesheets/example-calypso-woocommerce/example.scss',
     'example-marketing-css': './stylesheets/example-marketing/example.scss',
     'example-marketing-colors-bright-js': './javascripts/example-marketing/example-colors-bright.js',
