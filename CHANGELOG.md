@@ -1,11 +1,16 @@
 # Releases
 
+## 2.3.1
+
+* _No color changes._
+* Included a stylesheet with SCSS variables that return RGB values.
+
 ## 2.3.0
 
 * Added a new color: Simplenote Blue.
 * Adjusted Yellow (all shades).
 * Adjusted Gray 30 to make it AA Large-accessible against Gray 0.
-* Included the stylesheet with the colors defined as class names with higher specificity.
+* Included a stylesheet with the colors defined as class names with higher specificity.
 
 ## 2.2.1
 
