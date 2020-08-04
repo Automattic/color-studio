@@ -1,5 +1,9 @@
 # Releases
 
+## 2.3.2
+
+* Introduce Google Blue color.
+
 ## 2.3.1
 
 * _No color changes._
