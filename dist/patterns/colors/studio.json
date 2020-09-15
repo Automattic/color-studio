@@ -1,0 +1,666 @@
+{
+  "color": {
+    "studio": {
+      "white": {
+        "value": "#fff",
+        "comment": "White",
+        "type": "color"
+      },
+      "black": {
+        "value": "#000",
+        "comment": "Black",
+        "type": "color"
+      },
+      "gray": {
+        "0": {
+          "value": "#f6f7f7",
+          "comment": "Gray 0"
+        },
+        "5": {
+          "value": "#dcdcde",
+          "comment": "Gray 5"
+        },
+        "10": {
+          "value": "#c3c4c7",
+          "comment": "Gray 10"
+        },
+        "20": {
+          "value": "#a7aaad",
+          "comment": "Gray 20"
+        },
+        "30": {
+          "value": "#8c8f94",
+          "comment": "Gray 30"
+        },
+        "40": {
+          "value": "#787c82",
+          "comment": "Gray 40"
+        },
+        "50": {
+          "value": "#646970",
+          "comment": "Gray 50"
+        },
+        "60": {
+          "value": "#50575e",
+          "comment": "Gray 60"
+        },
+        "70": {
+          "value": "#3c434a",
+          "comment": "Gray 70"
+        },
+        "80": {
+          "value": "#2c3338",
+          "comment": "Gray 80"
+        },
+        "90": {
+          "value": "#1d2327",
+          "comment": "Gray 90"
+        },
+        "100": {
+          "value": "#101517",
+          "comment": "Gray 100"
+        }
+      },
+      "blue": {
+        "0": {
+          "value": "#e9eff5",
+          "comment": "Blue 0"
+        },
+        "5": {
+          "value": "#c5d9ed",
+          "comment": "Blue 5"
+        },
+        "10": {
+          "value": "#9ec2e6",
+          "comment": "Blue 10"
+        },
+        "20": {
+          "value": "#72aee6",
+          "comment": "Blue 20"
+        },
+        "30": {
+          "value": "#5198d9",
+          "comment": "Blue 30"
+        },
+        "40": {
+          "value": "#3582c4",
+          "comment": "Blue 40"
+        },
+        "50": {
+          "value": "#2271b1",
+          "comment": "Blue 50"
+        },
+        "60": {
+          "value": "#135e96",
+          "comment": "Blue 60"
+        },
+        "70": {
+          "value": "#0a4b78",
+          "comment": "Blue 70"
+        },
+        "80": {
+          "value": "#043959",
+          "comment": "Blue 80"
+        },
+        "90": {
+          "value": "#01263a",
+          "comment": "Blue 90"
+        },
+        "100": {
+          "value": "#00131c",
+          "comment": "Blue 100"
+        }
+      },
+      "purple": {
+        "0": {
+          "value": "#f2e9ed",
+          "comment": "Purple 0"
+        },
+        "5": {
+          "value": "#ebcee0",
+          "comment": "Purple 5"
+        },
+        "10": {
+          "value": "#e3afd5",
+          "comment": "Purple 10"
+        },
+        "20": {
+          "value": "#d48fc8",
+          "comment": "Purple 20"
+        },
+        "30": {
+          "value": "#c475bd",
+          "comment": "Purple 30"
+        },
+        "40": {
+          "value": "#b35eb1",
+          "comment": "Purple 40"
+        },
+        "50": {
+          "value": "#984a9c",
+          "comment": "Purple 50"
+        },
+        "60": {
+          "value": "#7c3982",
+          "comment": "Purple 60"
+        },
+        "70": {
+          "value": "#662c6e",
+          "comment": "Purple 70"
+        },
+        "80": {
+          "value": "#4d2054",
+          "comment": "Purple 80"
+        },
+        "90": {
+          "value": "#35163b",
+          "comment": "Purple 90"
+        },
+        "100": {
+          "value": "#1e0c21",
+          "comment": "Purple 100"
+        }
+      },
+      "pink": {
+        "0": {
+          "value": "#f5e9ed",
+          "comment": "Pink 0"
+        },
+        "5": {
+          "value": "#f2ceda",
+          "comment": "Pink 5"
+        },
+        "10": {
+          "value": "#f7a8c3",
+          "comment": "Pink 10"
+        },
+        "20": {
+          "value": "#f283aa",
+          "comment": "Pink 20"
+        },
+        "30": {
+          "value": "#eb6594",
+          "comment": "Pink 30"
+        },
+        "40": {
+          "value": "#e34c84",
+          "comment": "Pink 40"
+        },
+        "50": {
+          "value": "#c9356e",
+          "comment": "Pink 50"
+        },
+        "60": {
+          "value": "#ab235a",
+          "comment": "Pink 60"
+        },
+        "70": {
+          "value": "#8c1749",
+          "comment": "Pink 70"
+        },
+        "80": {
+          "value": "#700f3b",
+          "comment": "Pink 80"
+        },
+        "90": {
+          "value": "#4f092a",
+          "comment": "Pink 90"
+        },
+        "100": {
+          "value": "#260415",
+          "comment": "Pink 100"
+        }
+      },
+      "red": {
+        "0": {
+          "value": "#f7ebec",
+          "comment": "Red 0"
+        },
+        "5": {
+          "value": "#facfd2",
+          "comment": "Red 5"
+        },
+        "10": {
+          "value": "#ffabaf",
+          "comment": "Red 10"
+        },
+        "20": {
+          "value": "#ff8085",
+          "comment": "Red 20"
+        },
+        "30": {
+          "value": "#f86368",
+          "comment": "Red 30"
+        },
+        "40": {
+          "value": "#e65054",
+          "comment": "Red 40"
+        },
+        "50": {
+          "value": "#d63638",
+          "comment": "Red 50"
+        },
+        "60": {
+          "value": "#b32d2e",
+          "comment": "Red 60"
+        },
+        "70": {
+          "value": "#8a2424",
+          "comment": "Red 70"
+        },
+        "80": {
+          "value": "#691c1c",
+          "comment": "Red 80"
+        },
+        "90": {
+          "value": "#451313",
+          "comment": "Red 90"
+        },
+        "100": {
+          "value": "#240a0a",
+          "comment": "Red 100"
+        }
+      },
+      "orange": {
+        "0": {
+          "value": "#f5ece6",
+          "comment": "Orange 0"
+        },
+        "5": {
+          "value": "#f7dcc6",
+          "comment": "Orange 5"
+        },
+        "10": {
+          "value": "#ffbf86",
+          "comment": "Orange 10"
+        },
+        "20": {
+          "value": "#faa754",
+          "comment": "Orange 20"
+        },
+        "30": {
+          "value": "#e68b28",
+          "comment": "Orange 30"
+        },
+        "40": {
+          "value": "#d67709",
+          "comment": "Orange 40"
+        },
+        "50": {
+          "value": "#b26200",
+          "comment": "Orange 50"
+        },
+        "60": {
+          "value": "#8a4d00",
+          "comment": "Orange 60"
+        },
+        "70": {
+          "value": "#704000",
+          "comment": "Orange 70"
+        },
+        "80": {
+          "value": "#543100",
+          "comment": "Orange 80"
+        },
+        "90": {
+          "value": "#361f00",
+          "comment": "Orange 90"
+        },
+        "100": {
+          "value": "#1f1200",
+          "comment": "Orange 100"
+        }
+      },
+      "yellow": {
+        "0": {
+          "value": "#f5f1e1",
+          "comment": "Yellow 0"
+        },
+        "5": {
+          "value": "#f5e6b3",
+          "comment": "Yellow 5"
+        },
+        "10": {
+          "value": "#f2d76b",
+          "comment": "Yellow 10"
+        },
+        "20": {
+          "value": "#f0c930",
+          "comment": "Yellow 20"
+        },
+        "30": {
+          "value": "#deb100",
+          "comment": "Yellow 30"
+        },
+        "40": {
+          "value": "#c08c00",
+          "comment": "Yellow 40"
+        },
+        "50": {
+          "value": "#9d6e00",
+          "comment": "Yellow 50"
+        },
+        "60": {
+          "value": "#7d5600",
+          "comment": "Yellow 60"
+        },
+        "70": {
+          "value": "#674600",
+          "comment": "Yellow 70"
+        },
+        "80": {
+          "value": "#4f3500",
+          "comment": "Yellow 80"
+        },
+        "90": {
+          "value": "#320",
+          "comment": "Yellow 90"
+        },
+        "100": {
+          "value": "#1c1300",
+          "comment": "Yellow 100"
+        }
+      },
+      "green": {
+        "0": {
+          "value": "#e6f2e8",
+          "comment": "Green 0"
+        },
+        "5": {
+          "value": "#b8e6bf",
+          "comment": "Green 5"
+        },
+        "10": {
+          "value": "#68de86",
+          "comment": "Green 10"
+        },
+        "20": {
+          "value": "#1ed15a",
+          "comment": "Green 20"
+        },
+        "30": {
+          "value": "#00ba37",
+          "comment": "Green 30"
+        },
+        "40": {
+          "value": "#00a32a",
+          "comment": "Green 40"
+        },
+        "50": {
+          "value": "#008a20",
+          "comment": "Green 50"
+        },
+        "60": {
+          "value": "#007017",
+          "comment": "Green 60"
+        },
+        "70": {
+          "value": "#005c12",
+          "comment": "Green 70"
+        },
+        "80": {
+          "value": "#00450c",
+          "comment": "Green 80"
+        },
+        "90": {
+          "value": "#003008",
+          "comment": "Green 90"
+        },
+        "100": {
+          "value": "#001c05",
+          "comment": "Green 100"
+        }
+      },
+      "celadon": {
+        "0": {
+          "value": "#e4f2ed",
+          "comment": "Celadon 0"
+        },
+        "5": {
+          "value": "#a7e8d4",
+          "comment": "Celadon 5"
+        },
+        "10": {
+          "value": "#63d6b6",
+          "comment": "Celadon 10"
+        },
+        "20": {
+          "value": "#2ebd99",
+          "comment": "Celadon 20"
+        },
+        "30": {
+          "value": "#09a884",
+          "comment": "Celadon 30"
+        },
+        "40": {
+          "value": "#009172",
+          "comment": "Celadon 40"
+        },
+        "50": {
+          "value": "#007e65",
+          "comment": "Celadon 50"
+        },
+        "60": {
+          "value": "#006753",
+          "comment": "Celadon 60"
+        },
+        "70": {
+          "value": "#005042",
+          "comment": "Celadon 70"
+        },
+        "80": {
+          "value": "#003b30",
+          "comment": "Celadon 80"
+        },
+        "90": {
+          "value": "#002721",
+          "comment": "Celadon 90"
+        },
+        "100": {
+          "value": "#001c17",
+          "comment": "Celadon 100"
+        }
+      },
+      "word-press-blue": {
+        "0": {
+          "value": "#e6f1f5",
+          "comment": "WordPress Blue 0"
+        },
+        "5": {
+          "value": "#bedae6",
+          "comment": "WordPress Blue 5"
+        },
+        "10": {
+          "value": "#98c6d9",
+          "comment": "WordPress Blue 10"
+        },
+        "20": {
+          "value": "#6ab3d0",
+          "comment": "WordPress Blue 20"
+        },
+        "30": {
+          "value": "#3895ba",
+          "comment": "WordPress Blue 30"
+        },
+        "40": {
+          "value": "#187aa2",
+          "comment": "WordPress Blue 40"
+        },
+        "50": {
+          "value": "#006088",
+          "comment": "WordPress Blue 50"
+        },
+        "60": {
+          "value": "#004e6e",
+          "comment": "WordPress Blue 60"
+        },
+        "70": {
+          "value": "#003c56",
+          "comment": "WordPress Blue 70"
+        },
+        "80": {
+          "value": "#002c40",
+          "comment": "WordPress Blue 80"
+        },
+        "90": {
+          "value": "#001d2d",
+          "comment": "WordPress Blue 90"
+        },
+        "100": {
+          "value": "#00101c",
+          "comment": "WordPress Blue 100"
+        }
+      },
+      "simplenote-blue": {
+        "0": {
+          "value": "#e9ecf5",
+          "comment": "Simplenote Blue 0"
+        },
+        "5": {
+          "value": "#ced9f2",
+          "comment": "Simplenote Blue 5"
+        },
+        "10": {
+          "value": "#abc1f5",
+          "comment": "Simplenote Blue 10"
+        },
+        "20": {
+          "value": "#84a4f0",
+          "comment": "Simplenote Blue 20"
+        },
+        "30": {
+          "value": "#618df2",
+          "comment": "Simplenote Blue 30"
+        },
+        "40": {
+          "value": "#4678eb",
+          "comment": "Simplenote Blue 40"
+        },
+        "50": {
+          "value": "#3361cc",
+          "comment": "Simplenote Blue 50"
+        },
+        "60": {
+          "value": "#1d4fc4",
+          "comment": "Simplenote Blue 60"
+        },
+        "70": {
+          "value": "#113ead",
+          "comment": "Simplenote Blue 70"
+        },
+        "80": {
+          "value": "#0d2f85",
+          "comment": "Simplenote Blue 80"
+        },
+        "90": {
+          "value": "#09205c",
+          "comment": "Simplenote Blue 90"
+        },
+        "100": {
+          "value": "#05102e",
+          "comment": "Simplenote Blue 100"
+        }
+      },
+      "woo-commerce-purple": {
+        "0": {
+          "value": "#f7edf7",
+          "comment": "WooCommerce Purple 0"
+        },
+        "5": {
+          "value": "#e5cfe8",
+          "comment": "WooCommerce Purple 5"
+        },
+        "10": {
+          "value": "#d6b4e0",
+          "comment": "WooCommerce Purple 10"
+        },
+        "20": {
+          "value": "#c792e0",
+          "comment": "WooCommerce Purple 20"
+        },
+        "30": {
+          "value": "#af7dd1",
+          "comment": "WooCommerce Purple 30"
+        },
+        "40": {
+          "value": "#9a69c7",
+          "comment": "WooCommerce Purple 40"
+        },
+        "50": {
+          "value": "#7f54b3",
+          "comment": "WooCommerce Purple 50"
+        },
+        "60": {
+          "value": "#674399",
+          "comment": "WooCommerce Purple 60"
+        },
+        "70": {
+          "value": "#533582",
+          "comment": "WooCommerce Purple 70"
+        },
+        "80": {
+          "value": "#3c2861",
+          "comment": "WooCommerce Purple 80"
+        },
+        "90": {
+          "value": "#271b3d",
+          "comment": "WooCommerce Purple 90"
+        },
+        "100": {
+          "value": "#140e1f",
+          "comment": "WooCommerce Purple 100"
+        }
+      },
+      "jetpack-green": {
+        "0": {
+          "value": "#f0f2eb",
+          "comment": "Jetpack Green 0"
+        },
+        "5": {
+          "value": "#d0e6b8",
+          "comment": "Jetpack Green 5"
+        },
+        "10": {
+          "value": "#9dd977",
+          "comment": "Jetpack Green 10"
+        },
+        "20": {
+          "value": "#64ca43",
+          "comment": "Jetpack Green 20"
+        },
+        "30": {
+          "value": "#2fb41f",
+          "comment": "Jetpack Green 30"
+        },
+        "40": {
+          "value": "#069e08",
+          "comment": "Jetpack Green 40"
+        },
+        "50": {
+          "value": "#008710",
+          "comment": "Jetpack Green 50"
+        },
+        "60": {
+          "value": "#007117",
+          "comment": "Jetpack Green 60"
+        },
+        "70": {
+          "value": "#005b18",
+          "comment": "Jetpack Green 70"
+        },
+        "80": {
+          "value": "#004515",
+          "comment": "Jetpack Green 80"
+        },
+        "90": {
+          "value": "#003010",
+          "comment": "Jetpack Green 90"
+        },
+        "100": {
+          "value": "#001c09",
+          "comment": "Jetpack Green 100"
+        }
+      }
+    }
+  }
+}
