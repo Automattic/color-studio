@@ -52,9 +52,8 @@ module.exports = {
           {
             loader: 'postcss-loader',
             options: {
-              plugins: () => {
-                return [
-                  require('postcss-css-variables'),
+              postcssOptions: {
+                plugins: [
                   require('autoprefixer')
                 ]
               }
@@ -93,8 +92,7 @@ module.exports = {
   },
   plugins: [
     new MiniExtractPlugin({
-      filename: '[name].css',
-      allChunks: true
+      filename: '[name].css'
     }),
     new ExtraneousFileCleanupPlugin({
       extensions: [

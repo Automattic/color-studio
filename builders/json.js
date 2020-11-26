@@ -15,7 +15,7 @@ const paletteColors = COLOR_DEFINITIONS.colors.map(color => {
   })
 
   if (isNumber(color.default)) {
-    const defaultShade = shades.filter(colorObject => colorObject.index === color.default)[0]
+    const defaultShade = shades.find(colorObject => colorObject.index === color.default)
     const alias = formatAliasShade(color.name, defaultShade)
     formattedShades.unshift(alias)
   }

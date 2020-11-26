@@ -22,7 +22,7 @@ function formatColorArray(colorArray, featuredShadeIndex = 50) {
 }
 
 function determineDefaultColorIndex(colorArray) {
-  const colorObject = colorArray.filter(colorObject => colorObject._meta.alias)[0]
+  const colorObject = colorArray.find(colorObject => colorObject._meta.alias)
   return colorObject ? colorObject._meta.index : -1
 }
 
