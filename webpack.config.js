@@ -1,7 +1,6 @@
 /* eslint-disable-next-line import/no-extraneous-dependencies */
 const path = require('path')
 
-const ExtraneousFileCleanupPlugin = require('webpack-extraneous-file-cleanup-plugin')
 const MiniExtractPlugin = require('mini-css-extract-plugin')
 const RenameFilePlugin = require('rename-webpack-plugin')
 
@@ -90,14 +89,14 @@ module.exports = {
     path: path.join(__dirname, 'docs/dist/assets'),
     filename: '[name].js'
   },
+  resolve: {
+    alias: {
+      '/calypso/images': path.resolve(__dirname, '.cache/calypso/static/images')
+    }
+  },
   plugins: [
     new MiniExtractPlugin({
       filename: '[name].css'
-    }),
-    new ExtraneousFileCleanupPlugin({
-      extensions: [
-        '.js'
-      ]
     }),
     new RenameFilePlugin({
       originNameReg: /(.*)-css.css/,

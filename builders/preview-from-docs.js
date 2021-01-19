@@ -23,7 +23,7 @@ async function generatePreview() {
 
     // Keep the colors only
     const element = document.querySelector('#studio-navbar')
-    element.parentNode.removeChild(element)
+    element.remove()
 
     // Find every single tile and turn on their preview styling
     const elements = document.querySelectorAll('.tile')
