@@ -1,5 +1,9 @@
 # Releases
 
+## Next
+
+* Removed the `.sketchpalette` export.
+
 ## 2.3.1
 
 * _No color changes._
