@@ -1,13 +1,29 @@
 const extend = require('../../../../../utilities/extend')
 const determineContrast = require('./contrast')
+const uniqBy = require('lodash/uniqBy')
 
-module.exports = [
-  formatMostRecentPalette(require('../../../../../dist/colors.meta.json')),
-  formatDeprecatedPalette(require('./palette-archive/2.2.1.json')),
-  formatDeprecatedPalette(require('./palette-archive/2.1.0.json')),
-  formatDeprecatedPalette(require('./palette-archive/2.0.1.json')),
-  formatDeprecatedPaletteVersion1(require('./palette-archive/1.0.6.json'))
-]
+module.exports = formatPalettes([
+  require('../../../../../dist/colors.meta.json'),
+  require('../../../../../dist-archive/colors.meta-2.3.1.json'),
+  require('../../../../../dist-archive/colors.meta-2.2.1.json'),
+  require('../../../../../dist-archive/colors.meta-2.1.0.json'),
+  require('../../../../../dist-archive/colors.meta-2.0.1.json'),
+  require('../../../../../dist-archive/colors.meta-1.0.6.json')
+])
+
+function formatPalettes(paletteArray) {
+  const palettes = paletteArray.map((palette, index) => {
+    if (index === 0) {
+      return formatMostRecentPalette(palette)
+    }
+
+    const isLegacy = Boolean(palette.version.slice(0, 1) === '1')
+    const format = isLegacy ? formatDeprecatedPaletteVersion1 : formatDeprecatedPalette
+    return format(palette)
+  })
+
+  return uniqBy(palettes, 'version')
+}
 
 function formatMostRecentPalette(palette) {
   return extend(palette, formatDisplayProperties(palette), {
