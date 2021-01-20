@@ -187,7 +187,7 @@
     [
       {
         "name": "Blue",
-        "value": "#2271b1",
+        "value": "#117ac9",
         "_meta": {
           "alias": true,
           "baseName": "Blue",
@@ -196,10 +196,10 @@
       },
       {
         "name": "Blue 0",
-        "value": "#e9eff5",
+        "value": "#e9f0f5",
         "_meta": {
           "_debug": {
-            "hue": 210,
+            "hue": 205.7,
             "saturation": 0.05,
             "luminosity": 0.96
           },
@@ -209,12 +209,12 @@
       },
       {
         "name": "Blue 5",
-        "value": "#c5d9ed",
+        "value": "#b8dbf5",
         "_meta": {
           "_debug": {
-            "hue": 209.81809538988267,
-            "saturation": 0.17,
-            "luminosity": 0.93
+            "hue": 205.7,
+            "saturation": 0.25,
+            "luminosity": 0.96
           },
           "baseName": "Blue",
           "index": 5
@@ -222,12 +222,12 @@
       },
       {
         "name": "Blue 10",
-        "value": "#9ec2e6",
+        "value": "#90c7f0",
         "_meta": {
           "_debug": {
-            "hue": 209.54096004216186,
-            "saturation": 0.31,
-            "luminosity": 0.9
+            "hue": 205.7,
+            "saturation": 0.4,
+            "luminosity": 0.94
           },
           "baseName": "Blue",
           "index": 10
@@ -235,12 +235,12 @@
       },
       {
         "name": "Blue 20",
-        "value": "#72aee6",
+        "value": "#6bb5ed",
         "_meta": {
           "_debug": {
-            "hue": 209.14590389333108,
-            "saturation": 0.502,
-            "luminosity": 0.9
+            "hue": 205.7,
+            "saturation": 0.55,
+            "luminosity": 0.93
           },
           "baseName": "Blue",
           "index": 20
@@ -248,12 +248,12 @@
       },
       {
         "name": "Blue 30",
-        "value": "#5198d9",
+        "value": "#3f9be0",
         "_meta": {
           "_debug": {
-            "hue": 208.60405615797194,
-            "saturation": 0.626,
-            "luminosity": 0.85
+            "hue": 205.7,
+            "saturation": 0.72,
+            "luminosity": 0.88
           },
           "baseName": "Blue",
           "index": 30
@@ -261,12 +261,12 @@
       },
       {
         "name": "Blue 40",
-        "value": "#3582c4",
+        "value": "#218ad9",
         "_meta": {
           "_debug": {
-            "hue": 207.88086471193256,
-            "saturation": 0.728,
-            "luminosity": 0.77
+            "hue": 205.7,
+            "saturation": 0.85,
+            "luminosity": 0.85
           },
           "baseName": "Blue",
           "index": 40
@@ -274,12 +274,12 @@
       },
       {
         "name": "Blue 50",
-        "value": "#2271b1",
+        "value": "#117ac9",
         "_meta": {
           "_debug": {
-            "hue": 206.94160550632722,
-            "saturation": 0.809,
-            "luminosity": 0.695
+            "hue": 205.7,
+            "saturation": 0.915,
+            "luminosity": 0.79
           },
           "baseName": "Blue",
           "index": 50
@@ -287,12 +287,12 @@
       },
       {
         "name": "Blue 60",
-        "value": "#135e96",
+        "value": "#0a63a3",
         "_meta": {
           "_debug": {
-            "hue": 205.76814385070935,
-            "saturation": 0.872,
-            "luminosity": 0.59
+            "hue": 205,
+            "saturation": 0.94,
+            "luminosity": 0.64
           },
           "baseName": "Blue",
           "index": 60
@@ -300,12 +300,12 @@
       },
       {
         "name": "Blue 70",
-        "value": "#0a4b78",
+        "value": "#064d7d",
         "_meta": {
           "_debug": {
-            "hue": 204.38817567196375,
-            "saturation": 0.92,
-            "luminosity": 0.47
+            "hue": 204,
+            "saturation": 0.95,
+            "luminosity": 0.49
           },
           "baseName": "Blue",
           "index": 70
@@ -316,7 +316,7 @@
         "value": "#043959",
         "_meta": {
           "_debug": {
-            "hue": 202.89200507588268,
+            "hue": 203,
             "saturation": 0.953,
             "luminosity": 0.35
           },
@@ -329,7 +329,7 @@
         "value": "#01263a",
         "_meta": {
           "_debug": {
-            "hue": 201.39913543277763,
+            "hue": 201,
             "saturation": 0.976,
             "luminosity": 0.226
           },

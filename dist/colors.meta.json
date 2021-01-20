@@ -127,7 +127,7 @@
     [
       {
         "name": "Blue",
-        "value": "#2271b1",
+        "value": "#117ac9",
         "_meta": {
           "alias": true,
           "baseName": "Blue",
@@ -136,7 +136,7 @@
       },
       {
         "name": "Blue 0",
-        "value": "#e9eff5",
+        "value": "#e9f0f5",
         "_meta": {
           "baseName": "Blue",
           "index": 0
@@ -144,7 +144,7 @@
       },
       {
         "name": "Blue 5",
-        "value": "#c5d9ed",
+        "value": "#b8dbf5",
         "_meta": {
           "baseName": "Blue",
           "index": 5
@@ -152,7 +152,7 @@
       },
       {
         "name": "Blue 10",
-        "value": "#9ec2e6",
+        "value": "#90c7f0",
         "_meta": {
           "baseName": "Blue",
           "index": 10
@@ -160,7 +160,7 @@
       },
       {
         "name": "Blue 20",
-        "value": "#72aee6",
+        "value": "#6bb5ed",
         "_meta": {
           "baseName": "Blue",
           "index": 20
@@ -168,7 +168,7 @@
       },
       {
         "name": "Blue 30",
-        "value": "#5198d9",
+        "value": "#3f9be0",
         "_meta": {
           "baseName": "Blue",
           "index": 30
@@ -176,7 +176,7 @@
       },
       {
         "name": "Blue 40",
-        "value": "#3582c4",
+        "value": "#218ad9",
         "_meta": {
           "baseName": "Blue",
           "index": 40
@@ -184,7 +184,7 @@
       },
       {
         "name": "Blue 50",
-        "value": "#2271b1",
+        "value": "#117ac9",
         "_meta": {
           "baseName": "Blue",
           "index": 50
@@ -192,7 +192,7 @@
       },
       {
         "name": "Blue 60",
-        "value": "#135e96",
+        "value": "#0a63a3",
         "_meta": {
           "baseName": "Blue",
           "index": 60
@@ -200,7 +200,7 @@
       },
       {
         "name": "Blue 70",
-        "value": "#0a4b78",
+        "value": "#064d7d",
         "_meta": {
           "baseName": "Blue",
           "index": 70
