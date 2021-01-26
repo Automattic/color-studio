@@ -35,3 +35,11 @@
 }
 
 @include text-styles();
+
+.text-line-height-short {
+  line-height: 1.15;
+}
+
+.text-caps {
+  text-transform: uppercase;
+}

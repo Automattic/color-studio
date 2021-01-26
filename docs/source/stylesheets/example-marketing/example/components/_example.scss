@@ -1,13 +1,12 @@
 .examples {
   display: grid;
+  width: 100%;
 }
 
-.examples--columns-2 {
-  grid-template-columns: repeat(2, 1fr);
-}
-
-.examples--columns-3 {
-  grid-template-columns: repeat(3, 1fr);
+@for $value from 2 through 4 {
+  .examples--columns-#{$value} {
+    grid-template-columns: repeat($value, 1fr);
+  }
 }
 
 @each $value in 12 24 36 {
@@ -19,11 +18,56 @@
 }
 
 .example {
+  position: relative;
   overflow: hidden;
 
   %examples--gap & {
     border-radius: 2px;
   }
+}
+
+.example__background {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.example__background--border-color {
+  border: 1px solid currentcolor;
+  border-radius: 2px;
+}
+
+.example__background--brand-gradient-to-right-bottom {
+  background: linear-gradient(to right bottom, $studio-blue-50, currentcolor);
+}
+
+.example__background--brand-gradient-to-left-top {
+  background: linear-gradient(to left top, $studio-blue-50, currentcolor);
+}
+
+.example__top {
+  @extend .example__background;
+  bottom: unset;
+  z-index: 1;
+}
+
+.example__center {
+  @extend .example__background;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.example__bottom {
+  @extend .example__background;
+  top: unset;
+  z-index: 1;
+}
+
+.example--rows-2 {
+  grid-row: span 2;
 }
 
 .example--color {
