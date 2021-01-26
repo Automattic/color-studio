@@ -21,18 +21,18 @@
     <color name="gray_90">#1d2327</color>
     <color name="gray_100">#101517</color>
 
-    <color name="blue">#117ac9</color>
+    <color name="blue">#0673c2</color>
     <color name="blue_0">#e9f0f5</color>
-    <color name="blue_5">#b8dbf5</color>
-    <color name="blue_10">#90c7f0</color>
-    <color name="blue_20">#6bb5ed</color>
-    <color name="blue_30">#3f9be0</color>
-    <color name="blue_40">#218ad9</color>
-    <color name="blue_50">#117ac9</color>
-    <color name="blue_60">#0a63a3</color>
-    <color name="blue_70">#064d7d</color>
-    <color name="blue_80">#043959</color>
-    <color name="blue_90">#01263a</color>
+    <color name="blue_5">#badef7</color>
+    <color name="blue_10">#90c8f0</color>
+    <color name="blue_20">#67b1e6</color>
+    <color name="blue_30">#389ae0</color>
+    <color name="blue_40">#1584d4</color>
+    <color name="blue_50">#0673c2</color>
+    <color name="blue_60">#055b99</color>
+    <color name="blue_70">#044978</color>
+    <color name="blue_80">#023859</color>
+    <color name="blue_90">#012639</color>
     <color name="blue_100">#00131c</color>
 
     <color name="purple">#984a9c</color>

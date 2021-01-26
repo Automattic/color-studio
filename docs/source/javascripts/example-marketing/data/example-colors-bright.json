@@ -4,7 +4,7 @@
       "color-white"
     ],
     "hero-text": [
-      "color-gray-90"
+      "color-gray-100"
     ],
     "button-background": [
       "color-pink-50"
@@ -24,7 +24,7 @@
         "color-blue-10"
       ],
       "hero-text": [
-        "color-blue-90"
+        "color-blue-100"
       ]
     },
     {
@@ -33,7 +33,7 @@
         "color-purple-5"
       ],
       "hero-text": [
-        "color-purple-90"
+        "color-purple-100"
       ],
       "button-background": [
         "color-blue-60"
@@ -45,7 +45,7 @@
         "color-pink-5"
       ],
       "hero-text": [
-        "color-pink-90"
+        "color-pink-100"
       ]
     },
     {
@@ -54,7 +54,7 @@
         "color-red-5"
       ],
       "hero-text": [
-        "color-red-90"
+        "color-red-100"
       ]
     },
     {
@@ -63,7 +63,7 @@
         "color-yellow-5"
       ],
       "hero-text": [
-        "color-yellow-90"
+        "color-yellow-100"
       ],
       "button-background": [
         "color-blue-60"
@@ -75,7 +75,7 @@
         "color-orange-5"
       ],
       "hero-text": [
-        "color-orange-90"
+        "color-orange-100"
       ],
       "button-background": [
         "color-blue-60"
@@ -87,7 +87,7 @@
         "color-green-5"
       ],
       "hero-text": [
-        "color-green-90"
+        "color-green-100"
       ],
       "button-background": [
         "color-blue-60"
@@ -99,7 +99,7 @@
         "color-celadon-5"
       ],
       "hero-text": [
-        "color-celadon-90"
+        "color-celadon-100"
       ],
       "button-background": [
         "color-blue-60"
@@ -111,7 +111,7 @@
         "color-jetpack-green-5"
       ],
       "hero-text": [
-        "color-jetpack-green-90"
+        "color-jetpack-green-100"
       ],
       "button-background": [
         "color-jetpack-green-60"
@@ -123,7 +123,7 @@
         "color-woocommerce-purple-5"
       ],
       "hero-text": [
-        "color-woocommerce-purple-90"
+        "color-woocommerce-purple-100"
       ],
       "button-background": [
         "color-woocommerce-purple-50"
@@ -135,7 +135,7 @@
         "color-simplenote-blue-0"
       ],
       "hero-text": [
-        "color-simplenote-blue-90"
+        "color-simplenote-blue-100"
       ],
       "button-background": [
         "color-simplenote-blue-50"
