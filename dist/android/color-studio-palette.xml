@@ -119,19 +119,19 @@
     <color name="green_90">#003008</color>
     <color name="green_100">#001c05</color>
 
-    <color name="celadon">#007e65</color>
+    <color name="celadon">#008763</color>
     <color name="celadon_0">#e4f2ed</color>
-    <color name="celadon_5">#a7e8d4</color>
-    <color name="celadon_10">#63d6b6</color>
-    <color name="celadon_20">#2ebd99</color>
-    <color name="celadon_30">#09a884</color>
-    <color name="celadon_40">#009172</color>
-    <color name="celadon_50">#007e65</color>
-    <color name="celadon_60">#006753</color>
-    <color name="celadon_70">#005042</color>
-    <color name="celadon_80">#003b30</color>
-    <color name="celadon_90">#002721</color>
-    <color name="celadon_100">#001c17</color>
+    <color name="celadon_5">#a7e8d3</color>
+    <color name="celadon_10">#66deb9</color>
+    <color name="celadon_20">#31cc9f</color>
+    <color name="celadon_30">#09b585</color>
+    <color name="celadon_40">#009e73</color>
+    <color name="celadon_50">#008763</color>
+    <color name="celadon_60">#007053</color>
+    <color name="celadon_70">#005c44</color>
+    <color name="celadon_80">#004533</color>
+    <color name="celadon_90">#003024</color>
+    <color name="celadon_100">#001c15</color>
 
     <color name="wordpress_blue">#006088</color>
     <color name="wordpress_blue_0">#e6f1f5</color>

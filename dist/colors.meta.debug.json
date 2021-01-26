@@ -1356,7 +1356,7 @@
     [
       {
         "name": "Celadon",
-        "value": "#007e65",
+        "value": "#008763",
         "_meta": {
           "alias": true,
           "baseName": "Celadon",
@@ -1378,10 +1378,10 @@
       },
       {
         "name": "Celadon 5",
-        "value": "#a7e8d4",
+        "value": "#a7e8d3",
         "_meta": {
           "_debug": {
-            "hue": 161.7017505695235,
+            "hue": 160.85087528476177,
             "saturation": 0.28,
             "luminosity": 0.91
           },
@@ -1391,12 +1391,12 @@
       },
       {
         "name": "Celadon 10",
-        "value": "#63d6b6",
+        "value": "#66deb9",
         "_meta": {
           "_debug": {
-            "hue": 163.37343245442904,
-            "saturation": 0.536,
-            "luminosity": 0.84
+            "hue": 161.6867162272145,
+            "saturation": 0.54,
+            "luminosity": 0.87
           },
           "baseName": "Celadon",
           "index": 10
@@ -1404,12 +1404,12 @@
       },
       {
         "name": "Celadon 20",
-        "value": "#2ebd99",
+        "value": "#31cc9f",
         "_meta": {
           "_debug": {
-            "hue": 164.89533496512547,
-            "saturation": 0.757,
-            "luminosity": 0.74
+            "hue": 162.44766748256274,
+            "saturation": 0.76,
+            "luminosity": 0.8
           },
           "baseName": "Celadon",
           "index": 20
@@ -1417,12 +1417,12 @@
       },
       {
         "name": "Celadon 30",
-        "value": "#09a884",
+        "value": "#09b585",
         "_meta": {
           "_debug": {
-            "hue": 166.19752534515393,
-            "saturation": 0.9470000000000001,
-            "luminosity": 0.66
+            "hue": 163.09876267257698,
+            "saturation": 0.95,
+            "luminosity": 0.71
           },
           "baseName": "Celadon",
           "index": 30
@@ -1430,12 +1430,12 @@
       },
       {
         "name": "Celadon 40",
-        "value": "#009172",
+        "value": "#009e73",
         "_meta": {
           "_debug": {
-            "hue": 167.26397505312616,
+            "hue": 163.63198752656308,
             "saturation": 1,
-            "luminosity": 0.57
+            "luminosity": 0.62
           },
           "baseName": "Celadon",
           "index": 40
@@ -1443,12 +1443,12 @@
       },
       {
         "name": "Celadon 50",
-        "value": "#007e65",
+        "value": "#008763",
         "_meta": {
           "_debug": {
-            "hue": 168.11092040739058,
+            "hue": 164.05546020369528,
             "saturation": 1,
-            "luminosity": 0.495
+            "luminosity": 0.53
           },
           "baseName": "Celadon",
           "index": 50
@@ -1456,12 +1456,12 @@
       },
       {
         "name": "Celadon 60",
-        "value": "#006753",
+        "value": "#007053",
         "_meta": {
           "_debug": {
-            "hue": 168.76645533533434,
+            "hue": 164.38322766766717,
             "saturation": 1,
-            "luminosity": 0.402
+            "luminosity": 0.44
           },
           "baseName": "Celadon",
           "index": 60
@@ -1469,12 +1469,12 @@
       },
       {
         "name": "Celadon 70",
-        "value": "#005042",
+        "value": "#005c44",
         "_meta": {
           "_debug": {
-            "hue": 169.25955329063342,
+            "hue": 164.62977664531672,
             "saturation": 1,
-            "luminosity": 0.314
+            "luminosity": 0.36
           },
           "baseName": "Celadon",
           "index": 70
@@ -1482,12 +1482,12 @@
       },
       {
         "name": "Celadon 80",
-        "value": "#003b30",
+        "value": "#004533",
         "_meta": {
           "_debug": {
-            "hue": 169.6158815157918,
+            "hue": 164.80794075789592,
             "saturation": 1,
-            "luminosity": 0.23
+            "luminosity": 0.27
           },
           "baseName": "Celadon",
           "index": 80
@@ -1495,12 +1495,12 @@
       },
       {
         "name": "Celadon 90",
-        "value": "#002721",
+        "value": "#003024",
         "_meta": {
           "_debug": {
-            "hue": 169.85686827213618,
+            "hue": 164.9284341360681,
             "saturation": 1,
-            "luminosity": 0.154
+            "luminosity": 0.19
           },
           "baseName": "Celadon",
           "index": 90
@@ -1508,10 +1508,10 @@
       },
       {
         "name": "Celadon 100",
-        "value": "#001c17",
+        "value": "#001c15",
         "_meta": {
           "_debug": {
-            "hue": 170,
+            "hue": 165,
             "saturation": 1,
             "luminosity": 0.11
           },
