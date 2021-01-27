@@ -187,7 +187,7 @@
     [
       {
         "name": "Blue",
-        "value": "#0673c2",
+        "value": "#0675c4",
         "_meta": {
           "alias": true,
           "baseName": "Blue",
@@ -209,12 +209,12 @@
       },
       {
         "name": "Blue 5",
-        "value": "#badef7",
+        "value": "#bbe0fa",
         "_meta": {
           "_debug": {
             "hue": 205,
             "saturation": 0.25,
-            "luminosity": 0.97
+            "luminosity": 0.98
           },
           "baseName": "Blue",
           "index": 5
@@ -222,12 +222,12 @@
       },
       {
         "name": "Blue 10",
-        "value": "#90c8f0",
+        "value": "#91caf2",
         "_meta": {
           "_debug": {
             "hue": 205,
             "saturation": 0.4,
-            "luminosity": 0.94
+            "luminosity": 0.95
           },
           "baseName": "Blue",
           "index": 10
@@ -235,12 +235,12 @@
       },
       {
         "name": "Blue 20",
-        "value": "#67b1e6",
+        "value": "#68b3e8",
         "_meta": {
           "_debug": {
             "hue": 205,
             "saturation": 0.55,
-            "luminosity": 0.9
+            "luminosity": 0.91
           },
           "baseName": "Blue",
           "index": 20
@@ -248,12 +248,12 @@
       },
       {
         "name": "Blue 30",
-        "value": "#389ae0",
+        "value": "#399ce3",
         "_meta": {
           "_debug": {
             "hue": 205,
             "saturation": 0.75,
-            "luminosity": 0.88
+            "luminosity": 0.89
           },
           "baseName": "Blue",
           "index": 30
@@ -261,12 +261,12 @@
       },
       {
         "name": "Blue 40",
-        "value": "#1584d4",
+        "value": "#1689db",
         "_meta": {
           "_debug": {
             "hue": 205,
             "saturation": 0.9,
-            "luminosity": 0.83
+            "luminosity": 0.86
           },
           "baseName": "Blue",
           "index": 40
@@ -274,12 +274,12 @@
       },
       {
         "name": "Blue 50",
-        "value": "#0673c2",
+        "value": "#0675c4",
         "_meta": {
           "_debug": {
             "hue": 205,
             "saturation": 0.97,
-            "luminosity": 0.76
+            "luminosity": 0.77
           },
           "baseName": "Blue",
           "index": 50
@@ -287,12 +287,12 @@
       },
       {
         "name": "Blue 60",
-        "value": "#055b99",
+        "value": "#055d9c",
         "_meta": {
           "_debug": {
             "hue": 205,
             "saturation": 0.97,
-            "luminosity": 0.6
+            "luminosity": 0.61
           },
           "baseName": "Blue",
           "index": 60
@@ -300,12 +300,12 @@
       },
       {
         "name": "Blue 70",
-        "value": "#044978",
+        "value": "#044b7a",
         "_meta": {
           "_debug": {
             "hue": 204,
             "saturation": 0.97,
-            "luminosity": 0.47
+            "luminosity": 0.48
           },
           "baseName": "Blue",
           "index": 70
@@ -313,12 +313,12 @@
       },
       {
         "name": "Blue 80",
-        "value": "#023859",
+        "value": "#02395c",
         "_meta": {
           "_debug": {
             "hue": 203,
             "saturation": 0.98,
-            "luminosity": 0.35
+            "luminosity": 0.36
           },
           "baseName": "Blue",
           "index": 80
@@ -326,12 +326,12 @@
       },
       {
         "name": "Blue 90",
-        "value": "#012639",
+        "value": "#01283d",
         "_meta": {
           "_debug": {
             "hue": 201,
             "saturation": 0.98,
-            "luminosity": 0.225
+            "luminosity": 0.24
           },
           "baseName": "Blue",
           "index": 90
@@ -339,12 +339,12 @@
       },
       {
         "name": "Blue 100",
-        "value": "#00131c",
+        "value": "#001621",
         "_meta": {
           "_debug": {
             "hue": 200,
             "saturation": 0.99,
-            "luminosity": 0.11
+            "luminosity": 0.13
           },
           "baseName": "Blue",
           "index": 100

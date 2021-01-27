@@ -127,7 +127,7 @@
     [
       {
         "name": "Blue",
-        "value": "#0673c2",
+        "value": "#0675c4",
         "_meta": {
           "alias": true,
           "baseName": "Blue",
@@ -144,7 +144,7 @@
       },
       {
         "name": "Blue 5",
-        "value": "#badef7",
+        "value": "#bbe0fa",
         "_meta": {
           "baseName": "Blue",
           "index": 5
@@ -152,7 +152,7 @@
       },
       {
         "name": "Blue 10",
-        "value": "#90c8f0",
+        "value": "#91caf2",
         "_meta": {
           "baseName": "Blue",
           "index": 10
@@ -160,7 +160,7 @@
       },
       {
         "name": "Blue 20",
-        "value": "#67b1e6",
+        "value": "#68b3e8",
         "_meta": {
           "baseName": "Blue",
           "index": 20
@@ -168,7 +168,7 @@
       },
       {
         "name": "Blue 30",
-        "value": "#389ae0",
+        "value": "#399ce3",
         "_meta": {
           "baseName": "Blue",
           "index": 30
@@ -176,7 +176,7 @@
       },
       {
         "name": "Blue 40",
-        "value": "#1584d4",
+        "value": "#1689db",
         "_meta": {
           "baseName": "Blue",
           "index": 40
@@ -184,7 +184,7 @@
       },
       {
         "name": "Blue 50",
-        "value": "#0673c2",
+        "value": "#0675c4",
         "_meta": {
           "baseName": "Blue",
           "index": 50
@@ -192,7 +192,7 @@
       },
       {
         "name": "Blue 60",
-        "value": "#055b99",
+        "value": "#055d9c",
         "_meta": {
           "baseName": "Blue",
           "index": 60
@@ -200,7 +200,7 @@
       },
       {
         "name": "Blue 70",
-        "value": "#044978",
+        "value": "#044b7a",
         "_meta": {
           "baseName": "Blue",
           "index": 70
@@ -208,7 +208,7 @@
       },
       {
         "name": "Blue 80",
-        "value": "#023859",
+        "value": "#02395c",
         "_meta": {
           "baseName": "Blue",
           "index": 80
@@ -216,7 +216,7 @@
       },
       {
         "name": "Blue 90",
-        "value": "#012639",
+        "value": "#01283d",
         "_meta": {
           "baseName": "Blue",
           "index": 90
@@ -224,7 +224,7 @@
       },
       {
         "name": "Blue 100",
-        "value": "#00131c",
+        "value": "#001621",
         "_meta": {
           "baseName": "Blue",
           "index": 100

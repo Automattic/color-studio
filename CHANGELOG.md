@@ -2,7 +2,7 @@
 
 ## 2.4.0
 
-* Adjusted Blue 0–90.
+* Adjusted Blue (all shades).
 * Adjusted Celadon 5–100.
 * Removed the `.sketchpalette` export.
 
