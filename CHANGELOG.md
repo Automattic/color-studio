@@ -2,6 +2,7 @@
 
 ## 2.4.0
 
+* _WordPress Blue is now considered deprecated in favor of Blue._
 * Adjusted Blue (all shades).
 * Adjusted Celadon 5–100.
 * Removed the `.sketchpalette` export.

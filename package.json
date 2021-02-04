@@ -1,6 +1,6 @@
 {
   "name": "@automattic/color-studio",
-  "version": "2.4.0-0",
+  "version": "2.4.0",
   "description": "The color palette for Automattic products.",
   "homepage": "https://color-studio.blog",
   "license": {
