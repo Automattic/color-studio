@@ -1,7 +1,9 @@
 # Releases
 
-## Next
+## 2.4.0
 
+* Adjusted Blue (all shades).
+* Adjusted Celadon 5–100.
 * Removed the `.sketchpalette` export.
 
 ## 2.3.1

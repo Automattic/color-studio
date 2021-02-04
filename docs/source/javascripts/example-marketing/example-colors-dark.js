@@ -52,7 +52,7 @@ function formatExampleMetaString(data) {
   const indent = repeat(' ', 10)
 
   const meta = [
-    `${formatContrastRatio('Copy', heroTextColor, heroBackgroundColor)}`,
+    `${formatContrastRatio('Text', heroTextColor, heroBackgroundColor)}`,
     `${indent}.${data.heroTextClassName}`,
     `${indent}.${data.heroBackgroundClassName}`
   ]

@@ -1,5 +1,5 @@
 {
-  "version": "2.3.1",
+  "version": "2.4.0-0",
   "colors": [
     [
       {
@@ -127,7 +127,7 @@
     [
       {
         "name": "Blue",
-        "value": "#2271b1",
+        "value": "#0675c4",
         "_meta": {
           "alias": true,
           "baseName": "Blue",
@@ -136,7 +136,7 @@
       },
       {
         "name": "Blue 0",
-        "value": "#e9eff5",
+        "value": "#e9f0f5",
         "_meta": {
           "baseName": "Blue",
           "index": 0
@@ -144,7 +144,7 @@
       },
       {
         "name": "Blue 5",
-        "value": "#c5d9ed",
+        "value": "#bbe0fa",
         "_meta": {
           "baseName": "Blue",
           "index": 5
@@ -152,7 +152,7 @@
       },
       {
         "name": "Blue 10",
-        "value": "#9ec2e6",
+        "value": "#91caf2",
         "_meta": {
           "baseName": "Blue",
           "index": 10
@@ -160,7 +160,7 @@
       },
       {
         "name": "Blue 20",
-        "value": "#72aee6",
+        "value": "#68b3e8",
         "_meta": {
           "baseName": "Blue",
           "index": 20
@@ -168,7 +168,7 @@
       },
       {
         "name": "Blue 30",
-        "value": "#5198d9",
+        "value": "#399ce3",
         "_meta": {
           "baseName": "Blue",
           "index": 30
@@ -176,7 +176,7 @@
       },
       {
         "name": "Blue 40",
-        "value": "#3582c4",
+        "value": "#1689db",
         "_meta": {
           "baseName": "Blue",
           "index": 40
@@ -184,7 +184,7 @@
       },
       {
         "name": "Blue 50",
-        "value": "#2271b1",
+        "value": "#0675c4",
         "_meta": {
           "baseName": "Blue",
           "index": 50
@@ -192,7 +192,7 @@
       },
       {
         "name": "Blue 60",
-        "value": "#135e96",
+        "value": "#055d9c",
         "_meta": {
           "baseName": "Blue",
           "index": 60
@@ -200,7 +200,7 @@
       },
       {
         "name": "Blue 70",
-        "value": "#0a4b78",
+        "value": "#044b7a",
         "_meta": {
           "baseName": "Blue",
           "index": 70
@@ -208,7 +208,7 @@
       },
       {
         "name": "Blue 80",
-        "value": "#043959",
+        "value": "#02395c",
         "_meta": {
           "baseName": "Blue",
           "index": 80
@@ -216,7 +216,7 @@
       },
       {
         "name": "Blue 90",
-        "value": "#01263a",
+        "value": "#01283d",
         "_meta": {
           "baseName": "Blue",
           "index": 90
@@ -224,7 +224,7 @@
       },
       {
         "name": "Blue 100",
-        "value": "#00131c",
+        "value": "#001621",
         "_meta": {
           "baseName": "Blue",
           "index": 100
@@ -876,7 +876,7 @@
     [
       {
         "name": "Celadon",
-        "value": "#007e65",
+        "value": "#008763",
         "_meta": {
           "alias": true,
           "baseName": "Celadon",
@@ -893,7 +893,7 @@
       },
       {
         "name": "Celadon 5",
-        "value": "#a7e8d4",
+        "value": "#a7e8d3",
         "_meta": {
           "baseName": "Celadon",
           "index": 5
@@ -901,7 +901,7 @@
       },
       {
         "name": "Celadon 10",
-        "value": "#63d6b6",
+        "value": "#66deb9",
         "_meta": {
           "baseName": "Celadon",
           "index": 10
@@ -909,7 +909,7 @@
       },
       {
         "name": "Celadon 20",
-        "value": "#2ebd99",
+        "value": "#31cc9f",
         "_meta": {
           "baseName": "Celadon",
           "index": 20
@@ -917,7 +917,7 @@
       },
       {
         "name": "Celadon 30",
-        "value": "#09a884",
+        "value": "#09b585",
         "_meta": {
           "baseName": "Celadon",
           "index": 30
@@ -925,7 +925,7 @@
       },
       {
         "name": "Celadon 40",
-        "value": "#009172",
+        "value": "#009e73",
         "_meta": {
           "baseName": "Celadon",
           "index": 40
@@ -933,7 +933,7 @@
       },
       {
         "name": "Celadon 50",
-        "value": "#007e65",
+        "value": "#008763",
         "_meta": {
           "baseName": "Celadon",
           "index": 50
@@ -941,7 +941,7 @@
       },
       {
         "name": "Celadon 60",
-        "value": "#006753",
+        "value": "#007053",
         "_meta": {
           "baseName": "Celadon",
           "index": 60
@@ -949,7 +949,7 @@
       },
       {
         "name": "Celadon 70",
-        "value": "#005042",
+        "value": "#005c44",
         "_meta": {
           "baseName": "Celadon",
           "index": 70
@@ -957,7 +957,7 @@
       },
       {
         "name": "Celadon 80",
-        "value": "#003b30",
+        "value": "#004533",
         "_meta": {
           "baseName": "Celadon",
           "index": 80
@@ -965,7 +965,7 @@
       },
       {
         "name": "Celadon 90",
-        "value": "#002721",
+        "value": "#003024",
         "_meta": {
           "baseName": "Celadon",
           "index": 90
@@ -973,7 +973,7 @@
       },
       {
         "name": "Celadon 100",
-        "value": "#001c17",
+        "value": "#001c15",
         "_meta": {
           "baseName": "Celadon",
           "index": 100

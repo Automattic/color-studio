@@ -23,18 +23,15 @@ function getExamples() {
     }
 
     _('button-background').forEach(buttonBackgroundClassName => {
-      _('hero-heading').forEach(heroHeadingClassName => {
-        _('hero-text').forEach(heroTextClassName => {
-          _('hero-background').forEach(heroBackgroundClassName => {
-            const data = formatExampleData({
-              heroBackgroundClassName,
-              heroHeadingClassName,
-              heroTextClassName,
-              buttonBackgroundClassName
-            })
-
-            examples.push(data)
+      _('hero-text').forEach(heroTextClassName => {
+        _('hero-background').forEach(heroBackgroundClassName => {
+          const data = formatExampleData({
+            heroBackgroundClassName,
+            heroTextClassName,
+            buttonBackgroundClassName
           })
+
+          examples.push(data)
         })
       })
     })
@@ -51,15 +48,11 @@ function formatExampleData(data) {
 
 function formatExampleMetaString(data) {
   const heroBackgroundColor = getValueFromClassName(data.heroBackgroundClassName)
-  const heroHeadingColor = getValueFromClassName(data.heroHeadingClassName)
   const heroTextColor = getValueFromClassName(data.heroTextClassName)
   const indent = repeat(' ', 10)
 
   const meta = [
-    `${formatContrastRatio('Heading', heroHeadingColor, heroBackgroundColor)}`,
-    `${indent}.${data.heroHeadingClassName}`,
-    `${indent}.${data.heroBackgroundClassName}`,
-    `${formatContrastRatio('Copy', heroTextColor, heroBackgroundColor)}`,
+    `${formatContrastRatio('Text', heroTextColor, heroBackgroundColor)}`,
     `${indent}.${data.heroTextClassName}`,
     `${indent}.${data.heroBackgroundClassName}`
   ]
@@ -84,12 +77,12 @@ function getExampleMarkup(data) {
     <div class="example"${_('title')}>
       <div class="example__content">
         <div class="container p-96${_('heroBackgroundClassName')}">
-          <div class="container__wrapper${_('heroHeadingClassName')} text-16">
+          <div class="container__wrapper${_('heroTextClassName')} text-16">
             <p class="text-72 text-brand">
               Engineering<span class="br"></span>
               happiness.
             </p>
-            <div class="pt-36 pb-24${_('heroTextClassName')}" style="max-width: 432px">
+            <div class="pt-36 pb-24" style="max-width: 432px">
               <p>
                 Our 24/7 support is powered by actual people. We call them Happiness Engineers.
               </p>

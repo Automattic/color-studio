@@ -3,11 +3,8 @@
     "hero-background": [
       "color-white"
     ],
-    "hero-heading": [
-      "color-gray-80"
-    ],
     "hero-text": [
-      "color-gray-60"
+      "color-gray-100"
     ],
     "button-background": [
       "color-pink-50"
@@ -22,26 +19,11 @@
     },
     {
       "hero-background": [
-        "color-wordpress-blue-0",
-        "color-wordpress-blue-5"
-      ],
-      "hero-heading": [
-        "color-wordpress-blue-80"
-      ],
-      "hero-text": [
-        "color-wordpress-blue-70"
-      ]
-    },
-    {
-      "hero-background": [
         "color-blue-0",
         "color-blue-5"
       ],
-      "hero-heading": [
-        "color-blue-80"
-      ],
       "hero-text": [
-        "color-blue-70"
+        "color-blue-100"
       ]
     },
     {
@@ -49,14 +31,11 @@
         "color-purple-0",
         "color-purple-5"
       ],
-      "hero-heading": [
-        "color-purple-80"
-      ],
       "hero-text": [
-        "color-purple-70"
+        "color-purple-100"
       ],
       "button-background": [
-        "color-wordpress-blue-60"
+        "color-blue-60"
       ]
     },
     {
@@ -64,11 +43,8 @@
         "color-pink-0",
         "color-pink-5"
       ],
-      "hero-heading": [
-        "color-pink-80"
-      ],
       "hero-text": [
-        "color-pink-70"
+        "color-pink-100"
       ]
     },
     {
@@ -76,11 +52,8 @@
         "color-red-0",
         "color-red-5"
       ],
-      "hero-heading": [
-        "color-red-80"
-      ],
       "hero-text": [
-        "color-red-70"
+        "color-red-100"
       ]
     },
     {
@@ -88,14 +61,11 @@
         "color-yellow-0",
         "color-yellow-5"
       ],
-      "hero-heading": [
-        "color-yellow-80"
-      ],
       "hero-text": [
-        "color-yellow-70"
+        "color-yellow-100"
       ],
       "button-background": [
-        "color-wordpress-blue-60"
+        "color-blue-60"
       ]
     },
     {
@@ -103,14 +73,11 @@
         "color-orange-0",
         "color-orange-5"
       ],
-      "hero-heading": [
-        "color-orange-80"
-      ],
       "hero-text": [
-        "color-orange-70"
+        "color-orange-100"
       ],
       "button-background": [
-        "color-wordpress-blue-60"
+        "color-blue-60"
       ]
     },
     {
@@ -118,14 +85,11 @@
         "color-green-0",
         "color-green-5"
       ],
-      "hero-heading": [
-        "color-green-80"
-      ],
       "hero-text": [
-        "color-green-70"
+        "color-green-100"
       ],
       "button-background": [
-        "color-wordpress-blue-60"
+        "color-blue-60"
       ]
     },
     {
@@ -133,14 +97,11 @@
         "color-celadon-0",
         "color-celadon-5"
       ],
-      "hero-heading": [
-        "color-celadon-80"
-      ],
       "hero-text": [
-        "color-celadon-70"
+        "color-celadon-100"
       ],
       "button-background": [
-        "color-wordpress-blue-60"
+        "color-blue-60"
       ]
     },
     {
@@ -148,11 +109,8 @@
         "color-jetpack-green-0",
         "color-jetpack-green-5"
       ],
-      "hero-heading": [
-        "color-jetpack-green-80"
-      ],
       "hero-text": [
-        "color-jetpack-green-70"
+        "color-jetpack-green-100"
       ],
       "button-background": [
         "color-jetpack-green-60"
@@ -163,11 +121,8 @@
         "color-woocommerce-purple-0",
         "color-woocommerce-purple-5"
       ],
-      "hero-heading": [
-        "color-woocommerce-purple-80"
-      ],
       "hero-text": [
-        "color-woocommerce-purple-70"
+        "color-woocommerce-purple-100"
       ],
       "button-background": [
         "color-woocommerce-purple-50"
@@ -178,11 +133,8 @@
         "color-white",
         "color-simplenote-blue-0"
       ],
-      "hero-heading": [
-        "color-simplenote-blue-80"
-      ],
       "hero-text": [
-        "color-simplenote-blue-80"
+        "color-simplenote-blue-100"
       ],
       "button-background": [
         "color-simplenote-blue-50"
