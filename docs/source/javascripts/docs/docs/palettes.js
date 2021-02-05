@@ -1,6 +1,8 @@
 const extend = require('../../../../../utilities/extend')
 const determineContrast = require('./contrast')
 const uniqBy = require('lodash/uniqBy')
+const versionLowerThan = require('semver/functions/lt')
+const versionGreaterThanOrEqual = require('semver/functions/gte')
 
 module.exports = formatPalettes([
   require('../../../../../dist/colors.meta.json'),
@@ -17,7 +19,7 @@ function formatPalettes(paletteArray) {
       return formatMostRecentPalette(palette)
     }
 
-    const isLegacy = Boolean(palette.version.slice(0, 1) === '1')
+    const isLegacy = versionLowerThan(palette.version, '2.0.0')
     const format = isLegacy ? formatDeprecatedPaletteVersion1 : formatDeprecatedPalette
     return format(palette)
   })
@@ -28,7 +30,7 @@ function formatPalettes(paletteArray) {
 function formatMostRecentPalette(palette) {
   return extend(palette, formatDisplayProperties(palette), {
     label: 'Most Recent',
-    colors: palette.colors.map(colorArray => formatColorArray(colorArray))
+    colors: palette.colors.map(colorArray => formatColorArray(colorArray, palette.version))
   })
 }
 
@@ -41,15 +43,15 @@ function formatDeprecatedPalette(palette) {
 function formatDeprecatedPaletteVersion1(palette) {
   return extend(palette, formatDisplayProperties(palette), {
     label: 'Deprecated',
-    colors: palette.colors.map(colorArray => formatColorArray(colorArray, 500).concat(createEmptyColor()))
+    colors: palette.colors.map(colorArray => formatColorArray(colorArray, palette.version, 500).concat(createEmptyColor()))
   })
 }
 
-function formatColorArray(colorArray, featuredShadeIndex = 50) {
+function formatColorArray(colorArray, paletteVersion, featuredShadeIndex = 50) {
   const defaultShadeIndex = determineDefaultColorIndex(colorArray)
 
   return stripUtilityColors(colorArray).map(colorObject => {
-    const meta = extend(colorObject._meta, formatColorProperties(colorObject, colorArray, defaultShadeIndex, featuredShadeIndex))
+    const meta = extend(colorObject._meta, formatColorProperties(colorObject, colorArray, defaultShadeIndex, featuredShadeIndex, paletteVersion))
     return extend(colorObject, { _meta: meta })
   })
 }
@@ -73,13 +75,18 @@ function stripUtilityColors(colorArray) {
   })
 }
 
-function formatColorProperties(colorObject, colorArray, defaultShadeIndex, featuredShadeIndex) {
+function formatColorProperties(colorObject, colorArray, defaultShadeIndex, featuredShadeIndex, paletteVersion) {
   const { index } = colorObject._meta
   return {
     contrast: determineContrast(colorObject, colorArray),
     isDefaultIndex: index === defaultShadeIndex,
+    isDeprecated: isColorDeprecated(colorObject, paletteVersion),
     isFeaturedIndex: index === featuredShadeIndex
   }
+}
+
+function isColorDeprecated(colorObject, paletteVersion) {
+  return Boolean(colorObject._meta.baseName === 'WordPress Blue' && versionGreaterThanOrEqual(paletteVersion, '2.4.0'))
 }
 
 function createEmptyColor() {

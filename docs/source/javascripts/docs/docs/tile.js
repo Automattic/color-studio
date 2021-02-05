@@ -1,3 +1,4 @@
+const compact = require('lodash/compact')
 const floor = require('lodash/floor')
 const toFormattedHexValue = require('../../../../../utilities/to-formatted-hex-value')
 
@@ -35,12 +36,19 @@ function renderEmptyTile() {
 
 function getTileElementAttributes(colorObject) {
   const { value } = colorObject
-  const { contrast, isFeaturedIndex } = colorObject._meta
+  const { contrast, isDeprecated, isFeaturedIndex } = colorObject._meta
 
-  const classAttribute = `${isFeaturedIndex ? 'tile tile--featured' : 'tile'} text-center`
+  const classAttribute = compact([
+    'tile',
+    isFeaturedIndex && 'tile--featured',
+    isDeprecated && 'tile--deprecated',
+    'text-center'
+  ]).join(' ')
+
   const styleAttribute = `background: ${value}; color: ${contrast.displayColor}`
+  const otherAttributes = isDeprecated ? 'title="Deprecated"' : ''
 
-  return `class="${classAttribute}" style="${styleAttribute}" data-color="${value}"`
+  return `class="${classAttribute}" style="${styleAttribute}" data-color="${value}" ${otherAttributes}`.trim()
 }
 
 function getName(colorObject) {
