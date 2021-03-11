@@ -187,7 +187,7 @@ module.exports = {
     },
     {
       name: 'Jetpack Green',
-      default: 30,
+      default: 40,
       specs: {
         hue_start: 80,
         hue_end: 140,
