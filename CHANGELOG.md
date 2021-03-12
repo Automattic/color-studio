@@ -1,5 +1,10 @@
 # Releases
 
+## 2.5.0
+
+* _No changes to color values._
+* The default Jetpack brand color now points to Jetpack Green 40.
+
 ## 2.4.0
 
 * _WordPress Blue is now considered deprecated in favor of Blue._
@@ -9,7 +14,7 @@
 
 ## 2.3.1
 
-* _No color changes._
+* _No changes to color values._
 * Included a stylesheet with SCSS variables that return RGB values.
 
 ## 2.3.0
@@ -21,7 +26,7 @@
 
 ## 2.2.1
 
-* _No color changes._
+* _No changes to color values._
 * Dropped the `engines` constraint for the `npm` package.
 
 ## 2.2.0
@@ -50,7 +55,7 @@
 
 ## 2.0.1
 
-* _No color changes._
+* _No changes to color values._
 * Included a stylesheet with CSS custom properties that return RGB values.
 * Base color name are now aliased to the their respective primary shades in all the formats, for both generic and brand colors:
 
