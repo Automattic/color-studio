@@ -6,6 +6,7 @@ const versionGreaterThanOrEqual = require('semver/functions/gte')
 
 module.exports = formatPalettes([
   require('../../../../../dist/colors.meta.json'),
+  require('../../../../../dist-archive/colors.meta-2.4.0.json'),
   require('../../../../../dist-archive/colors.meta-2.3.1.json'),
   require('../../../../../dist-archive/colors.meta-2.2.1.json'),
   require('../../../../../dist-archive/colors.meta-2.1.0.json'),
