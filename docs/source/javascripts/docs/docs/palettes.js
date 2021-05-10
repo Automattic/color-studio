@@ -1,8 +1,8 @@
-const extend = require('../../../../../utilities/extend')
-const determineContrast = require('./contrast')
 const uniqBy = require('lodash/uniqBy')
 const versionLowerThan = require('semver/functions/lt')
 const versionGreaterThanOrEqual = require('semver/functions/gte')
+const extend = require('../../../../../utilities/extend')
+const determineContrast = require('./contrast')
 
 module.exports = formatPalettes([
   require('../../../../../dist/colors.meta.json'),
