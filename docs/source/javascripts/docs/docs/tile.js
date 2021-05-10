@@ -13,7 +13,7 @@ module.exports = colorObject => {
   /* eslint-disable indent */
   return [
     `<div ${getTileElementAttributes(colorObject)}>`,
-      '<div class="tile__title font-weight-bold">',
+      '<div class="tile__title fw-bold">',
         getName(colorObject),
       '</div>',
       '<div class="tile__meta text-uppercase">',

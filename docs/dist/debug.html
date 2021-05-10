@@ -10,38 +10,22 @@
   </head>
   <body>
     <nav class="navbar navbar-expand-md navbar-light bg-white" id="studio-navbar">
-      <a class="navbar-brand" href="/">
-        Color Studio
-      </a>
-      <div class="collapse navbar-collapse">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="examples">
-              Examples
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="https://github.com/automattic/color-studio">
-              GitHub
-            </a>
-          </li>
-        </ul>
-        <ul class="navbar-nav mr-md-3">
-          <li class="nav-item">
-            <a class="nav-link disabled" href="" id="studio-download-link">
-              Downloads
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="https://github.com/Automattic/color-studio/blob/master/CHANGELOG.md">
-              Changelog
-            </a>
-          </li>
-        </ul>
-        <div class="form-inline my-2 my-md-0">
-          <select class="form-control" disabled="" id="studio-version-select" style="width: 100%">
-            <option>development</option>
-          </select>
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/">Color Studio</a>
+        <div class="navbar-collapse">
+          <div class="navbar-nav me-auto">
+            <a class="nav-link" href="examples">Examples</a>
+            <a class="nav-link" href="https://github.com/automattic/color-studio">GitHub</a>
+          </div>
+          <div class="navbar-nav me-md-3">
+            <a class="nav-link disabled" href="" id="studio-download-link">Downloads</a>
+            <a class="nav-link" href="https://github.com/Automattic/color-studio/blob/master/CHANGELOG.md">Changelog</a>
+          </div>
+          <div class="navbar-nav my-2 my-md-0">
+            <select class="form-select" disabled="" id="studio-version-select">
+              <option>Loading…</option>
+            </select>
+          </div>
         </div>
       </div>
     </nav>
