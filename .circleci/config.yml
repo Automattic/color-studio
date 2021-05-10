@@ -25,15 +25,15 @@ jobs:
     steps:
       - checkout
       - run:
-        - name: "Cache color values"
-        - command: |
+          name: Cache color values
+          command: |
             mkdir -p .cache
             cp dist/colors.json .cache
       - run: yarn
       - run: yarn palette:build:json
       - run:
-        - name: "Compare color values"
-        - command: cmp .cache/colors.json dist/colors.json
+          name: Compare color values
+          command: cmp .cache/colors.json dist/colors.json
 
 workflows:
   version: 2
