@@ -13,8 +13,18 @@ jobs:
       - run: yarn
       - run: yarn lint
 
+  no-color-changes:
+    executor: node
+    steps:
+      - checkout
+      - run: cp dist/colors.json .cache
+      - run: yarn
+      - run: yarn palette:build:json
+      - run: cmp .cache/colors.json dist/colors.json
+
 workflows:
   version: 2
   main:
     jobs:
       - lint
+      - no-color-changes
