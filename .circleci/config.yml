@@ -1,0 +1,44 @@
+version: 2.1
+
+executors:
+  node:
+    docker:
+      - image: circleci/node:lts
+
+jobs:
+  build:
+    executor: node
+    steps:
+      - checkout
+      - run: yarn
+      - run: yarn palette:build
+
+  lint:
+    executor: node
+    steps:
+      - checkout
+      - run: yarn
+      - run: yarn lint
+
+  no-uncomitted-color-changes:
+    executor: node
+    steps:
+      - checkout
+      - run:
+          name: Cache color values
+          command: |
+            mkdir -p .cache
+            cp dist/colors.json .cache
+      - run: yarn
+      - run: yarn palette:build:json
+      - run:
+          name: Compare color values
+          command: cmp .cache/colors.json dist/colors.json
+
+workflows:
+  version: 2
+  main:
+    jobs:
+      - build
+      - lint
+      - no-uncomitted-color-changes
