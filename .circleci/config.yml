@@ -1,0 +1,20 @@
+version: 2.1
+
+executors:
+  node:
+    docker:
+      - image: circleci/node:lts
+
+jobs:
+  lint:
+    executor: node
+    steps:
+      - checkout
+      - run: yarn
+      - run: yarn lint
+
+workflows:
+  version: 2
+  main:
+    jobs:
+      - lint
