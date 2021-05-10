@@ -6,6 +6,13 @@ executors:
       - image: circleci/node:lts
 
 jobs:
+  build:
+    executor: node
+    steps:
+      - checkout
+      - run: yarn
+      - run: yarn palette:builde
+
   lint:
     executor: node
     steps:
@@ -26,5 +33,6 @@ workflows:
   version: 2
   main:
     jobs:
+      - build
       - lint
       - no-color-changes
