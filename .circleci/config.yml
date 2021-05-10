@@ -26,9 +26,7 @@ jobs:
       - checkout
       - run:
         - name: Cache color values
-        - command: |
-            mkdir -p .cache
-            cp dist/colors.json .cache
+        - command: mkdir -p .cache && cp dist/colors.json .cache
       - run: yarn
       - run: yarn palette:build:json
       - run:
