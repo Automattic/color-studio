@@ -20,14 +20,20 @@ jobs:
       - run: yarn
       - run: yarn lint
 
-  no-color-changes:
+  no-uncomitted-color-changes:
     executor: node
     steps:
       - checkout
-      - run: cp dist/colors.json .cache
+      - run:
+        - name: Cache color values
+        - command: |
+            mkdir -p .cache
+            cp dist/colors.json .cache
       - run: yarn
       - run: yarn palette:build:json
-      - run: cmp .cache/colors.json dist/colors.json
+      - run:
+        - name: Compare color values
+        - command: cmp .cache/colors.json dist/colors.json
 
 workflows:
   version: 2
@@ -35,4 +41,4 @@ workflows:
     jobs:
       - build
       - lint
-      - no-color-changes
+      - no-uncomitted-color-changes
