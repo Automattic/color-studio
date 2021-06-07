@@ -10584,10 +10584,10 @@ xmlchars@^2.2.0:
   resolved "https://registry.yarnpkg.com/xmlchars/-/xmlchars-2.2.0.tgz#060fe1bcb7f9c76fe2a17db86a9bc3ab894210cb"
   integrity sha512-JZnDKK8B0RCDw84FNdDAIpZK+JuJw+s7Lz8nksI7SIuU3UXJJslUthsi+uWBUYOwPFwW7W7PRLRfUKpxjtjFCw==
 
-xo@0.40.1:
-  version "0.40.1"
-  resolved "https://registry.yarnpkg.com/xo/-/xo-0.40.1.tgz#5f9d7ca80d0f99b4d744b30987b92686a233b724"
-  integrity sha512-cle9DGwXjiL/Xu4KU2uajBLaNgi1K97BWO2sRJwAodWSRSdDFgLWdVCGCYQWCvRx/PI9yDaMM/KIng3U3yYPdQ==
+xo@0.40.2:
+  version "0.40.2"
+  resolved "https://registry.yarnpkg.com/xo/-/xo-0.40.2.tgz#68a8bed647cddb750fe75edecc2dbe866ddad803"
+  integrity sha512-luBFj3WAhE2EJKainO+lLPFF7aKvlRUdBZbn1iZuMeioPXaVqqcsb/Nbn0+l0sAcDwhJL6Wa1GFHFja6JAiTOw==
   dependencies:
     "@eslint/eslintrc" "^0.4.1"
     "@typescript-eslint/eslint-plugin" "^4.22.0"
