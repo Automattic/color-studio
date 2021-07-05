@@ -30,7 +30,7 @@
     "husky": "6.0.0",
     "jest": "27.0.4",
     "lodash": "4.17.21",
-    "mini-css-extract-plugin": "1.6.0",
+    "mini-css-extract-plugin": "2.0.0",
     "node-sass": "6.0.0",
     "onchange": "7.1.0",
     "postcss": "8.3.5",
