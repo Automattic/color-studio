@@ -120,5 +120,8 @@ module.exports = {
     devMiddleware: {
       writeToDisk: true
     }
+  },
+  performance: {
+    hints: false
   }
 }
