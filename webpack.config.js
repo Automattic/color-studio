@@ -114,7 +114,11 @@ module.exports = {
   },
   devServer: {
     port: 3003,
-    contentBase: path.join(__dirname, 'docs/dist'),
-    writeToDisk: true
+    static: {
+      directory: path.join(__dirname, 'docs/dist')
+    },
+    devMiddleware: {
+      writeToDisk: true
+    }
   }
 }
