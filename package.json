@@ -28,7 +28,7 @@
     "css-loader": "5.2.6",
     "easy-table": "1.1.1",
     "husky": "6.0.0",
-    "jest": "27.0.4",
+    "jest": "27.1.0",
     "lodash": "4.17.21",
     "mini-css-extract-plugin": "2.2.0",
     "node-sass": "6.0.1",
