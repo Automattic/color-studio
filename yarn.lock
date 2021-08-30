@@ -3713,10 +3713,10 @@ detect-node@^2.0.4:
   resolved "https://registry.yarnpkg.com/detect-node/-/detect-node-2.0.4.tgz#014ee8f8f669c5c58023da64b8179c083a28c46c"
   integrity sha512-ZIzRpLJrOj7jjP2miAtgqIfmzbxa4ZOr5jJc601zklsfEx9oTzmmj2nVpIPRpNlRTIh8lc1kyViIY7BWSGNmKw==
 
-devtools-protocol@0.0.883894:
-  version "0.0.883894"
-  resolved "https://registry.yarnpkg.com/devtools-protocol/-/devtools-protocol-0.0.883894.tgz#d403f2c75cd6d71c916aee8dde9258da988a4da9"
-  integrity sha512-33idhm54QJzf3Q7QofMgCvIVSd2o9H3kQPWaKT/fhoZh+digc+WSiMhbkeG3iN79WY4Hwr9G05NpbhEVrsOYAg==
+devtools-protocol@0.0.901419:
+  version "0.0.901419"
+  resolved "https://registry.yarnpkg.com/devtools-protocol/-/devtools-protocol-0.0.901419.tgz#79b5459c48fe7e1c5563c02bd72f8fec3e0cebcd"
+  integrity sha512-4INMPwNm9XRpBukhNbF7OB6fNTTCaI8pzy/fXg0xQzAy5h3zL1P8xT3QazgKqBrb/hAYwIBizqDBZ7GtJE74QQ==
 
 diff-sequences@^27.0.6:
   version "27.0.6"
@@ -8079,13 +8079,13 @@ pupa@^2.1.1:
   dependencies:
     escape-goat "^2.0.0"
 
-puppeteer@10.0.0:
-  version "10.0.0"
-  resolved "https://registry.yarnpkg.com/puppeteer/-/puppeteer-10.0.0.tgz#1b597c956103e2d989ca17f41ba4693b20a3640c"
-  integrity sha512-AxHvCb9IWmmP3gMW+epxdj92Gglii+6Z4sb+W+zc2hTTu10HF0yg6hGXot5O74uYkVqG3lfDRLfnRpi6WOwi5A==
+puppeteer@10.2.0:
+  version "10.2.0"
+  resolved "https://registry.yarnpkg.com/puppeteer/-/puppeteer-10.2.0.tgz#7d8d7fda91e19a7cfd56986e0275448e6351849e"
+  integrity sha512-OR2CCHRashF+f30+LBOtAjK6sNtz2HEyTr5FqAvhf8lR/qB3uBRoIZOwQKgwoyZnMBsxX7ZdazlyBgGjpnkiMw==
   dependencies:
     debug "4.3.1"
-    devtools-protocol "0.0.883894"
+    devtools-protocol "0.0.901419"
     extract-zip "2.0.1"
     https-proxy-agent "5.0.0"
     node-fetch "2.6.1"
