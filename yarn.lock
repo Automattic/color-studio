@@ -1497,10 +1497,10 @@
     "@babel/preset-env" "^7.0.0"
     "@babel/preset-react" "^7.0.0"
 
-"@skpm/builder@0.7.11":
-  version "0.7.11"
-  resolved "https://registry.yarnpkg.com/@skpm/builder/-/builder-0.7.11.tgz#fa21f3a3f212199d1cb4479d7f65f3167ce04189"
-  integrity sha512-WLI3cQM01ytdrl5a6Qb/k6T10Y1gYfU2Jfa9SNpYWgru1XkXUDjH1QO8X63JkqTZbMONeVKA/LmMeJbgjA6gag==
+"@skpm/builder@0.8.0":
+  version "0.8.0"
+  resolved "https://registry.yarnpkg.com/@skpm/builder/-/builder-0.8.0.tgz#def9a90b2100cbfb7f41b3177cb725bcac5db2e4"
+  integrity sha512-Fxon+sxaAuF5jCG6aDYDFAZmnKWqlly6f5kwqH2+OaTIqvyiTgm2AoSRRov30LhUHaKj7BiA90LH9O2QUgSgCw==
   dependencies:
     "@babel/core" "^7.4.3"
     "@skpm/babel-preset" "^0.2.3"
@@ -1515,7 +1515,7 @@
     mkdirp "^0.5.1"
     parse-author "2.0.0"
     semver "^6.0.0"
-    sketch-polyfill-fetch "^0.4.3"
+    sketch-polyfill-fetch "^0.5.2"
     terser-webpack-plugin "^1.2.3"
     webpack "^4.29.6"
     webpack-merge "^4.2.1"
@@ -2565,7 +2565,7 @@ babel-jest@^27.1.0:
     graceful-fs "^4.2.4"
     slash "^3.0.0"
 
-babel-loader@8.2.2:
+babel-loader@8.2.2, babel-loader@^8.0.5:
   version "8.2.2"
   resolved "https://registry.yarnpkg.com/babel-loader/-/babel-loader-8.2.2.tgz#9363ce84c10c9a40e6c753748e1441b60c8a0b81"
   integrity sha512-JvTd0/D889PQBtUXJ2PXaKU/pjZDMtHA9V2ecm+eNRmmBCMR09a+fmpGTNwnJtFmFl5Ei7Vy47LjBb+L0wQ99g==
@@ -2573,17 +2573,6 @@ babel-loader@8.2.2:
     find-cache-dir "^3.3.1"
     loader-utils "^1.4.0"
     make-dir "^3.1.0"
-    schema-utils "^2.6.5"
-
-babel-loader@^8.0.5:
-  version "8.1.0"
-  resolved "https://registry.yarnpkg.com/babel-loader/-/babel-loader-8.1.0.tgz#c611d5112bd5209abe8b9fa84c3e4da25275f1c3"
-  integrity sha512-7q7nC1tYOrqvUrN3LQK4GwSk/TQorZSOlO9C+RZDZpODgyN4ZlCqE5q9cDsyWOliN+aU9B4JX01xK9eJXowJLw==
-  dependencies:
-    find-cache-dir "^2.1.0"
-    loader-utils "^1.4.0"
-    mkdirp "^0.5.3"
-    pify "^4.0.1"
     schema-utils "^2.6.5"
 
 babel-plugin-dynamic-import-node@^2.3.3:
@@ -8947,10 +8936,10 @@ sisteransi@^1.0.4:
   resolved "https://registry.yarnpkg.com/sisteransi/-/sisteransi-1.0.5.tgz#134d681297756437cc05ca01370d3a7a571075ed"
   integrity sha512-bLGGlR1QxBcynn2d5YmDX4MGjlZvy2MRBDRNHLJ8VI6l6+9FUiyTFNJ0IveOSP0bcXgVDPRcfGqA0pjaqUpfVg==
 
-sketch-polyfill-fetch@^0.4.3:
-  version "0.4.6"
-  resolved "https://registry.yarnpkg.com/sketch-polyfill-fetch/-/sketch-polyfill-fetch-0.4.6.tgz#e62ef415ae18c871544d1e3d5a65ee650c26409b"
-  integrity sha512-xN9poJJzndR6fSE+mmgq0b9W78VOKyaxW/uTILRVMPeoE3IZYUcg/0vV+Gc/LZH1UWn7qGOexABSHkjJVyNQYw==
+sketch-polyfill-fetch@^0.5.2:
+  version "0.5.2"
+  resolved "https://registry.yarnpkg.com/sketch-polyfill-fetch/-/sketch-polyfill-fetch-0.5.2.tgz#9fbfe07d3fb9fbf2c5d17429f7e454ef88f94018"
+  integrity sha512-QSY0owuSF8PTAPgIxGSkHFkLEADQVjfOv8zo24fb2i8MaNbzhP9qqD4c15cznxbvKvslnDRhTD1paWxn+J5GXg==
 
 slash@^2.0.0:
   version "2.0.0"
