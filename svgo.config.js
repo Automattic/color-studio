@@ -6,17 +6,17 @@ module.exports = {
     {
       name: 'cleanupNumericValues',
       params: {
-        floatPrecision: 2
-      }
+        floatPrecision: 2,
+      },
     },
     {
       name: 'convertPathData',
       params: {
-        floatPrecision: 2
-      }
+        floatPrecision: 2,
+      },
     },
     'removeOffCanvasPaths',
     'removeRasterImages',
-    'sortAttrs'
-  ])
+    'sortAttrs',
+  ]),
 }

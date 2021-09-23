@@ -28,7 +28,7 @@ function getExamples() {
           const data = formatExampleData({
             heroBackgroundClassName,
             heroTextClassName,
-            buttonBackgroundClassName
+            buttonBackgroundClassName,
           })
 
           examples.push(data)
@@ -42,7 +42,7 @@ function getExamples() {
 
 function formatExampleData(data) {
   return extend(data, {
-    title: formatExampleMetaString(data)
+    title: formatExampleMetaString(data),
   })
 }
 
@@ -54,7 +54,7 @@ function formatExampleMetaString(data) {
   const meta = [
     `${formatContrastRatio('Text', heroTextColor, heroBackgroundColor)}`,
     `${indent}.${data.heroTextClassName}`,
-    `${indent}.${data.heroBackgroundClassName}`
+    `${indent}.${data.heroBackgroundClassName}`,
   ]
 
   return `title="${meta.join('\n')}"`

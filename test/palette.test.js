@@ -7,19 +7,19 @@ const toNamedColorCollection = require('../utilities/to-named-color-collection')
 const PALETTE_JSON = require('../builders/json')
 
 const PALETTE = toNamedColorCollection(PALETTE_JSON.colors, {
-  excludeAliases: true
+  excludeAliases: true,
 })
 
 expect.extend({
   toBeContrastRatioBetween: (expected, color1, color2) => {
     const computed = (color1 && color2) ? contrast(color1, color2) : NaN
     const result = {
-      message: () => `expected contrast ratio between ${color1} and ${color2} (${round(computed, 2)}) to be ≥ ${expected}`
+      message: () => `expected contrast ratio between ${color1} and ${color2} (${round(computed, 2)}) to be ≥ ${expected}`,
     }
     return Object.assign(result, {
-      pass: computed >= expected
+      pass: computed >= expected,
     })
-  }
+  },
 })
 
 describe('palette colors', () => {

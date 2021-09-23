@@ -2,13 +2,13 @@ const extend = require('../../../../../utilities/extend')
 const determineContrast = require('./contrast')
 
 module.exports = [
-  formatDevelopmentPalette(require('../../../../../dist/colors.meta.debug.json'))
+  formatDevelopmentPalette(require('../../../../../dist/colors.meta.debug.json')),
 ]
 
 function formatDevelopmentPalette(palette) {
   return extend(palette, formatDisplayProperties(palette), {
     label: 'Development',
-    colors: palette.colors.map(colorArray => formatColorArray(colorArray))
+    colors: palette.colors.map(colorArray => formatColorArray(colorArray)),
   })
 }
 
@@ -30,7 +30,7 @@ function formatDisplayProperties(paletteObject) {
   const { version } = paletteObject
   return {
     displayName: `v${version}`,
-    downloadLink: 'https://github.com/Automattic/color-studio/tree/master/dist'
+    downloadLink: 'https://github.com/Automattic/color-studio/tree/master/dist',
   }
 }
 
@@ -45,6 +45,6 @@ function formatColorProperties(colorObject, colorArray, defaultShadeIndex, featu
   return {
     contrast: determineContrast(colorObject, colorArray),
     isDefaultIndex: index === defaultShadeIndex,
-    isFeaturedIndex: index === featuredShadeIndex
+    isFeaturedIndex: index === featuredShadeIndex,
   }
 }

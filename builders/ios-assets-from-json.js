@@ -1,5 +1,4 @@
 const fs = require('fs')
-/* eslint-disable-next-line import/no-extraneous-dependencies */
 const path = require('path')
 const chroma = require('chroma-js')
 const removeDirectory = require('rimraf').sync
@@ -11,8 +10,8 @@ const PALETTE = require('../dist/colors.meta.json')
 const INFO_TEMPLATE = {
   info: {
     author: 'blog.color-studio',
-    version: PALETTE.version
-  }
+    version: PALETTE.version,
+  },
 }
 
 const OUTPUT_PATH = path.join(__dirname, '../dist/ios')
@@ -37,12 +36,12 @@ PALETTE.colors.forEach(colorArray => {
               'red':   String(chromaObject.get('rgb.r')),
               'green': String(chromaObject.get('rgb.g')),
               'blue':  String(chromaObject.get('rgb.b')),
-              'alpha': chromaObject.alpha()
+              'alpha': chromaObject.alpha(),
             },
-            'color-space': 'srgb'
-          }
-        }
-      ]
+            'color-space': 'srgb',
+          },
+        },
+      ],
       /* eslint-enable quote-props */
     }))
   })
@@ -53,7 +52,7 @@ function defineContentsFile(dirname, contents) {
 
   return {
     path: path.join(dirname, 'Contents.json'),
-    contents: print.prepare(json)
+    contents: print.prepare(json),
   }
 }
 

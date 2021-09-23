@@ -50,9 +50,9 @@ function createColorStyle(document, colorObject) {
     fills: [
       {
         color: colorObject.value,
-        fillType: Style.FillType.Color
-      }
-    ]
+        fillType: Style.FillType.Color,
+      },
+    ],
   }
 
   return style
@@ -73,8 +73,8 @@ function ensureSharedStyle(document, name) {
     document,
     name,
     style: {
-      type: Style
-    }
+      type: Style,
+    },
   })
 }
 
@@ -89,7 +89,7 @@ function createColorSymbol(parent, colorObject, colorStyle, rowIndex = 0, column
     name: 'bg',
     frame: new Rectangle(0, 0, SWATCH_WIDTH, SWATCH_HEIGHT),
     sharedStyleId: colorStyle.id,
-    locked: true
+    locked: true,
   })
 
   colorFill.style.syncWithSharedStyle(colorStyle)

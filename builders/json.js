@@ -10,7 +10,7 @@ const paletteColors = COLOR_DEFINITIONS.colors.map(color => {
   const shades = generateShades(COLOR_DEFINITIONS.config, color.specs)
   const formattedShades = shades.map(colorObject => {
     return formatShade(color.name, colorObject.index, colorObject.value, {
-      _debug: colorObject.properties
+      _debug: colorObject.properties,
     })
   })
 
@@ -29,21 +29,21 @@ const specialColors = ['White', 'Black'].map(color => {
 
 module.exports = {
   version: PACKAGE.version,
-  colors: [specialColors].concat(paletteColors)
+  colors: [specialColors].concat(paletteColors),
 }
 
 function formatShade(baseName, index, value, _meta = {}) {
   const shade = {
     name: baseName,
     value: toFormattedHexValue(value),
-    _meta
+    _meta,
   }
 
   if (isNumber(index)) {
     shade.name = `${baseName} ${index}`
     shade._meta = Object.assign(shade._meta, {
       baseName,
-      index
+      index,
     })
   }
 
@@ -52,13 +52,13 @@ function formatShade(baseName, index, value, _meta = {}) {
 
 function formatSpecialShade(baseName, value) {
   return formatShade(baseName, false, value, {
-    special: true
+    special: true,
   })
 }
 
 function formatAliasShade(baseName, colorObject) {
   const shade = formatShade(baseName, colorObject.index, colorObject.value, {
-    alias: true
+    alias: true,
   })
 
   shade.name = baseName

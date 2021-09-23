@@ -4,40 +4,40 @@ const PALETTE_COLORS = [
   [
     {
       name: 'Gray 0',
-      value: '#FAFAFA'
+      value: '#FAFAFA',
     },
     {
       name: 'Gray 5',
-      value: '#999'
+      value: '#999',
     },
     {
       name: 'Gray 50',
-      value: '#555555'
+      value: '#555555',
     },
     {
       name: 'Gray 100',
-      value: '#111'
-    }
+      value: '#111',
+    },
   ],
   [
     {
       name: 'Jetpack Green',
       value: '#00ba37',
       _meta: {
-        alias: true
-      }
+        alias: true,
+      },
     },
     {
       name: 'Jetpack Green 30',
-      value: '#00ba37'
-    }
+      value: '#00ba37',
+    },
   ],
   [
     {
       name: 'White',
-      value: 'white'
-    }
-  ]
+      value: 'white',
+    },
+  ],
 ]
 
 describe('defaults', () => {
@@ -67,7 +67,7 @@ describe('defaults', () => {
 
 describe('with `excludeAliases: true`', () => {
   const PALETTE = toNamedColorCollection(PALETTE_COLORS, {
-    excludeAliases: true
+    excludeAliases: true,
   })
 
   test('contains each of the passed colors with aliases excluded', () => {

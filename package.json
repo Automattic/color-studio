@@ -46,7 +46,7 @@
     "webpack": "5.52.0",
     "webpack-cli": "4.8.0",
     "webpack-dev-server": "4.1.0",
-    "xo": "0.40.2"
+    "xo": "0.44.0"
   },
   "scripts": {
     "archive": "cp dist/colors.meta.json dist-archive/colors.meta-${npm_package_version}.json",
@@ -114,12 +114,18 @@
       "array-callback-return": [
         "off"
       ],
+      "arrow-body-style": [
+        "off"
+      ],
       "capitalized-comments": [
         "off"
       ],
       "curly": [
         "error",
         "multi-line"
+      ],
+      "import/extensions": [
+        "off"
       ],
       "import/no-anonymous-default-export": [
         "off"

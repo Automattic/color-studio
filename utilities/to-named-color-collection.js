@@ -2,7 +2,7 @@ const toFormattedHexValue = require('./to-formatted-hex-value')
 
 module.exports = (colorArrays, config = {}) => {
   const defaults = {
-    excludeAliases: false
+    excludeAliases: false,
   }
 
   const options = Object.assign(defaults, config)
