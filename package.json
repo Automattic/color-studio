@@ -114,12 +114,18 @@
       "array-callback-return": [
         "off"
       ],
+      "arrow-body-style": [
+        "off"
+      ],
       "capitalized-comments": [
         "off"
       ],
       "curly": [
         "error",
         "multi-line"
+      ],
+      "import/extensions": [
+        "off"
       ],
       "import/no-anonymous-default-export": [
         "off"
