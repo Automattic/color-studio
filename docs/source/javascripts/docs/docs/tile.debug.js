@@ -21,7 +21,7 @@ module.exports = colorObject => {
       '<div class="tile__meta tile__meta--tiny">',
         getContrastScore(colorObject, COLOR_BLACK, 'B'),
       '</div>',
-    '</div>'
+    '</div>',
   ].join('')
   /* eslint-enable indent */
 }
@@ -42,9 +42,9 @@ function getName(colorObject) {
   const colorName = isFeaturedIndex ? colorObject.name : (isDefaultIndex ? `(${index})` : index)
   const displayName = String(colorName).replace(/\s+/g, '&nbsp;')
 
-  return isAccessibleContrast(colorObject, COLOR_WHITE) ?
-    `<span style="color: ${toFormattedHexValue(COLOR_WHITE)}">${displayName}</span>` :
-    displayName
+  return isAccessibleContrast(colorObject, COLOR_WHITE)
+    ? `<span style="color: ${toFormattedHexValue(COLOR_WHITE)}">${displayName}</span>`
+    : displayName
 }
 
 function getValue(colorObject) {
@@ -53,7 +53,7 @@ function getValue(colorObject) {
     colorObject.value,
     `H:${round(properties.hue, 2)}`,
     `S:${round(properties.saturation * 100, 2)}`,
-    `V:${round(properties.luminosity * 100, 2)}`
+    `V:${round(properties.luminosity * 100, 2)}`,
   ]
 
   return values.join('<br>')

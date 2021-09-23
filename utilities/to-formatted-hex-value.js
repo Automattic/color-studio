@@ -1,6 +1,6 @@
 const SUPPORTED_NAMED_COLORS = {
   black: '#000',
-  white: '#fff'
+  white: '#fff',
 }
 
 module.exports = value => {

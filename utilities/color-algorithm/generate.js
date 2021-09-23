@@ -24,8 +24,8 @@ module.exports = ({ specs }) => {
       properties: {
         hue,
         saturation,
-        luminosity
-      }
+        luminosity,
+      },
     }
   })
 }
@@ -81,7 +81,7 @@ function generateSteps(count, easing) {
 function distribute(value, fromLow, toLow, fromHigh, toHigh) {
   const result = toLow + (((value - fromLow) / (fromHigh - fromLow)) * (toHigh - toLow))
 
-  return toLow < toHigh ?
-    Math.max(toLow, Math.min(result, toHigh)) :
-    Math.min(toLow, Math.max(result, toHigh))
+  return toLow < toHigh
+    ? Math.max(toLow, Math.min(result, toHigh))
+    : Math.min(toLow, Math.max(result, toHigh))
 }

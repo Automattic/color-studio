@@ -17,9 +17,9 @@ module.exports = (colorObject, colorArray) => {
   return {
     black: contastBlack,
     white: contastWhite,
-    displayColor: isBrighter ?
-      determineDisplayColor(backgroundColor, textColors, COLOR_BLACK) :
-      determineDisplayColor(backgroundColor, reverse(textColors), COLOR_WHITE)
+    displayColor: isBrighter
+      ? determineDisplayColor(backgroundColor, textColors, COLOR_BLACK)
+      : determineDisplayColor(backgroundColor, reverse(textColors), COLOR_WHITE),
   }
 }
 

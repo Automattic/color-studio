@@ -1,4 +1,3 @@
-/* eslint-disable-next-line import/no-extraneous-dependencies */
 const path = require('path')
 
 const MiniExtractPlugin = require('mini-css-extract-plugin')
@@ -19,7 +18,7 @@ module.exports = {
     'example-marketing-css': './stylesheets/example-marketing/example.scss',
     'example-marketing-colors-bright-js': './javascripts/example-marketing/example-colors-bright.js',
     'example-marketing-colors-dark-js': './javascripts/example-marketing/example-colors-dark.js',
-    'example-woocommerce-css': './stylesheets/example-woocommerce/example.scss'
+    'example-woocommerce-css': './stylesheets/example-woocommerce/example.scss',
   },
   module: {
     rules: [
@@ -30,98 +29,98 @@ module.exports = {
           loader: 'babel-loader',
           options: {
             presets: [
-              '@babel/preset-env'
+              '@babel/preset-env',
             ],
             plugins: [
-              '@babel/plugin-transform-runtime'
-            ]
-          }
-        }
+              '@babel/plugin-transform-runtime',
+            ],
+          },
+        },
       },
       {
         test: /\.scss$/,
         exclude: path.join(__dirname, 'node_modules'),
         use: [
           {
-            loader: MiniExtractPlugin.loader
+            loader: MiniExtractPlugin.loader,
           },
           {
-            loader: 'css-loader'
+            loader: 'css-loader',
           },
           {
             loader: 'postcss-loader',
             options: {
               postcssOptions: {
                 plugins: [
-                  require('autoprefixer')
-                ]
-              }
-            }
+                  require('autoprefixer'),
+                ],
+              },
+            },
           },
           {
             loader: 'sass-loader',
             options: {
               sassOptions: {
                 includePaths: [
-                  path.join(__dirname, '.cache/calypso/client')
+                  path.join(__dirname, '.cache/calypso/client'),
                 ],
-                outputStyle: 'compressed'
-              }
-            }
-          }
-        ]
+                outputStyle: 'compressed',
+              },
+            },
+          },
+        ],
       },
       {
         test: /\.(jpg|png|svg)$/i,
         use: [
           {
-            loader: 'url-loader'
-          }
-        ]
+            loader: 'url-loader',
+          },
+        ],
       },
       {
         test: /\.sketchpalette$/,
-        use: 'raw-loader'
-      }
-    ]
+        use: 'raw-loader',
+      },
+    ],
   },
   output: {
     path: path.join(__dirname, 'docs/dist/assets'),
-    filename: '[name].js'
+    filename: '[name].js',
   },
   resolve: {
     alias: {
-      '/calypso/images': path.resolve(__dirname, '.cache/calypso/static/images')
-    }
+      '/calypso/images': path.resolve(__dirname, '.cache/calypso/static/images'),
+    },
   },
   plugins: [
     new MiniExtractPlugin({
-      filename: '[name].css'
+      filename: '[name].css',
     }),
     new RenameFilePlugin({
       originNameReg: /(.*)-css.css/,
-      targetName: '$1.css'
+      targetName: '$1.css',
     }),
     new RenameFilePlugin({
       originNameReg: /(.*)-js.js/,
-      targetName: '$1.js'
-    })
+      targetName: '$1.js',
+    }),
   ],
   stats: {
     entrypoints: false,
     modules: false,
-    warnings: false
+    warnings: false,
   },
   devServer: {
     port: 3003,
     static: {
-      directory: path.join(__dirname, 'docs/dist')
+      directory: path.join(__dirname, 'docs/dist'),
     },
     devMiddleware: {
-      writeToDisk: true
-    }
+      writeToDisk: true,
+    },
   },
   performance: {
-    hints: false
-  }
+    hints: false,
+  },
 }

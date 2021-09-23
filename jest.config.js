@@ -4,6 +4,6 @@ module.exports = {
 
   // The glob patterns Jest uses to detect test files
   testMatch: [
-    '<rootDir>/test/**/*.test.js'
-  ]
+    '<rootDir>/test/**/*.test.js',
+  ],
 }

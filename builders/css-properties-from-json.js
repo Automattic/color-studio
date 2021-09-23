@@ -39,7 +39,7 @@ function printStylesheet(colorArrays) {
     '\n',
     blocks.join('\n\n'),
     '\n',
-    '}'
+    '}',
   ]
 
   console.log(contents.join(''))

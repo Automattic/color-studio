@@ -1,4 +1,3 @@
-/* eslint-disable-next-line import/no-extraneous-dependencies */
 const path = require('path')
 const puppeteer = require('puppeteer')
 
@@ -14,7 +13,7 @@ async function generatePreview() {
   await page.setViewport({
     width: 1500,
     height: 100,
-    deviceScaleFactor: 2
+    deviceScaleFactor: 2,
   })
 
   await page.goto(`file://${INPUT_PATH}`)
@@ -38,7 +37,7 @@ async function generatePreview() {
 
   await page.screenshot({
     path: OUTPUT_PATH,
-    fullPage: true
+    fullPage: true,
   })
 
   await browser.close()

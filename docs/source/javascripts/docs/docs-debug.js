@@ -35,7 +35,7 @@ function createOptions(palettes) {
     return {
       index,
       name: palette.displayName,
-      group: palette.label
+      group: palette.label,
     }
   })
 
@@ -51,7 +51,7 @@ function createOptions(palettes) {
 
 function createOptionGroup(name, items) {
   const options = items.map(item => `<option value="${item.index}">${item.name}</option>`)
-  return `<optgroup label="${name}">${options.join()}</optgroup>`
+  return `<optgroup label="${name}">${options.join(',')}</optgroup>`
 }
 
 function renderPalette(palette) {

@@ -11,7 +11,7 @@ module.exports = formatPalettes([
   require('../../../../../dist-archive/colors.meta-2.2.1.json'),
   require('../../../../../dist-archive/colors.meta-2.1.0.json'),
   require('../../../../../dist-archive/colors.meta-2.0.1.json'),
-  require('../../../../../dist-archive/colors.meta-1.0.6.json')
+  require('../../../../../dist-archive/colors.meta-1.0.6.json'),
 ])
 
 function formatPalettes(paletteArray) {
@@ -31,20 +31,20 @@ function formatPalettes(paletteArray) {
 function formatMostRecentPalette(palette) {
   return extend(palette, formatDisplayProperties(palette), {
     label: 'Most Recent',
-    colors: palette.colors.map(colorArray => formatColorArray(colorArray, palette.version))
+    colors: palette.colors.map(colorArray => formatColorArray(colorArray, palette.version)),
   })
 }
 
 function formatDeprecatedPalette(palette) {
   return extend(formatMostRecentPalette(palette), {
-    label: 'Deprecated'
+    label: 'Deprecated',
   })
 }
 
 function formatDeprecatedPaletteVersion1(palette) {
   return extend(palette, formatDisplayProperties(palette), {
     label: 'Deprecated',
-    colors: palette.colors.map(colorArray => formatColorArray(colorArray, palette.version, 500).concat(createEmptyColor()))
+    colors: palette.colors.map(colorArray => formatColorArray(colorArray, palette.version, 500).concat(createEmptyColor())),
   })
 }
 
@@ -66,7 +66,7 @@ function formatDisplayProperties(paletteObject) {
   const { version } = paletteObject
   return {
     displayName: `v${version}`,
-    downloadLink: `https://github.com/Automattic/color-studio/tree/${version}/dist`
+    downloadLink: `https://github.com/Automattic/color-studio/tree/${version}/dist`,
   }
 }
 
@@ -82,7 +82,7 @@ function formatColorProperties(colorObject, colorArray, defaultShadeIndex, featu
     contrast: determineContrast(colorObject, colorArray),
     isDefaultIndex: index === defaultShadeIndex,
     isDeprecated: isColorDeprecated(colorObject, paletteVersion),
-    isFeaturedIndex: index === featuredShadeIndex
+    isFeaturedIndex: index === featuredShadeIndex,
   }
 }
 
@@ -92,6 +92,6 @@ function isColorDeprecated(colorObject, paletteVersion) {
 
 function createEmptyColor() {
   return {
-    _empty: true
+    _empty: true,
   }
 }
