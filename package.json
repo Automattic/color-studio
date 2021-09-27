@@ -25,7 +25,7 @@
     "chroma-js": "2.1.2",
     "concurrently": "6.2.1",
     "copy-text-to-clipboard": "2.2.0",
-    "css-loader": "5.2.6",
+    "css-loader": "6.3.0",
     "easy-table": "1.1.1",
     "husky": "7.0.2",
     "jest": "27.1.0",
