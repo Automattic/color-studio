@@ -23,7 +23,7 @@
     "bezier-easing": "2.1.0",
     "bootstrap": "5.1.1",
     "chroma-js": "2.1.2",
-    "concurrently": "6.2.1",
+    "concurrently": "6.3.0",
     "copy-text-to-clipboard": "2.2.0",
     "css-loader": "6.3.0",
     "easy-table": "1.1.1",
