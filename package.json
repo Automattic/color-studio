@@ -31,7 +31,7 @@
     "jest": "27.4.5",
     "lodash": "4.17.21",
     "mini-css-extract-plugin": "2.4.5",
-    "node-sass": "7.0.0",
+    "node-sass": "7.0.1",
     "onchange": "7.1.0",
     "postcss": "8.4.5",
     "postcss-loader": "6.2.1",
