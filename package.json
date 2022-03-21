@@ -152,6 +152,10 @@
         "error",
         "always"
       ],
+      "object-shorthand": [
+        "error",
+        "properties"
+      ],
       "prefer-named-capture-group": [
         "off"
       ],
