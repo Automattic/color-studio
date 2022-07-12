@@ -39,7 +39,7 @@
     "raw-loader": "4.0.2",
     "rename-webpack-plugin": "2.0.0",
     "rimraf": "3.0.2",
-    "sass-loader": "12.6.0",
+    "sass-loader": "13.0.2",
     "semver": "7.3.7",
     "svgo": "2.8.0",
     "url-loader": "4.1.1",
