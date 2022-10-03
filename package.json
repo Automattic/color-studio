@@ -33,7 +33,7 @@
     "mini-css-extract-plugin": "2.6.1",
     "node-sass": "7.0.3",
     "onchange": "7.1.0",
-    "postcss": "8.4.16",
+    "postcss": "8.4.17",
     "postcss-loader": "7.0.1",
     "puppeteer": "18.0.5",
     "raw-loader": "4.0.2",
