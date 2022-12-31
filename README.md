@@ -59,3 +59,4 @@ All the build commands run automatically before every commit.
 ## License
 
 Color Studio is licensed under [GNU General Public License v2.0 (or later)](LICENSE.md).
+test
