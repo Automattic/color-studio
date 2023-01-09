@@ -26,9 +26,9 @@ button {
 ### JavaScript
 
 ```js
-const PALETTE = require('@automattic/color-studio')
+const PALETTE = require( '@automattic/color-studio' );
 
-console.log(PALETTE.colors['Pink 50'])
+console.log( PALETTE.colors[ 'Pink 50' ] );
 ```
 
 The above imports the contents of the [JSON file](dist/colors.json).
