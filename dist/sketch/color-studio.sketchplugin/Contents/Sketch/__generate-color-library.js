@@ -114,20 +114,16 @@ module.exports = JSON.parse("{\"version\":\"2.5.0\",\"colors\":[[{\"name\":\"Whi
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 var _require = __webpack_require__(/*! sketch */ "sketch"),
-    getSelectedDocument = _require.getSelectedDocument;
-
+  getSelectedDocument = _require.getSelectedDocument;
 var _require2 = __webpack_require__(/*! sketch/dom */ "sketch/dom"),
-    Artboard = _require2.Artboard,
-    Rectangle = _require2.Rectangle,
-    Shape = _require2.Shape,
-    SharedStyle = _require2.SharedStyle,
-    Style = _require2.Style,
-    SymbolMaster = _require2.SymbolMaster;
-
+  Artboard = _require2.Artboard,
+  Rectangle = _require2.Rectangle,
+  Shape = _require2.Shape,
+  SharedStyle = _require2.SharedStyle,
+  Style = _require2.Style,
+  SymbolMaster = _require2.SymbolMaster;
 var padStart = __webpack_require__(/*! lodash/padStart */ "./node_modules/lodash/padStart.js");
-
 var PALETTE = __webpack_require__(/*! ../../dist/colors.meta.json */ "./dist/colors.meta.json");
-
 var SWATCH_WIDTH = 48;
 var SWATCH_HEIGHT = 48;
 var SWATCH_MARGIN = 12;
@@ -150,19 +146,16 @@ var cachedSharedStyles = {};
     });
   });
 });
-
 function cacheArtboards(parent) {
   parent.layers.forEach(function (artboard) {
     cachedArtboards[artboard.name] = artboard;
   });
 }
-
 function cacheSharedStyles(document) {
   document.getSharedLayerStyles().forEach(function (style) {
     cachedSharedStyles[style.name] = style;
   });
 }
-
 function createColorStyle(document, colorObject) {
   var name = normalizeColorName(colorObject);
   var style = ensureSharedStyle(document, name);
@@ -175,17 +168,14 @@ function createColorStyle(document, colorObject) {
   };
   return style;
 }
-
 function normalizeColorName(colorObject) {
   if (colorObject._meta.special) {
     return colorObject.name;
   }
-
   var base = colorObject._meta.baseName;
   var index = padStart(colorObject._meta.index, 3, 0);
   return "".concat(base, "/").concat(base, " ").concat(index);
 }
-
 function ensureSharedStyle(document, name) {
   return cachedSharedStyles[name] || SharedStyle.fromStyle({
     document: document,
@@ -195,7 +185,6 @@ function ensureSharedStyle(document, name) {
     }
   });
 }
-
 function createColorSymbol(parent, colorObject, colorStyle) {
   var rowIndex = arguments.length > 3 && arguments[3] !== undefined ? arguments[3] : 0;
   var columnIndex = arguments.length > 4 && arguments[4] !== undefined ? arguments[4] : 0;
@@ -213,7 +202,6 @@ function createColorSymbol(parent, colorObject, colorStyle) {
   colorFill.style.syncWithSharedStyle(colorStyle);
   return SymbolMaster.fromArtboard(colorArtboard);
 }
-
 function ensureArtboardWith(parent, name, x, y, width, height) {
   var artboard = cachedArtboards[name] || new Artboard({
     parent: parent,
@@ -222,14 +210,12 @@ function ensureArtboardWith(parent, name, x, y, width, height) {
   artboard.frame = new Rectangle(x, y, width, height);
   return artboard;
 }
-
 function empty(parent) {
   if (parent.layers.length >= 0) {
     parent.layers.forEach(function (layer) {
       layer.remove();
     });
   }
-
   return parent;
 }
 

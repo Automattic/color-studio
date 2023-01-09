@@ -1,4 +1,4 @@
-const path = require('path')
+const path = require('node:path')
 const puppeteer = require('puppeteer')
 
 const INPUT_PATH = path.join(__dirname, '../docs/dist/index.html')

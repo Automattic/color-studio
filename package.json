@@ -192,6 +192,9 @@
       ],
       "unicorn/prefer-spread": [
         "off"
+      ],
+      "unicorn/prefer-top-level-await": [
+        "off"
       ]
     },
     "overrides": [
