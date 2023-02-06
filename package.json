@@ -35,7 +35,7 @@
     "onchange": "7.1.0",
     "postcss": "8.4.21",
     "postcss-loader": "7.0.2",
-    "puppeteer": "19.6.2",
+    "puppeteer": "19.6.3",
     "raw-loader": "4.0.2",
     "rename-webpack-plugin": "2.0.0",
     "rimraf": "4.1.2",
