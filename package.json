@@ -45,7 +45,7 @@
     "url-loader": "4.1.1",
     "webpack": "5.76.3",
     "webpack-cli": "5.0.1",
-    "webpack-dev-server": "4.13.1",
+    "webpack-dev-server": "4.13.2",
     "xo": "0.53.1"
   },
   "scripts": {
