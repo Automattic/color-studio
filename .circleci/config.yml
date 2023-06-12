@@ -10,14 +10,14 @@ jobs:
     executor: node
     steps:
       - checkout
-      - run: yarn
+      - run: yarn --ignore-engines --ignore-platform
       - run: yarn palette:build
 
   lint:
     executor: node
     steps:
       - checkout
-      - run: yarn
+      - run: yarn --ignore-engines --ignore-platform
       - run: yarn lint
 
   no-uncomitted-color-changes:
@@ -29,7 +29,7 @@ jobs:
           command: |
             mkdir -p .cache
             cp dist/colors.json .cache
-      - run: yarn
+      - run: yarn --ignore-engines --ignore-platform
       - run: yarn palette:build:json
       - run:
           name: Compare color values
