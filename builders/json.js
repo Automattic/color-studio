@@ -2,7 +2,6 @@ const chroma = require('chroma-js')
 const isNumber = require('lodash/isNumber')
 const generateShades = require('../utilities/generate-shades')
 const toFormattedHexValue = require('../utilities/to-formatted-hex-value')
-
 const COLOR_DEFINITIONS = require('../data/color-definitions')
 const PACKAGE = require('../package.json')
 

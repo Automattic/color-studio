@@ -1,5 +1,4 @@
 const toKebabCase = require('lodash/kebabCase')
-
 const PALETTE = require('../dist/colors.meta.json')
 
 const colors = PALETTE.colors.map(colorArray => {

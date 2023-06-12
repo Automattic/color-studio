@@ -4,7 +4,6 @@ const chroma = require('chroma-js')
 const removeDirectory = require('rimraf').sync
 const extend = require('../utilities/extend')
 const print = require('../utilities/print')
-
 const PALETTE = require('../dist/colors.meta.json')
 
 const INFO_TEMPLATE = {

@@ -1,6 +1,5 @@
 const clone = require('lodash/cloneDeep')
 const print = require('../utilities/print')
-
 const PALETTE_DATA = require('./json')
 
 const PALETTE_FILTERED_DATA = removeDebugData(PALETTE_DATA)

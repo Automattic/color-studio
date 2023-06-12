@@ -7,7 +7,6 @@ const chroma = require('chroma-js')
 const isFunction = require('lodash/isFunction')
 const range = require('lodash/range')
 const reverse = require('lodash/reverse')
-
 const Curves = require('./curves')
 
 module.exports = ({ specs }) => {

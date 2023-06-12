@@ -1,8 +1,6 @@
 const { getSelectedDocument } = require('sketch')
 const { Artboard, Rectangle, Shape, SharedStyle, Style, SymbolMaster } = require('sketch/dom')
-
 const padStart = require('lodash/padStart')
-
 const PALETTE = require('../../dist/colors.meta.json')
 
 const SWATCH_WIDTH = 48

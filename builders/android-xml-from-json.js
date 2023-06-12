@@ -1,6 +1,5 @@
 const repeat = require('lodash/repeat')
 const toSnakeCase = require('lodash/snakeCase')
-
 const PALETTE = require('../dist/colors.meta.json')
 
 const paletteColors = PALETTE.colors.map(colorArray => {

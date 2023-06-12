@@ -5,7 +5,6 @@ const toArray = require('lodash/toArray')
 const toKebabCase = require('lodash/kebabCase')
 const initDesaturationListener = require('./docs/desaturation')
 const renderTile = require('./docs/tile')
-
 const PALETTES = require('./docs/palettes')
 
 const ELEMENT_DOWNLOAD_LINK = document.querySelector('#studio-download-link')
