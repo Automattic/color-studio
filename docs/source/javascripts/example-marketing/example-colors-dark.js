@@ -3,7 +3,6 @@ const floor = require('lodash/floor')
 const repeat = require('lodash/repeat')
 const extend = require('../../../../utilities/extend')
 const getValueFromClassName = require('./example/get-value-from-class-name')
-
 const COLOR_COMBINATIONS = require('./data/example-colors-dark.json')
 
 document.querySelector('#example-output').innerHTML = getOutputString()

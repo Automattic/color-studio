@@ -1,5 +1,4 @@
 const path = require('node:path')
-
 const MiniExtractPlugin = require('mini-css-extract-plugin')
 const RenameFilePlugin = require('rename-webpack-plugin')
 
