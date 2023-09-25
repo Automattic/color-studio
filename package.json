@@ -14,7 +14,7 @@
   "main": "dist/colors.json",
   "style": "dist/color-variables.scss",
   "devDependencies": {
-    "@babel/core": "7.22.17",
+    "@babel/core": "7.22.20",
     "@babel/plugin-transform-runtime": "7.22.15",
     "@babel/preset-env": "7.22.20",
     "@skpm/builder": "0.8.0",
