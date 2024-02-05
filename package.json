@@ -27,7 +27,7 @@
     "copy-text-to-clipboard": "2.2.0",
     "css-loader": "6.9.1",
     "easy-table": "1.2.0",
-    "husky": "9.0.6",
+    "husky": "9.0.10",
     "jest": "29.7.0",
     "lodash": "4.17.21",
     "mini-css-extract-plugin": "2.7.7",
