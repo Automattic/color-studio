@@ -34,7 +34,7 @@
     "node-sass": "9.0.0",
     "onchange": "7.1.0",
     "postcss": "8.4.35",
-    "postcss-loader": "8.0.0",
+    "postcss-loader": "8.1.0",
     "puppeteer": "21.7.0",
     "raw-loader": "4.0.2",
     "rename-webpack-plugin": "2.0.0",
