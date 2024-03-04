@@ -46,7 +46,7 @@
     "webpack": "5.90.3",
     "webpack-cli": "5.1.4",
     "webpack-dev-server": "5.0.2",
-    "xo": "0.54.2"
+    "xo": "0.57.0"
   },
   "scripts": {
     "archive": "cp dist/colors.meta.json dist-archive/colors.meta-${npm_package_version}.json",
