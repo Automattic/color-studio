@@ -171,6 +171,19 @@
     "Jetpack Green 70": "#005b18",
     "Jetpack Green 80": "#004515",
     "Jetpack Green 90": "#003010",
-    "Jetpack Green 100": "#001c09"
+    "Jetpack Green 100": "#001c09",
+    "Automattic": "#24a3e0",
+    "Automattic 0": "#ebf4fa",
+    "Automattic 5": "#c4e2f5",
+    "Automattic 10": "#88ccf2",
+    "Automattic 20": "#5ab7e8",
+    "Automattic 30": "#24a3e0",
+    "Automattic 40": "#1490c7",
+    "Automattic 50": "#0277a8",
+    "Automattic 60": "#036085",
+    "Automattic 70": "#02506e",
+    "Automattic 80": "#02384d",
+    "Automattic 90": "#022836",
+    "Automattic 100": "#021b24"
   }
 }
