@@ -1,5 +1,9 @@
 # Releases
 
+## 2.6.0
+
+* Added a new color palette: Automattic.
+
 ## 2.5.0
 
 * _No changes to color values._
