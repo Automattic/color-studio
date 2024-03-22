@@ -40,7 +40,7 @@ function getName(colorObject) {
   const { index, isDefaultIndex, isFeaturedIndex } = colorObject._meta
 
   const colorName = isFeaturedIndex ? colorObject.name : (isDefaultIndex ? `(${index})` : index)
-  const displayName = String(colorName).replace(/\s+/g, '&nbsp;')
+  const displayName = String(colorName).replaceAll(/\s+/g, '&nbsp;')
 
   return isAccessibleContrast(colorObject, COLOR_WHITE)
     ? `<span style="color: ${toFormattedHexValue(COLOR_WHITE)}">${displayName}</span>`
