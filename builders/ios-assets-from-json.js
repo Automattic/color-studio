@@ -21,7 +21,7 @@ const filesToCreate = [defineContentsFile(ASSETS_PATH)]
 
 PALETTE.colors.forEach(colorArray => {
   colorArray.forEach(colorObject => {
-    const colorPath = path.join(ASSETS_PATH, `${colorObject.name.replace(/\s+/g, '')}.colorset`)
+    const colorPath = path.join(ASSETS_PATH, `${colorObject.name.replaceAll(/\s+/g, '')}.colorset`)
     const chromaObject = chroma(colorObject.value)
 
     directoriesToCreate.push(colorPath)
