@@ -2,7 +2,7 @@
 
 ## 2.6.0
 
-* Added a new color palette: Automattic.
+* Added a new color palette: Automattic Blue.
 
 ## 2.5.0
 
