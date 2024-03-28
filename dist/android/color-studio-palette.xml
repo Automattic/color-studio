@@ -189,17 +189,17 @@
     <color name="jetpack_green_90">#003010</color>
     <color name="jetpack_green_100">#001c09</color>
 
-    <color name="automattic">#24a3e0</color>
-    <color name="automattic_0">#ebf4fa</color>
-    <color name="automattic_5">#c4e2f5</color>
-    <color name="automattic_10">#88ccf2</color>
-    <color name="automattic_20">#5ab7e8</color>
-    <color name="automattic_30">#24a3e0</color>
-    <color name="automattic_40">#1490c7</color>
-    <color name="automattic_50">#0277a8</color>
-    <color name="automattic_60">#036085</color>
-    <color name="automattic_70">#02506e</color>
-    <color name="automattic_80">#02384d</color>
-    <color name="automattic_90">#022836</color>
-    <color name="automattic_100">#021b24</color>
+    <color name="automattic_blue">#24a3e0</color>
+    <color name="automattic_blue_0">#ebf4fa</color>
+    <color name="automattic_blue_5">#c4e2f5</color>
+    <color name="automattic_blue_10">#88ccf2</color>
+    <color name="automattic_blue_20">#5ab7e8</color>
+    <color name="automattic_blue_30">#24a3e0</color>
+    <color name="automattic_blue_40">#1490c7</color>
+    <color name="automattic_blue_50">#0277a8</color>
+    <color name="automattic_blue_60">#036085</color>
+    <color name="automattic_blue_70">#02506e</color>
+    <color name="automattic_blue_80">#02384d</color>
+    <color name="automattic_blue_90">#022836</color>
+    <color name="automattic_blue_100">#021b24</color>
 </resources>

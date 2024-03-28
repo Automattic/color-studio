@@ -12,7 +12,7 @@ async function generatePreview() {
 
   await page.setViewport({
     width: 1500,
-    height: 100,
+    height: 840,
     deviceScaleFactor: 2,
   })
 

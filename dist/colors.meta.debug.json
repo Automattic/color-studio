@@ -2190,16 +2190,16 @@
     ],
     [
       {
-        "name": "Automattic",
+        "name": "Automattic Blue",
         "value": "#24a3e0",
         "_meta": {
           "alias": true,
-          "baseName": "Automattic",
+          "baseName": "Automattic Blue",
           "index": 30
         }
       },
       {
-        "name": "Automattic 0",
+        "name": "Automattic Blue 0",
         "value": "#ebf4fa",
         "_meta": {
           "_debug": {
@@ -2207,12 +2207,12 @@
             "saturation": 0.06,
             "luminosity": 0.98
           },
-          "baseName": "Automattic",
+          "baseName": "Automattic Blue",
           "index": 0
         }
       },
       {
-        "name": "Automattic 5",
+        "name": "Automattic Blue 5",
         "value": "#c4e2f5",
         "_meta": {
           "_debug": {
@@ -2220,12 +2220,12 @@
             "saturation": 0.2,
             "luminosity": 0.96
           },
-          "baseName": "Automattic",
+          "baseName": "Automattic Blue",
           "index": 5
         }
       },
       {
-        "name": "Automattic 10",
+        "name": "Automattic Blue 10",
         "value": "#88ccf2",
         "_meta": {
           "_debug": {
@@ -2233,12 +2233,12 @@
             "saturation": 0.44,
             "luminosity": 0.95
           },
-          "baseName": "Automattic",
+          "baseName": "Automattic Blue",
           "index": 10
         }
       },
       {
-        "name": "Automattic 20",
+        "name": "Automattic Blue 20",
         "value": "#5ab7e8",
         "_meta": {
           "_debug": {
@@ -2246,12 +2246,12 @@
             "saturation": 0.61,
             "luminosity": 0.91
           },
-          "baseName": "Automattic",
+          "baseName": "Automattic Blue",
           "index": 20
         }
       },
       {
-        "name": "Automattic 30",
+        "name": "Automattic Blue 30",
         "value": "#24a3e0",
         "_meta": {
           "_debug": {
@@ -2259,12 +2259,12 @@
             "saturation": 0.84,
             "luminosity": 0.88
           },
-          "baseName": "Automattic",
+          "baseName": "Automattic Blue",
           "index": 30
         }
       },
       {
-        "name": "Automattic 40",
+        "name": "Automattic Blue 40",
         "value": "#1490c7",
         "_meta": {
           "_debug": {
@@ -2272,12 +2272,12 @@
             "saturation": 0.9,
             "luminosity": 0.78
           },
-          "baseName": "Automattic",
+          "baseName": "Automattic Blue",
           "index": 40
         }
       },
       {
-        "name": "Automattic 50",
+        "name": "Automattic Blue 50",
         "value": "#0277a8",
         "_meta": {
           "_debug": {
@@ -2285,12 +2285,12 @@
             "saturation": 0.99,
             "luminosity": 0.66
           },
-          "baseName": "Automattic",
+          "baseName": "Automattic Blue",
           "index": 50
         }
       },
       {
-        "name": "Automattic 60",
+        "name": "Automattic Blue 60",
         "value": "#036085",
         "_meta": {
           "_debug": {
@@ -2298,12 +2298,12 @@
             "saturation": 0.98,
             "luminosity": 0.52
           },
-          "baseName": "Automattic",
+          "baseName": "Automattic Blue",
           "index": 60
         }
       },
       {
-        "name": "Automattic 70",
+        "name": "Automattic Blue 70",
         "value": "#02506e",
         "_meta": {
           "_debug": {
@@ -2311,12 +2311,12 @@
             "saturation": 0.98,
             "luminosity": 0.43200000000000005
           },
-          "baseName": "Automattic",
+          "baseName": "Automattic Blue",
           "index": 70
         }
       },
       {
-        "name": "Automattic 80",
+        "name": "Automattic Blue 80",
         "value": "#02384d",
         "_meta": {
           "_debug": {
@@ -2324,12 +2324,12 @@
             "saturation": 0.97,
             "luminosity": 0.3
           },
-          "baseName": "Automattic",
+          "baseName": "Automattic Blue",
           "index": 80
         }
       },
       {
-        "name": "Automattic 90",
+        "name": "Automattic Blue 90",
         "value": "#022836",
         "_meta": {
           "_debug": {
@@ -2337,12 +2337,12 @@
             "saturation": 0.96,
             "luminosity": 0.21
           },
-          "baseName": "Automattic",
+          "baseName": "Automattic Blue",
           "index": 90
         }
       },
       {
-        "name": "Automattic 100",
+        "name": "Automattic Blue 100",
         "value": "#021b24",
         "_meta": {
           "_debug": {
@@ -2350,7 +2350,7 @@
             "saturation": 0.94,
             "luminosity": 0.14
           },
-          "baseName": "Automattic",
+          "baseName": "Automattic Blue",
           "index": 100
         }
       }

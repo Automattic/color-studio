@@ -201,7 +201,7 @@ module.exports = {
       },
     },
     {
-      name: 'Automattic',
+      name: 'Automattic Blue',
       default: 30,
       specs: {
         hue_start: 204,
