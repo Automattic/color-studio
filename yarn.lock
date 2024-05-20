@@ -4294,10 +4294,10 @@ detect-node@^2.0.4:
   resolved "https://registry.yarnpkg.com/detect-node/-/detect-node-2.0.4.tgz#014ee8f8f669c5c58023da64b8179c083a28c46c"
   integrity sha512-ZIzRpLJrOj7jjP2miAtgqIfmzbxa4ZOr5jJc601zklsfEx9oTzmmj2nVpIPRpNlRTIh8lc1kyViIY7BWSGNmKw==
 
-devtools-protocol@0.0.1273771:
-  version "0.0.1273771"
-  resolved "https://registry.yarnpkg.com/devtools-protocol/-/devtools-protocol-0.0.1273771.tgz#46aeb5db41417e2c2ad3d8367c598c975290b1a5"
-  integrity sha512-QDbb27xcTVReQQW/GHJsdQqGKwYBE7re7gxehj467kKP2DKuYBUj6i2k5LRiAC66J1yZG/9gsxooz/s9pcm0Og==
+devtools-protocol@0.0.1286932:
+  version "0.0.1286932"
+  resolved "https://registry.yarnpkg.com/devtools-protocol/-/devtools-protocol-0.0.1286932.tgz#2303707034426fe0b39012713d4b7339f7dbc815"
+  integrity sha512-wu58HMQll9voDjR4NlPyoDEw1syfzaBNHymMMZ/QOXiHRNluOnDgu9hp1yHOKYoMlxCh4lSSiugLITe6Fvu1eA==
 
 diff-sequences@^29.6.3:
   version "29.6.3"
@@ -8969,26 +8969,26 @@ punycode@^2.1.0:
   resolved "https://registry.yarnpkg.com/punycode/-/punycode-2.1.1.tgz#b58b010ac40c22c5657616c8d2c2c02c7bf479ec"
   integrity sha512-XRsRjdf+j5ml+y/6GKHPZbrF/8p2Yga0JPtdqTIY2Xe5ohJPD9saDJJLPvp9+NSBprVvevdXZybnj2cv8OEd0A==
 
-puppeteer-core@22.8.0:
-  version "22.8.0"
-  resolved "https://registry.yarnpkg.com/puppeteer-core/-/puppeteer-core-22.8.0.tgz#82c0e7ebf62ba5f34404394034e313b82014de5f"
-  integrity sha512-S5bWx3g/fNuyFxjZX9TkZMN07CEH47+9Zm6IiTl1QfqI9pnVaShbwrD9kRe5vmz/XPp/jLGhhxRUj1sY4wObnA==
+puppeteer-core@22.9.0:
+  version "22.9.0"
+  resolved "https://registry.yarnpkg.com/puppeteer-core/-/puppeteer-core-22.9.0.tgz#df7ef6c285f4eed938911322184f9cd21d892b39"
+  integrity sha512-Q2SYVZ1SIE7jCd/Pp+1/mNLFtdJfGvAF+CqOTDG8HcCNCiBvoXfopXfOfMHQ/FueXhGfJW/I6DartWv6QzpNGg==
   dependencies:
     "@puppeteer/browsers" "2.2.3"
     chromium-bidi "0.5.19"
     debug "4.3.4"
-    devtools-protocol "0.0.1273771"
+    devtools-protocol "0.0.1286932"
     ws "8.17.0"
 
-puppeteer@22.8.0:
-  version "22.8.0"
-  resolved "https://registry.yarnpkg.com/puppeteer/-/puppeteer-22.8.0.tgz#58556b4388a9047658f0704afa37b8eea71b84ba"
-  integrity sha512-Z616wyTr0d7KpxmfcBG22rAkzuo/xzHJ3ycpu4KiJ3dZNHn/C1CpqcCwPlpiIIsmPojTAfWjo6EMR7M+AaC0Ww==
+puppeteer@22.9.0:
+  version "22.9.0"
+  resolved "https://registry.yarnpkg.com/puppeteer/-/puppeteer-22.9.0.tgz#ef404de6c1f6a5b32e01ede20258acf4aa826bf9"
+  integrity sha512-yNux2cm6Sfik4lNLNjJ25Cdn9spJRbMXxl1YZtVZCEhEeej1sFlCvZ/Cr64LhgyJOuvz3iq2uk+RLFpQpGwrjw==
   dependencies:
     "@puppeteer/browsers" "2.2.3"
     cosmiconfig "9.0.0"
-    devtools-protocol "0.0.1273771"
-    puppeteer-core "22.8.0"
+    devtools-protocol "0.0.1286932"
+    puppeteer-core "22.9.0"
 
 pure-rand@^6.0.0:
   version "6.0.1"
