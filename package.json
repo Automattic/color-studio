@@ -58,7 +58,7 @@
     "docs": "yarn docs:build",
     "docs:build": "webpack",
     "docs:watch": "yarn palette:build:_watch && concurrently \"yarn palette:watch\" \"webpack serve\"",
-    "lint": "xo",
+    "lint": "xo --fix",
     "meta": "yarn meta:build",
     "meta:build": "yarn meta:build:preview",
     "meta:build:preview": "node builders/preview-from-docs",
