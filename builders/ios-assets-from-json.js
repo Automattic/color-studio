@@ -1,7 +1,7 @@
 const fs = require('node:fs')
 const path = require('node:path')
+const { execSync } = require('node:child_process')
 const chroma = require('chroma-js')
-const removeDirectory = require('rimraf').sync
 const extend = require('../utilities/extend')
 const print = require('../utilities/print')
 const PALETTE = require('../dist/colors.meta.json')
@@ -68,6 +68,14 @@ function createFile(name, contents) {
     throw new Error(`${name} already exists`)
   } else {
     fs.writeFileSync(name, contents)
+  }
+}
+
+const removeDirectory = name => {
+  try {
+    execSync(`rm -rf ${name}`)
+  } catch (error) {
+    throw new Error(`Can’t remove ${name}:\n${error.message}`)
   }
 }
 
