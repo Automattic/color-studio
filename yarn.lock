@@ -10018,10 +10018,10 @@ ws@^8.16.0, ws@^8.18.0:
   resolved "https://registry.yarnpkg.com/ws/-/ws-8.18.0.tgz#0d7505a6eafe2b0e712d232b42279f53bc289bbc"
   integrity sha512-8VbfWfHLbbwu3+N6OKsOMpBdT4kXPDDB9cJk2bJ6mh9ucxdlnNvH1e+roYkKmN9Nxw2yjz7VzeO9oOz2zJ04Pw==
 
-xo@0.59.0:
-  version "0.59.0"
-  resolved "https://registry.yarnpkg.com/xo/-/xo-0.59.0.tgz#15858bb5a1df4ac02485c77315e3af85f3782b28"
-  integrity sha512-SBYYsZahFkdKKuz53Y3szikIfyAk1EVQimdwwXbxXKh35vwq7OEZWuezPda2wWizYGnJ7ZVfNxem4qc+BI60rg==
+xo@0.59.3:
+  version "0.59.3"
+  resolved "https://registry.yarnpkg.com/xo/-/xo-0.59.3.tgz#21635dbbbda132103c8ab13ef840c67f10e79da1"
+  integrity sha512-jjUplAF4kqNP22HIlgnW+Ej8/Z1utf4Mzw/dLsbOcSpnUgrEqcyaS/OhGFriFyEBbnWVkslnYgUHiDsb6lNiBQ==
   dependencies:
     "@eslint/eslintrc" "^3.1.0"
     "@typescript-eslint/eslint-plugin" "^7.16.1"
