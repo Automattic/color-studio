@@ -50,9 +50,6 @@
   "scripts": {
     "archive": "cp dist/colors.meta.json dist-archive/colors.meta-${npm_package_version}.json",
     "build": "yarn palette:build && yarn docs:build && yarn sketch:build --quiet && yarn meta:build",
-    "calypso": "yarn calypso:clone && yarn calypso:reset",
-    "calypso:clone": "git clone -b trunk --single-branch https://github.com/Automattic/wp-calypso .cache/calypso || true",
-    "calypso:reset": "git -C .cache/calypso reset --hard 31f0c014fcbfbf20161d2ad47d1228ee9cf27970",
     "clean": "yarn palette:clean",
     "docs": "yarn docs:build",
     "docs:build": "webpack",
@@ -84,7 +81,7 @@
     "palette:clean": "git checkout HEAD -- dist",
     "palette:test": "jest test/palette.test.js",
     "palette:watch": "onchange builders/json.js data/color-definitions.js -- yarn palette:build:_watch",
-    "prepare": "husky install; yarn calypso",
+    "prepare": "husky install",
     "sketch": "yarn sketch:build && skpm-link",
     "sketch:build": "skpm-build",
     "sketch:watch": "skpm-build --watch",
@@ -99,7 +96,6 @@
   },
   "xo": {
     "ignores": [
-      ".cache/**/*",
       "docs/dist/assets/**/*",
       "docs/dist/downloads/**/*"
     ],

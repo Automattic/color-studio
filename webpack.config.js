@@ -11,9 +11,6 @@ module.exports = {
     'docs-index-js': './javascripts/docs/docs-index.js',
     'example-android-css': './stylesheets/example-android/example.scss',
     'example-android-js': './javascripts/example-android/example.js',
-    'example-calypso-css': './stylesheets/example-calypso/example.scss',
-    'example-calypso-simplenote-css': './stylesheets/example-calypso-simplenote/example.scss',
-    'example-calypso-woocommerce-css': './stylesheets/example-calypso-woocommerce/example.scss',
     'example-marketing-css': './stylesheets/example-marketing/example.scss',
     'example-marketing-colors-bright-js': './javascripts/example-marketing/example-colors-bright.js',
     'example-marketing-colors-dark-js': './javascripts/example-marketing/example-colors-dark.js',
@@ -60,9 +57,6 @@ module.exports = {
             loader: 'sass-loader',
             options: {
               sassOptions: {
-                includePaths: [
-                  path.join(__dirname, '.cache/calypso/client'),
-                ],
                 outputStyle: 'compressed',
               },
             },
@@ -86,11 +80,6 @@ module.exports = {
   output: {
     path: path.join(__dirname, 'docs/dist/assets'),
     filename: '[name].js',
-  },
-  resolve: {
-    alias: {
-      '/calypso/images': path.resolve(__dirname, '.cache/calypso/static/images'),
-    },
   },
   plugins: [
     new MiniExtractPlugin({
