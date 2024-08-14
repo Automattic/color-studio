@@ -1,6 +1,6 @@
 const uniqBy = require('lodash/uniqBy')
 const versionLowerThan = require('semver/functions/lt')
-const versionGreaterThanOrEqual = require('semver/functions/gte')
+const satisfies = require('semver/functions/satisfies')
 const extend = require('../../../../../utilities/extend')
 const determineContrast = require('./contrast')
 
@@ -87,7 +87,7 @@ function formatColorProperties(colorObject, colorArray, defaultShadeIndex, featu
 }
 
 function isColorDeprecated(colorObject, paletteVersion) {
-  return Boolean(colorObject._meta.baseName === 'WordPress Blue' && versionGreaterThanOrEqual(paletteVersion, '2.4.0'))
+  return Boolean(colorObject._meta.baseName === 'WordPress Blue' && satisfies(paletteVersion, '>=2.4.0 <2.6.1'))
 }
 
 function createEmptyColor() {
