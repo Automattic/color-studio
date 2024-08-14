@@ -1,6 +1,6 @@
 {
   "name": "@automattic/color-studio",
-  "version": "2.6.0",
+  "version": "2.6.1",
   "description": "The color palette for Automattic products.",
   "homepage": "https://color-studio.blog",
   "license": {
@@ -223,5 +223,8 @@
         }
       }
     ]
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.11.8"
   }
 }

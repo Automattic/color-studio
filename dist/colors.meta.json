@@ -1,5 +1,5 @@
 {
-  "version": "2.6.0",
+  "version": "2.6.1",
   "colors": [
     [
       {
@@ -1090,7 +1090,7 @@
     [
       {
         "name": "WordPress Blue",
-        "value": "#006088",
+        "value": "#3858e9",
         "_meta": {
           "alias": true,
           "baseName": "WordPress Blue",
@@ -1099,7 +1099,7 @@
       },
       {
         "name": "WordPress Blue 0",
-        "value": "#e6f1f5",
+        "value": "#fbfcfe",
         "_meta": {
           "baseName": "WordPress Blue",
           "index": 0
@@ -1107,7 +1107,7 @@
       },
       {
         "name": "WordPress Blue 5",
-        "value": "#bedae6",
+        "value": "#f7f8fe",
         "_meta": {
           "baseName": "WordPress Blue",
           "index": 5
@@ -1115,7 +1115,7 @@
       },
       {
         "name": "WordPress Blue 10",
-        "value": "#98c6d9",
+        "value": "#d6ddf9",
         "_meta": {
           "baseName": "WordPress Blue",
           "index": 10
@@ -1123,7 +1123,7 @@
       },
       {
         "name": "WordPress Blue 20",
-        "value": "#6ab3d0",
+        "value": "#adbaf3",
         "_meta": {
           "baseName": "WordPress Blue",
           "index": 20
@@ -1131,7 +1131,7 @@
       },
       {
         "name": "WordPress Blue 30",
-        "value": "#3895ba",
+        "value": "#7b90ff",
         "_meta": {
           "baseName": "WordPress Blue",
           "index": 30
@@ -1139,7 +1139,7 @@
       },
       {
         "name": "WordPress Blue 40",
-        "value": "#187aa2",
+        "value": "#546ff3",
         "_meta": {
           "baseName": "WordPress Blue",
           "index": 40
@@ -1147,7 +1147,7 @@
       },
       {
         "name": "WordPress Blue 50",
-        "value": "#006088",
+        "value": "#3858e9",
         "_meta": {
           "baseName": "WordPress Blue",
           "index": 50
@@ -1155,7 +1155,7 @@
       },
       {
         "name": "WordPress Blue 60",
-        "value": "#004e6e",
+        "value": "#2a46ce",
         "_meta": {
           "baseName": "WordPress Blue",
           "index": 60
@@ -1163,7 +1163,7 @@
       },
       {
         "name": "WordPress Blue 70",
-        "value": "#003c56",
+        "value": "#1d35b4",
         "_meta": {
           "baseName": "WordPress Blue",
           "index": 70
@@ -1171,7 +1171,7 @@
       },
       {
         "name": "WordPress Blue 80",
-        "value": "#002c40",
+        "value": "#1f3286",
         "_meta": {
           "baseName": "WordPress Blue",
           "index": 80
@@ -1179,7 +1179,7 @@
       },
       {
         "name": "WordPress Blue 90",
-        "value": "#001d2d",
+        "value": "#14215a",
         "_meta": {
           "baseName": "WordPress Blue",
           "index": 90
@@ -1187,7 +1187,7 @@
       },
       {
         "name": "WordPress Blue 100",
-        "value": "#00101c",
+        "value": "#0a112d",
         "_meta": {
           "baseName": "WordPress Blue",
           "index": 100
