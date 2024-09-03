@@ -8,7 +8,7 @@ import UIKit
 import AppKit
 #endif
 
-enum ColorStudioShade: UInt8 {
+public enum ColorStudioShade: UInt8 {
     case shade0 = 0
     case shade5 = 5
     case shade10 = 10
@@ -24,56 +24,44 @@ enum ColorStudioShade: UInt8 {
 }
 
 #if canImport(UIKit)
-protocol ColorStudioPalette {
+public protocol ColorStudioPalette {
     static var colorTable: [ColorStudioShade: UIColor] { get }
     static var base: UIColor { get }
-}
-
-extension ColorStudioPalette {
-    static func shade(_ shade: ColorStudioShade) -> UIColor {
-        colorTable[shade]!
-    }
 }
 #endif
 
 #if canImport(AppKit)
-protocol ColorStudioPalette {
+public protocol ColorStudioPalette {
     static var colorTable: [ColorStudioShade: NSColor] { get }
     static var base: NSColor { get }
 }
-
-extension ColorStudioPalette {
-    static func shade(_ shade: ColorStudioShade) -> NSColor {
-        colorTable[shade]!
-    }
-}
 #endif
 
-struct CSColor {
+public struct CSColor {
 
-    struct White {
+    public struct White {
         #if canImport(UIKit)
-        static let base = UIColor(red: 255, green: 255, blue: 255, alpha: 1)
+        public static let base = UIColor(red: 255, green: 255, blue: 255, alpha: 1)
         #endif
 
         #if canImport(AppKit)
-        static let base = NSColor(red: 255, green: 255, blue: 255, alpha: 1)
+        public static let base = NSColor(red: 255, green: 255, blue: 255, alpha: 1)
         #endif
     }
 
-    struct Black {
+    public struct Black {
         #if canImport(UIKit)
-        static let base = UIColor(red: 0, green: 0, blue: 0, alpha: 1)
+        public static let base = UIColor(red: 0, green: 0, blue: 0, alpha: 1)
         #endif
 
         #if canImport(AppKit)
-        static let base = NSColor(red: 0, green: 0, blue: 0, alpha: 1)
+        public static let base = NSColor(red: 0, green: 0, blue: 0, alpha: 1)
         #endif
     }
 
-    struct Gray: ColorStudioPalette {
+    public struct Gray: ColorStudioPalette {
       #if canImport(UIKit)
-      static let colorTable: [ColorStudioShade: UIColor] = [
+      public static let colorTable: [ColorStudioShade: UIColor] = [
         .shade0: UIColor(red: 0.9647058823529412, green: 0.9686274509803922, blue: 0.9686274509803922, alpha: 1),
         .shade5: UIColor(red: 0.8627450980392157, green: 0.8627450980392157, blue: 0.8705882352941177, alpha: 1),
         .shade10: UIColor(red: 0.7647058823529411, green: 0.7686274509803922, blue: 0.7803921568627451, alpha: 1),
@@ -87,11 +75,16 @@ struct CSColor {
         .shade90: UIColor(red: 0.11372549019607843, green: 0.13725490196078433, blue: 0.15294117647058825, alpha: 1),
         .shade100: UIColor(red: 0.06274509803921569, green: 0.08235294117647059, blue: 0.09019607843137255, alpha: 1),
       ]
-      static let base = UIColor(red: 0.39215686274509803, green: 0.4117647058823529, blue: 0.4392156862745098, alpha: 1)
+
+      public static let base = UIColor(red: 0.39215686274509803, green: 0.4117647058823529, blue: 0.4392156862745098, alpha: 1)
+
+      public static func shade(_ shade: ColorStudioShade) -> UIColor {
+        colorTable[shade]!
+      }
       #endif
 
       #if canImport(AppKit)
-      static let colorTable: [ColorStudioShade: NSColor] = [
+      public static let colorTable: [ColorStudioShade: NSColor] = [
         .shade0: NSColor(red: 0.9647058823529412, green: 0.9686274509803922, blue: 0.9686274509803922, alpha: 1),
         .shade5: NSColor(red: 0.8627450980392157, green: 0.8627450980392157, blue: 0.8705882352941177, alpha: 1),
         .shade10: NSColor(red: 0.7647058823529411, green: 0.7686274509803922, blue: 0.7803921568627451, alpha: 1),
@@ -105,13 +98,19 @@ struct CSColor {
         .shade90: NSColor(red: 0.11372549019607843, green: 0.13725490196078433, blue: 0.15294117647058825, alpha: 1),
         .shade100: NSColor(red: 0.06274509803921569, green: 0.08235294117647059, blue: 0.09019607843137255, alpha: 1),
       ]
-      static let base = NSColor(red: 0.39215686274509803, green: 0.4117647058823529, blue: 0.4392156862745098, alpha: 1)
+
+      public static let base = NSColor(red: 0.39215686274509803, green: 0.4117647058823529, blue: 0.4392156862745098, alpha: 1)
+
+
+      public static func shade(_ shade: ColorStudioShade) -> NSColor {
+        colorTable[shade]!
+      }
       #endif
     }
 
-    struct Blue: ColorStudioPalette {
+    public struct Blue: ColorStudioPalette {
       #if canImport(UIKit)
-      static let colorTable: [ColorStudioShade: UIColor] = [
+      public static let colorTable: [ColorStudioShade: UIColor] = [
         .shade0: UIColor(red: 0.9137254901960784, green: 0.9411764705882353, blue: 0.9607843137254902, alpha: 1),
         .shade5: UIColor(red: 0.7333333333333333, green: 0.8784313725490196, blue: 0.9803921568627451, alpha: 1),
         .shade10: UIColor(red: 0.5686274509803921, green: 0.792156862745098, blue: 0.9490196078431372, alpha: 1),
@@ -125,11 +124,16 @@ struct CSColor {
         .shade90: UIColor(red: 0.00392156862745098, green: 0.1568627450980392, blue: 0.23921568627450981, alpha: 1),
         .shade100: UIColor(red: 0, green: 0.08627450980392157, blue: 0.12941176470588237, alpha: 1),
       ]
-      static let base = UIColor(red: 0.023529411764705882, green: 0.4588235294117647, blue: 0.7686274509803922, alpha: 1)
+
+      public static let base = UIColor(red: 0.023529411764705882, green: 0.4588235294117647, blue: 0.7686274509803922, alpha: 1)
+
+      public static func shade(_ shade: ColorStudioShade) -> UIColor {
+        colorTable[shade]!
+      }
       #endif
 
       #if canImport(AppKit)
-      static let colorTable: [ColorStudioShade: NSColor] = [
+      public static let colorTable: [ColorStudioShade: NSColor] = [
         .shade0: NSColor(red: 0.9137254901960784, green: 0.9411764705882353, blue: 0.9607843137254902, alpha: 1),
         .shade5: NSColor(red: 0.7333333333333333, green: 0.8784313725490196, blue: 0.9803921568627451, alpha: 1),
         .shade10: NSColor(red: 0.5686274509803921, green: 0.792156862745098, blue: 0.9490196078431372, alpha: 1),
@@ -143,13 +147,19 @@ struct CSColor {
         .shade90: NSColor(red: 0.00392156862745098, green: 0.1568627450980392, blue: 0.23921568627450981, alpha: 1),
         .shade100: NSColor(red: 0, green: 0.08627450980392157, blue: 0.12941176470588237, alpha: 1),
       ]
-      static let base = NSColor(red: 0.023529411764705882, green: 0.4588235294117647, blue: 0.7686274509803922, alpha: 1)
+
+      public static let base = NSColor(red: 0.023529411764705882, green: 0.4588235294117647, blue: 0.7686274509803922, alpha: 1)
+
+
+      public static func shade(_ shade: ColorStudioShade) -> NSColor {
+        colorTable[shade]!
+      }
       #endif
     }
 
-    struct Purple: ColorStudioPalette {
+    public struct Purple: ColorStudioPalette {
       #if canImport(UIKit)
-      static let colorTable: [ColorStudioShade: UIColor] = [
+      public static let colorTable: [ColorStudioShade: UIColor] = [
         .shade0: UIColor(red: 0.9490196078431372, green: 0.9137254901960784, blue: 0.9294117647058824, alpha: 1),
         .shade5: UIColor(red: 0.9215686274509803, green: 0.807843137254902, blue: 0.8784313725490196, alpha: 1),
         .shade10: UIColor(red: 0.8901960784313725, green: 0.6862745098039216, blue: 0.8352941176470589, alpha: 1),
@@ -163,11 +173,16 @@ struct CSColor {
         .shade90: UIColor(red: 0.20784313725490197, green: 0.08627450980392157, blue: 0.23137254901960785, alpha: 1),
         .shade100: UIColor(red: 0.11764705882352941, green: 0.047058823529411764, blue: 0.12941176470588237, alpha: 1),
       ]
-      static let base = UIColor(red: 0.596078431372549, green: 0.2901960784313726, blue: 0.611764705882353, alpha: 1)
+
+      public static let base = UIColor(red: 0.596078431372549, green: 0.2901960784313726, blue: 0.611764705882353, alpha: 1)
+
+      public static func shade(_ shade: ColorStudioShade) -> UIColor {
+        colorTable[shade]!
+      }
       #endif
 
       #if canImport(AppKit)
-      static let colorTable: [ColorStudioShade: NSColor] = [
+      public static let colorTable: [ColorStudioShade: NSColor] = [
         .shade0: NSColor(red: 0.9490196078431372, green: 0.9137254901960784, blue: 0.9294117647058824, alpha: 1),
         .shade5: NSColor(red: 0.9215686274509803, green: 0.807843137254902, blue: 0.8784313725490196, alpha: 1),
         .shade10: NSColor(red: 0.8901960784313725, green: 0.6862745098039216, blue: 0.8352941176470589, alpha: 1),
@@ -181,13 +196,19 @@ struct CSColor {
         .shade90: NSColor(red: 0.20784313725490197, green: 0.08627450980392157, blue: 0.23137254901960785, alpha: 1),
         .shade100: NSColor(red: 0.11764705882352941, green: 0.047058823529411764, blue: 0.12941176470588237, alpha: 1),
       ]
-      static let base = NSColor(red: 0.596078431372549, green: 0.2901960784313726, blue: 0.611764705882353, alpha: 1)
+
+      public static let base = NSColor(red: 0.596078431372549, green: 0.2901960784313726, blue: 0.611764705882353, alpha: 1)
+
+
+      public static func shade(_ shade: ColorStudioShade) -> NSColor {
+        colorTable[shade]!
+      }
       #endif
     }
 
-    struct Pink: ColorStudioPalette {
+    public struct Pink: ColorStudioPalette {
       #if canImport(UIKit)
-      static let colorTable: [ColorStudioShade: UIColor] = [
+      public static let colorTable: [ColorStudioShade: UIColor] = [
         .shade0: UIColor(red: 0.9607843137254902, green: 0.9137254901960784, blue: 0.9294117647058824, alpha: 1),
         .shade5: UIColor(red: 0.9490196078431372, green: 0.807843137254902, blue: 0.8549019607843137, alpha: 1),
         .shade10: UIColor(red: 0.9686274509803922, green: 0.6588235294117647, blue: 0.7647058823529411, alpha: 1),
@@ -201,11 +222,16 @@ struct CSColor {
         .shade90: UIColor(red: 0.30980392156862746, green: 0.03529411764705882, blue: 0.16470588235294117, alpha: 1),
         .shade100: UIColor(red: 0.14901960784313725, green: 0.01568627450980392, blue: 0.08235294117647059, alpha: 1),
       ]
-      static let base = UIColor(red: 0.788235294117647, green: 0.20784313725490197, blue: 0.43137254901960786, alpha: 1)
+
+      public static let base = UIColor(red: 0.788235294117647, green: 0.20784313725490197, blue: 0.43137254901960786, alpha: 1)
+
+      public static func shade(_ shade: ColorStudioShade) -> UIColor {
+        colorTable[shade]!
+      }
       #endif
 
       #if canImport(AppKit)
-      static let colorTable: [ColorStudioShade: NSColor] = [
+      public static let colorTable: [ColorStudioShade: NSColor] = [
         .shade0: NSColor(red: 0.9607843137254902, green: 0.9137254901960784, blue: 0.9294117647058824, alpha: 1),
         .shade5: NSColor(red: 0.9490196078431372, green: 0.807843137254902, blue: 0.8549019607843137, alpha: 1),
         .shade10: NSColor(red: 0.9686274509803922, green: 0.6588235294117647, blue: 0.7647058823529411, alpha: 1),
@@ -219,13 +245,19 @@ struct CSColor {
         .shade90: NSColor(red: 0.30980392156862746, green: 0.03529411764705882, blue: 0.16470588235294117, alpha: 1),
         .shade100: NSColor(red: 0.14901960784313725, green: 0.01568627450980392, blue: 0.08235294117647059, alpha: 1),
       ]
-      static let base = NSColor(red: 0.788235294117647, green: 0.20784313725490197, blue: 0.43137254901960786, alpha: 1)
+
+      public static let base = NSColor(red: 0.788235294117647, green: 0.20784313725490197, blue: 0.43137254901960786, alpha: 1)
+
+
+      public static func shade(_ shade: ColorStudioShade) -> NSColor {
+        colorTable[shade]!
+      }
       #endif
     }
 
-    struct Red: ColorStudioPalette {
+    public struct Red: ColorStudioPalette {
       #if canImport(UIKit)
-      static let colorTable: [ColorStudioShade: UIColor] = [
+      public static let colorTable: [ColorStudioShade: UIColor] = [
         .shade0: UIColor(red: 0.9686274509803922, green: 0.9215686274509803, blue: 0.9254901960784314, alpha: 1),
         .shade5: UIColor(red: 0.9803921568627451, green: 0.8117647058823529, blue: 0.8235294117647058, alpha: 1),
         .shade10: UIColor(red: 1, green: 0.6705882352941176, blue: 0.6862745098039216, alpha: 1),
@@ -239,11 +271,16 @@ struct CSColor {
         .shade90: UIColor(red: 0.27058823529411763, green: 0.07450980392156863, blue: 0.07450980392156863, alpha: 1),
         .shade100: UIColor(red: 0.1411764705882353, green: 0.0392156862745098, blue: 0.0392156862745098, alpha: 1),
       ]
-      static let base = UIColor(red: 0.8392156862745098, green: 0.21176470588235294, blue: 0.2196078431372549, alpha: 1)
+
+      public static let base = UIColor(red: 0.8392156862745098, green: 0.21176470588235294, blue: 0.2196078431372549, alpha: 1)
+
+      public static func shade(_ shade: ColorStudioShade) -> UIColor {
+        colorTable[shade]!
+      }
       #endif
 
       #if canImport(AppKit)
-      static let colorTable: [ColorStudioShade: NSColor] = [
+      public static let colorTable: [ColorStudioShade: NSColor] = [
         .shade0: NSColor(red: 0.9686274509803922, green: 0.9215686274509803, blue: 0.9254901960784314, alpha: 1),
         .shade5: NSColor(red: 0.9803921568627451, green: 0.8117647058823529, blue: 0.8235294117647058, alpha: 1),
         .shade10: NSColor(red: 1, green: 0.6705882352941176, blue: 0.6862745098039216, alpha: 1),
@@ -257,13 +294,19 @@ struct CSColor {
         .shade90: NSColor(red: 0.27058823529411763, green: 0.07450980392156863, blue: 0.07450980392156863, alpha: 1),
         .shade100: NSColor(red: 0.1411764705882353, green: 0.0392156862745098, blue: 0.0392156862745098, alpha: 1),
       ]
-      static let base = NSColor(red: 0.8392156862745098, green: 0.21176470588235294, blue: 0.2196078431372549, alpha: 1)
+
+      public static let base = NSColor(red: 0.8392156862745098, green: 0.21176470588235294, blue: 0.2196078431372549, alpha: 1)
+
+
+      public static func shade(_ shade: ColorStudioShade) -> NSColor {
+        colorTable[shade]!
+      }
       #endif
     }
 
-    struct Orange: ColorStudioPalette {
+    public struct Orange: ColorStudioPalette {
       #if canImport(UIKit)
-      static let colorTable: [ColorStudioShade: UIColor] = [
+      public static let colorTable: [ColorStudioShade: UIColor] = [
         .shade0: UIColor(red: 0.9607843137254902, green: 0.9254901960784314, blue: 0.9019607843137255, alpha: 1),
         .shade5: UIColor(red: 0.9686274509803922, green: 0.8627450980392157, blue: 0.7764705882352941, alpha: 1),
         .shade10: UIColor(red: 1, green: 0.7490196078431373, blue: 0.5254901960784314, alpha: 1),
@@ -277,11 +320,16 @@ struct CSColor {
         .shade90: UIColor(red: 0.21176470588235294, green: 0.12156862745098039, blue: 0, alpha: 1),
         .shade100: UIColor(red: 0.12156862745098039, green: 0.07058823529411765, blue: 0, alpha: 1),
       ]
-      static let base = UIColor(red: 0.6980392156862745, green: 0.3843137254901961, blue: 0, alpha: 1)
+
+      public static let base = UIColor(red: 0.6980392156862745, green: 0.3843137254901961, blue: 0, alpha: 1)
+
+      public static func shade(_ shade: ColorStudioShade) -> UIColor {
+        colorTable[shade]!
+      }
       #endif
 
       #if canImport(AppKit)
-      static let colorTable: [ColorStudioShade: NSColor] = [
+      public static let colorTable: [ColorStudioShade: NSColor] = [
         .shade0: NSColor(red: 0.9607843137254902, green: 0.9254901960784314, blue: 0.9019607843137255, alpha: 1),
         .shade5: NSColor(red: 0.9686274509803922, green: 0.8627450980392157, blue: 0.7764705882352941, alpha: 1),
         .shade10: NSColor(red: 1, green: 0.7490196078431373, blue: 0.5254901960784314, alpha: 1),
@@ -295,13 +343,19 @@ struct CSColor {
         .shade90: NSColor(red: 0.21176470588235294, green: 0.12156862745098039, blue: 0, alpha: 1),
         .shade100: NSColor(red: 0.12156862745098039, green: 0.07058823529411765, blue: 0, alpha: 1),
       ]
-      static let base = NSColor(red: 0.6980392156862745, green: 0.3843137254901961, blue: 0, alpha: 1)
+
+      public static let base = NSColor(red: 0.6980392156862745, green: 0.3843137254901961, blue: 0, alpha: 1)
+
+
+      public static func shade(_ shade: ColorStudioShade) -> NSColor {
+        colorTable[shade]!
+      }
       #endif
     }
 
-    struct Yellow: ColorStudioPalette {
+    public struct Yellow: ColorStudioPalette {
       #if canImport(UIKit)
-      static let colorTable: [ColorStudioShade: UIColor] = [
+      public static let colorTable: [ColorStudioShade: UIColor] = [
         .shade0: UIColor(red: 0.9607843137254902, green: 0.9450980392156862, blue: 0.8823529411764706, alpha: 1),
         .shade5: UIColor(red: 0.9607843137254902, green: 0.9019607843137255, blue: 0.7019607843137254, alpha: 1),
         .shade10: UIColor(red: 0.9490196078431372, green: 0.8431372549019608, blue: 0.4196078431372549, alpha: 1),
@@ -315,11 +369,16 @@ struct CSColor {
         .shade90: UIColor(red: 0.2, green: 0.13333333333333333, blue: 0, alpha: 1),
         .shade100: UIColor(red: 0.10980392156862745, green: 0.07450980392156863, blue: 0, alpha: 1),
       ]
-      static let base = UIColor(red: 0.615686274509804, green: 0.43137254901960786, blue: 0, alpha: 1)
+
+      public static let base = UIColor(red: 0.615686274509804, green: 0.43137254901960786, blue: 0, alpha: 1)
+
+      public static func shade(_ shade: ColorStudioShade) -> UIColor {
+        colorTable[shade]!
+      }
       #endif
 
       #if canImport(AppKit)
-      static let colorTable: [ColorStudioShade: NSColor] = [
+      public static let colorTable: [ColorStudioShade: NSColor] = [
         .shade0: NSColor(red: 0.9607843137254902, green: 0.9450980392156862, blue: 0.8823529411764706, alpha: 1),
         .shade5: NSColor(red: 0.9607843137254902, green: 0.9019607843137255, blue: 0.7019607843137254, alpha: 1),
         .shade10: NSColor(red: 0.9490196078431372, green: 0.8431372549019608, blue: 0.4196078431372549, alpha: 1),
@@ -333,13 +392,19 @@ struct CSColor {
         .shade90: NSColor(red: 0.2, green: 0.13333333333333333, blue: 0, alpha: 1),
         .shade100: NSColor(red: 0.10980392156862745, green: 0.07450980392156863, blue: 0, alpha: 1),
       ]
-      static let base = NSColor(red: 0.615686274509804, green: 0.43137254901960786, blue: 0, alpha: 1)
+
+      public static let base = NSColor(red: 0.615686274509804, green: 0.43137254901960786, blue: 0, alpha: 1)
+
+
+      public static func shade(_ shade: ColorStudioShade) -> NSColor {
+        colorTable[shade]!
+      }
       #endif
     }
 
-    struct Green: ColorStudioPalette {
+    public struct Green: ColorStudioPalette {
       #if canImport(UIKit)
-      static let colorTable: [ColorStudioShade: UIColor] = [
+      public static let colorTable: [ColorStudioShade: UIColor] = [
         .shade0: UIColor(red: 0.9019607843137255, green: 0.9490196078431372, blue: 0.9098039215686274, alpha: 1),
         .shade5: UIColor(red: 0.7215686274509804, green: 0.9019607843137255, blue: 0.7490196078431373, alpha: 1),
         .shade10: UIColor(red: 0.40784313725490196, green: 0.8705882352941177, blue: 0.5254901960784314, alpha: 1),
@@ -353,11 +418,16 @@ struct CSColor {
         .shade90: UIColor(red: 0, green: 0.18823529411764706, blue: 0.03137254901960784, alpha: 1),
         .shade100: UIColor(red: 0, green: 0.10980392156862745, blue: 0.0196078431372549, alpha: 1),
       ]
-      static let base = UIColor(red: 0, green: 0.5411764705882353, blue: 0.12549019607843137, alpha: 1)
+
+      public static let base = UIColor(red: 0, green: 0.5411764705882353, blue: 0.12549019607843137, alpha: 1)
+
+      public static func shade(_ shade: ColorStudioShade) -> UIColor {
+        colorTable[shade]!
+      }
       #endif
 
       #if canImport(AppKit)
-      static let colorTable: [ColorStudioShade: NSColor] = [
+      public static let colorTable: [ColorStudioShade: NSColor] = [
         .shade0: NSColor(red: 0.9019607843137255, green: 0.9490196078431372, blue: 0.9098039215686274, alpha: 1),
         .shade5: NSColor(red: 0.7215686274509804, green: 0.9019607843137255, blue: 0.7490196078431373, alpha: 1),
         .shade10: NSColor(red: 0.40784313725490196, green: 0.8705882352941177, blue: 0.5254901960784314, alpha: 1),
@@ -371,13 +441,19 @@ struct CSColor {
         .shade90: NSColor(red: 0, green: 0.18823529411764706, blue: 0.03137254901960784, alpha: 1),
         .shade100: NSColor(red: 0, green: 0.10980392156862745, blue: 0.0196078431372549, alpha: 1),
       ]
-      static let base = NSColor(red: 0, green: 0.5411764705882353, blue: 0.12549019607843137, alpha: 1)
+
+      public static let base = NSColor(red: 0, green: 0.5411764705882353, blue: 0.12549019607843137, alpha: 1)
+
+
+      public static func shade(_ shade: ColorStudioShade) -> NSColor {
+        colorTable[shade]!
+      }
       #endif
     }
 
-    struct Celadon: ColorStudioPalette {
+    public struct Celadon: ColorStudioPalette {
       #if canImport(UIKit)
-      static let colorTable: [ColorStudioShade: UIColor] = [
+      public static let colorTable: [ColorStudioShade: UIColor] = [
         .shade0: UIColor(red: 0.8941176470588236, green: 0.9490196078431372, blue: 0.9294117647058824, alpha: 1),
         .shade5: UIColor(red: 0.6549019607843137, green: 0.9098039215686274, blue: 0.8274509803921568, alpha: 1),
         .shade10: UIColor(red: 0.4, green: 0.8705882352941177, blue: 0.7254901960784313, alpha: 1),
@@ -391,11 +467,16 @@ struct CSColor {
         .shade90: UIColor(red: 0, green: 0.18823529411764706, blue: 0.1411764705882353, alpha: 1),
         .shade100: UIColor(red: 0, green: 0.10980392156862745, blue: 0.08235294117647059, alpha: 1),
       ]
-      static let base = UIColor(red: 0, green: 0.5294117647058824, blue: 0.38823529411764707, alpha: 1)
+
+      public static let base = UIColor(red: 0, green: 0.5294117647058824, blue: 0.38823529411764707, alpha: 1)
+
+      public static func shade(_ shade: ColorStudioShade) -> UIColor {
+        colorTable[shade]!
+      }
       #endif
 
       #if canImport(AppKit)
-      static let colorTable: [ColorStudioShade: NSColor] = [
+      public static let colorTable: [ColorStudioShade: NSColor] = [
         .shade0: NSColor(red: 0.8941176470588236, green: 0.9490196078431372, blue: 0.9294117647058824, alpha: 1),
         .shade5: NSColor(red: 0.6549019607843137, green: 0.9098039215686274, blue: 0.8274509803921568, alpha: 1),
         .shade10: NSColor(red: 0.4, green: 0.8705882352941177, blue: 0.7254901960784313, alpha: 1),
@@ -409,13 +490,19 @@ struct CSColor {
         .shade90: NSColor(red: 0, green: 0.18823529411764706, blue: 0.1411764705882353, alpha: 1),
         .shade100: NSColor(red: 0, green: 0.10980392156862745, blue: 0.08235294117647059, alpha: 1),
       ]
-      static let base = NSColor(red: 0, green: 0.5294117647058824, blue: 0.38823529411764707, alpha: 1)
+
+      public static let base = NSColor(red: 0, green: 0.5294117647058824, blue: 0.38823529411764707, alpha: 1)
+
+
+      public static func shade(_ shade: ColorStudioShade) -> NSColor {
+        colorTable[shade]!
+      }
       #endif
     }
 
-    struct AutomatticBlue: ColorStudioPalette {
+    public struct AutomatticBlue: ColorStudioPalette {
       #if canImport(UIKit)
-      static let colorTable: [ColorStudioShade: UIColor] = [
+      public static let colorTable: [ColorStudioShade: UIColor] = [
         .shade0: UIColor(red: 0.9215686274509803, green: 0.9568627450980393, blue: 0.9803921568627451, alpha: 1),
         .shade5: UIColor(red: 0.7686274509803922, green: 0.8862745098039215, blue: 0.9607843137254902, alpha: 1),
         .shade10: UIColor(red: 0.5333333333333333, green: 0.8, blue: 0.9490196078431372, alpha: 1),
@@ -429,11 +516,16 @@ struct CSColor {
         .shade90: UIColor(red: 0.00784313725490196, green: 0.1568627450980392, blue: 0.21176470588235294, alpha: 1),
         .shade100: UIColor(red: 0.00784313725490196, green: 0.10588235294117647, blue: 0.1411764705882353, alpha: 1),
       ]
-      static let base = UIColor(red: 0.1411764705882353, green: 0.6392156862745098, blue: 0.8784313725490196, alpha: 1)
+
+      public static let base = UIColor(red: 0.1411764705882353, green: 0.6392156862745098, blue: 0.8784313725490196, alpha: 1)
+
+      public static func shade(_ shade: ColorStudioShade) -> UIColor {
+        colorTable[shade]!
+      }
       #endif
 
       #if canImport(AppKit)
-      static let colorTable: [ColorStudioShade: NSColor] = [
+      public static let colorTable: [ColorStudioShade: NSColor] = [
         .shade0: NSColor(red: 0.9215686274509803, green: 0.9568627450980393, blue: 0.9803921568627451, alpha: 1),
         .shade5: NSColor(red: 0.7686274509803922, green: 0.8862745098039215, blue: 0.9607843137254902, alpha: 1),
         .shade10: NSColor(red: 0.5333333333333333, green: 0.8, blue: 0.9490196078431372, alpha: 1),
@@ -447,13 +539,19 @@ struct CSColor {
         .shade90: NSColor(red: 0.00784313725490196, green: 0.1568627450980392, blue: 0.21176470588235294, alpha: 1),
         .shade100: NSColor(red: 0.00784313725490196, green: 0.10588235294117647, blue: 0.1411764705882353, alpha: 1),
       ]
-      static let base = NSColor(red: 0.1411764705882353, green: 0.6392156862745098, blue: 0.8784313725490196, alpha: 1)
+
+      public static let base = NSColor(red: 0.1411764705882353, green: 0.6392156862745098, blue: 0.8784313725490196, alpha: 1)
+
+
+      public static func shade(_ shade: ColorStudioShade) -> NSColor {
+        colorTable[shade]!
+      }
       #endif
     }
 
-    struct WordPressBlue: ColorStudioPalette {
+    public struct WordPressBlue: ColorStudioPalette {
       #if canImport(UIKit)
-      static let colorTable: [ColorStudioShade: UIColor] = [
+      public static let colorTable: [ColorStudioShade: UIColor] = [
         .shade0: UIColor(red: 0.984313725490196, green: 0.9882352941176471, blue: 0.996078431372549, alpha: 1),
         .shade5: UIColor(red: 0.9686274509803922, green: 0.9725490196078431, blue: 0.996078431372549, alpha: 1),
         .shade10: UIColor(red: 0.8392156862745098, green: 0.8666666666666667, blue: 0.9764705882352941, alpha: 1),
@@ -467,11 +565,16 @@ struct CSColor {
         .shade90: UIColor(red: 0.0784313725490196, green: 0.12941176470588237, blue: 0.35294117647058826, alpha: 1),
         .shade100: UIColor(red: 0.0392156862745098, green: 0.06666666666666667, blue: 0.17647058823529413, alpha: 1),
       ]
-      static let base = UIColor(red: 0.2196078431372549, green: 0.34509803921568627, blue: 0.9137254901960784, alpha: 1)
+
+      public static let base = UIColor(red: 0.2196078431372549, green: 0.34509803921568627, blue: 0.9137254901960784, alpha: 1)
+
+      public static func shade(_ shade: ColorStudioShade) -> UIColor {
+        colorTable[shade]!
+      }
       #endif
 
       #if canImport(AppKit)
-      static let colorTable: [ColorStudioShade: NSColor] = [
+      public static let colorTable: [ColorStudioShade: NSColor] = [
         .shade0: NSColor(red: 0.984313725490196, green: 0.9882352941176471, blue: 0.996078431372549, alpha: 1),
         .shade5: NSColor(red: 0.9686274509803922, green: 0.9725490196078431, blue: 0.996078431372549, alpha: 1),
         .shade10: NSColor(red: 0.8392156862745098, green: 0.8666666666666667, blue: 0.9764705882352941, alpha: 1),
@@ -485,13 +588,19 @@ struct CSColor {
         .shade90: NSColor(red: 0.0784313725490196, green: 0.12941176470588237, blue: 0.35294117647058826, alpha: 1),
         .shade100: NSColor(red: 0.0392156862745098, green: 0.06666666666666667, blue: 0.17647058823529413, alpha: 1),
       ]
-      static let base = NSColor(red: 0.2196078431372549, green: 0.34509803921568627, blue: 0.9137254901960784, alpha: 1)
+
+      public static let base = NSColor(red: 0.2196078431372549, green: 0.34509803921568627, blue: 0.9137254901960784, alpha: 1)
+
+
+      public static func shade(_ shade: ColorStudioShade) -> NSColor {
+        colorTable[shade]!
+      }
       #endif
     }
 
-    struct SimplenoteBlue: ColorStudioPalette {
+    public struct SimplenoteBlue: ColorStudioPalette {
       #if canImport(UIKit)
-      static let colorTable: [ColorStudioShade: UIColor] = [
+      public static let colorTable: [ColorStudioShade: UIColor] = [
         .shade0: UIColor(red: 0.9137254901960784, green: 0.9254901960784314, blue: 0.9607843137254902, alpha: 1),
         .shade5: UIColor(red: 0.807843137254902, green: 0.8509803921568627, blue: 0.9490196078431372, alpha: 1),
         .shade10: UIColor(red: 0.6705882352941176, green: 0.7568627450980392, blue: 0.9607843137254902, alpha: 1),
@@ -505,11 +614,16 @@ struct CSColor {
         .shade90: UIColor(red: 0.03529411764705882, green: 0.12549019607843137, blue: 0.3607843137254902, alpha: 1),
         .shade100: UIColor(red: 0.0196078431372549, green: 0.06274509803921569, blue: 0.1803921568627451, alpha: 1),
       ]
-      static let base = UIColor(red: 0.2, green: 0.3803921568627451, blue: 0.8, alpha: 1)
+
+      public static let base = UIColor(red: 0.2, green: 0.3803921568627451, blue: 0.8, alpha: 1)
+
+      public static func shade(_ shade: ColorStudioShade) -> UIColor {
+        colorTable[shade]!
+      }
       #endif
 
       #if canImport(AppKit)
-      static let colorTable: [ColorStudioShade: NSColor] = [
+      public static let colorTable: [ColorStudioShade: NSColor] = [
         .shade0: NSColor(red: 0.9137254901960784, green: 0.9254901960784314, blue: 0.9607843137254902, alpha: 1),
         .shade5: NSColor(red: 0.807843137254902, green: 0.8509803921568627, blue: 0.9490196078431372, alpha: 1),
         .shade10: NSColor(red: 0.6705882352941176, green: 0.7568627450980392, blue: 0.9607843137254902, alpha: 1),
@@ -523,13 +637,19 @@ struct CSColor {
         .shade90: NSColor(red: 0.03529411764705882, green: 0.12549019607843137, blue: 0.3607843137254902, alpha: 1),
         .shade100: NSColor(red: 0.0196078431372549, green: 0.06274509803921569, blue: 0.1803921568627451, alpha: 1),
       ]
-      static let base = NSColor(red: 0.2, green: 0.3803921568627451, blue: 0.8, alpha: 1)
+
+      public static let base = NSColor(red: 0.2, green: 0.3803921568627451, blue: 0.8, alpha: 1)
+
+
+      public static func shade(_ shade: ColorStudioShade) -> NSColor {
+        colorTable[shade]!
+      }
       #endif
     }
 
-    struct WooCommercePurple: ColorStudioPalette {
+    public struct WooCommercePurple: ColorStudioPalette {
       #if canImport(UIKit)
-      static let colorTable: [ColorStudioShade: UIColor] = [
+      public static let colorTable: [ColorStudioShade: UIColor] = [
         .shade0: UIColor(red: 0.9686274509803922, green: 0.9294117647058824, blue: 0.9686274509803922, alpha: 1),
         .shade5: UIColor(red: 0.8980392156862745, green: 0.8117647058823529, blue: 0.9098039215686274, alpha: 1),
         .shade10: UIColor(red: 0.8392156862745098, green: 0.7058823529411765, blue: 0.8784313725490196, alpha: 1),
@@ -543,11 +663,16 @@ struct CSColor {
         .shade90: UIColor(red: 0.15294117647058825, green: 0.10588235294117647, blue: 0.23921568627450981, alpha: 1),
         .shade100: UIColor(red: 0.0784313725490196, green: 0.054901960784313725, blue: 0.12156862745098039, alpha: 1),
       ]
-      static let base = UIColor(red: 0.4980392156862745, green: 0.32941176470588235, blue: 0.7019607843137254, alpha: 1)
+
+      public static let base = UIColor(red: 0.4980392156862745, green: 0.32941176470588235, blue: 0.7019607843137254, alpha: 1)
+
+      public static func shade(_ shade: ColorStudioShade) -> UIColor {
+        colorTable[shade]!
+      }
       #endif
 
       #if canImport(AppKit)
-      static let colorTable: [ColorStudioShade: NSColor] = [
+      public static let colorTable: [ColorStudioShade: NSColor] = [
         .shade0: NSColor(red: 0.9686274509803922, green: 0.9294117647058824, blue: 0.9686274509803922, alpha: 1),
         .shade5: NSColor(red: 0.8980392156862745, green: 0.8117647058823529, blue: 0.9098039215686274, alpha: 1),
         .shade10: NSColor(red: 0.8392156862745098, green: 0.7058823529411765, blue: 0.8784313725490196, alpha: 1),
@@ -561,13 +686,19 @@ struct CSColor {
         .shade90: NSColor(red: 0.15294117647058825, green: 0.10588235294117647, blue: 0.23921568627450981, alpha: 1),
         .shade100: NSColor(red: 0.0784313725490196, green: 0.054901960784313725, blue: 0.12156862745098039, alpha: 1),
       ]
-      static let base = NSColor(red: 0.4980392156862745, green: 0.32941176470588235, blue: 0.7019607843137254, alpha: 1)
+
+      public static let base = NSColor(red: 0.4980392156862745, green: 0.32941176470588235, blue: 0.7019607843137254, alpha: 1)
+
+
+      public static func shade(_ shade: ColorStudioShade) -> NSColor {
+        colorTable[shade]!
+      }
       #endif
     }
 
-    struct JetpackGreen: ColorStudioPalette {
+    public struct JetpackGreen: ColorStudioPalette {
       #if canImport(UIKit)
-      static let colorTable: [ColorStudioShade: UIColor] = [
+      public static let colorTable: [ColorStudioShade: UIColor] = [
         .shade0: UIColor(red: 0.9411764705882353, green: 0.9490196078431372, blue: 0.9215686274509803, alpha: 1),
         .shade5: UIColor(red: 0.8156862745098039, green: 0.9019607843137255, blue: 0.7215686274509804, alpha: 1),
         .shade10: UIColor(red: 0.615686274509804, green: 0.8509803921568627, blue: 0.4666666666666667, alpha: 1),
@@ -581,11 +712,16 @@ struct CSColor {
         .shade90: UIColor(red: 0, green: 0.18823529411764706, blue: 0.06274509803921569, alpha: 1),
         .shade100: UIColor(red: 0, green: 0.10980392156862745, blue: 0.03529411764705882, alpha: 1),
       ]
-      static let base = UIColor(red: 0.023529411764705882, green: 0.6196078431372549, blue: 0.03137254901960784, alpha: 1)
+
+      public static let base = UIColor(red: 0.023529411764705882, green: 0.6196078431372549, blue: 0.03137254901960784, alpha: 1)
+
+      public static func shade(_ shade: ColorStudioShade) -> UIColor {
+        colorTable[shade]!
+      }
       #endif
 
       #if canImport(AppKit)
-      static let colorTable: [ColorStudioShade: NSColor] = [
+      public static let colorTable: [ColorStudioShade: NSColor] = [
         .shade0: NSColor(red: 0.9411764705882353, green: 0.9490196078431372, blue: 0.9215686274509803, alpha: 1),
         .shade5: NSColor(red: 0.8156862745098039, green: 0.9019607843137255, blue: 0.7215686274509804, alpha: 1),
         .shade10: NSColor(red: 0.615686274509804, green: 0.8509803921568627, blue: 0.4666666666666667, alpha: 1),
@@ -599,7 +735,13 @@ struct CSColor {
         .shade90: NSColor(red: 0, green: 0.18823529411764706, blue: 0.06274509803921569, alpha: 1),
         .shade100: NSColor(red: 0, green: 0.10980392156862745, blue: 0.03529411764705882, alpha: 1),
       ]
-      static let base = NSColor(red: 0.023529411764705882, green: 0.6196078431372549, blue: 0.03137254901960784, alpha: 1)
+
+      public static let base = NSColor(red: 0.023529411764705882, green: 0.6196078431372549, blue: 0.03137254901960784, alpha: 1)
+
+
+      public static func shade(_ shade: ColorStudioShade) -> NSColor {
+        colorTable[shade]!
+      }
       #endif
     }
 }

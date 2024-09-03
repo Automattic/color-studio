@@ -40,7 +40,7 @@ import UIKit
 import AppKit
 #endif
 
-enum ColorStudioShade: UInt8 {
+public enum ColorStudioShade: UInt8 {
     case shade0 = 0
     case shade5 = 5
     case shade10 = 10
@@ -56,64 +56,55 @@ enum ColorStudioShade: UInt8 {
 }
 
 #if canImport(UIKit)
-protocol ColorStudioPalette {
+public protocol ColorStudioPalette {
     static var colorTable: [ColorStudioShade: UIColor] { get }
     static var base: UIColor { get }
-}
-
-extension ColorStudioPalette {
-    static func shade(_ shade: ColorStudioShade) -> UIColor {
-        colorTable[shade]!
-    }
 }
 #endif
 
 #if canImport(AppKit)
-protocol ColorStudioPalette {
+public protocol ColorStudioPalette {
     static var colorTable: [ColorStudioShade: NSColor] { get }
     static var base: NSColor { get }
 }
-
-extension ColorStudioPalette {
-    static func shade(_ shade: ColorStudioShade) -> NSColor {
-        colorTable[shade]!
-    }
-}
 #endif
 
-struct CSColor {\n`
+public struct CSColor {\n`
   Object.keys(data).forEach(key => {
     const shades = Object.keys(data[key])
     if (shades.length === 1) { // If this is a special color like black or white
       const colorObject = data[key].base
-      output += `\n    struct ${key} {
+      output += `\n    public struct ${key} {
         #if canImport(UIKit)
-        static let base = UIColor(red: ${colorObject.get('rgb.r')}, green: ${colorObject.get('rgb.g')}, blue: ${colorObject.get('rgb.b')}, alpha: ${colorObject.alpha()})
+        public static let base = UIColor(red: ${colorObject.get('rgb.r')}, green: ${colorObject.get('rgb.g')}, blue: ${colorObject.get('rgb.b')}, alpha: ${colorObject.alpha()})
         #endif
 
         #if canImport(AppKit)
-        static let base = NSColor(red: ${colorObject.get('rgb.r')}, green: ${colorObject.get('rgb.g')}, blue: ${colorObject.get('rgb.b')}, alpha: ${colorObject.alpha()})
+        public static let base = NSColor(red: ${colorObject.get('rgb.r')}, green: ${colorObject.get('rgb.g')}, blue: ${colorObject.get('rgb.b')}, alpha: ${colorObject.alpha()})
         #endif
     }\n`
     } else {
       let base = ''
-      output += `\n    struct ${key}: ColorStudioPalette {
+      output += `\n    public struct ${key}: ColorStudioPalette {
       #if canImport(UIKit)
-      static let colorTable: [ColorStudioShade: UIColor] = [
+      public static let colorTable: [ColorStudioShade: UIColor] = [
 `
       shades.forEach(shade => {
         const colorObject = data[key][shade]
         const name = `shade${shade}`
 
         if (shade === 'base') {
-          base += `      static let base = UIColor(red: ${colorObject.get('rgb.r') / 255}, green: ${colorObject.get('rgb.g') / 255}, blue: ${colorObject.get('rgb.b') / 255}, alpha: ${colorObject.alpha()})\n`
+          base += `      public static let base = UIColor(red: ${colorObject.get('rgb.r') / 255}, green: ${colorObject.get('rgb.g') / 255}, blue: ${colorObject.get('rgb.b') / 255}, alpha: ${colorObject.alpha()})\n
+      public static func shade(_ shade: ColorStudioShade) -> UIColor {
+        colorTable[shade]!
+      }\n`
         } else {
           output += `        .${name}: UIColor(red: ${colorObject.get('rgb.r') / 255}, green: ${colorObject.get('rgb.g') / 255}, blue: ${colorObject.get('rgb.b') / 255}, alpha: ${colorObject.alpha()}),\n`
         }
       })
-      output += `      ]\n${base}      #endif\n
+      output += `      ]\n\n${base}      #endif\n
       #if canImport(AppKit)
-      static let colorTable: [ColorStudioShade: NSColor] = [
+      public static let colorTable: [ColorStudioShade: NSColor] = [
 `
       base = ''
       shades.forEach(shade => {
@@ -121,12 +112,16 @@ struct CSColor {\n`
         const name = `shade${shade}`
 
         if (shade === 'base') {
-          base += `      static let base = NSColor(red: ${colorObject.get('rgb.r') / 255}, green: ${colorObject.get('rgb.g') / 255}, blue: ${colorObject.get('rgb.b') / 255}, alpha: ${colorObject.alpha()})\n`
+          base += `      public static let base = NSColor(red: ${colorObject.get('rgb.r') / 255}, green: ${colorObject.get('rgb.g') / 255}, blue: ${colorObject.get('rgb.b') / 255}, alpha: ${colorObject.alpha()})\n
+
+      public static func shade(_ shade: ColorStudioShade) -> NSColor {
+        colorTable[shade]!
+      }\n`
         } else {
           output += `        .${name}: NSColor(red: ${colorObject.get('rgb.r') / 255}, green: ${colorObject.get('rgb.g') / 255}, blue: ${colorObject.get('rgb.b') / 255}, alpha: ${colorObject.alpha()}),\n`
         }
       })
-      output += `      ]\n${base}      #endif\n    }\n`
+      output += `      ]\n\n${base}      #endif\n    }\n`
     }
   })
   output += '}\n'
