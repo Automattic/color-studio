@@ -4,3 +4,7 @@ yarn-error.log
 docs/dist/assets
 
 .DS_Store
+
+# Swift
+.build
+.swiftpm
