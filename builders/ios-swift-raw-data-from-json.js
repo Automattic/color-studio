@@ -108,7 +108,7 @@ public struct CSColor {`
         if (shade === 'base') {
           base += `        /// ${colorObject.hex()} (${colorObject.rgb()})\n        public static let base = #colorLiteral(red: ${colorObject.get('rgb.r') / 255}, green: ${colorObject.get('rgb.g') / 255}, blue: ${colorObject.get('rgb.b') / 255}, alpha: ${colorObject.alpha()})\n`
         } else {
-          output += `            .${name}: #colorLiteral(red: ${colorObject.get('rgb.r') / 255}, green: ${colorObject.get('rgb.g') / 255}, blue: ${colorObject.get('rgb.b') / 255}, alpha: ${colorObject.alpha()}), // ${colorObject.hex()} (${colorObject.rgb()})\n`
+          output += `            .${name.padEnd(9, ' ')}: #colorLiteral(red: ${colorObject.get('rgb.r') / 255}, green: ${colorObject.get('rgb.g') / 255}, blue: ${colorObject.get('rgb.b') / 255}, alpha: ${colorObject.alpha()}), // ${colorObject.hex()} (${colorObject.rgb()})\n`
         }
       })
       output += `        ]\n\n${base}    }\n`
