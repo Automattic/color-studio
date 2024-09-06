@@ -10,49 +10,49 @@ import UIKit
 import AppKit
 #endif
 
-public enum ColorStudioShade: UInt8 {
+public enum ColorStudioShade: Int {
     case shade0 = 0
-    case shade5 = 5
-    case shade10 = 10
-    case shade20 = 20
-    case shade30 = 30
-    case shade40 = 40
-    case shade50 = 50
-    case shade60 = 60
-    case shade70 = 70
-    case shade80 = 80
-    case shade90 = 90
-    case shade100 = 100
+    case shade5
+    case shade10
+    case shade20
+    case shade30
+    case shade40
+    case shade50
+    case shade60
+    case shade70
+    case shade80
+    case shade90
+    case shade100
 }
 
 #if canImport(UIKit)
 public protocol ColorStudioPalette {
-    static var colorTable: [ColorStudioShade: UIColor] { get }
+    static var colorTable: ColorTable { get }
     static var base: UIColor { get }
 }
 
 extension ColorStudioPalette {
     public static func shade(_ shade: ColorStudioShade) -> UIColor {
-        colorTable[shade]!
+        colorTable[shade.rawValue]
     }
 }
 
-public typealias ColorTable = [ColorStudioShade: UIColor]
+public typealias ColorTable = [UIColor]
 #endif
 
 #if canImport(AppKit)
 public protocol ColorStudioPalette {
-    static var colorTable: [ColorStudioShade: NSColor] { get }
+    static var colorTable: ColorTable { get }
     static var base: NSColor { get }
 }
 
 extension ColorStudioPalette {
     public static func shade(_ shade: ColorStudioShade) -> NSColor {
-        colorTable[shade]!
+        colorTable[shade.rawValue]
     }
 }
 
-public typealias ColorTable = [ColorStudioShade: NSColor]
+public typealias ColorTable = [NSColor]
 #endif
 
 public struct CSColor {
@@ -68,18 +68,18 @@ public struct CSColor {
 
     public struct Gray: ColorStudioPalette {
         public static let colorTable: ColorTable = [
-            .shade0   : #colorLiteral(red: 0.9647058823529412, green: 0.9686274509803922, blue: 0.9686274509803922, alpha: 1), // #f6f7f7 (246,247,247)
-            .shade5   : #colorLiteral(red: 0.8627450980392157, green: 0.8627450980392157, blue: 0.8705882352941177, alpha: 1), // #dcdcde (220,220,222)
-            .shade10  : #colorLiteral(red: 0.7647058823529411, green: 0.7686274509803922, blue: 0.7803921568627451, alpha: 1), // #c3c4c7 (195,196,199)
-            .shade20  : #colorLiteral(red: 0.6549019607843137, green: 0.6666666666666666, blue: 0.6784313725490196, alpha: 1), // #a7aaad (167,170,173)
-            .shade30  : #colorLiteral(red: 0.5490196078431373, green: 0.5607843137254902, blue: 0.5803921568627451, alpha: 1), // #8c8f94 (140,143,148)
-            .shade40  : #colorLiteral(red: 0.47058823529411764, green: 0.48627450980392156, blue: 0.5098039215686274, alpha: 1), // #787c82 (120,124,130)
-            .shade50  : #colorLiteral(red: 0.39215686274509803, green: 0.4117647058823529, blue: 0.4392156862745098, alpha: 1), // #646970 (100,105,112)
-            .shade60  : #colorLiteral(red: 0.3137254901960784, green: 0.3411764705882353, blue: 0.3686274509803922, alpha: 1), // #50575e (80,87,94)
-            .shade70  : #colorLiteral(red: 0.23529411764705882, green: 0.2627450980392157, blue: 0.2901960784313726, alpha: 1), // #3c434a (60,67,74)
-            .shade80  : #colorLiteral(red: 0.17254901960784313, green: 0.2, blue: 0.2196078431372549, alpha: 1), // #2c3338 (44,51,56)
-            .shade90  : #colorLiteral(red: 0.11372549019607843, green: 0.13725490196078433, blue: 0.15294117647058825, alpha: 1), // #1d2327 (29,35,39)
-            .shade100 : #colorLiteral(red: 0.06274509803921569, green: 0.08235294117647059, blue: 0.09019607843137255, alpha: 1), // #101517 (16,21,23)
+            #colorLiteral(red: 0.9647058823529412, green: 0.9686274509803922, blue: 0.9686274509803922, alpha: 1), //   0 #f6f7f7 (246,247,247)
+            #colorLiteral(red: 0.8627450980392157, green: 0.8627450980392157, blue: 0.8705882352941177, alpha: 1), //   5 #dcdcde (220,220,222)
+            #colorLiteral(red: 0.7647058823529411, green: 0.7686274509803922, blue: 0.7803921568627451, alpha: 1), //  10 #c3c4c7 (195,196,199)
+            #colorLiteral(red: 0.6549019607843137, green: 0.6666666666666666, blue: 0.6784313725490196, alpha: 1), //  20 #a7aaad (167,170,173)
+            #colorLiteral(red: 0.5490196078431373, green: 0.5607843137254902, blue: 0.5803921568627451, alpha: 1), //  30 #8c8f94 (140,143,148)
+            #colorLiteral(red: 0.47058823529411764, green: 0.48627450980392156, blue: 0.5098039215686274, alpha: 1), //  40 #787c82 (120,124,130)
+            #colorLiteral(red: 0.39215686274509803, green: 0.4117647058823529, blue: 0.4392156862745098, alpha: 1), //  50 #646970 (100,105,112)
+            #colorLiteral(red: 0.3137254901960784, green: 0.3411764705882353, blue: 0.3686274509803922, alpha: 1), //  60 #50575e (80,87,94)
+            #colorLiteral(red: 0.23529411764705882, green: 0.2627450980392157, blue: 0.2901960784313726, alpha: 1), //  70 #3c434a (60,67,74)
+            #colorLiteral(red: 0.17254901960784313, green: 0.2, blue: 0.2196078431372549, alpha: 1), //  80 #2c3338 (44,51,56)
+            #colorLiteral(red: 0.11372549019607843, green: 0.13725490196078433, blue: 0.15294117647058825, alpha: 1), //  90 #1d2327 (29,35,39)
+            #colorLiteral(red: 0.06274509803921569, green: 0.08235294117647059, blue: 0.09019607843137255, alpha: 1), // 100 #101517 (16,21,23)
         ]
 
         /// #646970 (100,105,112)
@@ -88,18 +88,18 @@ public struct CSColor {
 
     public struct Blue: ColorStudioPalette {
         public static let colorTable: ColorTable = [
-            .shade0   : #colorLiteral(red: 0.9137254901960784, green: 0.9411764705882353, blue: 0.9607843137254902, alpha: 1), // #e9f0f5 (233,240,245)
-            .shade5   : #colorLiteral(red: 0.7333333333333333, green: 0.8784313725490196, blue: 0.9803921568627451, alpha: 1), // #bbe0fa (187,224,250)
-            .shade10  : #colorLiteral(red: 0.5686274509803921, green: 0.792156862745098, blue: 0.9490196078431372, alpha: 1), // #91caf2 (145,202,242)
-            .shade20  : #colorLiteral(red: 0.40784313725490196, green: 0.7019607843137254, blue: 0.9098039215686274, alpha: 1), // #68b3e8 (104,179,232)
-            .shade30  : #colorLiteral(red: 0.2235294117647059, green: 0.611764705882353, blue: 0.8901960784313725, alpha: 1), // #399ce3 (57,156,227)
-            .shade40  : #colorLiteral(red: 0.08627450980392157, green: 0.5372549019607843, blue: 0.8588235294117647, alpha: 1), // #1689db (22,137,219)
-            .shade50  : #colorLiteral(red: 0.023529411764705882, green: 0.4588235294117647, blue: 0.7686274509803922, alpha: 1), // #0675c4 (6,117,196)
-            .shade60  : #colorLiteral(red: 0.0196078431372549, green: 0.36470588235294116, blue: 0.611764705882353, alpha: 1), // #055d9c (5,93,156)
-            .shade70  : #colorLiteral(red: 0.01568627450980392, green: 0.29411764705882354, blue: 0.47843137254901963, alpha: 1), // #044b7a (4,75,122)
-            .shade80  : #colorLiteral(red: 0.00784313725490196, green: 0.2235294117647059, blue: 0.3607843137254902, alpha: 1), // #02395c (2,57,92)
-            .shade90  : #colorLiteral(red: 0.00392156862745098, green: 0.1568627450980392, blue: 0.23921568627450981, alpha: 1), // #01283d (1,40,61)
-            .shade100 : #colorLiteral(red: 0, green: 0.08627450980392157, blue: 0.12941176470588237, alpha: 1), // #001621 (0,22,33)
+            #colorLiteral(red: 0.9137254901960784, green: 0.9411764705882353, blue: 0.9607843137254902, alpha: 1), //   0 #e9f0f5 (233,240,245)
+            #colorLiteral(red: 0.7333333333333333, green: 0.8784313725490196, blue: 0.9803921568627451, alpha: 1), //   5 #bbe0fa (187,224,250)
+            #colorLiteral(red: 0.5686274509803921, green: 0.792156862745098, blue: 0.9490196078431372, alpha: 1), //  10 #91caf2 (145,202,242)
+            #colorLiteral(red: 0.40784313725490196, green: 0.7019607843137254, blue: 0.9098039215686274, alpha: 1), //  20 #68b3e8 (104,179,232)
+            #colorLiteral(red: 0.2235294117647059, green: 0.611764705882353, blue: 0.8901960784313725, alpha: 1), //  30 #399ce3 (57,156,227)
+            #colorLiteral(red: 0.08627450980392157, green: 0.5372549019607843, blue: 0.8588235294117647, alpha: 1), //  40 #1689db (22,137,219)
+            #colorLiteral(red: 0.023529411764705882, green: 0.4588235294117647, blue: 0.7686274509803922, alpha: 1), //  50 #0675c4 (6,117,196)
+            #colorLiteral(red: 0.0196078431372549, green: 0.36470588235294116, blue: 0.611764705882353, alpha: 1), //  60 #055d9c (5,93,156)
+            #colorLiteral(red: 0.01568627450980392, green: 0.29411764705882354, blue: 0.47843137254901963, alpha: 1), //  70 #044b7a (4,75,122)
+            #colorLiteral(red: 0.00784313725490196, green: 0.2235294117647059, blue: 0.3607843137254902, alpha: 1), //  80 #02395c (2,57,92)
+            #colorLiteral(red: 0.00392156862745098, green: 0.1568627450980392, blue: 0.23921568627450981, alpha: 1), //  90 #01283d (1,40,61)
+            #colorLiteral(red: 0, green: 0.08627450980392157, blue: 0.12941176470588237, alpha: 1), // 100 #001621 (0,22,33)
         ]
 
         /// #0675c4 (6,117,196)
@@ -108,18 +108,18 @@ public struct CSColor {
 
     public struct Purple: ColorStudioPalette {
         public static let colorTable: ColorTable = [
-            .shade0   : #colorLiteral(red: 0.9490196078431372, green: 0.9137254901960784, blue: 0.9294117647058824, alpha: 1), // #f2e9ed (242,233,237)
-            .shade5   : #colorLiteral(red: 0.9215686274509803, green: 0.807843137254902, blue: 0.8784313725490196, alpha: 1), // #ebcee0 (235,206,224)
-            .shade10  : #colorLiteral(red: 0.8901960784313725, green: 0.6862745098039216, blue: 0.8352941176470589, alpha: 1), // #e3afd5 (227,175,213)
-            .shade20  : #colorLiteral(red: 0.8313725490196079, green: 0.5607843137254902, blue: 0.7843137254901961, alpha: 1), // #d48fc8 (212,143,200)
-            .shade30  : #colorLiteral(red: 0.7686274509803922, green: 0.4588235294117647, blue: 0.7411764705882353, alpha: 1), // #c475bd (196,117,189)
-            .shade40  : #colorLiteral(red: 0.7019607843137254, green: 0.3686274509803922, blue: 0.6941176470588235, alpha: 1), // #b35eb1 (179,94,177)
-            .shade50  : #colorLiteral(red: 0.596078431372549, green: 0.2901960784313726, blue: 0.611764705882353, alpha: 1), // #984a9c (152,74,156)
-            .shade60  : #colorLiteral(red: 0.48627450980392156, green: 0.2235294117647059, blue: 0.5098039215686274, alpha: 1), // #7c3982 (124,57,130)
-            .shade70  : #colorLiteral(red: 0.4, green: 0.17254901960784313, blue: 0.43137254901960786, alpha: 1), // #662c6e (102,44,110)
-            .shade80  : #colorLiteral(red: 0.30196078431372547, green: 0.12549019607843137, blue: 0.32941176470588235, alpha: 1), // #4d2054 (77,32,84)
-            .shade90  : #colorLiteral(red: 0.20784313725490197, green: 0.08627450980392157, blue: 0.23137254901960785, alpha: 1), // #35163b (53,22,59)
-            .shade100 : #colorLiteral(red: 0.11764705882352941, green: 0.047058823529411764, blue: 0.12941176470588237, alpha: 1), // #1e0c21 (30,12,33)
+            #colorLiteral(red: 0.9490196078431372, green: 0.9137254901960784, blue: 0.9294117647058824, alpha: 1), //   0 #f2e9ed (242,233,237)
+            #colorLiteral(red: 0.9215686274509803, green: 0.807843137254902, blue: 0.8784313725490196, alpha: 1), //   5 #ebcee0 (235,206,224)
+            #colorLiteral(red: 0.8901960784313725, green: 0.6862745098039216, blue: 0.8352941176470589, alpha: 1), //  10 #e3afd5 (227,175,213)
+            #colorLiteral(red: 0.8313725490196079, green: 0.5607843137254902, blue: 0.7843137254901961, alpha: 1), //  20 #d48fc8 (212,143,200)
+            #colorLiteral(red: 0.7686274509803922, green: 0.4588235294117647, blue: 0.7411764705882353, alpha: 1), //  30 #c475bd (196,117,189)
+            #colorLiteral(red: 0.7019607843137254, green: 0.3686274509803922, blue: 0.6941176470588235, alpha: 1), //  40 #b35eb1 (179,94,177)
+            #colorLiteral(red: 0.596078431372549, green: 0.2901960784313726, blue: 0.611764705882353, alpha: 1), //  50 #984a9c (152,74,156)
+            #colorLiteral(red: 0.48627450980392156, green: 0.2235294117647059, blue: 0.5098039215686274, alpha: 1), //  60 #7c3982 (124,57,130)
+            #colorLiteral(red: 0.4, green: 0.17254901960784313, blue: 0.43137254901960786, alpha: 1), //  70 #662c6e (102,44,110)
+            #colorLiteral(red: 0.30196078431372547, green: 0.12549019607843137, blue: 0.32941176470588235, alpha: 1), //  80 #4d2054 (77,32,84)
+            #colorLiteral(red: 0.20784313725490197, green: 0.08627450980392157, blue: 0.23137254901960785, alpha: 1), //  90 #35163b (53,22,59)
+            #colorLiteral(red: 0.11764705882352941, green: 0.047058823529411764, blue: 0.12941176470588237, alpha: 1), // 100 #1e0c21 (30,12,33)
         ]
 
         /// #984a9c (152,74,156)
@@ -128,18 +128,18 @@ public struct CSColor {
 
     public struct Pink: ColorStudioPalette {
         public static let colorTable: ColorTable = [
-            .shade0   : #colorLiteral(red: 0.9607843137254902, green: 0.9137254901960784, blue: 0.9294117647058824, alpha: 1), // #f5e9ed (245,233,237)
-            .shade5   : #colorLiteral(red: 0.9490196078431372, green: 0.807843137254902, blue: 0.8549019607843137, alpha: 1), // #f2ceda (242,206,218)
-            .shade10  : #colorLiteral(red: 0.9686274509803922, green: 0.6588235294117647, blue: 0.7647058823529411, alpha: 1), // #f7a8c3 (247,168,195)
-            .shade20  : #colorLiteral(red: 0.9490196078431372, green: 0.5137254901960784, blue: 0.6666666666666666, alpha: 1), // #f283aa (242,131,170)
-            .shade30  : #colorLiteral(red: 0.9215686274509803, green: 0.396078431372549, blue: 0.5803921568627451, alpha: 1), // #eb6594 (235,101,148)
-            .shade40  : #colorLiteral(red: 0.8901960784313725, green: 0.2980392156862745, blue: 0.5176470588235295, alpha: 1), // #e34c84 (227,76,132)
-            .shade50  : #colorLiteral(red: 0.788235294117647, green: 0.20784313725490197, blue: 0.43137254901960786, alpha: 1), // #c9356e (201,53,110)
-            .shade60  : #colorLiteral(red: 0.6705882352941176, green: 0.13725490196078433, blue: 0.35294117647058826, alpha: 1), // #ab235a (171,35,90)
-            .shade70  : #colorLiteral(red: 0.5490196078431373, green: 0.09019607843137255, blue: 0.28627450980392155, alpha: 1), // #8c1749 (140,23,73)
-            .shade80  : #colorLiteral(red: 0.4392156862745098, green: 0.058823529411764705, blue: 0.23137254901960785, alpha: 1), // #700f3b (112,15,59)
-            .shade90  : #colorLiteral(red: 0.30980392156862746, green: 0.03529411764705882, blue: 0.16470588235294117, alpha: 1), // #4f092a (79,9,42)
-            .shade100 : #colorLiteral(red: 0.14901960784313725, green: 0.01568627450980392, blue: 0.08235294117647059, alpha: 1), // #260415 (38,4,21)
+            #colorLiteral(red: 0.9607843137254902, green: 0.9137254901960784, blue: 0.9294117647058824, alpha: 1), //   0 #f5e9ed (245,233,237)
+            #colorLiteral(red: 0.9490196078431372, green: 0.807843137254902, blue: 0.8549019607843137, alpha: 1), //   5 #f2ceda (242,206,218)
+            #colorLiteral(red: 0.9686274509803922, green: 0.6588235294117647, blue: 0.7647058823529411, alpha: 1), //  10 #f7a8c3 (247,168,195)
+            #colorLiteral(red: 0.9490196078431372, green: 0.5137254901960784, blue: 0.6666666666666666, alpha: 1), //  20 #f283aa (242,131,170)
+            #colorLiteral(red: 0.9215686274509803, green: 0.396078431372549, blue: 0.5803921568627451, alpha: 1), //  30 #eb6594 (235,101,148)
+            #colorLiteral(red: 0.8901960784313725, green: 0.2980392156862745, blue: 0.5176470588235295, alpha: 1), //  40 #e34c84 (227,76,132)
+            #colorLiteral(red: 0.788235294117647, green: 0.20784313725490197, blue: 0.43137254901960786, alpha: 1), //  50 #c9356e (201,53,110)
+            #colorLiteral(red: 0.6705882352941176, green: 0.13725490196078433, blue: 0.35294117647058826, alpha: 1), //  60 #ab235a (171,35,90)
+            #colorLiteral(red: 0.5490196078431373, green: 0.09019607843137255, blue: 0.28627450980392155, alpha: 1), //  70 #8c1749 (140,23,73)
+            #colorLiteral(red: 0.4392156862745098, green: 0.058823529411764705, blue: 0.23137254901960785, alpha: 1), //  80 #700f3b (112,15,59)
+            #colorLiteral(red: 0.30980392156862746, green: 0.03529411764705882, blue: 0.16470588235294117, alpha: 1), //  90 #4f092a (79,9,42)
+            #colorLiteral(red: 0.14901960784313725, green: 0.01568627450980392, blue: 0.08235294117647059, alpha: 1), // 100 #260415 (38,4,21)
         ]
 
         /// #c9356e (201,53,110)
@@ -148,18 +148,18 @@ public struct CSColor {
 
     public struct Red: ColorStudioPalette {
         public static let colorTable: ColorTable = [
-            .shade0   : #colorLiteral(red: 0.9686274509803922, green: 0.9215686274509803, blue: 0.9254901960784314, alpha: 1), // #f7ebec (247,235,236)
-            .shade5   : #colorLiteral(red: 0.9803921568627451, green: 0.8117647058823529, blue: 0.8235294117647058, alpha: 1), // #facfd2 (250,207,210)
-            .shade10  : #colorLiteral(red: 1, green: 0.6705882352941176, blue: 0.6862745098039216, alpha: 1), // #ffabaf (255,171,175)
-            .shade20  : #colorLiteral(red: 1, green: 0.5019607843137255, blue: 0.5215686274509804, alpha: 1), // #ff8085 (255,128,133)
-            .shade30  : #colorLiteral(red: 0.9725490196078431, green: 0.38823529411764707, blue: 0.40784313725490196, alpha: 1), // #f86368 (248,99,104)
-            .shade40  : #colorLiteral(red: 0.9019607843137255, green: 0.3137254901960784, blue: 0.32941176470588235, alpha: 1), // #e65054 (230,80,84)
-            .shade50  : #colorLiteral(red: 0.8392156862745098, green: 0.21176470588235294, blue: 0.2196078431372549, alpha: 1), // #d63638 (214,54,56)
-            .shade60  : #colorLiteral(red: 0.7019607843137254, green: 0.17647058823529413, blue: 0.1803921568627451, alpha: 1), // #b32d2e (179,45,46)
-            .shade70  : #colorLiteral(red: 0.5411764705882353, green: 0.1411764705882353, blue: 0.1411764705882353, alpha: 1), // #8a2424 (138,36,36)
-            .shade80  : #colorLiteral(red: 0.4117647058823529, green: 0.10980392156862745, blue: 0.10980392156862745, alpha: 1), // #691c1c (105,28,28)
-            .shade90  : #colorLiteral(red: 0.27058823529411763, green: 0.07450980392156863, blue: 0.07450980392156863, alpha: 1), // #451313 (69,19,19)
-            .shade100 : #colorLiteral(red: 0.1411764705882353, green: 0.0392156862745098, blue: 0.0392156862745098, alpha: 1), // #240a0a (36,10,10)
+            #colorLiteral(red: 0.9686274509803922, green: 0.9215686274509803, blue: 0.9254901960784314, alpha: 1), //   0 #f7ebec (247,235,236)
+            #colorLiteral(red: 0.9803921568627451, green: 0.8117647058823529, blue: 0.8235294117647058, alpha: 1), //   5 #facfd2 (250,207,210)
+            #colorLiteral(red: 1, green: 0.6705882352941176, blue: 0.6862745098039216, alpha: 1), //  10 #ffabaf (255,171,175)
+            #colorLiteral(red: 1, green: 0.5019607843137255, blue: 0.5215686274509804, alpha: 1), //  20 #ff8085 (255,128,133)
+            #colorLiteral(red: 0.9725490196078431, green: 0.38823529411764707, blue: 0.40784313725490196, alpha: 1), //  30 #f86368 (248,99,104)
+            #colorLiteral(red: 0.9019607843137255, green: 0.3137254901960784, blue: 0.32941176470588235, alpha: 1), //  40 #e65054 (230,80,84)
+            #colorLiteral(red: 0.8392156862745098, green: 0.21176470588235294, blue: 0.2196078431372549, alpha: 1), //  50 #d63638 (214,54,56)
+            #colorLiteral(red: 0.7019607843137254, green: 0.17647058823529413, blue: 0.1803921568627451, alpha: 1), //  60 #b32d2e (179,45,46)
+            #colorLiteral(red: 0.5411764705882353, green: 0.1411764705882353, blue: 0.1411764705882353, alpha: 1), //  70 #8a2424 (138,36,36)
+            #colorLiteral(red: 0.4117647058823529, green: 0.10980392156862745, blue: 0.10980392156862745, alpha: 1), //  80 #691c1c (105,28,28)
+            #colorLiteral(red: 0.27058823529411763, green: 0.07450980392156863, blue: 0.07450980392156863, alpha: 1), //  90 #451313 (69,19,19)
+            #colorLiteral(red: 0.1411764705882353, green: 0.0392156862745098, blue: 0.0392156862745098, alpha: 1), // 100 #240a0a (36,10,10)
         ]
 
         /// #d63638 (214,54,56)
@@ -168,18 +168,18 @@ public struct CSColor {
 
     public struct Orange: ColorStudioPalette {
         public static let colorTable: ColorTable = [
-            .shade0   : #colorLiteral(red: 0.9607843137254902, green: 0.9254901960784314, blue: 0.9019607843137255, alpha: 1), // #f5ece6 (245,236,230)
-            .shade5   : #colorLiteral(red: 0.9686274509803922, green: 0.8627450980392157, blue: 0.7764705882352941, alpha: 1), // #f7dcc6 (247,220,198)
-            .shade10  : #colorLiteral(red: 1, green: 0.7490196078431373, blue: 0.5254901960784314, alpha: 1), // #ffbf86 (255,191,134)
-            .shade20  : #colorLiteral(red: 0.9803921568627451, green: 0.6549019607843137, blue: 0.32941176470588235, alpha: 1), // #faa754 (250,167,84)
-            .shade30  : #colorLiteral(red: 0.9019607843137255, green: 0.5450980392156862, blue: 0.1568627450980392, alpha: 1), // #e68b28 (230,139,40)
-            .shade40  : #colorLiteral(red: 0.8392156862745098, green: 0.4666666666666667, blue: 0.03529411764705882, alpha: 1), // #d67709 (214,119,9)
-            .shade50  : #colorLiteral(red: 0.6980392156862745, green: 0.3843137254901961, blue: 0, alpha: 1), // #b26200 (178,98,0)
-            .shade60  : #colorLiteral(red: 0.5411764705882353, green: 0.30196078431372547, blue: 0, alpha: 1), // #8a4d00 (138,77,0)
-            .shade70  : #colorLiteral(red: 0.4392156862745098, green: 0.25098039215686274, blue: 0, alpha: 1), // #704000 (112,64,0)
-            .shade80  : #colorLiteral(red: 0.32941176470588235, green: 0.19215686274509805, blue: 0, alpha: 1), // #543100 (84,49,0)
-            .shade90  : #colorLiteral(red: 0.21176470588235294, green: 0.12156862745098039, blue: 0, alpha: 1), // #361f00 (54,31,0)
-            .shade100 : #colorLiteral(red: 0.12156862745098039, green: 0.07058823529411765, blue: 0, alpha: 1), // #1f1200 (31,18,0)
+            #colorLiteral(red: 0.9607843137254902, green: 0.9254901960784314, blue: 0.9019607843137255, alpha: 1), //   0 #f5ece6 (245,236,230)
+            #colorLiteral(red: 0.9686274509803922, green: 0.8627450980392157, blue: 0.7764705882352941, alpha: 1), //   5 #f7dcc6 (247,220,198)
+            #colorLiteral(red: 1, green: 0.7490196078431373, blue: 0.5254901960784314, alpha: 1), //  10 #ffbf86 (255,191,134)
+            #colorLiteral(red: 0.9803921568627451, green: 0.6549019607843137, blue: 0.32941176470588235, alpha: 1), //  20 #faa754 (250,167,84)
+            #colorLiteral(red: 0.9019607843137255, green: 0.5450980392156862, blue: 0.1568627450980392, alpha: 1), //  30 #e68b28 (230,139,40)
+            #colorLiteral(red: 0.8392156862745098, green: 0.4666666666666667, blue: 0.03529411764705882, alpha: 1), //  40 #d67709 (214,119,9)
+            #colorLiteral(red: 0.6980392156862745, green: 0.3843137254901961, blue: 0, alpha: 1), //  50 #b26200 (178,98,0)
+            #colorLiteral(red: 0.5411764705882353, green: 0.30196078431372547, blue: 0, alpha: 1), //  60 #8a4d00 (138,77,0)
+            #colorLiteral(red: 0.4392156862745098, green: 0.25098039215686274, blue: 0, alpha: 1), //  70 #704000 (112,64,0)
+            #colorLiteral(red: 0.32941176470588235, green: 0.19215686274509805, blue: 0, alpha: 1), //  80 #543100 (84,49,0)
+            #colorLiteral(red: 0.21176470588235294, green: 0.12156862745098039, blue: 0, alpha: 1), //  90 #361f00 (54,31,0)
+            #colorLiteral(red: 0.12156862745098039, green: 0.07058823529411765, blue: 0, alpha: 1), // 100 #1f1200 (31,18,0)
         ]
 
         /// #b26200 (178,98,0)
@@ -188,18 +188,18 @@ public struct CSColor {
 
     public struct Yellow: ColorStudioPalette {
         public static let colorTable: ColorTable = [
-            .shade0   : #colorLiteral(red: 0.9607843137254902, green: 0.9450980392156862, blue: 0.8823529411764706, alpha: 1), // #f5f1e1 (245,241,225)
-            .shade5   : #colorLiteral(red: 0.9607843137254902, green: 0.9019607843137255, blue: 0.7019607843137254, alpha: 1), // #f5e6b3 (245,230,179)
-            .shade10  : #colorLiteral(red: 0.9490196078431372, green: 0.8431372549019608, blue: 0.4196078431372549, alpha: 1), // #f2d76b (242,215,107)
-            .shade20  : #colorLiteral(red: 0.9411764705882353, green: 0.788235294117647, blue: 0.18823529411764706, alpha: 1), // #f0c930 (240,201,48)
-            .shade30  : #colorLiteral(red: 0.8705882352941177, green: 0.6941176470588235, blue: 0, alpha: 1), // #deb100 (222,177,0)
-            .shade40  : #colorLiteral(red: 0.7529411764705882, green: 0.5490196078431373, blue: 0, alpha: 1), // #c08c00 (192,140,0)
-            .shade50  : #colorLiteral(red: 0.615686274509804, green: 0.43137254901960786, blue: 0, alpha: 1), // #9d6e00 (157,110,0)
-            .shade60  : #colorLiteral(red: 0.49019607843137253, green: 0.33725490196078434, blue: 0, alpha: 1), // #7d5600 (125,86,0)
-            .shade70  : #colorLiteral(red: 0.403921568627451, green: 0.27450980392156865, blue: 0, alpha: 1), // #674600 (103,70,0)
-            .shade80  : #colorLiteral(red: 0.30980392156862746, green: 0.20784313725490197, blue: 0, alpha: 1), // #4f3500 (79,53,0)
-            .shade90  : #colorLiteral(red: 0.2, green: 0.13333333333333333, blue: 0, alpha: 1), // #332200 (51,34,0)
-            .shade100 : #colorLiteral(red: 0.10980392156862745, green: 0.07450980392156863, blue: 0, alpha: 1), // #1c1300 (28,19,0)
+            #colorLiteral(red: 0.9607843137254902, green: 0.9450980392156862, blue: 0.8823529411764706, alpha: 1), //   0 #f5f1e1 (245,241,225)
+            #colorLiteral(red: 0.9607843137254902, green: 0.9019607843137255, blue: 0.7019607843137254, alpha: 1), //   5 #f5e6b3 (245,230,179)
+            #colorLiteral(red: 0.9490196078431372, green: 0.8431372549019608, blue: 0.4196078431372549, alpha: 1), //  10 #f2d76b (242,215,107)
+            #colorLiteral(red: 0.9411764705882353, green: 0.788235294117647, blue: 0.18823529411764706, alpha: 1), //  20 #f0c930 (240,201,48)
+            #colorLiteral(red: 0.8705882352941177, green: 0.6941176470588235, blue: 0, alpha: 1), //  30 #deb100 (222,177,0)
+            #colorLiteral(red: 0.7529411764705882, green: 0.5490196078431373, blue: 0, alpha: 1), //  40 #c08c00 (192,140,0)
+            #colorLiteral(red: 0.615686274509804, green: 0.43137254901960786, blue: 0, alpha: 1), //  50 #9d6e00 (157,110,0)
+            #colorLiteral(red: 0.49019607843137253, green: 0.33725490196078434, blue: 0, alpha: 1), //  60 #7d5600 (125,86,0)
+            #colorLiteral(red: 0.403921568627451, green: 0.27450980392156865, blue: 0, alpha: 1), //  70 #674600 (103,70,0)
+            #colorLiteral(red: 0.30980392156862746, green: 0.20784313725490197, blue: 0, alpha: 1), //  80 #4f3500 (79,53,0)
+            #colorLiteral(red: 0.2, green: 0.13333333333333333, blue: 0, alpha: 1), //  90 #332200 (51,34,0)
+            #colorLiteral(red: 0.10980392156862745, green: 0.07450980392156863, blue: 0, alpha: 1), // 100 #1c1300 (28,19,0)
         ]
 
         /// #9d6e00 (157,110,0)
@@ -208,18 +208,18 @@ public struct CSColor {
 
     public struct Green: ColorStudioPalette {
         public static let colorTable: ColorTable = [
-            .shade0   : #colorLiteral(red: 0.9019607843137255, green: 0.9490196078431372, blue: 0.9098039215686274, alpha: 1), // #e6f2e8 (230,242,232)
-            .shade5   : #colorLiteral(red: 0.7215686274509804, green: 0.9019607843137255, blue: 0.7490196078431373, alpha: 1), // #b8e6bf (184,230,191)
-            .shade10  : #colorLiteral(red: 0.40784313725490196, green: 0.8705882352941177, blue: 0.5254901960784314, alpha: 1), // #68de86 (104,222,134)
-            .shade20  : #colorLiteral(red: 0.11764705882352941, green: 0.8196078431372549, blue: 0.35294117647058826, alpha: 1), // #1ed15a (30,209,90)
-            .shade30  : #colorLiteral(red: 0, green: 0.7294117647058823, blue: 0.21568627450980393, alpha: 1), // #00ba37 (0,186,55)
-            .shade40  : #colorLiteral(red: 0, green: 0.6392156862745098, blue: 0.16470588235294117, alpha: 1), // #00a32a (0,163,42)
-            .shade50  : #colorLiteral(red: 0, green: 0.5411764705882353, blue: 0.12549019607843137, alpha: 1), // #008a20 (0,138,32)
-            .shade60  : #colorLiteral(red: 0, green: 0.4392156862745098, blue: 0.09019607843137255, alpha: 1), // #007017 (0,112,23)
-            .shade70  : #colorLiteral(red: 0, green: 0.3607843137254902, blue: 0.07058823529411765, alpha: 1), // #005c12 (0,92,18)
-            .shade80  : #colorLiteral(red: 0, green: 0.27058823529411763, blue: 0.047058823529411764, alpha: 1), // #00450c (0,69,12)
-            .shade90  : #colorLiteral(red: 0, green: 0.18823529411764706, blue: 0.03137254901960784, alpha: 1), // #003008 (0,48,8)
-            .shade100 : #colorLiteral(red: 0, green: 0.10980392156862745, blue: 0.0196078431372549, alpha: 1), // #001c05 (0,28,5)
+            #colorLiteral(red: 0.9019607843137255, green: 0.9490196078431372, blue: 0.9098039215686274, alpha: 1), //   0 #e6f2e8 (230,242,232)
+            #colorLiteral(red: 0.7215686274509804, green: 0.9019607843137255, blue: 0.7490196078431373, alpha: 1), //   5 #b8e6bf (184,230,191)
+            #colorLiteral(red: 0.40784313725490196, green: 0.8705882352941177, blue: 0.5254901960784314, alpha: 1), //  10 #68de86 (104,222,134)
+            #colorLiteral(red: 0.11764705882352941, green: 0.8196078431372549, blue: 0.35294117647058826, alpha: 1), //  20 #1ed15a (30,209,90)
+            #colorLiteral(red: 0, green: 0.7294117647058823, blue: 0.21568627450980393, alpha: 1), //  30 #00ba37 (0,186,55)
+            #colorLiteral(red: 0, green: 0.6392156862745098, blue: 0.16470588235294117, alpha: 1), //  40 #00a32a (0,163,42)
+            #colorLiteral(red: 0, green: 0.5411764705882353, blue: 0.12549019607843137, alpha: 1), //  50 #008a20 (0,138,32)
+            #colorLiteral(red: 0, green: 0.4392156862745098, blue: 0.09019607843137255, alpha: 1), //  60 #007017 (0,112,23)
+            #colorLiteral(red: 0, green: 0.3607843137254902, blue: 0.07058823529411765, alpha: 1), //  70 #005c12 (0,92,18)
+            #colorLiteral(red: 0, green: 0.27058823529411763, blue: 0.047058823529411764, alpha: 1), //  80 #00450c (0,69,12)
+            #colorLiteral(red: 0, green: 0.18823529411764706, blue: 0.03137254901960784, alpha: 1), //  90 #003008 (0,48,8)
+            #colorLiteral(red: 0, green: 0.10980392156862745, blue: 0.0196078431372549, alpha: 1), // 100 #001c05 (0,28,5)
         ]
 
         /// #008a20 (0,138,32)
@@ -228,18 +228,18 @@ public struct CSColor {
 
     public struct Celadon: ColorStudioPalette {
         public static let colorTable: ColorTable = [
-            .shade0   : #colorLiteral(red: 0.8941176470588236, green: 0.9490196078431372, blue: 0.9294117647058824, alpha: 1), // #e4f2ed (228,242,237)
-            .shade5   : #colorLiteral(red: 0.6549019607843137, green: 0.9098039215686274, blue: 0.8274509803921568, alpha: 1), // #a7e8d3 (167,232,211)
-            .shade10  : #colorLiteral(red: 0.4, green: 0.8705882352941177, blue: 0.7254901960784313, alpha: 1), // #66deb9 (102,222,185)
-            .shade20  : #colorLiteral(red: 0.19215686274509805, green: 0.8, blue: 0.6235294117647059, alpha: 1), // #31cc9f (49,204,159)
-            .shade30  : #colorLiteral(red: 0.03529411764705882, green: 0.7098039215686275, blue: 0.5215686274509804, alpha: 1), // #09b585 (9,181,133)
-            .shade40  : #colorLiteral(red: 0, green: 0.6196078431372549, blue: 0.45098039215686275, alpha: 1), // #009e73 (0,158,115)
-            .shade50  : #colorLiteral(red: 0, green: 0.5294117647058824, blue: 0.38823529411764707, alpha: 1), // #008763 (0,135,99)
-            .shade60  : #colorLiteral(red: 0, green: 0.4392156862745098, blue: 0.3254901960784314, alpha: 1), // #007053 (0,112,83)
-            .shade70  : #colorLiteral(red: 0, green: 0.3607843137254902, blue: 0.26666666666666666, alpha: 1), // #005c44 (0,92,68)
-            .shade80  : #colorLiteral(red: 0, green: 0.27058823529411763, blue: 0.2, alpha: 1), // #004533 (0,69,51)
-            .shade90  : #colorLiteral(red: 0, green: 0.18823529411764706, blue: 0.1411764705882353, alpha: 1), // #003024 (0,48,36)
-            .shade100 : #colorLiteral(red: 0, green: 0.10980392156862745, blue: 0.08235294117647059, alpha: 1), // #001c15 (0,28,21)
+            #colorLiteral(red: 0.8941176470588236, green: 0.9490196078431372, blue: 0.9294117647058824, alpha: 1), //   0 #e4f2ed (228,242,237)
+            #colorLiteral(red: 0.6549019607843137, green: 0.9098039215686274, blue: 0.8274509803921568, alpha: 1), //   5 #a7e8d3 (167,232,211)
+            #colorLiteral(red: 0.4, green: 0.8705882352941177, blue: 0.7254901960784313, alpha: 1), //  10 #66deb9 (102,222,185)
+            #colorLiteral(red: 0.19215686274509805, green: 0.8, blue: 0.6235294117647059, alpha: 1), //  20 #31cc9f (49,204,159)
+            #colorLiteral(red: 0.03529411764705882, green: 0.7098039215686275, blue: 0.5215686274509804, alpha: 1), //  30 #09b585 (9,181,133)
+            #colorLiteral(red: 0, green: 0.6196078431372549, blue: 0.45098039215686275, alpha: 1), //  40 #009e73 (0,158,115)
+            #colorLiteral(red: 0, green: 0.5294117647058824, blue: 0.38823529411764707, alpha: 1), //  50 #008763 (0,135,99)
+            #colorLiteral(red: 0, green: 0.4392156862745098, blue: 0.3254901960784314, alpha: 1), //  60 #007053 (0,112,83)
+            #colorLiteral(red: 0, green: 0.3607843137254902, blue: 0.26666666666666666, alpha: 1), //  70 #005c44 (0,92,68)
+            #colorLiteral(red: 0, green: 0.27058823529411763, blue: 0.2, alpha: 1), //  80 #004533 (0,69,51)
+            #colorLiteral(red: 0, green: 0.18823529411764706, blue: 0.1411764705882353, alpha: 1), //  90 #003024 (0,48,36)
+            #colorLiteral(red: 0, green: 0.10980392156862745, blue: 0.08235294117647059, alpha: 1), // 100 #001c15 (0,28,21)
         ]
 
         /// #008763 (0,135,99)
@@ -248,18 +248,18 @@ public struct CSColor {
 
     public struct AutomatticBlue: ColorStudioPalette {
         public static let colorTable: ColorTable = [
-            .shade0   : #colorLiteral(red: 0.9215686274509803, green: 0.9568627450980393, blue: 0.9803921568627451, alpha: 1), // #ebf4fa (235,244,250)
-            .shade5   : #colorLiteral(red: 0.7686274509803922, green: 0.8862745098039215, blue: 0.9607843137254902, alpha: 1), // #c4e2f5 (196,226,245)
-            .shade10  : #colorLiteral(red: 0.5333333333333333, green: 0.8, blue: 0.9490196078431372, alpha: 1), // #88ccf2 (136,204,242)
-            .shade20  : #colorLiteral(red: 0.35294117647058826, green: 0.7176470588235294, blue: 0.9098039215686274, alpha: 1), // #5ab7e8 (90,183,232)
-            .shade30  : #colorLiteral(red: 0.1411764705882353, green: 0.6392156862745098, blue: 0.8784313725490196, alpha: 1), // #24a3e0 (36,163,224)
-            .shade40  : #colorLiteral(red: 0.0784313725490196, green: 0.5647058823529412, blue: 0.7803921568627451, alpha: 1), // #1490c7 (20,144,199)
-            .shade50  : #colorLiteral(red: 0.00784313725490196, green: 0.4666666666666667, blue: 0.6588235294117647, alpha: 1), // #0277a8 (2,119,168)
-            .shade60  : #colorLiteral(red: 0.011764705882352941, green: 0.3764705882352941, blue: 0.5215686274509804, alpha: 1), // #036085 (3,96,133)
-            .shade70  : #colorLiteral(red: 0.00784313725490196, green: 0.3137254901960784, blue: 0.43137254901960786, alpha: 1), // #02506e (2,80,110)
-            .shade80  : #colorLiteral(red: 0.00784313725490196, green: 0.2196078431372549, blue: 0.30196078431372547, alpha: 1), // #02384d (2,56,77)
-            .shade90  : #colorLiteral(red: 0.00784313725490196, green: 0.1568627450980392, blue: 0.21176470588235294, alpha: 1), // #022836 (2,40,54)
-            .shade100 : #colorLiteral(red: 0.00784313725490196, green: 0.10588235294117647, blue: 0.1411764705882353, alpha: 1), // #021b24 (2,27,36)
+            #colorLiteral(red: 0.9215686274509803, green: 0.9568627450980393, blue: 0.9803921568627451, alpha: 1), //   0 #ebf4fa (235,244,250)
+            #colorLiteral(red: 0.7686274509803922, green: 0.8862745098039215, blue: 0.9607843137254902, alpha: 1), //   5 #c4e2f5 (196,226,245)
+            #colorLiteral(red: 0.5333333333333333, green: 0.8, blue: 0.9490196078431372, alpha: 1), //  10 #88ccf2 (136,204,242)
+            #colorLiteral(red: 0.35294117647058826, green: 0.7176470588235294, blue: 0.9098039215686274, alpha: 1), //  20 #5ab7e8 (90,183,232)
+            #colorLiteral(red: 0.1411764705882353, green: 0.6392156862745098, blue: 0.8784313725490196, alpha: 1), //  30 #24a3e0 (36,163,224)
+            #colorLiteral(red: 0.0784313725490196, green: 0.5647058823529412, blue: 0.7803921568627451, alpha: 1), //  40 #1490c7 (20,144,199)
+            #colorLiteral(red: 0.00784313725490196, green: 0.4666666666666667, blue: 0.6588235294117647, alpha: 1), //  50 #0277a8 (2,119,168)
+            #colorLiteral(red: 0.011764705882352941, green: 0.3764705882352941, blue: 0.5215686274509804, alpha: 1), //  60 #036085 (3,96,133)
+            #colorLiteral(red: 0.00784313725490196, green: 0.3137254901960784, blue: 0.43137254901960786, alpha: 1), //  70 #02506e (2,80,110)
+            #colorLiteral(red: 0.00784313725490196, green: 0.2196078431372549, blue: 0.30196078431372547, alpha: 1), //  80 #02384d (2,56,77)
+            #colorLiteral(red: 0.00784313725490196, green: 0.1568627450980392, blue: 0.21176470588235294, alpha: 1), //  90 #022836 (2,40,54)
+            #colorLiteral(red: 0.00784313725490196, green: 0.10588235294117647, blue: 0.1411764705882353, alpha: 1), // 100 #021b24 (2,27,36)
         ]
 
         /// #24a3e0 (36,163,224)
@@ -268,18 +268,18 @@ public struct CSColor {
 
     public struct WordPressBlue: ColorStudioPalette {
         public static let colorTable: ColorTable = [
-            .shade0   : #colorLiteral(red: 0.984313725490196, green: 0.9882352941176471, blue: 0.996078431372549, alpha: 1), // #fbfcfe (251,252,254)
-            .shade5   : #colorLiteral(red: 0.9686274509803922, green: 0.9725490196078431, blue: 0.996078431372549, alpha: 1), // #f7f8fe (247,248,254)
-            .shade10  : #colorLiteral(red: 0.8392156862745098, green: 0.8666666666666667, blue: 0.9764705882352941, alpha: 1), // #d6ddf9 (214,221,249)
-            .shade20  : #colorLiteral(red: 0.6784313725490196, green: 0.7294117647058823, blue: 0.9529411764705882, alpha: 1), // #adbaf3 (173,186,243)
-            .shade30  : #colorLiteral(red: 0.4823529411764706, green: 0.5647058823529412, blue: 1, alpha: 1), // #7b90ff (123,144,255)
-            .shade40  : #colorLiteral(red: 0.32941176470588235, green: 0.43529411764705883, blue: 0.9529411764705882, alpha: 1), // #546ff3 (84,111,243)
-            .shade50  : #colorLiteral(red: 0.2196078431372549, green: 0.34509803921568627, blue: 0.9137254901960784, alpha: 1), // #3858e9 (56,88,233)
-            .shade60  : #colorLiteral(red: 0.16470588235294117, green: 0.27450980392156865, blue: 0.807843137254902, alpha: 1), // #2a46ce (42,70,206)
-            .shade70  : #colorLiteral(red: 0.11372549019607843, green: 0.20784313725490197, blue: 0.7058823529411765, alpha: 1), // #1d35b4 (29,53,180)
-            .shade80  : #colorLiteral(red: 0.12156862745098039, green: 0.19607843137254902, blue: 0.5254901960784314, alpha: 1), // #1f3286 (31,50,134)
-            .shade90  : #colorLiteral(red: 0.0784313725490196, green: 0.12941176470588237, blue: 0.35294117647058826, alpha: 1), // #14215a (20,33,90)
-            .shade100 : #colorLiteral(red: 0.0392156862745098, green: 0.06666666666666667, blue: 0.17647058823529413, alpha: 1), // #0a112d (10,17,45)
+            #colorLiteral(red: 0.984313725490196, green: 0.9882352941176471, blue: 0.996078431372549, alpha: 1), //   0 #fbfcfe (251,252,254)
+            #colorLiteral(red: 0.9686274509803922, green: 0.9725490196078431, blue: 0.996078431372549, alpha: 1), //   5 #f7f8fe (247,248,254)
+            #colorLiteral(red: 0.8392156862745098, green: 0.8666666666666667, blue: 0.9764705882352941, alpha: 1), //  10 #d6ddf9 (214,221,249)
+            #colorLiteral(red: 0.6784313725490196, green: 0.7294117647058823, blue: 0.9529411764705882, alpha: 1), //  20 #adbaf3 (173,186,243)
+            #colorLiteral(red: 0.4823529411764706, green: 0.5647058823529412, blue: 1, alpha: 1), //  30 #7b90ff (123,144,255)
+            #colorLiteral(red: 0.32941176470588235, green: 0.43529411764705883, blue: 0.9529411764705882, alpha: 1), //  40 #546ff3 (84,111,243)
+            #colorLiteral(red: 0.2196078431372549, green: 0.34509803921568627, blue: 0.9137254901960784, alpha: 1), //  50 #3858e9 (56,88,233)
+            #colorLiteral(red: 0.16470588235294117, green: 0.27450980392156865, blue: 0.807843137254902, alpha: 1), //  60 #2a46ce (42,70,206)
+            #colorLiteral(red: 0.11372549019607843, green: 0.20784313725490197, blue: 0.7058823529411765, alpha: 1), //  70 #1d35b4 (29,53,180)
+            #colorLiteral(red: 0.12156862745098039, green: 0.19607843137254902, blue: 0.5254901960784314, alpha: 1), //  80 #1f3286 (31,50,134)
+            #colorLiteral(red: 0.0784313725490196, green: 0.12941176470588237, blue: 0.35294117647058826, alpha: 1), //  90 #14215a (20,33,90)
+            #colorLiteral(red: 0.0392156862745098, green: 0.06666666666666667, blue: 0.17647058823529413, alpha: 1), // 100 #0a112d (10,17,45)
         ]
 
         /// #3858e9 (56,88,233)
@@ -288,18 +288,18 @@ public struct CSColor {
 
     public struct SimplenoteBlue: ColorStudioPalette {
         public static let colorTable: ColorTable = [
-            .shade0   : #colorLiteral(red: 0.9137254901960784, green: 0.9254901960784314, blue: 0.9607843137254902, alpha: 1), // #e9ecf5 (233,236,245)
-            .shade5   : #colorLiteral(red: 0.807843137254902, green: 0.8509803921568627, blue: 0.9490196078431372, alpha: 1), // #ced9f2 (206,217,242)
-            .shade10  : #colorLiteral(red: 0.6705882352941176, green: 0.7568627450980392, blue: 0.9607843137254902, alpha: 1), // #abc1f5 (171,193,245)
-            .shade20  : #colorLiteral(red: 0.5176470588235295, green: 0.6431372549019608, blue: 0.9411764705882353, alpha: 1), // #84a4f0 (132,164,240)
-            .shade30  : #colorLiteral(red: 0.3803921568627451, green: 0.5529411764705883, blue: 0.9490196078431372, alpha: 1), // #618df2 (97,141,242)
-            .shade40  : #colorLiteral(red: 0.27450980392156865, green: 0.47058823529411764, blue: 0.9215686274509803, alpha: 1), // #4678eb (70,120,235)
-            .shade50  : #colorLiteral(red: 0.2, green: 0.3803921568627451, blue: 0.8, alpha: 1), // #3361cc (51,97,204)
-            .shade60  : #colorLiteral(red: 0.11372549019607843, green: 0.30980392156862746, blue: 0.7686274509803922, alpha: 1), // #1d4fc4 (29,79,196)
-            .shade70  : #colorLiteral(red: 0.06666666666666667, green: 0.24313725490196078, blue: 0.6784313725490196, alpha: 1), // #113ead (17,62,173)
-            .shade80  : #colorLiteral(red: 0.050980392156862744, green: 0.1843137254901961, blue: 0.5215686274509804, alpha: 1), // #0d2f85 (13,47,133)
-            .shade90  : #colorLiteral(red: 0.03529411764705882, green: 0.12549019607843137, blue: 0.3607843137254902, alpha: 1), // #09205c (9,32,92)
-            .shade100 : #colorLiteral(red: 0.0196078431372549, green: 0.06274509803921569, blue: 0.1803921568627451, alpha: 1), // #05102e (5,16,46)
+            #colorLiteral(red: 0.9137254901960784, green: 0.9254901960784314, blue: 0.9607843137254902, alpha: 1), //   0 #e9ecf5 (233,236,245)
+            #colorLiteral(red: 0.807843137254902, green: 0.8509803921568627, blue: 0.9490196078431372, alpha: 1), //   5 #ced9f2 (206,217,242)
+            #colorLiteral(red: 0.6705882352941176, green: 0.7568627450980392, blue: 0.9607843137254902, alpha: 1), //  10 #abc1f5 (171,193,245)
+            #colorLiteral(red: 0.5176470588235295, green: 0.6431372549019608, blue: 0.9411764705882353, alpha: 1), //  20 #84a4f0 (132,164,240)
+            #colorLiteral(red: 0.3803921568627451, green: 0.5529411764705883, blue: 0.9490196078431372, alpha: 1), //  30 #618df2 (97,141,242)
+            #colorLiteral(red: 0.27450980392156865, green: 0.47058823529411764, blue: 0.9215686274509803, alpha: 1), //  40 #4678eb (70,120,235)
+            #colorLiteral(red: 0.2, green: 0.3803921568627451, blue: 0.8, alpha: 1), //  50 #3361cc (51,97,204)
+            #colorLiteral(red: 0.11372549019607843, green: 0.30980392156862746, blue: 0.7686274509803922, alpha: 1), //  60 #1d4fc4 (29,79,196)
+            #colorLiteral(red: 0.06666666666666667, green: 0.24313725490196078, blue: 0.6784313725490196, alpha: 1), //  70 #113ead (17,62,173)
+            #colorLiteral(red: 0.050980392156862744, green: 0.1843137254901961, blue: 0.5215686274509804, alpha: 1), //  80 #0d2f85 (13,47,133)
+            #colorLiteral(red: 0.03529411764705882, green: 0.12549019607843137, blue: 0.3607843137254902, alpha: 1), //  90 #09205c (9,32,92)
+            #colorLiteral(red: 0.0196078431372549, green: 0.06274509803921569, blue: 0.1803921568627451, alpha: 1), // 100 #05102e (5,16,46)
         ]
 
         /// #3361cc (51,97,204)
@@ -308,18 +308,18 @@ public struct CSColor {
 
     public struct WooCommercePurple: ColorStudioPalette {
         public static let colorTable: ColorTable = [
-            .shade0   : #colorLiteral(red: 0.9686274509803922, green: 0.9294117647058824, blue: 0.9686274509803922, alpha: 1), // #f7edf7 (247,237,247)
-            .shade5   : #colorLiteral(red: 0.8980392156862745, green: 0.8117647058823529, blue: 0.9098039215686274, alpha: 1), // #e5cfe8 (229,207,232)
-            .shade10  : #colorLiteral(red: 0.8392156862745098, green: 0.7058823529411765, blue: 0.8784313725490196, alpha: 1), // #d6b4e0 (214,180,224)
-            .shade20  : #colorLiteral(red: 0.7803921568627451, green: 0.5725490196078431, blue: 0.8784313725490196, alpha: 1), // #c792e0 (199,146,224)
-            .shade30  : #colorLiteral(red: 0.6862745098039216, green: 0.49019607843137253, blue: 0.8196078431372549, alpha: 1), // #af7dd1 (175,125,209)
-            .shade40  : #colorLiteral(red: 0.6039215686274509, green: 0.4117647058823529, blue: 0.7803921568627451, alpha: 1), // #9a69c7 (154,105,199)
-            .shade50  : #colorLiteral(red: 0.4980392156862745, green: 0.32941176470588235, blue: 0.7019607843137254, alpha: 1), // #7f54b3 (127,84,179)
-            .shade60  : #colorLiteral(red: 0.403921568627451, green: 0.2627450980392157, blue: 0.6, alpha: 1), // #674399 (103,67,153)
-            .shade70  : #colorLiteral(red: 0.3254901960784314, green: 0.20784313725490197, blue: 0.5098039215686274, alpha: 1), // #533582 (83,53,130)
-            .shade80  : #colorLiteral(red: 0.23529411764705882, green: 0.1568627450980392, blue: 0.3803921568627451, alpha: 1), // #3c2861 (60,40,97)
-            .shade90  : #colorLiteral(red: 0.15294117647058825, green: 0.10588235294117647, blue: 0.23921568627450981, alpha: 1), // #271b3d (39,27,61)
-            .shade100 : #colorLiteral(red: 0.0784313725490196, green: 0.054901960784313725, blue: 0.12156862745098039, alpha: 1), // #140e1f (20,14,31)
+            #colorLiteral(red: 0.9686274509803922, green: 0.9294117647058824, blue: 0.9686274509803922, alpha: 1), //   0 #f7edf7 (247,237,247)
+            #colorLiteral(red: 0.8980392156862745, green: 0.8117647058823529, blue: 0.9098039215686274, alpha: 1), //   5 #e5cfe8 (229,207,232)
+            #colorLiteral(red: 0.8392156862745098, green: 0.7058823529411765, blue: 0.8784313725490196, alpha: 1), //  10 #d6b4e0 (214,180,224)
+            #colorLiteral(red: 0.7803921568627451, green: 0.5725490196078431, blue: 0.8784313725490196, alpha: 1), //  20 #c792e0 (199,146,224)
+            #colorLiteral(red: 0.6862745098039216, green: 0.49019607843137253, blue: 0.8196078431372549, alpha: 1), //  30 #af7dd1 (175,125,209)
+            #colorLiteral(red: 0.6039215686274509, green: 0.4117647058823529, blue: 0.7803921568627451, alpha: 1), //  40 #9a69c7 (154,105,199)
+            #colorLiteral(red: 0.4980392156862745, green: 0.32941176470588235, blue: 0.7019607843137254, alpha: 1), //  50 #7f54b3 (127,84,179)
+            #colorLiteral(red: 0.403921568627451, green: 0.2627450980392157, blue: 0.6, alpha: 1), //  60 #674399 (103,67,153)
+            #colorLiteral(red: 0.3254901960784314, green: 0.20784313725490197, blue: 0.5098039215686274, alpha: 1), //  70 #533582 (83,53,130)
+            #colorLiteral(red: 0.23529411764705882, green: 0.1568627450980392, blue: 0.3803921568627451, alpha: 1), //  80 #3c2861 (60,40,97)
+            #colorLiteral(red: 0.15294117647058825, green: 0.10588235294117647, blue: 0.23921568627450981, alpha: 1), //  90 #271b3d (39,27,61)
+            #colorLiteral(red: 0.0784313725490196, green: 0.054901960784313725, blue: 0.12156862745098039, alpha: 1), // 100 #140e1f (20,14,31)
         ]
 
         /// #7f54b3 (127,84,179)
@@ -328,18 +328,18 @@ public struct CSColor {
 
     public struct JetpackGreen: ColorStudioPalette {
         public static let colorTable: ColorTable = [
-            .shade0   : #colorLiteral(red: 0.9411764705882353, green: 0.9490196078431372, blue: 0.9215686274509803, alpha: 1), // #f0f2eb (240,242,235)
-            .shade5   : #colorLiteral(red: 0.8156862745098039, green: 0.9019607843137255, blue: 0.7215686274509804, alpha: 1), // #d0e6b8 (208,230,184)
-            .shade10  : #colorLiteral(red: 0.615686274509804, green: 0.8509803921568627, blue: 0.4666666666666667, alpha: 1), // #9dd977 (157,217,119)
-            .shade20  : #colorLiteral(red: 0.39215686274509803, green: 0.792156862745098, blue: 0.2627450980392157, alpha: 1), // #64ca43 (100,202,67)
-            .shade30  : #colorLiteral(red: 0.1843137254901961, green: 0.7058823529411765, blue: 0.12156862745098039, alpha: 1), // #2fb41f (47,180,31)
-            .shade40  : #colorLiteral(red: 0.023529411764705882, green: 0.6196078431372549, blue: 0.03137254901960784, alpha: 1), // #069e08 (6,158,8)
-            .shade50  : #colorLiteral(red: 0, green: 0.5294117647058824, blue: 0.06274509803921569, alpha: 1), // #008710 (0,135,16)
-            .shade60  : #colorLiteral(red: 0, green: 0.44313725490196076, blue: 0.09019607843137255, alpha: 1), // #007117 (0,113,23)
-            .shade70  : #colorLiteral(red: 0, green: 0.3568627450980392, blue: 0.09411764705882353, alpha: 1), // #005b18 (0,91,24)
-            .shade80  : #colorLiteral(red: 0, green: 0.27058823529411763, blue: 0.08235294117647059, alpha: 1), // #004515 (0,69,21)
-            .shade90  : #colorLiteral(red: 0, green: 0.18823529411764706, blue: 0.06274509803921569, alpha: 1), // #003010 (0,48,16)
-            .shade100 : #colorLiteral(red: 0, green: 0.10980392156862745, blue: 0.03529411764705882, alpha: 1), // #001c09 (0,28,9)
+            #colorLiteral(red: 0.9411764705882353, green: 0.9490196078431372, blue: 0.9215686274509803, alpha: 1), //   0 #f0f2eb (240,242,235)
+            #colorLiteral(red: 0.8156862745098039, green: 0.9019607843137255, blue: 0.7215686274509804, alpha: 1), //   5 #d0e6b8 (208,230,184)
+            #colorLiteral(red: 0.615686274509804, green: 0.8509803921568627, blue: 0.4666666666666667, alpha: 1), //  10 #9dd977 (157,217,119)
+            #colorLiteral(red: 0.39215686274509803, green: 0.792156862745098, blue: 0.2627450980392157, alpha: 1), //  20 #64ca43 (100,202,67)
+            #colorLiteral(red: 0.1843137254901961, green: 0.7058823529411765, blue: 0.12156862745098039, alpha: 1), //  30 #2fb41f (47,180,31)
+            #colorLiteral(red: 0.023529411764705882, green: 0.6196078431372549, blue: 0.03137254901960784, alpha: 1), //  40 #069e08 (6,158,8)
+            #colorLiteral(red: 0, green: 0.5294117647058824, blue: 0.06274509803921569, alpha: 1), //  50 #008710 (0,135,16)
+            #colorLiteral(red: 0, green: 0.44313725490196076, blue: 0.09019607843137255, alpha: 1), //  60 #007117 (0,113,23)
+            #colorLiteral(red: 0, green: 0.3568627450980392, blue: 0.09411764705882353, alpha: 1), //  70 #005b18 (0,91,24)
+            #colorLiteral(red: 0, green: 0.27058823529411763, blue: 0.08235294117647059, alpha: 1), //  80 #004515 (0,69,21)
+            #colorLiteral(red: 0, green: 0.18823529411764706, blue: 0.06274509803921569, alpha: 1), //  90 #003010 (0,48,16)
+            #colorLiteral(red: 0, green: 0.10980392156862745, blue: 0.03529411764705882, alpha: 1), // 100 #001c09 (0,28,9)
         ]
 
         /// #069e08 (6,158,8)

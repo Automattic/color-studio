@@ -42,49 +42,49 @@ import UIKit
 import AppKit
 #endif
 
-public enum ColorStudioShade: UInt8 {
+public enum ColorStudioShade: Int {
     case shade0 = 0
-    case shade5 = 5
-    case shade10 = 10
-    case shade20 = 20
-    case shade30 = 30
-    case shade40 = 40
-    case shade50 = 50
-    case shade60 = 60
-    case shade70 = 70
-    case shade80 = 80
-    case shade90 = 90
-    case shade100 = 100
+    case shade5
+    case shade10
+    case shade20
+    case shade30
+    case shade40
+    case shade50
+    case shade60
+    case shade70
+    case shade80
+    case shade90
+    case shade100
 }
 
 #if canImport(UIKit)
 public protocol ColorStudioPalette {
-    static var colorTable: [ColorStudioShade: UIColor] { get }
+    static var colorTable: ColorTable { get }
     static var base: UIColor { get }
 }
 
 extension ColorStudioPalette {
     public static func shade(_ shade: ColorStudioShade) -> UIColor {
-        colorTable[shade]!
+        colorTable[shade.rawValue]
     }
 }
 
-public typealias ColorTable = [ColorStudioShade: UIColor]
+public typealias ColorTable = [UIColor]
 #endif
 
 #if canImport(AppKit)
 public protocol ColorStudioPalette {
-    static var colorTable: [ColorStudioShade: NSColor] { get }
+    static var colorTable: ColorTable { get }
     static var base: NSColor { get }
 }
 
 extension ColorStudioPalette {
     public static func shade(_ shade: ColorStudioShade) -> NSColor {
-        colorTable[shade]!
+        colorTable[shade.rawValue]
     }
 }
 
-public typealias ColorTable = [ColorStudioShade: NSColor]
+public typealias ColorTable = [NSColor]
 #endif
 
 public struct CSColor {`
@@ -103,12 +103,10 @@ public struct CSColor {`
 `
       shades.forEach(shade => {
         const colorObject = data[key][shade]
-        const name = `shade${shade}`
-
         if (shade === 'base') {
           base += `        /// ${colorObject.hex()} (${colorObject.rgb()})\n        public static let base = #colorLiteral(red: ${colorObject.get('rgb.r') / 255}, green: ${colorObject.get('rgb.g') / 255}, blue: ${colorObject.get('rgb.b') / 255}, alpha: ${colorObject.alpha()})\n`
         } else {
-          output += `            .${name.padEnd(9, ' ')}: #colorLiteral(red: ${colorObject.get('rgb.r') / 255}, green: ${colorObject.get('rgb.g') / 255}, blue: ${colorObject.get('rgb.b') / 255}, alpha: ${colorObject.alpha()}), // ${colorObject.hex()} (${colorObject.rgb()})\n`
+          output += `            #colorLiteral(red: ${colorObject.get('rgb.r') / 255}, green: ${colorObject.get('rgb.g') / 255}, blue: ${colorObject.get('rgb.b') / 255}, alpha: ${colorObject.alpha()}), // ${shade.padStart(3, ' ')} ${colorObject.hex()} (${colorObject.rgb()})\n`
         }
       })
       output += `        ]\n\n${base}    }\n`
