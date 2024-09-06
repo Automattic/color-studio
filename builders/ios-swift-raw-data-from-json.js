@@ -77,13 +77,8 @@ public struct CSColor {`
     if (shades.length === 1) { // If this is a special color like black or white
       const colorObject = data[key].base
       output += `\n    public struct ${key} {
-        #if canImport(UIKit)
-        public static let base = UIColor(red: ${colorObject.get('rgb.r')}, green: ${colorObject.get('rgb.g')}, blue: ${colorObject.get('rgb.b')}, alpha: ${colorObject.alpha()})
-        #endif
-
-        #if canImport(AppKit)
-        public static let base = NSColor(red: ${colorObject.get('rgb.r')}, green: ${colorObject.get('rgb.g')}, blue: ${colorObject.get('rgb.b')}, alpha: ${colorObject.alpha()})
-        #endif
+        /// ${colorObject.hex()} (${colorObject.rgb()})
+        public static let base = #colorLiteral(red: ${colorObject.get('rgb.r')}, green: ${colorObject.get('rgb.g')}, blue: ${colorObject.get('rgb.b')}, alpha: ${colorObject.alpha()})
     }\n`
     } else {
       let base = ''
@@ -96,12 +91,12 @@ public struct CSColor {`
         const name = `shade${shade}`
 
         if (shade === 'base') {
-          base += `      public static let base = UIColor(red: ${colorObject.get('rgb.r') / 255}, green: ${colorObject.get('rgb.g') / 255}, blue: ${colorObject.get('rgb.b') / 255}, alpha: ${colorObject.alpha()})\n
+          base += `      /// ${colorObject.hex()} (${colorObject.rgb()})\n      public static let base = #colorLiteral(red: ${colorObject.get('rgb.r') / 255}, green: ${colorObject.get('rgb.g') / 255}, blue: ${colorObject.get('rgb.b') / 255}, alpha: ${colorObject.alpha()})\n
       public static func shade(_ shade: ColorStudioShade) -> UIColor {
         colorTable[shade]!
       }\n`
         } else {
-          output += `        .${name}: UIColor(red: ${colorObject.get('rgb.r') / 255}, green: ${colorObject.get('rgb.g') / 255}, blue: ${colorObject.get('rgb.b') / 255}, alpha: ${colorObject.alpha()}),\n`
+          output += `        .${name}: #colorLiteral(red: ${colorObject.get('rgb.r') / 255}, green: ${colorObject.get('rgb.g') / 255}, blue: ${colorObject.get('rgb.b') / 255}, alpha: ${colorObject.alpha()}), // ${colorObject.hex()} (${colorObject.rgb()})\n`
         }
       })
       output += `      ]\n\n${base}      #endif\n
@@ -114,13 +109,13 @@ public struct CSColor {`
         const name = `shade${shade}`
 
         if (shade === 'base') {
-          base += `      public static let base = NSColor(red: ${colorObject.get('rgb.r') / 255}, green: ${colorObject.get('rgb.g') / 255}, blue: ${colorObject.get('rgb.b') / 255}, alpha: ${colorObject.alpha()})
+          base += `      /// ${colorObject.hex()} (${colorObject.rgb()})\n      public static let base = #colorLiteral(red: ${colorObject.get('rgb.r') / 255}, green: ${colorObject.get('rgb.g') / 255}, blue: ${colorObject.get('rgb.b') / 255}, alpha: ${colorObject.alpha()})
 
       public static func shade(_ shade: ColorStudioShade) -> NSColor {
         colorTable[shade]!
       }\n`
         } else {
-          output += `        .${name}: NSColor(red: ${colorObject.get('rgb.r') / 255}, green: ${colorObject.get('rgb.g') / 255}, blue: ${colorObject.get('rgb.b') / 255}, alpha: ${colorObject.alpha()}),\n`
+          output += `        .${name}: #colorLiteral(red: ${colorObject.get('rgb.r') / 255}, green: ${colorObject.get('rgb.g') / 255}, blue: ${colorObject.get('rgb.b') / 255}, alpha: ${colorObject.alpha()}), // ${colorObject.hex()} (${colorObject.rgb()})\n`
         }
       })
       output += `      ]\n\n${base}      #endif\n    }\n`
