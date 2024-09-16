@@ -29,7 +29,7 @@
     "lodash": "4.17.21",
     "mini-css-extract-plugin": "2.9.1",
     "onchange": "7.1.0",
-    "postcss": "8.4.45",
+    "postcss": "8.4.47",
     "postcss-loader": "8.1.1",
     "puppeteer": "23.3.0",
     "raw-loader": "4.0.2",
