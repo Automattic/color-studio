@@ -19,7 +19,7 @@
     "babel-loader": "9.2.1",
     "bezier-easing": "2.1.0",
     "bootstrap": "5.3.3",
-    "chroma-js": "3.1.1",
+    "chroma-js": "3.1.2",
     "concurrently": "9.0.1",
     "copy-text-to-clipboard": "2.2.0",
     "css-loader": "7.1.2",
