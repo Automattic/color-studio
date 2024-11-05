@@ -1304,7 +1304,7 @@
     [
       {
         "name": "WooCommerce Purple",
-        "value": "#730eed",
+        "value": "#720eec",
         "_meta": {
           "alias": true,
           "baseName": "WooCommerce Purple",
@@ -1321,7 +1321,7 @@
       },
       {
         "name": "WooCommerce Purple 5",
-        "value": "#e0d6ff",
+        "value": "#e1d7ff",
         "_meta": {
           "baseName": "WooCommerce Purple",
           "index": 5
@@ -1329,7 +1329,7 @@
       },
       {
         "name": "WooCommerce Purple 10",
-        "value": "#d1c2ff",
+        "value": "#d1c1ff",
         "_meta": {
           "baseName": "WooCommerce Purple",
           "index": 10
@@ -1345,7 +1345,7 @@
       },
       {
         "name": "WooCommerce Purple 30",
-        "value": "#a67dff",
+        "value": "#a77eff",
         "_meta": {
           "baseName": "WooCommerce Purple",
           "index": 30
@@ -1353,7 +1353,7 @@
       },
       {
         "name": "WooCommerce Purple 40",
-        "value": "#873dff",
+        "value": "#873eff",
         "_meta": {
           "baseName": "WooCommerce Purple",
           "index": 40
@@ -1361,7 +1361,7 @@
       },
       {
         "name": "WooCommerce Purple 50",
-        "value": "#730eed",
+        "value": "#720eec",
         "_meta": {
           "baseName": "WooCommerce Purple",
           "index": 50
@@ -1369,7 +1369,7 @@
       },
       {
         "name": "WooCommerce Purple 60",
-        "value": "#6108cf",
+        "value": "#6108ce",
         "_meta": {
           "baseName": "WooCommerce Purple",
           "index": 60
@@ -1377,7 +1377,7 @@
       },
       {
         "name": "WooCommerce Purple 70",
-        "value": "#5107ab",
+        "value": "#5007aa",
         "_meta": {
           "baseName": "WooCommerce Purple",
           "index": 70
@@ -1385,7 +1385,7 @@
       },
       {
         "name": "WooCommerce Purple 80",
-        "value": "#3a077d",
+        "value": "#3c087e",
         "_meta": {
           "baseName": "WooCommerce Purple",
           "index": 80
@@ -1393,7 +1393,7 @@
       },
       {
         "name": "WooCommerce Purple 90",
-        "value": "#2b045c",
+        "value": "#2c045d",
         "_meta": {
           "baseName": "WooCommerce Purple",
           "index": 90
@@ -1401,7 +1401,7 @@
       },
       {
         "name": "WooCommerce Purple 100",
-        "value": "#200342",
+        "value": "#1f0342",
         "_meta": {
           "baseName": "WooCommerce Purple",
           "index": 100

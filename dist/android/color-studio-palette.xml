@@ -175,19 +175,19 @@
     <color name="simplenote_blue_90">#09205c</color>
     <color name="simplenote_blue_100">#05102e</color>
 
-    <color name="woocommerce_purple">#730eed</color>
+    <color name="woocommerce_purple">#720eec</color>
     <color name="woocommerce_purple_0">#f2edff</color>
-    <color name="woocommerce_purple_5">#e0d6ff</color>
-    <color name="woocommerce_purple_10">#d1c2ff</color>
+    <color name="woocommerce_purple_5">#e1d7ff</color>
+    <color name="woocommerce_purple_10">#d1c1ff</color>
     <color name="woocommerce_purple_20">#b999ff</color>
-    <color name="woocommerce_purple_30">#a67dff</color>
-    <color name="woocommerce_purple_40">#873dff</color>
-    <color name="woocommerce_purple_50">#730eed</color>
-    <color name="woocommerce_purple_60">#6108cf</color>
-    <color name="woocommerce_purple_70">#5107ab</color>
-    <color name="woocommerce_purple_80">#3a077d</color>
-    <color name="woocommerce_purple_90">#2b045c</color>
-    <color name="woocommerce_purple_100">#200342</color>
+    <color name="woocommerce_purple_30">#a77eff</color>
+    <color name="woocommerce_purple_40">#873eff</color>
+    <color name="woocommerce_purple_50">#720eec</color>
+    <color name="woocommerce_purple_60">#6108ce</color>
+    <color name="woocommerce_purple_70">#5007aa</color>
+    <color name="woocommerce_purple_80">#3c087e</color>
+    <color name="woocommerce_purple_90">#2c045d</color>
+    <color name="woocommerce_purple_100">#1f0342</color>
 
     <color name="jetpack_green">#069e08</color>
     <color name="jetpack_green_0">#f0f2eb</color>
