@@ -2024,7 +2024,7 @@
     [
       {
         "name": "WooCommerce Purple",
-        "value": "#7f54b3",
+        "value": "#730eed",
         "_meta": {
           "alias": true,
           "baseName": "WooCommerce Purple",
@@ -2033,12 +2033,12 @@
       },
       {
         "name": "WooCommerce Purple 0",
-        "value": "#f7edf7",
+        "value": "#f2edff",
         "_meta": {
           "_debug": {
-            "hue": 300,
-            "saturation": 0.04,
-            "luminosity": 0.97
+            "hue": 257,
+            "saturation": 0.07,
+            "luminosity": 1
           },
           "baseName": "WooCommerce Purple",
           "index": 0
@@ -2046,12 +2046,12 @@
       },
       {
         "name": "WooCommerce Purple 5",
-        "value": "#e5cfe8",
+        "value": "#e0d6ff",
         "_meta": {
           "_debug": {
-            "hue": 293.19299772190595,
-            "saturation": 0.11,
-            "luminosity": 0.91
+            "hue": 255,
+            "saturation": 0.16,
+            "luminosity": 1
           },
           "baseName": "WooCommerce Purple",
           "index": 5
@@ -2059,12 +2059,12 @@
       },
       {
         "name": "WooCommerce Purple 10",
-        "value": "#d6b4e0",
+        "value": "#d1c2ff",
         "_meta": {
           "_debug": {
-            "hue": 286.5062701822839,
-            "saturation": 0.2,
-            "luminosity": 0.88
+            "hue": 255,
+            "saturation": 0.24,
+            "luminosity": 1
           },
           "baseName": "WooCommerce Purple",
           "index": 10
@@ -2072,12 +2072,12 @@
       },
       {
         "name": "WooCommerce Purple 20",
-        "value": "#c792e0",
+        "value": "#b999ff",
         "_meta": {
           "_debug": {
-            "hue": 280.4186601394981,
-            "saturation": 0.35,
-            "luminosity": 0.88
+            "hue": 259,
+            "saturation": 0.4,
+            "luminosity": 1
           },
           "baseName": "WooCommerce Purple",
           "index": 20
@@ -2085,12 +2085,12 @@
       },
       {
         "name": "WooCommerce Purple 30",
-        "value": "#af7dd1",
+        "value": "#a67dff",
         "_meta": {
           "_debug": {
-            "hue": 275.2098986193842,
-            "saturation": 0.4,
-            "luminosity": 0.82
+            "hue": 259,
+            "saturation": 0.51,
+            "luminosity": 1
           },
           "baseName": "WooCommerce Purple",
           "index": 30
@@ -2098,12 +2098,12 @@
       },
       {
         "name": "WooCommerce Purple 40",
-        "value": "#9a69c7",
+        "value": "#873dff",
         "_meta": {
           "_debug": {
-            "hue": 270.94409978749536,
-            "saturation": 0.47,
-            "luminosity": 0.78
+            "hue": 263,
+            "saturation": 0.76,
+            "luminosity": 1
           },
           "baseName": "WooCommerce Purple",
           "index": 40
@@ -2111,12 +2111,12 @@
       },
       {
         "name": "WooCommerce Purple 50",
-        "value": "#7f54b3",
+        "value": "#730eed",
         "_meta": {
           "_debug": {
-            "hue": 267.5563183704377,
-            "saturation": 0.53,
-            "luminosity": 0.7
+            "hue": 267,
+            "saturation": 0.94,
+            "luminosity": 0.93
           },
           "baseName": "WooCommerce Purple",
           "index": 50
@@ -2124,12 +2124,12 @@
       },
       {
         "name": "WooCommerce Purple 60",
-        "value": "#674399",
+        "value": "#6108cf",
         "_meta": {
           "_debug": {
-            "hue": 264.93417865866263,
-            "saturation": 0.56,
-            "luminosity": 0.6
+            "hue": 267,
+            "saturation": 0.96,
+            "luminosity": 0.81
           },
           "baseName": "WooCommerce Purple",
           "index": 60
@@ -2137,12 +2137,12 @@
       },
       {
         "name": "WooCommerce Purple 70",
-        "value": "#533582",
+        "value": "#5107ab",
         "_meta": {
           "_debug": {
-            "hue": 262.96178683746626,
-            "saturation": 0.59,
-            "luminosity": 0.51
+            "hue": 267,
+            "saturation": 0.96,
+            "luminosity": 0.67
           },
           "baseName": "WooCommerce Purple",
           "index": 70
@@ -2150,12 +2150,12 @@
       },
       {
         "name": "WooCommerce Purple 80",
-        "value": "#3c2861",
+        "value": "#3a077d",
         "_meta": {
           "_debug": {
-            "hue": 261.5364739368327,
-            "saturation": 0.59,
-            "luminosity": 0.38
+            "hue": 266,
+            "saturation": 0.94,
+            "luminosity": 0.49
           },
           "baseName": "WooCommerce Purple",
           "index": 80
@@ -2163,12 +2163,12 @@
       },
       {
         "name": "WooCommerce Purple 90",
-        "value": "#271b3d",
+        "value": "#2b045c",
         "_meta": {
           "_debug": {
-            "hue": 260.57252691145527,
-            "saturation": 0.56,
-            "luminosity": 0.24
+            "hue": 267,
+            "saturation": 0.96,
+            "luminosity": 0.36
           },
           "baseName": "WooCommerce Purple",
           "index": 90
@@ -2176,12 +2176,12 @@
       },
       {
         "name": "WooCommerce Purple 100",
-        "value": "#140e1f",
+        "value": "#200342",
         "_meta": {
           "_debug": {
-            "hue": 260,
-            "saturation": 0.53,
-            "luminosity": 0.12
+            "hue": 267,
+            "saturation": 0.95,
+            "luminosity": 0.26
           },
           "baseName": "WooCommerce Purple",
           "index": 100
