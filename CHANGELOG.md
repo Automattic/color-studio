@@ -1,5 +1,9 @@
 # Releases
 
+## Unreleased
+
+* Update WooCommerce Purple color values.
+
 ## 3.0.3
 
 * _No changes to color values._
