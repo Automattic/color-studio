@@ -1,8 +1,8 @@
 # Releases
 
-## Unreleased
+## 4.0.0
 
-* Update WooCommerce Purple color values.
+* Updated WooCommerce Purple color values. [#747](https://github.com/Automattic/color-studio/pull/747)
 
 ## 3.0.3
 
