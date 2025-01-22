@@ -1,5 +1,9 @@
 # Releases
 
+## 4.0.1
+
+* Blue to absorb the Blueberry values of WordPress Blue. Deprecated WordPress Blue. [#748](https://github.com/Automattic/color-studio/pull/748)
+
 ## 4.0.0
 
 * Updated WooCommerce Purple color values. [#747](https://github.com/Automattic/color-studio/pull/747)
