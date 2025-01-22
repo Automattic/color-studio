@@ -5,18 +5,39 @@ const toFormattedHexValue = require('../utilities/to-formatted-hex-value')
 const COLOR_DEFINITIONS = require('../data/color-definitions')
 const PACKAGE = require('../package.json')
 
-const paletteColors = COLOR_DEFINITIONS.colors.map(color => {
-  const shades = generateShades(COLOR_DEFINITIONS.config, color.specs)
+const createFormattedShades = (color, shades, alias) => {
+  const baseName = alias ? color.alias : color.name
+
   const formattedShades = shades.map(colorObject => {
-    return formatShade(color.name, colorObject.index, colorObject.value, {
+    const shade =  formatShade(baseName, colorObject.index, colorObject.value, {
       _debug: colorObject.properties,
     })
+
+    shade._meta.baseName = color.name
+
+    if (alias) {
+      shade._meta.alias = true
+    }
+
+    return shade
   })
 
   if (isNumber(color.default)) {
     const defaultShade = shades.find(colorObject => colorObject.index === color.default)
-    const alias = formatAliasShade(color.name, defaultShade)
-    formattedShades.unshift(alias)
+    const alias = formatAliasShade(baseName, defaultShade)
+    formattedShades.push(alias)
+  }
+
+  return formattedShades
+}
+
+const paletteColors = COLOR_DEFINITIONS.colors.map(color => {
+  const shades = generateShades(COLOR_DEFINITIONS.config, color.specs)
+  const formattedShades = createFormattedShades(color, shades, false)
+
+  if (color.alias) {
+    const aliasShades = createFormattedShades(color, shades, true)
+    return [...formattedShades, ...aliasShades]
   }
 
   return formattedShades

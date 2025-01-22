@@ -19,15 +19,6 @@
     ],
     [
       {
-        "name": "Gray",
-        "value": "#646970",
-        "_meta": {
-          "alias": true,
-          "baseName": "Gray",
-          "index": 50
-        }
-      },
-      {
         "name": "Gray 0",
         "value": "#f6f7f7",
         "_meta": {
@@ -182,18 +173,18 @@
           "baseName": "Gray",
           "index": 100
         }
+      },
+      {
+        "name": "Gray",
+        "value": "#646970",
+        "_meta": {
+          "alias": true,
+          "baseName": "Gray",
+          "index": 50
+        }
       }
     ],
     [
-      {
-        "name": "Blue",
-        "value": "#0675c4",
-        "_meta": {
-          "alias": true,
-          "baseName": "Blue",
-          "index": 50
-        }
-      },
       {
         "name": "Blue 0",
         "value": "#e9f0f5",
@@ -349,18 +340,18 @@
           "baseName": "Blue",
           "index": 100
         }
+      },
+      {
+        "name": "Blue",
+        "value": "#0675c4",
+        "_meta": {
+          "alias": true,
+          "baseName": "Blue",
+          "index": 50
+        }
       }
     ],
     [
-      {
-        "name": "Purple",
-        "value": "#984a9c",
-        "_meta": {
-          "alias": true,
-          "baseName": "Purple",
-          "index": 50
-        }
-      },
       {
         "name": "Purple 0",
         "value": "#f2e9ed",
@@ -516,18 +507,18 @@
           "baseName": "Purple",
           "index": 100
         }
+      },
+      {
+        "name": "Purple",
+        "value": "#984a9c",
+        "_meta": {
+          "alias": true,
+          "baseName": "Purple",
+          "index": 50
+        }
       }
     ],
     [
-      {
-        "name": "Pink",
-        "value": "#c9356e",
-        "_meta": {
-          "alias": true,
-          "baseName": "Pink",
-          "index": 50
-        }
-      },
       {
         "name": "Pink 0",
         "value": "#f5e9ed",
@@ -683,18 +674,18 @@
           "baseName": "Pink",
           "index": 100
         }
+      },
+      {
+        "name": "Pink",
+        "value": "#c9356e",
+        "_meta": {
+          "alias": true,
+          "baseName": "Pink",
+          "index": 50
+        }
       }
     ],
     [
-      {
-        "name": "Red",
-        "value": "#d63638",
-        "_meta": {
-          "alias": true,
-          "baseName": "Red",
-          "index": 50
-        }
-      },
       {
         "name": "Red 0",
         "value": "#f7ebec",
@@ -850,18 +841,18 @@
           "baseName": "Red",
           "index": 100
         }
+      },
+      {
+        "name": "Red",
+        "value": "#d63638",
+        "_meta": {
+          "alias": true,
+          "baseName": "Red",
+          "index": 50
+        }
       }
     ],
     [
-      {
-        "name": "Orange",
-        "value": "#b26200",
-        "_meta": {
-          "alias": true,
-          "baseName": "Orange",
-          "index": 50
-        }
-      },
       {
         "name": "Orange 0",
         "value": "#f5ece6",
@@ -1017,18 +1008,18 @@
           "baseName": "Orange",
           "index": 100
         }
+      },
+      {
+        "name": "Orange",
+        "value": "#b26200",
+        "_meta": {
+          "alias": true,
+          "baseName": "Orange",
+          "index": 50
+        }
       }
     ],
     [
-      {
-        "name": "Yellow",
-        "value": "#9d6e00",
-        "_meta": {
-          "alias": true,
-          "baseName": "Yellow",
-          "index": 50
-        }
-      },
       {
         "name": "Yellow 0",
         "value": "#f5f1e1",
@@ -1184,18 +1175,18 @@
           "baseName": "Yellow",
           "index": 100
         }
+      },
+      {
+        "name": "Yellow",
+        "value": "#9d6e00",
+        "_meta": {
+          "alias": true,
+          "baseName": "Yellow",
+          "index": 50
+        }
       }
     ],
     [
-      {
-        "name": "Green",
-        "value": "#008a20",
-        "_meta": {
-          "alias": true,
-          "baseName": "Green",
-          "index": 50
-        }
-      },
       {
         "name": "Green 0",
         "value": "#e6f2e8",
@@ -1351,18 +1342,18 @@
           "baseName": "Green",
           "index": 100
         }
+      },
+      {
+        "name": "Green",
+        "value": "#008a20",
+        "_meta": {
+          "alias": true,
+          "baseName": "Green",
+          "index": 50
+        }
       }
     ],
     [
-      {
-        "name": "Celadon",
-        "value": "#008763",
-        "_meta": {
-          "alias": true,
-          "baseName": "Celadon",
-          "index": 50
-        }
-      },
       {
         "name": "Celadon 0",
         "value": "#e4f2ed",
@@ -1518,18 +1509,18 @@
           "baseName": "Celadon",
           "index": 100
         }
+      },
+      {
+        "name": "Celadon",
+        "value": "#008763",
+        "_meta": {
+          "alias": true,
+          "baseName": "Celadon",
+          "index": 50
+        }
       }
     ],
     [
-      {
-        "name": "Automattic Blue",
-        "value": "#24a3e0",
-        "_meta": {
-          "alias": true,
-          "baseName": "Automattic Blue",
-          "index": 30
-        }
-      },
       {
         "name": "Automattic Blue 0",
         "value": "#ebf4fa",
@@ -1685,18 +1676,18 @@
           "baseName": "Automattic Blue",
           "index": 100
         }
+      },
+      {
+        "name": "Automattic Blue",
+        "value": "#24a3e0",
+        "_meta": {
+          "alias": true,
+          "baseName": "Automattic Blue",
+          "index": 30
+        }
       }
     ],
     [
-      {
-        "name": "WordPress Blue",
-        "value": "#3858e9",
-        "_meta": {
-          "alias": true,
-          "baseName": "WordPress Blue",
-          "index": 50
-        }
-      },
       {
         "name": "WordPress Blue 0",
         "value": "#fbfcfe",
@@ -1852,18 +1843,18 @@
           "baseName": "WordPress Blue",
           "index": 100
         }
+      },
+      {
+        "name": "WordPress Blue",
+        "value": "#3858e9",
+        "_meta": {
+          "alias": true,
+          "baseName": "WordPress Blue",
+          "index": 50
+        }
       }
     ],
     [
-      {
-        "name": "Simplenote Blue",
-        "value": "#3361cc",
-        "_meta": {
-          "alias": true,
-          "baseName": "Simplenote Blue",
-          "index": 50
-        }
-      },
       {
         "name": "Simplenote Blue 0",
         "value": "#e9ecf5",
@@ -2019,18 +2010,18 @@
           "baseName": "Simplenote Blue",
           "index": 100
         }
+      },
+      {
+        "name": "Simplenote Blue",
+        "value": "#3361cc",
+        "_meta": {
+          "alias": true,
+          "baseName": "Simplenote Blue",
+          "index": 50
+        }
       }
     ],
     [
-      {
-        "name": "WooCommerce Purple",
-        "value": "#720eec",
-        "_meta": {
-          "alias": true,
-          "baseName": "WooCommerce Purple",
-          "index": 50
-        }
-      },
       {
         "name": "WooCommerce Purple 0",
         "value": "#f2edff",
@@ -2186,18 +2177,18 @@
           "baseName": "WooCommerce Purple",
           "index": 100
         }
+      },
+      {
+        "name": "WooCommerce Purple",
+        "value": "#720eec",
+        "_meta": {
+          "alias": true,
+          "baseName": "WooCommerce Purple",
+          "index": 50
+        }
       }
     ],
     [
-      {
-        "name": "Jetpack Green",
-        "value": "#069e08",
-        "_meta": {
-          "alias": true,
-          "baseName": "Jetpack Green",
-          "index": 40
-        }
-      },
       {
         "name": "Jetpack Green 0",
         "value": "#f0f2eb",
@@ -2352,6 +2343,15 @@
           },
           "baseName": "Jetpack Green",
           "index": 100
+        }
+      },
+      {
+        "name": "Jetpack Green",
+        "value": "#069e08",
+        "_meta": {
+          "alias": true,
+          "baseName": "Jetpack Green",
+          "index": 40
         }
       }
     ]
