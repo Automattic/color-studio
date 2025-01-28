@@ -57,53 +57,65 @@
   fill: #101517;
 }
 
+.fill-wordpress-blue-0,
 .fill-blue-0 {
-  fill: #e9f0f5;
+  fill: #fbfcfe;
 }
 
+.fill-wordpress-blue-5,
 .fill-blue-5 {
-  fill: #bbe0fa;
+  fill: #f7f8fe;
 }
 
+.fill-wordpress-blue-10,
 .fill-blue-10 {
-  fill: #91caf2;
+  fill: #d6ddf9;
 }
 
+.fill-wordpress-blue-20,
 .fill-blue-20 {
-  fill: #68b3e8;
+  fill: #adbaf3;
 }
 
+.fill-wordpress-blue-30,
 .fill-blue-30 {
-  fill: #399ce3;
+  fill: #7b90ff;
 }
 
+.fill-wordpress-blue-40,
 .fill-blue-40 {
-  fill: #1689db;
+  fill: #546ff3;
 }
 
 .fill-blue,
+.fill-wordpress-blue-50,
 .fill-blue-50 {
-  fill: #0675c4;
+  fill: #3858e9;
 }
 
+.fill-wordpress-blue-60,
 .fill-blue-60 {
-  fill: #055d9c;
+  fill: #2a46ce;
 }
 
+.fill-wordpress-blue-70,
 .fill-blue-70 {
-  fill: #044b7a;
+  fill: #1d35b4;
 }
 
+.fill-wordpress-blue-80,
 .fill-blue-80 {
-  fill: #02395c;
+  fill: #1f3286;
 }
 
+.fill-wordpress-blue-90,
 .fill-blue-90 {
-  fill: #01283d;
+  fill: #14215a;
 }
 
+.fill-wordpress-blue-100,
 .fill-blue-100 {
-  fill: #001621;
+  fill: #0a112d;
 }
 
 .fill-purple-0 {
@@ -496,55 +508,6 @@
 
 .fill-automattic-blue-100 {
   fill: #021b24;
-}
-
-.fill-wordpress-blue-0 {
-  fill: #fbfcfe;
-}
-
-.fill-wordpress-blue-5 {
-  fill: #f7f8fe;
-}
-
-.fill-wordpress-blue-10 {
-  fill: #d6ddf9;
-}
-
-.fill-wordpress-blue-20 {
-  fill: #adbaf3;
-}
-
-.fill-wordpress-blue-30 {
-  fill: #7b90ff;
-}
-
-.fill-wordpress-blue-40 {
-  fill: #546ff3;
-}
-
-.fill-wordpress-blue,
-.fill-wordpress-blue-50 {
-  fill: #3858e9;
-}
-
-.fill-wordpress-blue-60 {
-  fill: #2a46ce;
-}
-
-.fill-wordpress-blue-70 {
-  fill: #1d35b4;
-}
-
-.fill-wordpress-blue-80 {
-  fill: #1f3286;
-}
-
-.fill-wordpress-blue-90 {
-  fill: #14215a;
-}
-
-.fill-wordpress-blue-100 {
-  fill: #0a112d;
 }
 
 .fill-simplenote-blue-0 {

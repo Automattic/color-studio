@@ -21,19 +21,32 @@
     <color name="gray_100">#101517</color>
     <color name="gray">#646970</color>
 
-    <color name="blue_0">#e9f0f5</color>
-    <color name="blue_5">#bbe0fa</color>
-    <color name="blue_10">#91caf2</color>
-    <color name="blue_20">#68b3e8</color>
-    <color name="blue_30">#399ce3</color>
-    <color name="blue_40">#1689db</color>
-    <color name="blue_50">#0675c4</color>
-    <color name="blue_60">#055d9c</color>
-    <color name="blue_70">#044b7a</color>
-    <color name="blue_80">#02395c</color>
-    <color name="blue_90">#01283d</color>
-    <color name="blue_100">#001621</color>
-    <color name="blue">#0675c4</color>
+    <color name="blue_0">#fbfcfe</color>
+    <color name="blue_5">#f7f8fe</color>
+    <color name="blue_10">#d6ddf9</color>
+    <color name="blue_20">#adbaf3</color>
+    <color name="blue_30">#7b90ff</color>
+    <color name="blue_40">#546ff3</color>
+    <color name="blue_50">#3858e9</color>
+    <color name="blue_60">#2a46ce</color>
+    <color name="blue_70">#1d35b4</color>
+    <color name="blue_80">#1f3286</color>
+    <color name="blue_90">#14215a</color>
+    <color name="blue_100">#0a112d</color>
+    <color name="blue">#3858e9</color>
+    <color name="wordpress_blue_0">#fbfcfe</color>
+    <color name="wordpress_blue_5">#f7f8fe</color>
+    <color name="wordpress_blue_10">#d6ddf9</color>
+    <color name="wordpress_blue_20">#adbaf3</color>
+    <color name="wordpress_blue_30">#7b90ff</color>
+    <color name="wordpress_blue_40">#546ff3</color>
+    <color name="wordpress_blue_50">#3858e9</color>
+    <color name="wordpress_blue_60">#2a46ce</color>
+    <color name="wordpress_blue_70">#1d35b4</color>
+    <color name="wordpress_blue_80">#1f3286</color>
+    <color name="wordpress_blue_90">#14215a</color>
+    <color name="wordpress_blue_100">#0a112d</color>
+    <color name="wordpress_blue">#3858e9</color>
 
     <color name="purple_0">#f2e9ed</color>
     <color name="purple_5">#ebcee0</color>
@@ -146,20 +159,6 @@
     <color name="automattic_blue_90">#022836</color>
     <color name="automattic_blue_100">#021b24</color>
     <color name="automattic_blue">#24a3e0</color>
-
-    <color name="wordpress_blue_0">#fbfcfe</color>
-    <color name="wordpress_blue_5">#f7f8fe</color>
-    <color name="wordpress_blue_10">#d6ddf9</color>
-    <color name="wordpress_blue_20">#adbaf3</color>
-    <color name="wordpress_blue_30">#7b90ff</color>
-    <color name="wordpress_blue_40">#546ff3</color>
-    <color name="wordpress_blue_50">#3858e9</color>
-    <color name="wordpress_blue_60">#2a46ce</color>
-    <color name="wordpress_blue_70">#1d35b4</color>
-    <color name="wordpress_blue_80">#1f3286</color>
-    <color name="wordpress_blue_90">#14215a</color>
-    <color name="wordpress_blue_100">#0a112d</color>
-    <color name="wordpress_blue">#3858e9</color>
 
     <color name="simplenote_blue_0">#e9ecf5</color>
     <color name="simplenote_blue_5">#ced9f2</color>

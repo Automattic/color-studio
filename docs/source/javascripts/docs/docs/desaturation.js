@@ -5,7 +5,7 @@ module.exports = element => {
 }
 
 function initDesaturationListener(element) {
-  window.addEventListener('keydown', event => {
+  globalThis.addEventListener('keydown', event => {
     if (event.ctrlKey && event.code === 'KeyG') {
       toggleDesaturation(element)
     }

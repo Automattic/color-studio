@@ -7,7 +7,7 @@ let pureBlackModeActive = false
 initPureBlackModeListener()
 
 function initPureBlackModeListener() {
-  window.addEventListener('keydown', event => {
+  globalThis.addEventListener('keydown', event => {
     if (event.ctrlKey && (event.code === 'KeyB' || event.code === 'KeyG')) {
       togglePureBlackMode()
     }
