@@ -1,6 +1,6 @@
 # Releases
 
-## 4.0.1
+## 4.1.0
 
 * Blue to absorb the Blueberry values of WordPress Blue. Deprecated WordPress Blue. [#748](https://github.com/Automattic/color-studio/pull/748)
 

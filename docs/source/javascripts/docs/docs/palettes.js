@@ -5,6 +5,7 @@ const determineContrast = require('./contrast')
 
 module.exports = formatPalettes([
   require('../../../../../dist/colors.meta.json'),
+  require('../../../../../dist-archive/colors.meta-4.0.0.json'),
   require('../../../../../dist-archive/colors.meta-3.0.3.json'),
   require('../../../../../dist-archive/colors.meta-2.6.0.json'),
   require('../../../../../dist-archive/colors.meta-2.5.0.json'),
