@@ -34,7 +34,7 @@
     "puppeteer": "24.1.1",
     "raw-loader": "4.0.2",
     "rename-webpack-plugin": "2.0.0",
-    "sass": "1.83.4",
+    "sass": "1.85.1",
     "sass-loader": "16.0.4",
     "semver": "7.7.0",
     "svgo": "3.3.2",
