@@ -11144,10 +11144,10 @@ ws@^8.18.3:
   resolved "https://registry.yarnpkg.com/ws/-/ws-8.18.3.tgz#b56b88abffde62791c639170400c93dcb0c95472"
   integrity sha512-PEIGCY5tSlUt50cqyMXfCzX+oOPqN0vuGqWzbcJ2xvnkzkq46oOpz7dQaTDBdfICb4N14+GARUDw2XV2N4tvzg==
 
-xo@1.2.1:
-  version "1.2.1"
-  resolved "https://registry.yarnpkg.com/xo/-/xo-1.2.1.tgz#a72c3c8c18919090d17f9062442bb2a8012cb9d4"
-  integrity sha512-CPv9yCCa8WkS8JMME5igrBQhqwOlQ+YFFsF2JP0vjQjuGdme5PLYgnDu8LnawMahtDq2PzpOWbMu2EEIxrOfBA==
+xo@1.2.2:
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/xo/-/xo-1.2.2.tgz#06cd56a0f13200283264e1f27237abca5f68f154"
+  integrity sha512-8l565N0q5ROdSez8flcltMt1gi8OiEEYR1sGiRqc+QRrGf0Z8NEbhPkxYRrHn36iF+Hmyles79036LwuKREA5w==
   dependencies:
     "@eslint-community/eslint-plugin-eslint-comments" "^4.5.0"
     "@sindresorhus/tsconfig" "^7.0.0"
