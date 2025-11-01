@@ -36,7 +36,7 @@
     "rename-webpack-plugin": "2.0.0",
     "sass": "1.93.2",
     "sass-loader": "16.0.5",
-    "semver": "7.7.2",
+    "semver": "7.7.3",
     "svgo": "4.0.0",
     "url-loader": "4.1.1",
     "webpack": "5.102.1",
