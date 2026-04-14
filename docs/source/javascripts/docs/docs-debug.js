@@ -1,4 +1,3 @@
-const copyToClipboard = require('copy-text-to-clipboard')
 const forIn = require('lodash/forIn')
 const groupBy = require('lodash/groupBy')
 const toArray = require('lodash/toArray')
@@ -81,6 +80,6 @@ function renderTiles(palette) {
 function activateTiles(scope = document) {
   toArray(scope.querySelectorAll('.tile')).forEach(element => {
     const color = String(element.dataset.color).trim()
-    element.addEventListener('click', () => copyToClipboard(color))
+    element.addEventListener('click', () => navigator.clipboard.writeText(color))
   })
 }
