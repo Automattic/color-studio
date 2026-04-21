@@ -35,22 +35,6 @@ jobs:
       - name: Build docs
         run: yarn docs
 
-      - name: Generate examples index
-        run: |
-          EXAMPLES_DIR="docs/dist/examples"
-          INDEX_FILE="$EXAMPLES_DIR/index.html"
-      
-          echo "<!DOCTYPE html>" > $INDEX_FILE
-          echo "<html><head><meta charset='utf-8'><title>Examples</title></head><body>" >> $INDEX_FILE
-          echo "<h1>Examples</h1><ul>" >> $INDEX_FILE
-      
-          for f in $(find "$EXAMPLES_DIR" -maxdepth 1 -type f -name '*.html' ! -name 'index.html' | sort); do
-            name=$(basename "$f")
-            echo "<li><a href=\"$name\">$name</a></li>" >> $INDEX_FILE
-          done
-      
-          echo "</ul></body></html>" >> $INDEX_FILE
-          
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
