@@ -98,7 +98,6 @@
       "docs/dist/assets/**/*",
       "docs/dist/downloads/**/*"
     ],
-    "esnext": true,
     "space": true,
     "semicolon": false,
     "rules": {
