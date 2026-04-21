@@ -6,13 +6,13 @@ const indexFile = path.join(examplesDir, 'index.html');
 
 // Ensure directory exists
 if (!fs.existsSync(examplesDir)) {
-  fs.mkdirSync(examplesDir, { recursive: true });
+    fs.mkdirSync(examplesDir, {recursive: true});
 }
 
 // Read files
 const files = fs.readdirSync(examplesDir)
-  .filter(f => f.endsWith('.html') && f !== 'index.html')
-  .sort();
+    .filter(f => f.endsWith('.html') && f !== 'index.html')
+    .sort();
 
 // Generate HTML
 const html = `<!doctype html>
@@ -34,7 +34,7 @@ const html = `<!doctype html>
 <body>
   <h1>Examples</h1>
   <ul>
-    ${files.map(f => `<li><a href="${f}">${f.replace('.html','')}</a></li>`).join('\n    ')}
+    ${files.map(f => `<li><a href="${f}">${f.replace('.html', '')}</a></li>`).join('\n    ')}
   </ul>
 </body>
 </html>`;
