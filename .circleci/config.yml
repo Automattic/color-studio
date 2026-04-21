@@ -5,25 +5,35 @@ executors:
     docker:
       - image: cimg/node:lts
 
+commands:
+  public_checkout:
+    steps:
+      - run:
+          name: Checkout public repo over HTTPS
+          command: |
+            git clone --depth=1 https://github.com/Automattic/color-studio.git .
+            git fetch --depth=1 origin "$CIRCLE_SHA1" || true
+            git checkout -q "$CIRCLE_SHA1" || true
+            
 jobs:
   build:
     executor: node
     steps:
-      - checkout
+      - public_checkout
       - run: yarn --ignore-engines --ignore-platform
       - run: yarn palette:build
 
   lint:
     executor: node
     steps:
-      - checkout
+      - public_checkout
       - run: yarn --ignore-engines --ignore-platform
       - run: yarn lint
 
-  no-uncomitted-color-changes:
+  no-uncommitted-color-changes:
     executor: node
     steps:
-      - checkout
+      - public_checkout
       - run:
           name: Cache color values
           command: |
@@ -41,4 +51,4 @@ workflows:
     jobs:
       - build
       - lint
-      - no-uncomitted-color-changes
+      - no-uncommitted-color-changes
