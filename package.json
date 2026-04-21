@@ -48,7 +48,7 @@
     "archive": "cp dist/colors.meta.json dist-archive/colors.meta-${npm_package_version}.json",
     "build": "yarn palette:build && yarn docs:build && yarn sketch:build --quiet && yarn meta:build",
     "clean": "yarn palette:clean",
-    "docs": "yarn docs:build && node utilities/generate-examples-index.js",
+    "docs": "yarn docs:build && node scripts/generate-examples-index.js",
     "docs:build": "webpack",
     "docs:watch": "yarn palette:build:_watch && concurrently \"yarn palette:watch\" \"webpack serve\"",
     "lint": "xo --fix",
