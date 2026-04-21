@@ -24,7 +24,7 @@ const html = `<!doctype html>
     body {
       font-family: system-ui, sans-serif;
       max-width: 800px;
-      margin: 40px auto;
+      padding-left: 45px;
       line-height: 1.6;
     }
     a { text-decoration: none; }
