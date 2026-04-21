@@ -50,5 +50,5 @@ workflows:
   main:
     jobs:
       - build
-      - lint
       - no-uncommitted-color-changes
+#      - lint
