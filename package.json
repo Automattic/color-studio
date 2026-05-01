@@ -39,7 +39,7 @@
     "semver": "7.7.4",
     "svgo": "4.0.1",
     "url-loader": "4.1.1",
-    "webpack": "5.105.4",
+    "webpack": "5.106.2",
     "webpack-cli": "7.0.2",
     "webpack-dev-server": "5.2.3",
     "xo": "2.0.2"
