@@ -8,7 +8,7 @@ updates:
     ignore:
       - dependency-name: "copy-text-to-clipboard"
         versions:
-        - ">= 3.0.0"
+          - ">= 3.0.0"
 
   - package-ecosystem: "github-actions"
     directory: "/"
@@ -20,3 +20,7 @@ updates:
       github-actions:
         patterns:
           - "*"
+    ignore:
+      - dependency-name: '*'
+        update-types:
+          - version-update:semver-major
