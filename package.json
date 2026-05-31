@@ -13,7 +13,7 @@
   "devDependencies": {
     "@babel/core": "7.29.7",
     "@babel/plugin-transform-runtime": "7.29.0",
-    "@babel/preset-env": "7.29.3",
+    "@babel/preset-env": "7.29.7",
     "@skpm/builder": "1.0.0",
     "autoprefixer": "10.4.20",
     "babel-loader": "10.1.1",
