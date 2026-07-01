@@ -40,7 +40,7 @@
     "svgo": "4.0.1",
     "url-loader": "4.1.1",
     "webpack": "5.108.3",
-    "webpack-cli": "7.0.3",
+    "webpack-cli": "7.1.0",
     "webpack-dev-server": "5.2.5",
     "xo": "2.0.2"
   },
