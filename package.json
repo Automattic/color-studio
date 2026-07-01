@@ -42,7 +42,7 @@
     "webpack": "5.108.3",
     "webpack-cli": "7.0.3",
     "webpack-dev-server": "5.2.5",
-    "xo": "2.0.2"
+    "xo": "3.0.2"
   },
   "scripts": {
     "archive": "cp dist/colors.meta.json dist-archive/colors.meta-${npm_package_version}.json",
