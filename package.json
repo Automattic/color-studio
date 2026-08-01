@@ -17,7 +17,7 @@
     "@skpm/builder": "1.0.0",
     "autoprefixer": "10.4.20",
     "babel-loader": "10.1.1",
-    "bezier-easing": "3.0.0",
+    "bezier-easing": "3.0.1",
     "bootstrap": "5.3.8",
     "chroma-js": "3.2.0",
     "concurrently": "10.0.1",
