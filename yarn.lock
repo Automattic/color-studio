@@ -8183,10 +8183,10 @@ webdriver-bidi-protocol@0.4.2:
   resolved "https://registry.yarnpkg.com/webdriver-bidi-protocol/-/webdriver-bidi-protocol-0.4.2.tgz#f51bb71c2606e90e3d5727607c728b25d617b58b"
   integrity sha512-VSV+fzfChirL3e7jay2yUC7B4HQCGtEWEg/MSSQbK+qWbqeGlRLlXTzPpYr3XGUvbpDHumWZBJxgesg4N7dbtA==
 
-webpack-cli@7.1.0:
-  version "7.1.0"
-  resolved "https://registry.yarnpkg.com/webpack-cli/-/webpack-cli-7.1.0.tgz#0ce9fe20b611c47877ff14c5d70d16d2ea13b99f"
-  integrity sha512-pSJ5p5PkXRD88sfCq5Wo+coc42QykwRu5Md0DyESj0rT6PPPA2wTNabpHPKgqH8EMkfTDo3IWx3iiNXMu8XDBQ==
+webpack-cli@7.2.2:
+  version "7.2.2"
+  resolved "https://registry.yarnpkg.com/webpack-cli/-/webpack-cli-7.2.2.tgz#94ff4f8a28aa087c8127c821e26a6fd0a50323e5"
+  integrity sha512-lD0pALneslq8FfV+rwvm1BMW0AFAJrHHhNupAGN4asYjMvqrtRsenU4iKpiBo09gS4ntMxKGUxl9jhTEzVt0oA==
   dependencies:
     "@discoveryjs/json-ext" "^1.1.0"
     commander "^14.0.3"
