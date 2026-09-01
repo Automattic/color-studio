@@ -20,7 +20,7 @@
     "bezier-easing": "3.0.1",
     "bootstrap": "5.3.8",
     "chroma-js": "3.2.0",
-    "concurrently": "10.0.4",
+    "concurrently": "10.0.5",
     "copy-text-to-clipboard": "2.2.0",
     "css-loader": "7.1.4",
     "easy-table": "1.2.0",
