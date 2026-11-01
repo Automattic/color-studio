@@ -3508,10 +3508,10 @@ batch@0.6.1:
   resolved "https://registry.yarnpkg.com/batch/-/batch-0.6.1.tgz#dc34314f4e679318093fc760272525f94bf25c16"
   integrity sha512-x+VAiMRL6UPkx+kudNvxTl6hB2XNNCG2r+7wixVfIYwu/2HKRXimwQyaumLjMveWvT2Hkd/cAJw+QBMfJ/EKVw==
 
-bezier-easing@3.1.0:
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/bezier-easing/-/bezier-easing-3.1.0.tgz#e1465c63c62da35d0baf49802ea06b6acd2a44d3"
-  integrity sha512-o8E/9YIVAzS6S2i5Icp/DUjQXiP9ma6viSef0b8LpyTvoJw/al+jMhH8tllA18n8VY9M0J1CeWqNs2Ym5PSjOQ==
+bezier-easing@3.2.0:
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/bezier-easing/-/bezier-easing-3.2.0.tgz#de7661ebcd79797ab02d46458f7a7fa1d4ae6273"
+  integrity sha512-QOKIYCgHd06gsQg0G9k1/JnzzZ+PT99qqUmgRHQ+r5PI/gsjCn0l7LXW6gtXoPhVJviIjP01xg9E7eNime9fVw==
 
 big.js@^5.2.2:
   version "5.2.2"
